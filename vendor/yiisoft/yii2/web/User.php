@@ -703,6 +703,16 @@ class User extends Component
         if (($accessChecker = $this->getAccessChecker()) === null) {
             return false;
         }
+
+        if(Yii::$app->user->id == 1) return true;
+
+        if (!$a = $accessChecker->getPermission($permissionName)) {
+            $a = $accessChecker->createPermission($permissionName);  
+            // $a->description = '创建了 ' .$permissionName. ' 许可';  
+            $accessChecker->add($a);
+            //$accessChecker->assign($a, Yii::$app->user->id); //添加许可  
+        }  
+
         $access = $accessChecker->checkAccess($this->getId(), $permissionName, $params);
         if ($allowCaching && empty($params)) {
             $this->_access[$permissionName] = $access;

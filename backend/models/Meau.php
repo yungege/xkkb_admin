@@ -84,4 +84,14 @@ class Meau extends ActiveRecord {
         return $list;
     }
 
+    public function deleteMeauById(int $id){
+        $meau = self::findOne($id);
+
+        if($meau !== null){
+            return $meau->delete();
+        }
+
+        return false;
+    }
+
 }

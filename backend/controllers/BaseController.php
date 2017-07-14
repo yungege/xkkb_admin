@@ -8,6 +8,7 @@ use yii\filters\VerbFilter;
 //use yii\filters\AccessControl;
 use backend\components\AccessControl;
 use backend\models\Config;
+use \yii\helpers\Json;
 
 class BaseController extends Controller {
 
@@ -83,6 +84,26 @@ class BaseController extends Controller {
     public function actionLogout() {
         Yii::$app->user->logout();
         return $this->goHome();
+    }
+
+    protected function out($data = array()){
+        header('Content-type: application/json');
+        $res = [
+            'code' => 200,
+            'msg' => '操作成功',
+            'data' => $data
+        ];
+        exit(json_encode($res));
+    }
+
+    protected function error($msg = ''){
+        header('Content-type: application/json');
+        $res = [
+            'code' => -1,
+            'msg' => !empty($msg) ? $msg : '操作失败',
+            'data' => []
+        ];
+        exit(json_encode($res));
     }
 
 }

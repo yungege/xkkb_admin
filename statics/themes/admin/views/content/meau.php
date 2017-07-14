@@ -40,11 +40,11 @@ $this->params['breadcrumbs'][] = $this->title;
                             echo '<span class="label label-danger">unkonw</span>';
                     ?>   
                 </td>
-                <td>
+                <td data-csrf="<?php echo Yii::$app->request->csrfToken ?>">
                     <a class="btn btn-primary btn-xs" href="/meau/update.html?id=<?= $row['id'] ?>" title="更新" aria-label="更新" data-pjax="0">
                         <span class="fa fa-edit"></span> 更新
                     </a>
-                    <a data-id="" class="btn btn-danger btn-xs" href="javascript:del(<?= $row['id'] ?>)" title="删除" aria-label="删除" data-confirm="您确定要删除此项吗？">
+                    <a data-id="<?= $row['id'] ?>" class="btn btn-danger btn-xs" href="javascript:void(0)" title="删除" aria-label="删除" data-confirm="您确定要删除此项吗？" onclick="del(this)">
                         <span class="fa fa-times"></span> 删除
                     </a>
                 </td>
@@ -55,13 +55,14 @@ $this->params['breadcrumbs'][] = $this->title;
 </div>
 
 <script>
-    function del(id){
+    function del(obj){
         if(!confirm('您确定要删除此项吗？')) return false;
-        var id = $.trim(id);
-        var data = '';
-        $.post('/meau/delete?id='+id, function(json){
+        var id = $(obj).data('id');
+        var _csrf = $(obj).parent().data('csrf');
+        var data = {'id':id,'_csrf-backend':_csrf};
+        $.post('/meau/delete', data, function(json){
             if(json.code == 200){
-                window.reload();
+                window.location.reload();
             }
             else{
                 alert('删除失败！');
