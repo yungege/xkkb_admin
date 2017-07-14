@@ -34,7 +34,7 @@ class Meau extends ActiveRecord {
             ['show_limit', 'integer', 'value' => 8],
             ['admin_id', 'integer'],
             ['status', 'in', 'range' => [1, -9], 'value' => 1],
-            ['ctime', 'integer'],
+            [['ctime','sort'], 'integer'],
         ];
     }
 
@@ -47,6 +47,7 @@ class Meau extends ActiveRecord {
                 'show',
                 'show_limit',
                 'admin_id',
+                'sort',
                 'status',
                 'ctime'
             ],
@@ -54,6 +55,7 @@ class Meau extends ActiveRecord {
                 'url',
                 'meau',
                 'show',
+                'sort',
             ],
             'del' => [
                 'status',
@@ -70,6 +72,7 @@ class Meau extends ActiveRecord {
             'show'          => '下拉菜单',
             'show_limit'    => '下拉菜单数量限制',
             'admin_id'      => '管理员',
+            'sort'          => '排序',
             'status'        => '当前状态',
             'ctime'         => '创建时间',
         ];
