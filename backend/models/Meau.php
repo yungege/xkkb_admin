@@ -13,55 +13,56 @@ class Meau extends ActiveRecord {
         return 'meau_index';
     }
 
-    public function behaviors()
-    {
-        return [
-            'timestamp' => [
-                'class'      => TimestampBehavior::className(),
-                'attributes' => [
-                    ActiveRecord::EVENT_BEFORE_INSERT => ['ctime'],
-                ],
-            ],
-        ];
-    }
+    // public function behaviors()
+    // {
+    //     return [
+    //         'timestamp' => [
+    //             'class'      => TimestampBehavior::className(),
+    //             'attributes' => [
+    //                 ActiveRecord::EVENT_BEFORE_INSERT => ['ctime'],
+    //             ],
+    //         ],
+    //     ];
+    // }
 
-    public function rules()
-    {
-        return [
-            ['url', 'url', 'defaultScheme' => 'http', 'required'],
-            ['meau', 'string', 'length' => [2, 4]],
-            ['show', 'safe'],
-            ['show_limit', 'integer', 'value' => 8],
-            ['admin_id', 'integer'],
-            ['status', 'in', 'range' => [1, -9], 'value' => 1],
-            [['ctime','sort'], 'integer'],
-        ];
-    }
+    // public function rules()
+    // {
+    //     return [
+    //         ['url', 'url', 'defaultScheme' => 'http', 'required'],
+    //         ['meau', 'string', 'length' => [2, 4]],
+    //         ['show', 'safe'],
+    //         ['show_limit', 'integer', 'value' => 8],
+    //         ['admin_id', 'integer'],
+    //         ['status', 'in', 'range' => [1, -9], 'value' => 1],
+    //         [['ctime','sort'], 'integer'],
+    //     ];
+    // }
 
-    public function scenarios()
-    {
-        return [
-            'add'   => [
-                'url',
-                'meau',
-                'show',
-                'show_limit',
-                'admin_id',
-                'sort',
-                'status',
-                'ctime'
-            ],
-            'update' => [
-                'url',
-                'meau',
-                'show',
-                'sort',
-            ],
-            'del' => [
-                'status',
-            ],
-        ];
-    }
+    // public function scenarios()
+    // {
+    //     return [
+    //         'add'   => [
+    //             'url',
+    //             'meau',
+    //             'show',
+    //             'show_limit',
+    //             'admin_id',
+    //             'sort',
+    //             'status',
+    //             'ctime'
+    //         ],
+    //         'update' => [
+    //             'url',
+    //             'meau',
+    //             'show',
+    //             'sort',
+    //             'status',
+    //         ],
+    //         'del' => [
+    //             'status',
+    //         ],
+    //     ];
+    // }
 
     public function attributeLabels()
     {
@@ -88,7 +89,8 @@ class Meau extends ActiveRecord {
         $meau = self::findOne($id);
 
         if($meau !== null){
-            return $meau->delete();
+            $meau->status = -9;
+            return $meau->update();
         }
 
         return false;

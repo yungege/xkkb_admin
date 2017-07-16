@@ -7,6 +7,21 @@ use backend\models\Meau;
 
 class MeauController extends BaseController {
 
+    public function actionIndex(){
+        $meauList = (new Meau)->getMeauList();
+
+        return $this->render('index', [
+            'meauList' => (array)$meauList,
+        ]);
+    }
+
+    public function actionUpdate(){
+        return $this->render('update');
+    }
+
+    public function actionAdd(){
+        return $this->render('add');
+    }
 
     public function actionDelete(){
         $id = Yii::$app->request->post('id');
@@ -18,7 +33,8 @@ class MeauController extends BaseController {
             $this->error();
         else
             $this->out();
-        
     }
+
+    
 
 }
