@@ -7,7 +7,7 @@ use yii\helpers\Url;
 use yii\bootstrap\Nav;
 use yii\bootstrap\NavBar;
 use yii\widgets\Breadcrumbs;
-use yii\web\AssetBundle as AppAsset;
+use backend\assets\AppAsset;
 use common\widgets\Alert;
 use backend\models\Menu;
 

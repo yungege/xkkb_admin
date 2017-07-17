@@ -23,6 +23,11 @@ class MeauController extends BaseController {
         return $this->render('add');
     }
 
+    public function actionInsert(){
+        $post = Yii::$app->request->post();
+        echo "<pre>";print_r($post);exit;
+    }
+
     public function actionDelete(){
         $id = Yii::$app->request->post('id');
         if(!preg_match("/\d+/", $id))

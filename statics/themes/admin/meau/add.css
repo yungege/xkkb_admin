@@ -1,0 +1,48 @@
+.else-tr{
+    display: none;
+}
+.my-table tr td{
+    height: 120px;
+}
+.my-td{
+    width: 100px;
+    text-align: center;
+    line-height: 120px!important;
+}
+.picker-wrap{
+    position: relative;
+    width: 107px;
+    height: 120px;
+    margin-left: 20px;
+    overflow: hidden;
+}
+.img-cover{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url('/statics/themes/admin/meau/plus.png');
+    background-position: center;
+    background-size: auto 170px;
+    cursor: pointer;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+.img-pick-input{
+    height: 100%;
+    width: 100%;
+    cursor: pointer;
+    background-color: rgba(0,0,0,0);
+    opacity: 0;
+    filter: opacity(0);
+}
+
+.picker-wrap > img{
+    height: 100%!important;
+    width: 100%!important;
+}
+
+.margin-top-30{
+    margin-top: 30px;
+}
