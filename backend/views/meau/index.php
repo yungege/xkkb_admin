@@ -44,7 +44,7 @@ $this->params['breadcrumbs'][] = $this->title;
                     <a class="btn btn-primary btn-xs" href="/meau/update?id=<?= $row['id'] ?>" title="更新" aria-label="更新" data-pjax="0">
                         <span class="fa fa-edit"></span> 更新
                     </a>
-                    <a data-id="<?= $row['id'] ?>" class="btn btn-danger btn-xs" href="javascript:void(0)" title="删除" aria-label="删除" data-confirm="您确定要删除此项吗？" onclick="del(this)">
+                    <a data-id="<?= $row['id'] ?>" class="btn btn-danger btn-xs" href="javascript:void(0)" title="删除" aria-label="删除" onclick="del(this)">
                         <span class="fa fa-times"></span> 删除
                     </a>
                 </td>
