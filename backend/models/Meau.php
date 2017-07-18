@@ -80,7 +80,7 @@ class Meau extends ActiveRecord {
     }
 
     public function getMeauList(){
-        $sql = "SELECT * FROM meau_index WHERE `status` = 1 ORDER BY id DESC";
+        $sql = "SELECT * FROM meau_index WHERE `status` = 1 ORDER BY sort,id DESC";
         $list = Yii::$app->db->createCommand($sql)->queryAll();
         return $list;
     }
@@ -90,7 +90,7 @@ class Meau extends ActiveRecord {
 
         if($meau !== null){
             $meau->status = -9;
-            return $meau->update();
+            return $meau->save();
         }
 
         return false;

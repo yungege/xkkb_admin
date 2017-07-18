@@ -37,49 +37,54 @@ AppAsset::addJs($this, '/statics/themes/admin/meau/add.js');
             <div class="form-group">
                 <label class="control-label">下拉菜单配置<small style="color:#65CEA7;font-weight: normal!important;">（最多只能配置8个）</small></label>
                 <table class="table table-bordered my-table">
-                    <tr>
-                        <td class="my-td">1 th</td>
+                    <?php
+                        for ($i = 1;$i <= 8;$i++):
+                    ?>
+                    <tr class="<?= $i >1 ? 'else-tr '.$i.'th-tr' : '' ?>">
+                        <td class="my-td"><?= $i ?> th</td>
                         <td>
                             <div class="picker-wrap">
                                 <div class="img-cover">
-                                    <input type="file" name="pic1" class="img-pick-input" data-next="2th-tr">
+                                    <input type="file" name="pic<?= $i ?>" class="img-pick-input" data-next="<?= $i+1 ?>th-tr">
                                 </div>
-                                <input type="hidden" name="pic-1['url']">
+                                <input type="hidden" name="pic-<?= $i ?>[url]">
                             </div>
                         </td>
                         <td>
                             <div class="form-group margin-top-30">
-                                <label class="control-label" for="pic-1-title">标题</label>
-                                <input type="text" id="pic-1-title" class="form-control" name="pic-1['title']" aria-required="true" aria-invalid="false">
+                                <label class="control-label" for="pic-<?= $i ?>-title">标题</label>
+                                <input type="text" id="pic-<?= $i ?>-title" class="form-control" name="pic-<?= $i ?>[title]" aria-required="true" aria-invalid="false">
                             </div>
                         </td>
-                        <td>
+                        <td style="position: relative;">
                             <div class="form-group margin-top-30">
-                                <label class="control-label" for="pic-1-link">链接URL</label>
-                                <input type="text" id="pic-1-link" class="form-control" name="pic-1['link']" aria-required="true" aria-invalid="false">
+                                <label class="control-label" for="pic-<?= $i ?>-link">链接URL</label>
+                                <input type="text" id="pic-<?= $i ?>-link" class="form-control" name="pic-<?= $i ?>[link]" aria-required="true" aria-invalid="false">
                             </div>
+
                         </td>
                     </tr>
-                    <tr class="2th-tr else-tr">
+                    <?php endfor ?>
+                    <!-- <tr class="2th-tr else-tr">
                         <td class="my-td">2 th</td>
                         <td>
                             <div class="picker-wrap">
                                 <div class="img-cover">
                                     <input type="file" name="pic2" class="img-pick-input" data-next="3th-tr">
                                 </div>
-                                <input type="hidden" name="pic-2['url']">
+                                <input type="hidden" name="pic-2[url]">
                             </div>
                         </td>
                         <td>
                             <div class="form-group margin-top-30">
                                 <label class="control-label" for="pic-2-title">标题</label>
-                                <input type="text" id="pic-2-title" class="form-control" name="pic-2['title']" aria-required="true" aria-invalid="false">
+                                <input type="text" id="pic-2-title" class="form-control" name="pic-2[title]" aria-required="true" aria-invalid="false">
                             </div>
                         </td>
                         <td>
                             <div class="form-group margin-top-30">
                                 <label class="control-label" for="pic-2-link">链接URL</label>
-                                <input type="text" id="pic-2-link" class="form-control" name="pic-2['link']" aria-required="true" aria-invalid="false">
+                                <input type="text" id="pic-2-link" class="form-control" name="pic-2[link]" aria-required="true" aria-invalid="false">
                             </div>
                         </td>
                     </tr>
@@ -90,19 +95,19 @@ AppAsset::addJs($this, '/statics/themes/admin/meau/add.js');
                                 <div class="img-cover">
                                     <input type="file" name="pic3" class="img-pick-input" data-next="4th-tr">
                                 </div>
-                                <input type="hidden" name="pic-3['url']">
+                                <input type="hidden" name="pic-3[url]">
                             </div>
                         </td>
                         <td>
                             <div class="form-group margin-top-30">
                                 <label class="control-label" for="pic-3-title">标题</label>
-                                <input type="text" id="pic-3-title" class="form-control" name="pic-3['title']" aria-required="true" aria-invalid="false">
+                                <input type="text" id="pic-3-title" class="form-control" name="pic-3[title]" aria-required="true" aria-invalid="false">
                             </div>
                         </td>
                         <td>
                             <div class="form-group margin-top-30">
                                 <label class="control-label" for="pic-3-link">链接URL</label>
-                                <input type="text" id="pic-3-link" class="form-control" name="pic-3['link']" aria-required="true" aria-invalid="false">
+                                <input type="text" id="pic-3-link" class="form-control" name="pic-3[link]" aria-required="true" aria-invalid="false">
                             </div>
                         </td>
                     </tr>
@@ -113,19 +118,19 @@ AppAsset::addJs($this, '/statics/themes/admin/meau/add.js');
                                 <div class="img-cover">
                                     <input type="file" name="pic4" class="img-pick-input" data-next="5th-tr">
                                 </div>
-                                <input type="hidden" name="pic-4['url']">
+                                <input type="hidden" name="pic-4[url]">
                             </div>
                         </td>
                         <td>
                             <div class="form-group margin-top-30">
                                 <label class="control-label" for="pic-4-title">标题</label>
-                                <input type="text" id="pic-4-title" class="form-control" name="pic-4['title']" aria-required="true" aria-invalid="false">
+                                <input type="text" id="pic-4-title" class="form-control" name="pic-4[title]" aria-required="true" aria-invalid="false">
                             </div>
                         </td>
                         <td>
                             <div class="form-group margin-top-30">
                                 <label class="control-label" for="pic-4-link">链接URL</label>
-                                <input type="text" id="pic-4-link" class="form-control" name="pic-4['link']" aria-required="true" aria-invalid="false">
+                                <input type="text" id="pic-4-link" class="form-control" name="pic-4[link]" aria-required="true" aria-invalid="false">
                             </div>
                         </td>
                     </tr>
@@ -136,19 +141,19 @@ AppAsset::addJs($this, '/statics/themes/admin/meau/add.js');
                                 <div class="img-cover">
                                     <input type="file" name="pic5" class="img-pick-input" data-next="6th-tr">
                                 </div>
-                                <input type="hidden" name="pic-5['url']">
+                                <input type="hidden" name="pic-5[url]">
                             </div>
                         </td>
                         <td>
                             <div class="form-group margin-top-30">
                                 <label class="control-label" for="pic-5-title">标题</label>
-                                <input type="text" id="pic-5-title" class="form-control" name="pic-5['title']" aria-required="true" aria-invalid="false">
+                                <input type="text" id="pic-5-title" class="form-control" name="pic-5[title]" aria-required="true" aria-invalid="false">
                             </div>
                         </td>
                         <td>
                             <div class="form-group margin-top-30">
                                 <label class="control-label" for="pic-5-link">链接URL</label>
-                                <input type="text" id="pic-5-link" class="form-control" name="pic-5['link']" aria-required="true" aria-invalid="false">
+                                <input type="text" id="pic-5-link" class="form-control" name="pic-5[link]" aria-required="true" aria-invalid="false">
                             </div>
                         </td>
                     </tr>
@@ -159,19 +164,19 @@ AppAsset::addJs($this, '/statics/themes/admin/meau/add.js');
                                 <div class="img-cover">
                                     <input type="file" name="pic6" class="img-pick-input" data-next="7th-tr">
                                 </div>
-                                <input type="hidden" name="pic-6['url']">
+                                <input type="hidden" name="pic-6[url]">
                             </div>
                         </td>
                         <td>
                             <div class="form-group margin-top-30">
                                 <label class="control-label" for="pic-6-title">标题</label>
-                                <input type="text" id="pic-6-title" class="form-control" name="pic-6['title']" aria-required="true" aria-invalid="false">
+                                <input type="text" id="pic-6-title" class="form-control" name="pic-6[title]" aria-required="true" aria-invalid="false">
                             </div>
                         </td>
                         <td>
                             <div class="form-group margin-top-30">
                                 <label class="control-label" for="pic-6-link">链接URL</label>
-                                <input type="text" id="pic-6-link" class="form-control" name="pic-6['link']" aria-required="true" aria-invalid="false">
+                                <input type="text" id="pic-6-link" class="form-control" name="pic-6[link]" aria-required="true" aria-invalid="false">
                             </div>
                         </td>
                     </tr>
@@ -182,19 +187,19 @@ AppAsset::addJs($this, '/statics/themes/admin/meau/add.js');
                                 <div class="img-cover">
                                     <input type="file" name="pic1" class="img-pick-input" data-next="8th-tr">
                                 </div>
-                                <input type="hidden" name="pic-7['url']">
+                                <input type="hidden" name="pic-7[url]">
                             </div>
                         </td>
                         <td>
                             <div class="form-group margin-top-30">
                                 <label class="control-label" for="pic-7-title">标题</label>
-                                <input type="text" id="pic-7-title" class="form-control" name="pic-7['title']" aria-required="true" aria-invalid="false">
+                                <input type="text" id="pic-7-title" class="form-control" name="pic-7[title]" aria-required="true" aria-invalid="false">
                             </div>
                         </td>
                         <td>
                             <div class="form-group margin-top-30">
                                 <label class="control-label" for="pic-7-link">链接URL</label>
-                                <input type="text" id="pic-7-link" class="form-control" name="pic-7['link']" aria-required="true" aria-invalid="false">
+                                <input type="text" id="pic-7-link" class="form-control" name="pic-7[link]" aria-required="true" aria-invalid="false">
                             </div>
                         </td>
                     </tr>
@@ -205,24 +210,24 @@ AppAsset::addJs($this, '/statics/themes/admin/meau/add.js');
                                 <div class="img-cover">
                                     <input type="file" name="pic8" class="img-pick-input">
                                 </div>
-                                <input type="hidden" name="pic-8['url']">
+                                <input type="hidden" name="pic-8[url]">
                             </div>
                         </td>
                         <td>
                             <div class="form-group margin-top-30">
                                 <label class="control-label" for="pic-8-title">标题</label>
-                                <input type="text" id="pic-8-title" class="form-control" name="pic-8['title']" aria-required="true" aria-invalid="false">
+                                <input type="text" id="pic-8-title" class="form-control" name="pic-8[title]" aria-required="true" aria-invalid="false">
                             </div>
                         </td>
                         <td>
                             <div class="form-group margin-top-30">
                                 <label class="control-label" for="pic-8-link">链接URL</label>
-                                <input type="text" id="pic-8-link" class="form-control" name="pic-8['link']" aria-required="true" aria-invalid="false">
+                                <input type="text" id="pic-8-link" class="form-control" name="pic-8[link]" aria-required="true" aria-invalid="false">
                             </div>
                         </td>
                     </tr>
                 </table>
-            </div>
+            </div> -->
             
             <!-- <div class="form-group field-admin-status">
                 <label class="control-label">状态</label>

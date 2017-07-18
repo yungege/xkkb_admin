@@ -30,7 +30,7 @@ $this->params['breadcrumbs'][] = $this->title;
                 </td>
                 <td><?= $row['sort'] ?></td>
                 <td>
-                    <span class="label label-success"><?= empty($row['show']) ? '无' : '有' ?></span>
+                    <span class="label <?= empty($row['show']) ? 'label-danger' : 'label-success' ?>"><?= empty($row['show']) ? '无' : '有' ?></span>
                 </td>
                 <td>
                     <?php

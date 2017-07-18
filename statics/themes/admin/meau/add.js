@@ -51,7 +51,7 @@ $(function(){
                             that.parent().css({'background-image':'url("'+json.data.url+'")'});
                             that.parent().next().val(json.data.url);
                             if(nextTr){
-                                $('.'+nextTr).fadeIn(800);
+                                $('.'+nextTr).fadeIn(500);
                             }
                         }
                     },
@@ -88,6 +88,8 @@ $(function(){
                 var meau = $.trim($('#meau').val());
                 var url = $.trim($('#url').val());
                 var sort = parseInt($.trim($('#sort').val()));
+                var option = $.trim($(this).attr('data-option'));
+                var id = $.trim($(this).attr('data-id'));
 
                 if(!meau){
                     alert('请输入菜单名称.')
@@ -108,9 +110,10 @@ $(function(){
                 }
 
                 var formData = me.form.serialize();
-
+                var url = typeof(option) != 'undefined' ? '/meau/insert?option='+option : '/meau/insert';
+                if(id) url += '&id=' + id;
                 rep = $.ajax({
-                    url: '/meau/insert',
+                    url: url,
                     type: 'POST',
                     data: formData,
                     success: function(json){
@@ -119,7 +122,7 @@ $(function(){
                             return false;
                         }
                         else{
-                            
+                            window.location = '/meau/index';
                         }
                     },
                     beforeSend: function () {
@@ -132,6 +135,7 @@ $(function(){
 
             })
         },
+
     };
 
     picUploader.init();
