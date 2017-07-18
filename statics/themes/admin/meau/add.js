@@ -85,7 +85,30 @@ $(function(){
             var me = this;
             var rep = null;
             me.subBtn.unbind().bind('click', function(){
+                var meau = $.trim($('#meau').val());
+                var url = $.trim($('#url').val());
+                var sort = parseInt($.trim($('#sort').val()));
+
+                if(!meau){
+                    alert('请输入菜单名称.')
+                    return false;
+                }
+                if(meau.length > 6){
+                    alert('菜单名称不能超过6个字.')
+                    return false;
+                }
+                if(!url || !url.match(/(((^https?:(?:\/\/)?)(?:[-;:&=\+\$,\w]+@)?[A-Za-z0-9.-]+|(?:www.|[-;:&=\+\$,\w]+@)[A-Za-z0-9.-]+)((?:\/[\+~%\/.\w-_]*)?\??(?:[-\+=&;%@.\w_]*)#?(?:[\w]*))?)$/g))
+                {
+                    alert('请输入合法的URL.')
+                    return false;
+                }
+                if(isNaN(sort) || sort < 1 || sort > 8){
+                    alert('排序只能是1-8之间的数字.')
+                    return false;
+                }
+
                 var formData = me.form.serialize();
+
                 rep = $.ajax({
                     url: '/meau/insert',
                     type: 'POST',

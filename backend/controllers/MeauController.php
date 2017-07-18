@@ -25,7 +25,22 @@ class MeauController extends BaseController {
 
     public function actionInsert(){
         $post = Yii::$app->request->post();
-        echo "<pre>";print_r($post);exit;
+        $urlPreg = "";
+        if(
+            empty($post['meau']) || 
+            mb_strlen($post['meau']) > 6 ||
+            !preg_match($urlPreg, $post['url']) ||
+            !is_numeric($post['sort']) ||
+            $post['sort'] > 8 || 
+            $post['sort'] < 1 ||
+        ){
+            $this->error('参数错误.');
+        }
+
+        // 下拉菜单
+        foreach ($variable as $key => $value) {
+            # code...
+        }
     }
 
     public function actionDelete(){
