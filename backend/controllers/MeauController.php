@@ -88,8 +88,7 @@ class MeauController extends BaseController {
                 mb_strlen($post[$picIndex]['title']) <= 12 &&
                 preg_match($urlPreg, $post[$picIndex]['link'])
             ){
-                $host = Yii::$app->request->getHostInfo();
-                $post[$picIndex]['url'] = $host . $post[$picIndex]['url']; 
+                $post[$picIndex]['url'] = $post[$picIndex]['url']; 
                 $selectMeau[] = $post[$picIndex];
             }
         } 

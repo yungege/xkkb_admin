@@ -48,8 +48,8 @@ $(function(){
                             return false;
                         }
                         else{
-                            that.parent().css({'background-image':'url("'+json.data.url+'")'});
-                            that.parent().next().val(json.data.url);
+                            that.parent().css({'background-image':'url("'+json.data.link+'")'});
+                            that.parent().next().val(json.data.link);
                             if(nextTr){
                                 $('.'+nextTr).fadeIn(500);
                             }

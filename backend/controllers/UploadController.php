@@ -52,7 +52,10 @@ class UploadController extends BaseController {
         if($res === false)
             $this->error('文件上传失败.');
         else
-            $this->out(['url' => $dir['filePath'].'/'.$fileName]);
+            $this->out([
+                'url' => $dir['filePath'].'/'.$fileName,
+                'link' => (Yii::$app->request->getHostInfo()).$dir['filePath'].'/'.$fileName
+            ]);
     }
 
     
