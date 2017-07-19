@@ -3,6 +3,8 @@ use yii\helpers\Html;
 use backend\assets\AppAsset;
 AppAsset::register($this);
 
+AppAsset::addJs($this, '/statics/themes/admin/banner/add.js');
+
 $this->title = '新增Banner';
 $this->params['breadcrumbs'][] = ['label' => '内容设置', 'url' => ['banner']];
 $this->params['breadcrumbs'][] = $this->title;
@@ -19,8 +21,12 @@ $this->params['breadcrumbs'][] = $this->title;
             <input type="hidden" name="_csrf-backend" value="<?= Yii::$app->request->csrfToken ?>">
 
             <div class="form-group">
-                <label class="control-label" for="img">Banner图</label>
-                <input type="file" id="img" class="form-control" name="img" aria-required="true" aria-invalid="false" value="">
+                <label class="control-label" for="img-btn">Banner图</label>
+                <input type="file" id="img-btn" class="form-control" name="img-btn" aria-required="true" aria-invalid="false" value="">
+                <div id="pic-show" style="max-width: 300px;">
+                    <img src="" style="width:100%;">
+                </div>
+                <input type="hidden" name="img" id="img">
             </div>
             
             <div class="form-group">
@@ -39,8 +45,7 @@ $this->params['breadcrumbs'][] = $this->title;
             </div>
             
             <div class="form-group">
-                <button id="sub" type="button" class="btn btn-success" style="margin-right: 20px;" data-option="update" data-id="<?= $banner['id'] ?>">提交修改</button>
-                <a href="" class="btn btn-warning">撤销修改</a>
+                <button id="sub" type="button" class="btn btn-success" style="margin-right: 20px;" data-option="add" >提&nbsp;交</button>
             </div>
 
         </form>

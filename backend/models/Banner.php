@@ -33,15 +33,25 @@ class Banner extends ActiveRecord {
         return $list;
     }
 
-    // public function deleteMeauById(int $id){
-    //     $meau = self::findOne($id);
+    public function deleteBannerById(int $id){
+        $meau = self::findOne($id);
 
-    //     if($meau !== null){
-    //         $meau->status = -9;
-    //         return $meau->save();
-    //     }
+        if($meau !== null){
+            $meau->status = -9;
+            return $meau->save();
+        }
 
-    //     return false;
-    // }
+        return false;
+    }
+
+    public function getBannerInfoById(int $id){
+        $meau = self::findOne($id);
+
+        if($meau === null){
+            return [];
+        }
+
+        return $meau->toArray();
+    }
 
 }

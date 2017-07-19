@@ -32,7 +32,7 @@ $this->params['breadcrumbs'][] = $this->title;
                 <td style="width: 300px;"><img src="<?= $row['img'] ?>" width="300"></td>
                 <td><a href="<?= $row['url'] ?>">浏览</a></td>
                 <td><?= $row['sort'] ?></td>
-                <td><div style="background-color: <?= $row['meau_color'] ?>;"><?= $row['meau_color'] ?></div></td>
+                <td><div style="background-color: <?= $row['meau_color'] ?>;border:1px dashed black;"><?= $row['meau_color'] ?></div></td>
                 <td>
                     <?php
                         if($row['status'] == 1)
@@ -62,7 +62,7 @@ $this->params['breadcrumbs'][] = $this->title;
         var id = $(obj).data('id');
         var _csrf = $(obj).parent().data('csrf');
         var data = {'id':id,'_csrf-backend':_csrf};
-        $.post('/meau/delete', data, function(json){
+        $.post('/banner/delete', data, function(json){
             if(json.code == 200){
                 window.location.reload();
             }

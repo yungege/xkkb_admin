@@ -20,12 +20,70 @@ class BannerController extends BaseController {
         return $this->render('add');
     }
 
+    public function actionInsert(){
+        $data = Yii::$app->request->post();
+        $urlPreg = "/(((^https?:(?:\/\/)?)(?:[-;:&=\+\$,\w]+@)?[A-Za-z0-9.-]+|(?:www.|[-;:&=\+\$,\w]+@)[A-Za-z0-9.-]+)((?:\/[\+~%\/.\w-_]*)?\??(?:[-\+=&;%@.\w_]*)#?(?:[\w]*))?)$/";
+
+        if(empty($data['img'])){
+            $this->error('请上传图片.');
+        }
+
+        if(empty($data['meau_color'])){
+            $this->error('请输入菜单颜色.');
+        }
+
+        if(!preg_match($urlPreg, $data['url'])){
+            $this->error('请输入合法的URL.');
+        }
+
+        if(!is_numeric($data['sort']) || $data['sort'] <= 0){
+            $this->error('排序必须为大于0的整数.');
+        }
+
+        $host = Yii::$app->request->getHostInfo();
+
+        $model = new Banner;
+
+        $model->img = $host . $data['img'];
+        $model->url = $data['url'];
+        $model->sort = $data['sort'];
+        $model->meau_color = $data['meau_color'];
+        $model->admin_id = Yii::$app->user->id;
+        $model->ctime = time();
+
+        $res = $model->save();
+        if($res === false){
+            $this->error('添加Banner失败.');
+        }
+        else{
+            $this->out();
+        }
+    }
+
     public function actionUpdate(){
-        $banner = (new Banner)->getBannerInfo();
+        $id = $id = Yii::$app->request->get('id');
+        if(empty($id) || !preg_match("/\d+/", $id))
+            throw new NotFoundHttpException();
+
+        $banner = (new Banner)->getBannerInfoById((int)$id);
+
+        if(empty($banner)) throw new NotFoundHttpException();
 
         return $this->render('update', [
             'banner' => (array)$banner,
         ]);
+    }
+
+    public function actionDelete(){
+        $id = Yii::$app->request->post('id');
+        if(!preg_match("/\d+/", $id))
+            $this->error();
+
+        $res = (new Banner)->deleteBannerById((int)$id);
+        if($res === false)
+            $this->error();
+        else
+            $this->out();
     }
 
     
