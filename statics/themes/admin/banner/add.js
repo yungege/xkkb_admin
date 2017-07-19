@@ -38,7 +38,15 @@ $(function() {
                 }
 
                 var formdata = me.form.serialize();
-                $.post('/banner/insert', formdata, function(json){
+
+                var option = $(this).attr('data-option');
+                var reqUrl = '/banner/insert';
+                var id = $.trim($(this).attr('data-id'));
+                if(option == 'update'){
+                    reqUrl += '?id=' + id;
+                }
+
+                $.post(reqUrl, formdata, function(json){
                     if(json.code == 200){
                         window.location = '/banner/index';
                     }
@@ -55,6 +63,7 @@ $(function() {
 
             me.imgBtn.unbind().bind('change', function(){
                 var fileinfo = $(this).val();
+                var host = $(this).data('host');
 
                 if (fileinfo == "") {
                     alert("请选择上传图片！");
@@ -87,7 +96,7 @@ $(function() {
                         }
                         else{
                             me.imgShow.attr('src', json.data.url);
-                            me.imgHid.val(json.data.url);
+                            me.imgHid.val(host+json.data.url);
                         }
                     },
                     cache: false,

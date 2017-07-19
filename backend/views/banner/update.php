@@ -22,7 +22,7 @@ $this->params['breadcrumbs'][] = $this->title;
 
             <div class="form-group">
                 <label class="control-label" for="img-btn">Banner图</label>
-                <input type="file" id="img-btn" class="form-control" name="img-btn" aria-required="true" aria-invalid="false" value="<?= $banner['img'] ?>">
+                <input type="file" id="img-btn" class="form-control" name="img-btn" aria-required="true" aria-invalid="false" value="<?= $banner['img'] ?>" data-host="<?= Yii::$app->request->getHostInfo() ?>">
                 <div id="pic-show" style="max-width: 300px;">
                     <img src="<?= $banner['img'] ?>" style="width:100%;">
                 </div>
@@ -45,7 +45,7 @@ $this->params['breadcrumbs'][] = $this->title;
             </div>
             
             <div class="form-group">
-                <button id="sub" type="button" class="btn btn-success" style="margin-right: 20px;" data-option="update" data-id="<?= $banner['id'] ?>">提交修改</button>
+                <button id="sub" type="button" class="btn btn-success" style="margin-right: 20px;" data-option="update" data-id="<?= $banner['id'] ?>" >提交修改</button>
             </div>
 
         </form>

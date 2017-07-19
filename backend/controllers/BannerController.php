@@ -22,6 +22,7 @@ class BannerController extends BaseController {
 
     public function actionInsert(){
         $data = Yii::$app->request->post();
+        $id = (int)Yii::$app->request->get('id');
         $urlPreg = "/(((^https?:(?:\/\/)?)(?:[-;:&=\+\$,\w]+@)?[A-Za-z0-9.-]+|(?:www.|[-;:&=\+\$,\w]+@)[A-Za-z0-9.-]+)((?:\/[\+~%\/.\w-_]*)?\??(?:[-\+=&;%@.\w_]*)#?(?:[\w]*))?)$/";
 
         if(empty($data['img'])){
@@ -40,20 +41,27 @@ class BannerController extends BaseController {
             $this->error('排序必须为大于0的整数.');
         }
 
-        $host = Yii::$app->request->getHostInfo();
+        // update
+        if(!empty($id)){
+            $model = Banner::findOne($id);
+            if($model === null){
+                $this->error('修改Banner失败.');
+            }
+        }
+        else{
+            $model = new Banner;
+            $model->ctime = time();
+            $model->admin_id = Yii::$app->user->id;
+        }
 
-        $model = new Banner;
-
-        $model->img = $host . $data['img'];
+        $model->img = $data['img'];
         $model->url = $data['url'];
         $model->sort = $data['sort'];
         $model->meau_color = $data['meau_color'];
-        $model->admin_id = Yii::$app->user->id;
-        $model->ctime = time();
 
         $res = $model->save();
         if($res === false){
-            $this->error('添加Banner失败.');
+            $this->error();
         }
         else{
             $this->out();

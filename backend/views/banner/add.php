@@ -22,7 +22,7 @@ $this->params['breadcrumbs'][] = $this->title;
 
             <div class="form-group">
                 <label class="control-label" for="img-btn">Banner图</label>
-                <input type="file" id="img-btn" class="form-control" name="img-btn" aria-required="true" aria-invalid="false" value="">
+                <input type="file" id="img-btn" class="form-control" name="img-btn" aria-required="true" aria-invalid="false" value="" data-host="<?= Yii::$app->request->getHostInfo() ?>">
                 <div id="pic-show" style="max-width: 300px;">
                     <img src="" style="width:100%;">
                 </div>
