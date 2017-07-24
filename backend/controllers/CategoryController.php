@@ -2,14 +2,14 @@
 namespace backend\controllers;
 
 use Yii;
-use backend\models\ProductCategory;
+use backend\models\Category;
 use yii\web\NotFoundHttpException;
 
 
 class CategoryController extends BaseController {
 
     public function actionIndex(){
-        $meauList = (new ProductCategory)->getCategoryList();
+        $meauList = (new Category)->getCategoryList();
         $meauList = self::rootTree(array_column($meauList, null, 'id'));
 
         return $this->render('index', [
