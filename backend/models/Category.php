@@ -88,8 +88,8 @@ class Category extends ActiveRecord {
         return $query->offset($offset)->limit($limit)->all();
     }
 
-    public function getCategoryList(){
-        $sql = "SELECT * FROM `category` WHERE `status` = 1";
+    public function getCategoryListByType(int $type){
+        $sql = "SELECT * FROM `category` WHERE `type`= {$type} AND `status` = 1";
         return Yii::$app->db->createCommand($sql)->queryAll();
     }
 
