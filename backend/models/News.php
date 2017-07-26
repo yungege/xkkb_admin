@@ -41,6 +41,7 @@ class News extends ActiveRecord {
         return [
             'create' => ['desc','title','content','cover','tags'],
             'update' => ['desc','title','content','cover','status','tags'],
+            'delete' => ['status'],
         ];
     }
 
@@ -62,15 +63,14 @@ class News extends ActiveRecord {
 
     public function getNewsCountByType(int $type){
         return (self::find())->where([
-            'category' => $type,
-            'status' => 1]
-            )->count();
+            'category' => $type
+            ])->andWhere(['<>', 'status', -9])->count();
     }
 
     public function getNewsListByType(int $type, int $offset = 0, int $limit = 10){
         $query = self::find();
 
-        $query->where(['category' => $type,'status' => 1]);
+        $query->where(['category' => $type])->andWhere(['<>', 'status', -9]);
         return $query->offset($offset)->limit($limit)->all();
     }
     

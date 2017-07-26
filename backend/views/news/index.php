@@ -79,8 +79,8 @@ $this->params['breadcrumbs'][] = $this->title;
         if(!confirm(msg)) return false;
         
         var data = {'id':id,'type':type,'_csrf-backend':_csrf};
-        console.log(data);return;
-        $.post('/news/delete', data, function(json){
+
+        $.post('/news/update', data, function(json){
             if(json.code == 200){
                 window.location.reload();
             }
