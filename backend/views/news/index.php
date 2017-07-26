@@ -38,10 +38,16 @@ $this->params['breadcrumbs'][] = $this->title;
                     <a class="btn btn-primary btn-xs" href="/news/update?id=<?= $row['id'] ?>" title="更新" aria-label="更新" data-pjax="0">
                         <span class="fa fa-edit"></span> 更新
                     </a>
-                    <a class="btn btn-success btn-xs" href="/news/online?id=<?= $row['id'] ?>" title="发布" aria-label="发布" data-pjax="0">
-                        <span class="fa fa-edit"></span> 发布
-                    </a>
-                    <a data-id="<?= $row['id'] ?>" class="btn btn-danger btn-xs" href="javascript:void(0)" title="删除" aria-label="删除" onclick="del(this)">
+                    <?= ($row['status'] == 1) ?
+                    '<a data-id="'.$row['id'].'" data-type="1" class="btn btn-warning btn-xs" href="javascript:void(0)" title="下线" aria-label="下线" onclick="update(this)">
+                        <span class="fa fa-refresh"></span> 下线
+                    </a>'
+                    :
+                    '<a data-id='.$row['id'].' data-type="2" class="btn btn-success btn-xs" href="javascript:void(0)" title="发布" aria-label="发布" onclick="update(this)">
+                        <span class="fa fa-refresh"></span> 发布
+                    </a>' 
+                    ?>
+                    <a data-id="<?= $row['id'] ?>" data-type="3" class="btn btn-danger btn-xs" href="javascript:void(0)" title="删除" aria-label="删除" onclick="update(this)">
                         <span class="fa fa-times"></span> 删除
                     </a>
                 </td>
@@ -62,32 +68,24 @@ $this->params['breadcrumbs'][] = $this->title;
 </div>
 
 <script>
-    function del(obj){
-        if(!confirm('您确定要删除此新闻吗？')) return false;
+    function update(obj){
         var id = $(obj).data('id');
+        var type = $(obj).data('type');
         var _csrf = $(obj).parent().data('csrf');
-        var data = {'id':id,'_csrf-backend':_csrf};
-        $.post('/news/delete', data, function(json){
-            if(json.code == 200){
-                window.location.reload();
-            }
-            else{
-                alert('删除失败！');
-            }
-        });
-    }
 
-    function publish(obj){
-        if(!confirm('您确定要删除此新闻吗？')) return false;
-        var id = $(obj).data('id');
-        var _csrf = $(obj).parent().data('csrf');
-        var data = {'id':id,'_csrf-backend':_csrf};
+        var msg = '';
+
+        msg = type == 1 ? '确定下线？' : (type == 2 ? '确定发布？' : '确定删除？不可逆的哦！！！');
+        if(!confirm(msg)) return false;
+        
+        var data = {'id':id,'type':type,'_csrf-backend':_csrf};
+        console.log(data);return;
         $.post('/news/delete', data, function(json){
             if(json.code == 200){
                 window.location.reload();
             }
             else{
-                alert('删除失败！');
+                alert('操作失败！');
             }
         });
     }
