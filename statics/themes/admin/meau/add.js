@@ -10,7 +10,7 @@ $(function(){
         },
 
         uploadImg: function (){
-            me = this;
+            var me = this;
 
             me.picPicker.unbind().bind('change', function(){
                 var fileinfo = $(this).val();

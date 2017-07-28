@@ -28,8 +28,8 @@ class News extends ActiveRecord {
     public function rules()
     {
         return [
-            [['desc','title', 'content', 'cover','status','tags'], 'required', 'message'=> '数据填写有误！'],
-            [['admin_id','status','ctime'], 'integer'],
+            [['desc','title', 'content', 'cover','status','tags','category','admin_id'], 'required', 'message'=> '数据填写有误！'],
+            [['admin_id','status','ctime','category'], 'integer'],
             ['title', 'string', 'max'=>25],
             [['cover','desc','tags'], 'string', 'max'=>255],
             ['content', 'safe'],
@@ -39,8 +39,8 @@ class News extends ActiveRecord {
     public function scenarios()
     {
         return [
-            'create' => ['desc','title','content','cover','tags'],
-            'update' => ['desc','title','content','cover','status','tags'],
+            'create' => ['category','desc','title','content','cover','tags','admin_id'],
+            'update' => ['category','desc','title','content','cover','tags','admin_id','status'],
             'delete' => ['status'],
         ];
     }
@@ -71,6 +71,7 @@ class News extends ActiveRecord {
         $query = self::find();
 
         $query->where(['category' => $type])->andWhere(['<>', 'status', -9]);
+        $query->orderBy('ctime DESC');
         return $query->offset($offset)->limit($limit)->all();
     }
     

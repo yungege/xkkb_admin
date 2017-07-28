@@ -21,33 +21,38 @@ $this->params['breadcrumbs'][] = $this->title;
                 <th>类型</th>
                 <th>标签</th>
                 <th>状态</th>
-                <th style="width: 180px;">操作</th>
+                <th>发布时间</th>
+                <th style="width: 150px;">操作</th>
             </tr>
         </thead>
         <tbody>
             <?php foreach ($newsList as $row) : ?>
             <tr>
                 <td><?= $row['id'] ?></td>
-                <td><img src="<?= $row['cover'] ?>" width="200"></td>
+                <td><img src="<?= $row['cover'] ?>" height="100"></td>
                 <td><?= $row['title'] ?></td>
                 <td><?= $row['desc'] ?></td>
                 <td>行业新闻</td>
                 <td><?= $row['tags'] ?></td>
-                <td><?= $row['status'] == 1 ? '<span class="label label-success">已发布</span>' : ($row['status'] == 2 ? '<span class="label label-success">待发布</span>' : '<span class="label label-danger">unknow</span>') ?></td>
+                <td><?= $row['status'] == 1 ? '<span class="label label-success">已发布</span>' : ($row['status'] == 2 ? '<span class="label label-warning">待发布</span>' : '<span class="label label-danger">unknow</span>') ?></td>
+                <td><?= date('Y-m-d H:i', $row['ctime']) ?></td>
                 <td data-csrf="<?php echo Yii::$app->request->csrfToken ?>">
-                    <a class="btn btn-primary btn-xs" href="/news/update?id=<?= $row['id'] ?>" title="更新" aria-label="更新" data-pjax="0">
-                        <span class="fa fa-edit"></span> 更新
+                    <a class="btn btn-info btn-xs" href="http://xkkb.com/news/<?= $row['id'] ?>?ca_f=<?= $row['category'] ?>" title="预览" aria-label="预览" data-pjax="0" target="__blank" style="margin-bottom: 5px;">
+                        <span class="fa fa-play-circle-o"></span> 预览
                     </a>
+                    <a class="btn btn-primary btn-xs" href="/news/edit?id=<?= $row['id'] ?>&ca_f=<?= $row['category'] ?>" title="更新" aria-label="更新" data-pjax="0" style="margin-bottom: 5px;">
+                        <span class="fa fa-edit"></span> 更新
+                    </a><br/>
                     <?= ($row['status'] == 1) ?
-                    '<a data-id="'.$row['id'].'" data-type="1" class="btn btn-warning btn-xs" href="javascript:void(0)" title="下线" aria-label="下线" onclick="update(this)">
+                    '<a data-id="'.$row['id'].'" data-type="1" class="btn btn-warning btn-xs" href="javascript:void(0)" title="下线" aria-label="下线" onclick="update(this)" style="margin-bottom: 5px;">
                         <span class="fa fa-refresh"></span> 下线
                     </a>'
                     :
-                    '<a data-id='.$row['id'].' data-type="2" class="btn btn-success btn-xs" href="javascript:void(0)" title="发布" aria-label="发布" onclick="update(this)">
+                    '<a data-id='.$row['id'].' data-type="2" class="btn btn-success btn-xs" href="javascript:void(0)" title="发布" aria-label="发布" onclick="update(this)" style="margin-bottom: 5px;">
                         <span class="fa fa-refresh"></span> 发布
                     </a>' 
                     ?>
-                    <a data-id="<?= $row['id'] ?>" data-type="3" class="btn btn-danger btn-xs" href="javascript:void(0)" title="删除" aria-label="删除" onclick="update(this)">
+                    <a data-id="<?= $row['id'] ?>" data-type="3" class="btn btn-danger btn-xs" href="javascript:void(0)" title="删除" aria-label="删除" onclick="update(this)" style="margin-bottom: 5px;">
                         <span class="fa fa-times"></span> 删除
                     </a>
                 </td>
@@ -60,8 +65,10 @@ $this->params['breadcrumbs'][] = $this->title;
         <?=
             LinkPager::widget([
                 'pagination' => $pages,
-                'nextPageLabel' => 'N',
-                'prevPageLabel' => 'L',
+                'nextPageLabel' => '>>',
+                'prevPageLabel' => '<<',
+                'firstPageLabel' => '首页', 
+                'lastPageLabel' => '尾页',
             ]);
         ?>
     </div>

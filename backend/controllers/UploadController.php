@@ -35,6 +35,7 @@ class UploadController extends BaseController {
     public function actionImg(){
         $dir = $this->getUploadDir();
         $file = $_FILES['file'];
+        $get = Yii::$app->request->get();
 
         if(empty($file))
             $this->error('没有文件被上传.');
@@ -44,6 +45,14 @@ class UploadController extends BaseController {
 
         if($file['size'] > $this->picsize)
             $this->error('文件大小不能2M.');
+
+        // 分辨率限制
+        if(!empty($get['size'])){
+            $whSize = getimagesize($file['tmp_name']);
+            if($get['size'] != ($whSize[0].'*'.$whSize[1])){
+                $this->error('图片尺寸不正确.');
+            }
+        }
 
         $fileName = md5($file['name']).explode('.',microtime(true))[1].'.'.pathinfo($file['name'], PATHINFO_EXTENSION);
         $filePath = $dir['totalPath'] . '/' . $fileName;
