@@ -8,7 +8,6 @@ $this->title = '应用案例';
 $this->params['breadcrumbs'][] = ['label' => '内容设置', 'url' => ['case']];
 $this->params['breadcrumbs'][] = $this->title;
 AppAsset::addCss($this, '/statics/themes/admin/case/index.css');
-// AppAsset::addJs($this, '/statics/themes/admin/vendor/treetable/treetable.js');
 
 ?>
 
@@ -43,7 +42,7 @@ AppAsset::addCss($this, '/statics/themes/admin/case/index.css');
                             <a class="btn btn-primary btn-xs" href="/case/edit?id=<?= $row['id'] ?>&ca_f=<?= $row['category'] ?>" title="更新" aria-label="更新" data-pjax="0" style="margin-bottom: 5px;">
                                 <span class="fa fa-edit"></span> 更新
                             </a>
-                            <a data-id="<?= $row['id'] ?>" class="btn btn-danger btn-xs" href="javascript:void(0)" title="删除" aria-label="删除" onclick="del(this)" style="margin-bottom: 5px;">
+                            <a data-id="<?= $row['id'] ?>" class="btn btn-danger btn-xs" href="javascript:void(0)" title="删除" data-type="add" aria-label="删除" onclick="del(this)" style="margin-bottom: 5px;">
                                 <span class="fa fa-times"></span> 删除
                             </a>
                         </td>
@@ -68,3 +67,23 @@ AppAsset::addCss($this, '/statics/themes/admin/case/index.css');
 
 
 </div>
+
+<script>
+    function del(obj){
+        if(!confirm('确定删除？不可逆操作！！！')) return false;
+
+        var id = $(obj).data('id');
+        var type = $(obj).data('type');
+        var _csrf = $(obj).parent().data('csrf');
+        var data = {'id':id,'type':type,'_csrf-backend':_csrf};
+
+        $.post('/case/delete', data, function(json){
+            if(json.code == 200){
+                window.location.reload();
+            }
+            else{
+                alert('操作失败！');
+            }
+        });
+    }
+</script>

@@ -39,8 +39,9 @@ class Cases extends ActiveRecord {
     public function scenarios()
     {
         return [
-            'create' => ['title','content','cover'],
-            'update' => ['title','content','cover','status'],
+            'create' => ['title','content','cover','category','admin_id'],
+            'update' => ['title','content','cover'],
+            'delete' => ['status'],
         ];
     }
 
@@ -68,7 +69,7 @@ class Cases extends ActiveRecord {
     public function getCaseListByType(int $type, int $offset = 0, int $limit = 10){
         $query = self::find();
 
-        $query->where(['category' => $type,'status' => 1]);
+        $query->where(['category' => $type,'status' => 1])->orderBy('ctime DESC');
         return $query->offset($offset)->limit($limit)->all();
     }
     

@@ -42,7 +42,7 @@ class SupportController extends BaseController {
 
     public function actionDelete(){
         $id = (int)Yii::$app->request->post('id');
-        $model = Support::findOne($id);
+        $model = Support::findOne((int)$id);
         if($model === null){
             $this->error();
         }

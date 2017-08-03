@@ -9,7 +9,7 @@ echo Nav::widget([
         ],
         [
             'label' => '新增案例',
-            'url' => ['case/add'],
+            'url' => ['case/publish'],
         ]
     ],
     'options' => ['class' => 'nav-tabs'],
