@@ -3,12 +3,13 @@ use yii\helpers\Html;
 use backend\assets\AppAsset;
 AppAsset::register($this);
 
-$this->title = '产品分类管理';
+$this->title = '分类管理';
 $this->params['breadcrumbs'][] = ['label' => '内容设置', 'url' => ['category']];
 $this->params['breadcrumbs'][] = $this->title;
 AppAsset::addCss($this, '/statics/themes/admin/vendor/treetable/css/treetable.css');
 AppAsset::addCss($this, '/statics/themes/admin/vendor/treetable/css/theme.default.css');
 AppAsset::addJs($this, '/statics/themes/admin/vendor/treetable/treetable.js');
+AppAsset::addJs($this, '/statics/themes/admin/category/index.js');
 
 function output_tr($l, $isRoot = true)
 {
@@ -18,12 +19,25 @@ function output_tr($l, $isRoot = true)
     echo "<td style='width: 135px'>" . $l['pid'] . "</td>";
     echo "<td style='width: 135px'>" . $l['cate_name'] . "</td>";
     echo "<td style='width: 85px'>" . $l['cate_level'] . "</td>";
+    echo "<td style='width: 85px'>" . $l['cate_sort'] . "</td>";
 
-    echo "<td>
-        <a class=\"btn btn-xs btn-info\" href=\"/category/edit?id=" . $l['id'] . "\"><span class='fa fa-edit'></span> 编辑</a>
-        <a class=\"btn btn-xs btn-success\" target='_blank' href=\"/category/add?pid=" . $l['id'] . "\"><span class='fa fa-plus'></span> 新增子类</a>
-        <a class=\"btn btn-xs btn-danger\" target='_blank' href=\"/category/del?id=" . $l['id'] . "\"><span class='fa fa-times'></span> 删除</a>
-    </td>";
+    $addBtn = "<a data-pid=\"{$l['id']}\" data-level=\"{$l['cate_level']}\" class=\"cate-add btn btn-xs btn-success\" href=\"javascript:void(0)\"><span class='fa fa-plus'></span> 新增子类</a>&nbsp;";
+    $delBtn = "<a data-id=\"{$l['id']}\" class=\"cate-del btn btn-xs btn-danger\" href=\"javascript:void(0)\"><span class='fa fa-times'></span> 删除</a>";
+    $editBtn = "<a data-id=\"{$l['id']}\" data-name=\"{$l['cate_name']}\" data-level=\"{$l['cate_level']}\" data-sort=\"{$l['cate_sort']}\" class=\"cate-edit btn btn-xs btn-primary\" href=\"javascript:void(0)\"><span class='fa fa-times'></span> 编辑</a>&nbsp;";
+
+    $lastTd = $editBtn.$delBtn;
+
+    if($l['cate_level'] == 1){
+        $lastTd = $addBtn . $lastTd;
+    }
+
+    if($l['type'] == 1){
+        echo "<td>{$lastTd}</td>";
+    }
+    else{
+        echo "<td></td>";
+    }
+    
     echo "</tr>";
 }
 
@@ -52,8 +66,9 @@ function recursive_output($l)
                     <th>&nbsp;</th>
                     <th>ID</th>
                     <th>PID</th>
-                    <th>分类名称</th>
+                    <th style="min-width: 200px;">分类名称</th>
                     <th>level</th>
+                    <th>排序</th>
                     <th>操作</th>
                 </tr>
                 </thead>
@@ -72,4 +87,81 @@ function recursive_output($l)
     </div>
 
 
+</div>
+
+<style type="text/css">
+    .fix-div,.edit-fix-div{
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background-color: rgba(0,0,0,0.4);
+        z-index: 9999;
+        display: none;
+    }
+    .fix-div-inner,.edit-fix-div-inner{
+        width: 400px;
+        height: 130px;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        margin-top: -65px;
+        margin-left: -200px;
+        background-color: white;
+        padding: 10px;
+        border: 1px solid #333;
+        border-radius: 4px;
+    }
+    .edit-fix-div-inner{
+        height: 200px;
+        margin-top: -100px;
+    }
+    .glyphicon-remove{
+        position: absolute;
+        top: 5px;
+        right: 10px;
+        cursor: pointer;
+        color: red;
+        padding: 5px;
+    }
+</style>
+
+<div class="fix-div">
+    <div class="fix-div-inner">
+        <form name="cate">
+            <div class="form-group">
+                <label for="cate_name">分类名称</label>
+                <input type="text" class="form-control" id="cate_name" name="cate_name">
+            </div>
+
+            <input type="hidden" class="form-control" id="pid" name="pid">
+            <input type="hidden" class="form-control" id="level" name="cate_level">
+            
+            <button id="sub" type="button" class="btn btn-primary">确认提交</button>
+            <div class="glyphicon glyphicon-remove"></div>
+        </form>
+    </div>
+</div>
+
+<div class="edit-fix-div">
+    <div class="edit-fix-div-inner">
+        <form name="edit-cate">
+            <div class="form-group">
+                <label for="edit_cate_name">分类名称</label>
+                <input type="text" class="form-control" id="edit_cate_name" name="cate_name">
+            </div>
+
+            <div class="form-group">
+                <label for="edit_cate_sort">排序SORT</label>
+                <input type="text" class="form-control" id="edit_cate_sort" name="cate_sort">
+            </div>
+
+            <input type="hidden" class="form-control" id="edit_id" name="id">
+            <input type="hidden" class="form-control" id="edit_level" name="cate_level">
+            
+            <button id="edit_sub" type="button" class="btn btn-primary">确认提交</button>
+            <div class="glyphicon glyphicon-remove"></div>
+        </form>
+    </div>
 </div>

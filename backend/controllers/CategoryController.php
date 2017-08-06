@@ -60,6 +60,90 @@ class CategoryController extends BaseController {
         return isset($items[0][$childName]) ? $items[0][$childName] : array();
     } 
 
-    
+    public function actionDelete(){
+        $id = (int)Yii::$app->request->get('id');
+        if(empty($id)){
+            $this->error();
+        }
+
+        $model = Category::findOne($id);
+        if($model === null){
+            $this->error();
+        }
+
+        $model->setScenario('delete');
+        $model->status = -9;
+        $res = $model->save();
+
+        if(false === $res)
+            $this->error();
+        else
+            $this->out();
+
+    }
+
+    public function actionAdd(){
+        $post = Yii::$app->request->post();
+
+        if(
+            (mb_strlen($post['cate_name']) < 2 || mb_strlen($post['cate_name']) > 16) ||
+            (!is_numeric($post['pid']) || $post['pid'] < 1) ||
+            (!is_numeric($post['cate_level']) || $post['cate_level'] != 1)
+        ){
+            $this->error();
+        }
+
+        $cateExists = Category::findOne((int)$post['pid']);
+        if($cateExists === null || $cateExists->status != 1){
+            $this->error();
+        }
+
+        $post['cate_level'] = 2;
+        $post['admin_id']   = Yii::$app->user->id;
+        $post['type']       = 1;
+
+        $model = new Category;
+        $model->scenario = 'createSecondLeval';
+        
+        $model->load(['Category' => $post]);
+        if($model->validate() && $model->save()){
+            $this->out();
+        }
+
+        $this->error();
+    }   
+
+    public function actionEdit(){
+        $post = Yii::$app->request->post();
+
+        if(
+            (mb_strlen($post['cate_name']) < 2 || mb_strlen($post['cate_name']) > 16) ||
+            (!is_numeric($post['id']) || $post['id'] < 1) ||
+            (!is_numeric($post['cate_level']) || !in_array($post['cate_level'], [1,2]))
+        ){
+            $this->error();
+        }
+
+        if($post['cate_level'] == 1){
+            if(!is_numeric($post['cate_sort']) || $post['cate_sort'] < 0){
+                $this->error();
+            }
+        }
+
+        $model = Category::findOne((int)$post['id']);
+        if($model === null || $model->status != 1){
+            $this->error();
+        }
+
+        $model->scenario = 'updateSecondLeval';
+        $post['cate_sort'] = (int)$post['cate_sort'];
+        
+        $model->load(['Category' => $post]);
+        if($model->validate() && $model->save()){
+            $this->out();
+        }
+
+        $this->error();
+    } 
 
 }
