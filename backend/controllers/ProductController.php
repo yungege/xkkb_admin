@@ -13,15 +13,94 @@ class ProductController extends BaseController {
 
     const PAGESIZE = 15;
 
+    // 室外光缆系列
     public function actionIndex(){
-        
+        $fType = 1;
+        $res = [];
+
+        $this->getData($fType, $res);
+
+        return $this->render('index', $res);
+    }
+
+    // 室内光缆系列
+    public function actionSn(){
+        $fType = 2;
+        $res = [];
+
+        $this->getData($fType, $res);
+
+        return $this->render('index', $res);
+    }
+
+    // 数据中心系列
+    public function actionSj(){
+        $fType = 3;
+        $res = [];
+
+        $this->getData($fType, $res);
+
+        return $this->render('index', $res);
+    }
+
+    // 光纤入户系列
+    public function actionRh(){
+        $fType = 4;
+        $res = [];
+
+        $this->getData($fType, $res);
+
+        return $this->render('index', $res);
+    }
+
+    // 光纤跳线系列
+    public function actionTx(){
+        $fType = 5;
+        $res = [];
+
+        $this->getData($fType, $res);
+
+        return $this->render('index', $res);
+    }
+
+    // 光传输设备
+    public function actionCs(){
+        $fType = 6;
+        $res = [];
+
+        $this->getData($fType, $res);
+
+        return $this->render('index', $res);
+    }
+
+    // 综合布线
+    public function actionBx(){
+        $fType = 7;
+        $res = [];
+
+        $this->getData($fType, $res);
+
+        return $this->render('index', $res);
+    }
+
+    // 安防监控
+    public function actionJk(){
+        $fType = 8;
+        $res = [];
+
+        $this->getData($fType, $res);
+
+        return $this->render('index', $res);
+    }
+
+    protected function getData($fType, &$res){
         $model = new Product;
 
         $get = Yii::$app->request->get();
         $pn = (!is_numeric($get['page']) || (int)$get['page'] <= 0) ? 1 : $get['page'];
         $offset = ($pn - 1) * self::PAGESIZE;
 
-        $fType = 1;
+        
         $sType = (int)$get['stype'];
 
         $count = $model->getProductCountByType($fType, $sType);
@@ -40,12 +119,12 @@ class ProductController extends BaseController {
             $cateList = array_column((array)$cateList, null, 'id');
         }
 
-        return $this->render('index', [
+        $res = [
             'pages' => $pages,
             'proList' => (array)$proList,
             'ctype' => (array)$cateList, 
             'ftype' => $fType,
-        ]);
+        ];
     }
 
     public function actionDelete(){
