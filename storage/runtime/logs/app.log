@@ -13014,3 +13014,1662 @@ $_SERVER = [
     'REQUEST_TIME_FLOAT' => 1502194144.7307
     'REQUEST_TIME' => 1502194144
 ]
+2017-08-08 22:20:36 [192.168.1.102][1][-][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 192.168.1.102
+    in /var/www/xkkb_admin/statics/themes/admin/views/layouts/main.php:178
+    in /var/www/xkkb_admin/backend/controllers/ProductController.php:23
+2017-08-08 22:20:36 [192.168.1.102][1][-][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 192.168.1.102
+2017-08-08 22:20:36 [192.168.1.102][1][-][info][application] $_COOKIE = [
+    'advanced-frontend' => 'achgqposj5il3u5f4eutcquch7'
+    '_csrf-frontend' => 'f261737737e2df6bf756e6d74ca88d247a113076fad82f8bff39f2053100de07a:2:{i:0;s:14:\"_csrf-frontend\";i:1;s:32:\"ö	.õÌHÁ@dìë£™<o¸oY	
+ªÐIò§b®¤¸\";}'
+    '_csrf-backend' => '36381f5ae96bc39fbf7739a0aeddcba29158bd8688092ae71e7defb18b40d2d6a:2:{i:0;s:13:\"_csrf-backend\";i:1;s:32:\"…†q;Õ!àÂ,ïZ¼¿i}K+l\\¾Ó\\˜Hë«\";}'
+    '_identity-backend' => '4ff4ad264e3c9d7fe4c230e3570c87c1cae912a0bed12123b80c0c13222b491ca:2:{i:0;s:17:\"_identity-backend\";i:1;s:46:\"[1,\"SbSY36BLw3V2lU-GB7ZAzCVJKDFx82IJ\",2592000]\";}'
+    'PHPSESSID' => 'f2srbgljitd8qakvm92jm8eoh0'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__id' => 1
+]
+
+$_SERVER = [
+    'USER' => 'nginx'
+    'HOME' => '/var/lib/nginx'
+    'HTTP_COOKIE' => 'advanced-frontend=achgqposj5il3u5f4eutcquch7; _csrf-frontend=f261737737e2df6bf756e6d74ca88d247a113076fad82f8bff39f2053100de07a%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%22%1E%F6%07%09.%F5%CCH%C1%40%10d%EC%EB%A3%99%3Co%B8oY%09%0A%AA%D0I%F2%A7b%AE%A4%B8%22%3B%7D; _csrf-backend=36381f5ae96bc39fbf7739a0aeddcba29158bd8688092ae71e7defb18b40d2d6a%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_csrf-backend%22%3Bi%3A1%3Bs%3A32%3A%22%01%85%86q%3B%D5%21%E0%C2%2C%EFZ%BC%BFi%7DK%2Bl%5C%17%BE%0D%D3%5C%98H%EB%0E%AB%19%8F%22%3B%7D; _identity-backend=4ff4ad264e3c9d7fe4c230e3570c87c1cae912a0bed12123b80c0c13222b491ca%3A2%3A%7Bi%3A0%3Bs%3A17%3A%22_identity-backend%22%3Bi%3A1%3Bs%3A46%3A%22%5B1%2C%22SbSY36BLw3V2lU-GB7ZAzCVJKDFx82IJ%22%2C2592000%5D%22%3B%7D; PHPSESSID=f2srbgljitd8qakvm92jm8eoh0'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_REFERER' => 'http://admin.xkkb.com/product/index'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_CACHE_CONTROL' => 'no-cache'
+    'HTTP_PRAGMA' => 'no-cache'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_HOST' => 'admin.xkkb.com'
+    'REDIRECT_STATUS' => '200'
+    'SERVER_NAME' => 'admin.xkkb.com'
+    'SERVER_PORT' => '80'
+    'SERVER_ADDR' => '192.168.1.44'
+    'REMOTE_PORT' => '49316'
+    'REMOTE_ADDR' => '192.168.1.102'
+    'SERVER_SOFTWARE' => 'nginx/1.10.3'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REQUEST_SCHEME' => 'http'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'DOCUMENT_ROOT' => '/var/www/xkkb_admin'
+    'DOCUMENT_URI' => '/admin.php'
+    'REQUEST_URI' => '/product/index'
+    'SCRIPT_NAME' => '/admin.php'
+    'CONTENT_LENGTH' => ''
+    'CONTENT_TYPE' => ''
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'SCRIPT_FILENAME' => '/var/www/xkkb_admin/admin.php'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/admin.php'
+    'REQUEST_TIME_FLOAT' => 1502202036.7099
+    'REQUEST_TIME' => 1502202036
+]
+2017-08-08 22:37:24 [192.168.1.102][1][-][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 192.168.1.102
+    in /var/www/xkkb_admin/statics/themes/admin/views/layouts/main.php:178
+    in /var/www/xkkb_admin/backend/controllers/ProductController.php:23
+2017-08-08 22:37:24 [192.168.1.102][1][-][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 192.168.1.102
+2017-08-08 22:37:24 [192.168.1.102][1][-][info][application] $_COOKIE = [
+    'advanced-frontend' => 'achgqposj5il3u5f4eutcquch7'
+    '_csrf-frontend' => 'f261737737e2df6bf756e6d74ca88d247a113076fad82f8bff39f2053100de07a:2:{i:0;s:14:\"_csrf-frontend\";i:1;s:32:\"ö	.õÌHÁ@dìë£™<o¸oY	
+ªÐIò§b®¤¸\";}'
+    '_csrf-backend' => '36381f5ae96bc39fbf7739a0aeddcba29158bd8688092ae71e7defb18b40d2d6a:2:{i:0;s:13:\"_csrf-backend\";i:1;s:32:\"…†q;Õ!àÂ,ïZ¼¿i}K+l\\¾Ó\\˜Hë«\";}'
+    'PHPSESSID' => 'f2srbgljitd8qakvm92jm8eoh0'
+    '_identity-backend' => '4ff4ad264e3c9d7fe4c230e3570c87c1cae912a0bed12123b80c0c13222b491ca:2:{i:0;s:17:\"_identity-backend\";i:1;s:46:\"[1,\"SbSY36BLw3V2lU-GB7ZAzCVJKDFx82IJ\",2592000]\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__id' => 1
+]
+
+$_SERVER = [
+    'USER' => 'nginx'
+    'HOME' => '/var/lib/nginx'
+    'HTTP_COOKIE' => 'advanced-frontend=achgqposj5il3u5f4eutcquch7; _csrf-frontend=f261737737e2df6bf756e6d74ca88d247a113076fad82f8bff39f2053100de07a%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%22%1E%F6%07%09.%F5%CCH%C1%40%10d%EC%EB%A3%99%3Co%B8oY%09%0A%AA%D0I%F2%A7b%AE%A4%B8%22%3B%7D; _csrf-backend=36381f5ae96bc39fbf7739a0aeddcba29158bd8688092ae71e7defb18b40d2d6a%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_csrf-backend%22%3Bi%3A1%3Bs%3A32%3A%22%01%85%86q%3B%D5%21%E0%C2%2C%EFZ%BC%BFi%7DK%2Bl%5C%17%BE%0D%D3%5C%98H%EB%0E%AB%19%8F%22%3B%7D; PHPSESSID=f2srbgljitd8qakvm92jm8eoh0; _identity-backend=4ff4ad264e3c9d7fe4c230e3570c87c1cae912a0bed12123b80c0c13222b491ca%3A2%3A%7Bi%3A0%3Bs%3A17%3A%22_identity-backend%22%3Bi%3A1%3Bs%3A46%3A%22%5B1%2C%22SbSY36BLw3V2lU-GB7ZAzCVJKDFx82IJ%22%2C2592000%5D%22%3B%7D'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_REFERER' => 'http://admin.xkkb.com/product/index'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_CACHE_CONTROL' => 'no-cache'
+    'HTTP_PRAGMA' => 'no-cache'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_HOST' => 'admin.xkkb.com'
+    'REDIRECT_STATUS' => '200'
+    'SERVER_NAME' => 'admin.xkkb.com'
+    'SERVER_PORT' => '80'
+    'SERVER_ADDR' => '192.168.1.44'
+    'REMOTE_PORT' => '51059'
+    'REMOTE_ADDR' => '192.168.1.102'
+    'SERVER_SOFTWARE' => 'nginx/1.10.3'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REQUEST_SCHEME' => 'http'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'DOCUMENT_ROOT' => '/var/www/xkkb_admin'
+    'DOCUMENT_URI' => '/admin.php'
+    'REQUEST_URI' => '/product/index'
+    'SCRIPT_NAME' => '/admin.php'
+    'CONTENT_LENGTH' => ''
+    'CONTENT_TYPE' => ''
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'SCRIPT_FILENAME' => '/var/www/xkkb_admin/admin.php'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/admin.php'
+    'REQUEST_TIME_FLOAT' => 1502203044.7474
+    'REQUEST_TIME' => 1502203044
+]
+2017-08-08 22:39:43 [192.168.1.102][1][-][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 192.168.1.102
+    in /var/www/xkkb_admin/statics/themes/admin/views/layouts/main.php:178
+    in /var/www/xkkb_admin/backend/controllers/ProductController.php:23
+2017-08-08 22:39:43 [192.168.1.102][1][-][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 192.168.1.102
+2017-08-08 22:39:43 [192.168.1.102][1][-][info][application] $_COOKIE = [
+    'advanced-frontend' => 'achgqposj5il3u5f4eutcquch7'
+    '_csrf-frontend' => 'f261737737e2df6bf756e6d74ca88d247a113076fad82f8bff39f2053100de07a:2:{i:0;s:14:\"_csrf-frontend\";i:1;s:32:\"ö	.õÌHÁ@dìë£™<o¸oY	
+ªÐIò§b®¤¸\";}'
+    '_csrf-backend' => '36381f5ae96bc39fbf7739a0aeddcba29158bd8688092ae71e7defb18b40d2d6a:2:{i:0;s:13:\"_csrf-backend\";i:1;s:32:\"…†q;Õ!àÂ,ïZ¼¿i}K+l\\¾Ó\\˜Hë«\";}'
+    'PHPSESSID' => 'f2srbgljitd8qakvm92jm8eoh0'
+    '_identity-backend' => '4ff4ad264e3c9d7fe4c230e3570c87c1cae912a0bed12123b80c0c13222b491ca:2:{i:0;s:17:\"_identity-backend\";i:1;s:46:\"[1,\"SbSY36BLw3V2lU-GB7ZAzCVJKDFx82IJ\",2592000]\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__id' => 1
+]
+
+$_SERVER = [
+    'USER' => 'nginx'
+    'HOME' => '/var/lib/nginx'
+    'HTTP_COOKIE' => 'advanced-frontend=achgqposj5il3u5f4eutcquch7; _csrf-frontend=f261737737e2df6bf756e6d74ca88d247a113076fad82f8bff39f2053100de07a%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%22%1E%F6%07%09.%F5%CCH%C1%40%10d%EC%EB%A3%99%3Co%B8oY%09%0A%AA%D0I%F2%A7b%AE%A4%B8%22%3B%7D; _csrf-backend=36381f5ae96bc39fbf7739a0aeddcba29158bd8688092ae71e7defb18b40d2d6a%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_csrf-backend%22%3Bi%3A1%3Bs%3A32%3A%22%01%85%86q%3B%D5%21%E0%C2%2C%EFZ%BC%BFi%7DK%2Bl%5C%17%BE%0D%D3%5C%98H%EB%0E%AB%19%8F%22%3B%7D; PHPSESSID=f2srbgljitd8qakvm92jm8eoh0; _identity-backend=4ff4ad264e3c9d7fe4c230e3570c87c1cae912a0bed12123b80c0c13222b491ca%3A2%3A%7Bi%3A0%3Bs%3A17%3A%22_identity-backend%22%3Bi%3A1%3Bs%3A46%3A%22%5B1%2C%22SbSY36BLw3V2lU-GB7ZAzCVJKDFx82IJ%22%2C2592000%5D%22%3B%7D'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_REFERER' => 'http://admin.xkkb.com/product/index'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_CACHE_CONTROL' => 'no-cache'
+    'HTTP_PRAGMA' => 'no-cache'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_HOST' => 'admin.xkkb.com'
+    'REDIRECT_STATUS' => '200'
+    'SERVER_NAME' => 'admin.xkkb.com'
+    'SERVER_PORT' => '80'
+    'SERVER_ADDR' => '192.168.1.44'
+    'REMOTE_PORT' => '51373'
+    'REMOTE_ADDR' => '192.168.1.102'
+    'SERVER_SOFTWARE' => 'nginx/1.10.3'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REQUEST_SCHEME' => 'http'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'DOCUMENT_ROOT' => '/var/www/xkkb_admin'
+    'DOCUMENT_URI' => '/admin.php'
+    'REQUEST_URI' => '/product/index'
+    'SCRIPT_NAME' => '/admin.php'
+    'CONTENT_LENGTH' => ''
+    'CONTENT_TYPE' => ''
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'SCRIPT_FILENAME' => '/var/www/xkkb_admin/admin.php'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/admin.php'
+    'REQUEST_TIME_FLOAT' => 1502203183.7358
+    'REQUEST_TIME' => 1502203183
+]
+2017-08-08 22:39:53 [192.168.1.102][1][-][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 192.168.1.102
+    in /var/www/xkkb_admin/statics/themes/admin/views/layouts/main.php:178
+    in /var/www/xkkb_admin/backend/controllers/ProductController.php:23
+2017-08-08 22:39:53 [192.168.1.102][1][-][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 192.168.1.102
+2017-08-08 22:39:52 [192.168.1.102][1][-][info][application] $_GET = [
+    'stype' => '19'
+]
+
+$_COOKIE = [
+    'advanced-frontend' => 'achgqposj5il3u5f4eutcquch7'
+    '_csrf-frontend' => 'f261737737e2df6bf756e6d74ca88d247a113076fad82f8bff39f2053100de07a:2:{i:0;s:14:\"_csrf-frontend\";i:1;s:32:\"ö	.õÌHÁ@dìë£™<o¸oY	
+ªÐIò§b®¤¸\";}'
+    '_csrf-backend' => '36381f5ae96bc39fbf7739a0aeddcba29158bd8688092ae71e7defb18b40d2d6a:2:{i:0;s:13:\"_csrf-backend\";i:1;s:32:\"…†q;Õ!àÂ,ïZ¼¿i}K+l\\¾Ó\\˜Hë«\";}'
+    'PHPSESSID' => 'f2srbgljitd8qakvm92jm8eoh0'
+    '_identity-backend' => '4ff4ad264e3c9d7fe4c230e3570c87c1cae912a0bed12123b80c0c13222b491ca:2:{i:0;s:17:\"_identity-backend\";i:1;s:46:\"[1,\"SbSY36BLw3V2lU-GB7ZAzCVJKDFx82IJ\",2592000]\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__id' => 1
+]
+
+$_SERVER = [
+    'USER' => 'nginx'
+    'HOME' => '/var/lib/nginx'
+    'HTTP_COOKIE' => 'advanced-frontend=achgqposj5il3u5f4eutcquch7; _csrf-frontend=f261737737e2df6bf756e6d74ca88d247a113076fad82f8bff39f2053100de07a%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%22%1E%F6%07%09.%F5%CCH%C1%40%10d%EC%EB%A3%99%3Co%B8oY%09%0A%AA%D0I%F2%A7b%AE%A4%B8%22%3B%7D; _csrf-backend=36381f5ae96bc39fbf7739a0aeddcba29158bd8688092ae71e7defb18b40d2d6a%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_csrf-backend%22%3Bi%3A1%3Bs%3A32%3A%22%01%85%86q%3B%D5%21%E0%C2%2C%EFZ%BC%BFi%7DK%2Bl%5C%17%BE%0D%D3%5C%98H%EB%0E%AB%19%8F%22%3B%7D; PHPSESSID=f2srbgljitd8qakvm92jm8eoh0; _identity-backend=4ff4ad264e3c9d7fe4c230e3570c87c1cae912a0bed12123b80c0c13222b491ca%3A2%3A%7Bi%3A0%3Bs%3A17%3A%22_identity-backend%22%3Bi%3A1%3Bs%3A46%3A%22%5B1%2C%22SbSY36BLw3V2lU-GB7ZAzCVJKDFx82IJ%22%2C2592000%5D%22%3B%7D'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_REFERER' => 'http://admin.xkkb.com/product/index'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_CACHE_CONTROL' => 'no-cache'
+    'HTTP_PRAGMA' => 'no-cache'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_HOST' => 'admin.xkkb.com'
+    'REDIRECT_STATUS' => '200'
+    'SERVER_NAME' => 'admin.xkkb.com'
+    'SERVER_PORT' => '80'
+    'SERVER_ADDR' => '192.168.1.44'
+    'REMOTE_PORT' => '51377'
+    'REMOTE_ADDR' => '192.168.1.102'
+    'SERVER_SOFTWARE' => 'nginx/1.10.3'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REQUEST_SCHEME' => 'http'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'DOCUMENT_ROOT' => '/var/www/xkkb_admin'
+    'DOCUMENT_URI' => '/admin.php'
+    'REQUEST_URI' => '/product/index?stype=19'
+    'SCRIPT_NAME' => '/admin.php'
+    'CONTENT_LENGTH' => ''
+    'CONTENT_TYPE' => ''
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'stype=19'
+    'SCRIPT_FILENAME' => '/var/www/xkkb_admin/admin.php'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/admin.php'
+    'REQUEST_TIME_FLOAT' => 1502203192.9494
+    'REQUEST_TIME' => 1502203192
+]
+2017-08-08 22:40:06 [192.168.1.102][1][-][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 192.168.1.102
+    in /var/www/xkkb_admin/statics/themes/admin/views/layouts/main.php:178
+    in /var/www/xkkb_admin/backend/controllers/ProductController.php:23
+2017-08-08 22:40:06 [192.168.1.102][1][-][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 192.168.1.102
+2017-08-08 22:40:06 [192.168.1.102][1][-][info][application] $_GET = [
+    'stype' => '19'
+]
+
+$_COOKIE = [
+    'advanced-frontend' => 'achgqposj5il3u5f4eutcquch7'
+    '_csrf-frontend' => 'f261737737e2df6bf756e6d74ca88d247a113076fad82f8bff39f2053100de07a:2:{i:0;s:14:\"_csrf-frontend\";i:1;s:32:\"ö	.õÌHÁ@dìë£™<o¸oY	
+ªÐIò§b®¤¸\";}'
+    '_csrf-backend' => '36381f5ae96bc39fbf7739a0aeddcba29158bd8688092ae71e7defb18b40d2d6a:2:{i:0;s:13:\"_csrf-backend\";i:1;s:32:\"…†q;Õ!àÂ,ïZ¼¿i}K+l\\¾Ó\\˜Hë«\";}'
+    'PHPSESSID' => 'f2srbgljitd8qakvm92jm8eoh0'
+    '_identity-backend' => '4ff4ad264e3c9d7fe4c230e3570c87c1cae912a0bed12123b80c0c13222b491ca:2:{i:0;s:17:\"_identity-backend\";i:1;s:46:\"[1,\"SbSY36BLw3V2lU-GB7ZAzCVJKDFx82IJ\",2592000]\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__id' => 1
+]
+
+$_SERVER = [
+    'USER' => 'nginx'
+    'HOME' => '/var/lib/nginx'
+    'HTTP_COOKIE' => 'advanced-frontend=achgqposj5il3u5f4eutcquch7; _csrf-frontend=f261737737e2df6bf756e6d74ca88d247a113076fad82f8bff39f2053100de07a%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%22%1E%F6%07%09.%F5%CCH%C1%40%10d%EC%EB%A3%99%3Co%B8oY%09%0A%AA%D0I%F2%A7b%AE%A4%B8%22%3B%7D; _csrf-backend=36381f5ae96bc39fbf7739a0aeddcba29158bd8688092ae71e7defb18b40d2d6a%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_csrf-backend%22%3Bi%3A1%3Bs%3A32%3A%22%01%85%86q%3B%D5%21%E0%C2%2C%EFZ%BC%BFi%7DK%2Bl%5C%17%BE%0D%D3%5C%98H%EB%0E%AB%19%8F%22%3B%7D; PHPSESSID=f2srbgljitd8qakvm92jm8eoh0; _identity-backend=4ff4ad264e3c9d7fe4c230e3570c87c1cae912a0bed12123b80c0c13222b491ca%3A2%3A%7Bi%3A0%3Bs%3A17%3A%22_identity-backend%22%3Bi%3A1%3Bs%3A46%3A%22%5B1%2C%22SbSY36BLw3V2lU-GB7ZAzCVJKDFx82IJ%22%2C2592000%5D%22%3B%7D'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_REFERER' => 'http://admin.xkkb.com/product/index?stype=19'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_CACHE_CONTROL' => 'no-cache'
+    'HTTP_PRAGMA' => 'no-cache'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_HOST' => 'admin.xkkb.com'
+    'REDIRECT_STATUS' => '200'
+    'SERVER_NAME' => 'admin.xkkb.com'
+    'SERVER_PORT' => '80'
+    'SERVER_ADDR' => '192.168.1.44'
+    'REMOTE_PORT' => '51375'
+    'REMOTE_ADDR' => '192.168.1.102'
+    'SERVER_SOFTWARE' => 'nginx/1.10.3'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REQUEST_SCHEME' => 'http'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'DOCUMENT_ROOT' => '/var/www/xkkb_admin'
+    'DOCUMENT_URI' => '/admin.php'
+    'REQUEST_URI' => '/product/index?stype=19'
+    'SCRIPT_NAME' => '/admin.php'
+    'CONTENT_LENGTH' => ''
+    'CONTENT_TYPE' => ''
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'stype=19'
+    'SCRIPT_FILENAME' => '/var/www/xkkb_admin/admin.php'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/admin.php'
+    'REQUEST_TIME_FLOAT' => 1502203206.0208
+    'REQUEST_TIME' => 1502203206
+]
+2017-08-08 22:40:42 [192.168.1.102][1][-][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 192.168.1.102
+    in /var/www/xkkb_admin/statics/themes/admin/views/layouts/main.php:178
+    in /var/www/xkkb_admin/backend/controllers/ProductController.php:23
+2017-08-08 22:40:42 [192.168.1.102][1][-][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 192.168.1.102
+2017-08-08 22:40:42 [192.168.1.102][1][-][info][application] $_GET = [
+    'stype' => '19'
+]
+
+$_COOKIE = [
+    'advanced-frontend' => 'achgqposj5il3u5f4eutcquch7'
+    '_csrf-frontend' => 'f261737737e2df6bf756e6d74ca88d247a113076fad82f8bff39f2053100de07a:2:{i:0;s:14:\"_csrf-frontend\";i:1;s:32:\"ö	.õÌHÁ@dìë£™<o¸oY	
+ªÐIò§b®¤¸\";}'
+    '_csrf-backend' => '36381f5ae96bc39fbf7739a0aeddcba29158bd8688092ae71e7defb18b40d2d6a:2:{i:0;s:13:\"_csrf-backend\";i:1;s:32:\"…†q;Õ!àÂ,ïZ¼¿i}K+l\\¾Ó\\˜Hë«\";}'
+    'PHPSESSID' => 'f2srbgljitd8qakvm92jm8eoh0'
+    '_identity-backend' => '4ff4ad264e3c9d7fe4c230e3570c87c1cae912a0bed12123b80c0c13222b491ca:2:{i:0;s:17:\"_identity-backend\";i:1;s:46:\"[1,\"SbSY36BLw3V2lU-GB7ZAzCVJKDFx82IJ\",2592000]\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__id' => 1
+]
+
+$_SERVER = [
+    'USER' => 'nginx'
+    'HOME' => '/var/lib/nginx'
+    'HTTP_COOKIE' => 'advanced-frontend=achgqposj5il3u5f4eutcquch7; _csrf-frontend=f261737737e2df6bf756e6d74ca88d247a113076fad82f8bff39f2053100de07a%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%22%1E%F6%07%09.%F5%CCH%C1%40%10d%EC%EB%A3%99%3Co%B8oY%09%0A%AA%D0I%F2%A7b%AE%A4%B8%22%3B%7D; _csrf-backend=36381f5ae96bc39fbf7739a0aeddcba29158bd8688092ae71e7defb18b40d2d6a%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_csrf-backend%22%3Bi%3A1%3Bs%3A32%3A%22%01%85%86q%3B%D5%21%E0%C2%2C%EFZ%BC%BFi%7DK%2Bl%5C%17%BE%0D%D3%5C%98H%EB%0E%AB%19%8F%22%3B%7D; PHPSESSID=f2srbgljitd8qakvm92jm8eoh0; _identity-backend=4ff4ad264e3c9d7fe4c230e3570c87c1cae912a0bed12123b80c0c13222b491ca%3A2%3A%7Bi%3A0%3Bs%3A17%3A%22_identity-backend%22%3Bi%3A1%3Bs%3A46%3A%22%5B1%2C%22SbSY36BLw3V2lU-GB7ZAzCVJKDFx82IJ%22%2C2592000%5D%22%3B%7D'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_REFERER' => 'http://admin.xkkb.com/product/index?stype=19'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_CACHE_CONTROL' => 'no-cache'
+    'HTTP_PRAGMA' => 'no-cache'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_HOST' => 'admin.xkkb.com'
+    'REDIRECT_STATUS' => '200'
+    'SERVER_NAME' => 'admin.xkkb.com'
+    'SERVER_PORT' => '80'
+    'SERVER_ADDR' => '192.168.1.44'
+    'REMOTE_PORT' => '51374'
+    'REMOTE_ADDR' => '192.168.1.102'
+    'SERVER_SOFTWARE' => 'nginx/1.10.3'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REQUEST_SCHEME' => 'http'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'DOCUMENT_ROOT' => '/var/www/xkkb_admin'
+    'DOCUMENT_URI' => '/admin.php'
+    'REQUEST_URI' => '/product/index?stype=19'
+    'SCRIPT_NAME' => '/admin.php'
+    'CONTENT_LENGTH' => ''
+    'CONTENT_TYPE' => ''
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'stype=19'
+    'SCRIPT_FILENAME' => '/var/www/xkkb_admin/admin.php'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/admin.php'
+    'REQUEST_TIME_FLOAT' => 1502203242.3096
+    'REQUEST_TIME' => 1502203242
+]
+2017-08-08 22:41:19 [192.168.1.102][1][-][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 192.168.1.102
+    in /var/www/xkkb_admin/statics/themes/admin/views/layouts/main.php:178
+    in /var/www/xkkb_admin/backend/controllers/ProductController.php:23
+2017-08-08 22:41:19 [192.168.1.102][1][-][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 192.168.1.102
+2017-08-08 22:41:19 [192.168.1.102][1][-][info][application] $_GET = [
+    'stype' => '19'
+]
+
+$_COOKIE = [
+    'advanced-frontend' => 'achgqposj5il3u5f4eutcquch7'
+    '_csrf-frontend' => 'f261737737e2df6bf756e6d74ca88d247a113076fad82f8bff39f2053100de07a:2:{i:0;s:14:\"_csrf-frontend\";i:1;s:32:\"ö	.õÌHÁ@dìë£™<o¸oY	
+ªÐIò§b®¤¸\";}'
+    '_csrf-backend' => '36381f5ae96bc39fbf7739a0aeddcba29158bd8688092ae71e7defb18b40d2d6a:2:{i:0;s:13:\"_csrf-backend\";i:1;s:32:\"…†q;Õ!àÂ,ïZ¼¿i}K+l\\¾Ó\\˜Hë«\";}'
+    'PHPSESSID' => 'f2srbgljitd8qakvm92jm8eoh0'
+    '_identity-backend' => '4ff4ad264e3c9d7fe4c230e3570c87c1cae912a0bed12123b80c0c13222b491ca:2:{i:0;s:17:\"_identity-backend\";i:1;s:46:\"[1,\"SbSY36BLw3V2lU-GB7ZAzCVJKDFx82IJ\",2592000]\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__id' => 1
+]
+
+$_SERVER = [
+    'USER' => 'nginx'
+    'HOME' => '/var/lib/nginx'
+    'HTTP_COOKIE' => 'advanced-frontend=achgqposj5il3u5f4eutcquch7; _csrf-frontend=f261737737e2df6bf756e6d74ca88d247a113076fad82f8bff39f2053100de07a%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%22%1E%F6%07%09.%F5%CCH%C1%40%10d%EC%EB%A3%99%3Co%B8oY%09%0A%AA%D0I%F2%A7b%AE%A4%B8%22%3B%7D; _csrf-backend=36381f5ae96bc39fbf7739a0aeddcba29158bd8688092ae71e7defb18b40d2d6a%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_csrf-backend%22%3Bi%3A1%3Bs%3A32%3A%22%01%85%86q%3B%D5%21%E0%C2%2C%EFZ%BC%BFi%7DK%2Bl%5C%17%BE%0D%D3%5C%98H%EB%0E%AB%19%8F%22%3B%7D; PHPSESSID=f2srbgljitd8qakvm92jm8eoh0; _identity-backend=4ff4ad264e3c9d7fe4c230e3570c87c1cae912a0bed12123b80c0c13222b491ca%3A2%3A%7Bi%3A0%3Bs%3A17%3A%22_identity-backend%22%3Bi%3A1%3Bs%3A46%3A%22%5B1%2C%22SbSY36BLw3V2lU-GB7ZAzCVJKDFx82IJ%22%2C2592000%5D%22%3B%7D'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_REFERER' => 'http://admin.xkkb.com/product/index?stype=19'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_HOST' => 'admin.xkkb.com'
+    'REDIRECT_STATUS' => '200'
+    'SERVER_NAME' => 'admin.xkkb.com'
+    'SERVER_PORT' => '80'
+    'SERVER_ADDR' => '192.168.1.44'
+    'REMOTE_PORT' => '51536'
+    'REMOTE_ADDR' => '192.168.1.102'
+    'SERVER_SOFTWARE' => 'nginx/1.10.3'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REQUEST_SCHEME' => 'http'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'DOCUMENT_ROOT' => '/var/www/xkkb_admin'
+    'DOCUMENT_URI' => '/admin.php'
+    'REQUEST_URI' => '/product/index?stype=19'
+    'SCRIPT_NAME' => '/admin.php'
+    'CONTENT_LENGTH' => ''
+    'CONTENT_TYPE' => ''
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'stype=19'
+    'SCRIPT_FILENAME' => '/var/www/xkkb_admin/admin.php'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/admin.php'
+    'REQUEST_TIME_FLOAT' => 1502203279.2155
+    'REQUEST_TIME' => 1502203279
+]
+2017-08-08 22:42:07 [192.168.1.102][1][-][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 192.168.1.102
+    in /var/www/xkkb_admin/statics/themes/admin/views/layouts/main.php:178
+    in /var/www/xkkb_admin/backend/controllers/ProductController.php:23
+2017-08-08 22:42:07 [192.168.1.102][1][-][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 192.168.1.102
+2017-08-08 22:42:07 [192.168.1.102][1][-][info][application] $_GET = [
+    'stype' => '19'
+]
+
+$_COOKIE = [
+    'advanced-frontend' => 'achgqposj5il3u5f4eutcquch7'
+    '_csrf-frontend' => 'f261737737e2df6bf756e6d74ca88d247a113076fad82f8bff39f2053100de07a:2:{i:0;s:14:\"_csrf-frontend\";i:1;s:32:\"ö	.õÌHÁ@dìë£™<o¸oY	
+ªÐIò§b®¤¸\";}'
+    '_csrf-backend' => '36381f5ae96bc39fbf7739a0aeddcba29158bd8688092ae71e7defb18b40d2d6a:2:{i:0;s:13:\"_csrf-backend\";i:1;s:32:\"…†q;Õ!àÂ,ïZ¼¿i}K+l\\¾Ó\\˜Hë«\";}'
+    'PHPSESSID' => 'f2srbgljitd8qakvm92jm8eoh0'
+    '_identity-backend' => '4ff4ad264e3c9d7fe4c230e3570c87c1cae912a0bed12123b80c0c13222b491ca:2:{i:0;s:17:\"_identity-backend\";i:1;s:46:\"[1,\"SbSY36BLw3V2lU-GB7ZAzCVJKDFx82IJ\",2592000]\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__id' => 1
+]
+
+$_SERVER = [
+    'USER' => 'nginx'
+    'HOME' => '/var/lib/nginx'
+    'HTTP_COOKIE' => 'advanced-frontend=achgqposj5il3u5f4eutcquch7; _csrf-frontend=f261737737e2df6bf756e6d74ca88d247a113076fad82f8bff39f2053100de07a%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%22%1E%F6%07%09.%F5%CCH%C1%40%10d%EC%EB%A3%99%3Co%B8oY%09%0A%AA%D0I%F2%A7b%AE%A4%B8%22%3B%7D; _csrf-backend=36381f5ae96bc39fbf7739a0aeddcba29158bd8688092ae71e7defb18b40d2d6a%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_csrf-backend%22%3Bi%3A1%3Bs%3A32%3A%22%01%85%86q%3B%D5%21%E0%C2%2C%EFZ%BC%BFi%7DK%2Bl%5C%17%BE%0D%D3%5C%98H%EB%0E%AB%19%8F%22%3B%7D; PHPSESSID=f2srbgljitd8qakvm92jm8eoh0; _identity-backend=4ff4ad264e3c9d7fe4c230e3570c87c1cae912a0bed12123b80c0c13222b491ca%3A2%3A%7Bi%3A0%3Bs%3A17%3A%22_identity-backend%22%3Bi%3A1%3Bs%3A46%3A%22%5B1%2C%22SbSY36BLw3V2lU-GB7ZAzCVJKDFx82IJ%22%2C2592000%5D%22%3B%7D'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_REFERER' => 'http://admin.xkkb.com/product/index?stype=19'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_HOST' => 'admin.xkkb.com'
+    'REDIRECT_STATUS' => '200'
+    'SERVER_NAME' => 'admin.xkkb.com'
+    'SERVER_PORT' => '80'
+    'SERVER_ADDR' => '192.168.1.44'
+    'REMOTE_PORT' => '51643'
+    'REMOTE_ADDR' => '192.168.1.102'
+    'SERVER_SOFTWARE' => 'nginx/1.10.3'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REQUEST_SCHEME' => 'http'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'DOCUMENT_ROOT' => '/var/www/xkkb_admin'
+    'DOCUMENT_URI' => '/admin.php'
+    'REQUEST_URI' => '/product/index?stype=19'
+    'SCRIPT_NAME' => '/admin.php'
+    'CONTENT_LENGTH' => ''
+    'CONTENT_TYPE' => ''
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'stype=19'
+    'SCRIPT_FILENAME' => '/var/www/xkkb_admin/admin.php'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/admin.php'
+    'REQUEST_TIME_FLOAT' => 1502203327.1426
+    'REQUEST_TIME' => 1502203327
+]
+2017-08-08 22:42:13 [192.168.1.102][1][-][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 192.168.1.102
+    in /var/www/xkkb_admin/statics/themes/admin/views/layouts/main.php:178
+    in /var/www/xkkb_admin/backend/controllers/ProductController.php:23
+2017-08-08 22:42:13 [192.168.1.102][1][-][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 192.168.1.102
+2017-08-08 22:42:13 [192.168.1.102][1][-][info][application] $_GET = [
+    'stype' => '20'
+]
+
+$_COOKIE = [
+    'advanced-frontend' => 'achgqposj5il3u5f4eutcquch7'
+    '_csrf-frontend' => 'f261737737e2df6bf756e6d74ca88d247a113076fad82f8bff39f2053100de07a:2:{i:0;s:14:\"_csrf-frontend\";i:1;s:32:\"ö	.õÌHÁ@dìë£™<o¸oY	
+ªÐIò§b®¤¸\";}'
+    '_csrf-backend' => '36381f5ae96bc39fbf7739a0aeddcba29158bd8688092ae71e7defb18b40d2d6a:2:{i:0;s:13:\"_csrf-backend\";i:1;s:32:\"…†q;Õ!àÂ,ïZ¼¿i}K+l\\¾Ó\\˜Hë«\";}'
+    'PHPSESSID' => 'f2srbgljitd8qakvm92jm8eoh0'
+    '_identity-backend' => '4ff4ad264e3c9d7fe4c230e3570c87c1cae912a0bed12123b80c0c13222b491ca:2:{i:0;s:17:\"_identity-backend\";i:1;s:46:\"[1,\"SbSY36BLw3V2lU-GB7ZAzCVJKDFx82IJ\",2592000]\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__id' => 1
+]
+
+$_SERVER = [
+    'USER' => 'nginx'
+    'HOME' => '/var/lib/nginx'
+    'HTTP_COOKIE' => 'advanced-frontend=achgqposj5il3u5f4eutcquch7; _csrf-frontend=f261737737e2df6bf756e6d74ca88d247a113076fad82f8bff39f2053100de07a%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%22%1E%F6%07%09.%F5%CCH%C1%40%10d%EC%EB%A3%99%3Co%B8oY%09%0A%AA%D0I%F2%A7b%AE%A4%B8%22%3B%7D; _csrf-backend=36381f5ae96bc39fbf7739a0aeddcba29158bd8688092ae71e7defb18b40d2d6a%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_csrf-backend%22%3Bi%3A1%3Bs%3A32%3A%22%01%85%86q%3B%D5%21%E0%C2%2C%EFZ%BC%BFi%7DK%2Bl%5C%17%BE%0D%D3%5C%98H%EB%0E%AB%19%8F%22%3B%7D; PHPSESSID=f2srbgljitd8qakvm92jm8eoh0; _identity-backend=4ff4ad264e3c9d7fe4c230e3570c87c1cae912a0bed12123b80c0c13222b491ca%3A2%3A%7Bi%3A0%3Bs%3A17%3A%22_identity-backend%22%3Bi%3A1%3Bs%3A46%3A%22%5B1%2C%22SbSY36BLw3V2lU-GB7ZAzCVJKDFx82IJ%22%2C2592000%5D%22%3B%7D'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_REFERER' => 'http://admin.xkkb.com/product/index?stype=19'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_HOST' => 'admin.xkkb.com'
+    'REDIRECT_STATUS' => '200'
+    'SERVER_NAME' => 'admin.xkkb.com'
+    'SERVER_PORT' => '80'
+    'SERVER_ADDR' => '192.168.1.44'
+    'REMOTE_PORT' => '51643'
+    'REMOTE_ADDR' => '192.168.1.102'
+    'SERVER_SOFTWARE' => 'nginx/1.10.3'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REQUEST_SCHEME' => 'http'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'DOCUMENT_ROOT' => '/var/www/xkkb_admin'
+    'DOCUMENT_URI' => '/admin.php'
+    'REQUEST_URI' => '/product/index?stype=20'
+    'SCRIPT_NAME' => '/admin.php'
+    'CONTENT_LENGTH' => ''
+    'CONTENT_TYPE' => ''
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'stype=20'
+    'SCRIPT_FILENAME' => '/var/www/xkkb_admin/admin.php'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/admin.php'
+    'REQUEST_TIME_FLOAT' => 1502203333.6495
+    'REQUEST_TIME' => 1502203333
+]
+2017-08-08 22:42:55 [192.168.1.102][1][-][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 192.168.1.102
+    in /var/www/xkkb_admin/statics/themes/admin/views/layouts/main.php:178
+    in /var/www/xkkb_admin/backend/controllers/ProductController.php:23
+2017-08-08 22:42:55 [192.168.1.102][1][-][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 192.168.1.102
+2017-08-08 22:42:54 [192.168.1.102][1][-][info][application] $_GET = [
+    'stype' => '20'
+]
+
+$_COOKIE = [
+    'advanced-frontend' => 'achgqposj5il3u5f4eutcquch7'
+    '_csrf-frontend' => 'f261737737e2df6bf756e6d74ca88d247a113076fad82f8bff39f2053100de07a:2:{i:0;s:14:\"_csrf-frontend\";i:1;s:32:\"ö	.õÌHÁ@dìë£™<o¸oY	
+ªÐIò§b®¤¸\";}'
+    '_csrf-backend' => '36381f5ae96bc39fbf7739a0aeddcba29158bd8688092ae71e7defb18b40d2d6a:2:{i:0;s:13:\"_csrf-backend\";i:1;s:32:\"…†q;Õ!àÂ,ïZ¼¿i}K+l\\¾Ó\\˜Hë«\";}'
+    'PHPSESSID' => 'f2srbgljitd8qakvm92jm8eoh0'
+    '_identity-backend' => '4ff4ad264e3c9d7fe4c230e3570c87c1cae912a0bed12123b80c0c13222b491ca:2:{i:0;s:17:\"_identity-backend\";i:1;s:46:\"[1,\"SbSY36BLw3V2lU-GB7ZAzCVJKDFx82IJ\",2592000]\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__id' => 1
+]
+
+$_SERVER = [
+    'USER' => 'nginx'
+    'HOME' => '/var/lib/nginx'
+    'HTTP_COOKIE' => 'advanced-frontend=achgqposj5il3u5f4eutcquch7; _csrf-frontend=f261737737e2df6bf756e6d74ca88d247a113076fad82f8bff39f2053100de07a%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%22%1E%F6%07%09.%F5%CCH%C1%40%10d%EC%EB%A3%99%3Co%B8oY%09%0A%AA%D0I%F2%A7b%AE%A4%B8%22%3B%7D; _csrf-backend=36381f5ae96bc39fbf7739a0aeddcba29158bd8688092ae71e7defb18b40d2d6a%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_csrf-backend%22%3Bi%3A1%3Bs%3A32%3A%22%01%85%86q%3B%D5%21%E0%C2%2C%EFZ%BC%BFi%7DK%2Bl%5C%17%BE%0D%D3%5C%98H%EB%0E%AB%19%8F%22%3B%7D; PHPSESSID=f2srbgljitd8qakvm92jm8eoh0; _identity-backend=4ff4ad264e3c9d7fe4c230e3570c87c1cae912a0bed12123b80c0c13222b491ca%3A2%3A%7Bi%3A0%3Bs%3A17%3A%22_identity-backend%22%3Bi%3A1%3Bs%3A46%3A%22%5B1%2C%22SbSY36BLw3V2lU-GB7ZAzCVJKDFx82IJ%22%2C2592000%5D%22%3B%7D'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_REFERER' => 'http://admin.xkkb.com/product/index?stype=20'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_HOST' => 'admin.xkkb.com'
+    'REDIRECT_STATUS' => '200'
+    'SERVER_NAME' => 'admin.xkkb.com'
+    'SERVER_PORT' => '80'
+    'SERVER_ADDR' => '192.168.1.44'
+    'REMOTE_PORT' => '51643'
+    'REMOTE_ADDR' => '192.168.1.102'
+    'SERVER_SOFTWARE' => 'nginx/1.10.3'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REQUEST_SCHEME' => 'http'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'DOCUMENT_ROOT' => '/var/www/xkkb_admin'
+    'DOCUMENT_URI' => '/admin.php'
+    'REQUEST_URI' => '/product/index?stype=20'
+    'SCRIPT_NAME' => '/admin.php'
+    'CONTENT_LENGTH' => ''
+    'CONTENT_TYPE' => ''
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'stype=20'
+    'SCRIPT_FILENAME' => '/var/www/xkkb_admin/admin.php'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/admin.php'
+    'REQUEST_TIME_FLOAT' => 1502203374.9116
+    'REQUEST_TIME' => 1502203374
+]
+2017-08-08 22:43:40 [192.168.1.102][1][-][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 192.168.1.102
+    in /var/www/xkkb_admin/statics/themes/admin/views/layouts/main.php:178
+    in /var/www/xkkb_admin/backend/controllers/ProductController.php:23
+2017-08-08 22:43:40 [192.168.1.102][1][-][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 192.168.1.102
+2017-08-08 22:43:40 [192.168.1.102][1][-][info][application] $_GET = [
+    'stype' => '20'
+]
+
+$_COOKIE = [
+    'advanced-frontend' => 'achgqposj5il3u5f4eutcquch7'
+    '_csrf-frontend' => 'f261737737e2df6bf756e6d74ca88d247a113076fad82f8bff39f2053100de07a:2:{i:0;s:14:\"_csrf-frontend\";i:1;s:32:\"ö	.õÌHÁ@dìë£™<o¸oY	
+ªÐIò§b®¤¸\";}'
+    '_csrf-backend' => '36381f5ae96bc39fbf7739a0aeddcba29158bd8688092ae71e7defb18b40d2d6a:2:{i:0;s:13:\"_csrf-backend\";i:1;s:32:\"…†q;Õ!àÂ,ïZ¼¿i}K+l\\¾Ó\\˜Hë«\";}'
+    'PHPSESSID' => 'f2srbgljitd8qakvm92jm8eoh0'
+    '_identity-backend' => '4ff4ad264e3c9d7fe4c230e3570c87c1cae912a0bed12123b80c0c13222b491ca:2:{i:0;s:17:\"_identity-backend\";i:1;s:46:\"[1,\"SbSY36BLw3V2lU-GB7ZAzCVJKDFx82IJ\",2592000]\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__id' => 1
+]
+
+$_SERVER = [
+    'USER' => 'nginx'
+    'HOME' => '/var/lib/nginx'
+    'HTTP_COOKIE' => 'advanced-frontend=achgqposj5il3u5f4eutcquch7; _csrf-frontend=f261737737e2df6bf756e6d74ca88d247a113076fad82f8bff39f2053100de07a%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%22%1E%F6%07%09.%F5%CCH%C1%40%10d%EC%EB%A3%99%3Co%B8oY%09%0A%AA%D0I%F2%A7b%AE%A4%B8%22%3B%7D; _csrf-backend=36381f5ae96bc39fbf7739a0aeddcba29158bd8688092ae71e7defb18b40d2d6a%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_csrf-backend%22%3Bi%3A1%3Bs%3A32%3A%22%01%85%86q%3B%D5%21%E0%C2%2C%EFZ%BC%BFi%7DK%2Bl%5C%17%BE%0D%D3%5C%98H%EB%0E%AB%19%8F%22%3B%7D; PHPSESSID=f2srbgljitd8qakvm92jm8eoh0; _identity-backend=4ff4ad264e3c9d7fe4c230e3570c87c1cae912a0bed12123b80c0c13222b491ca%3A2%3A%7Bi%3A0%3Bs%3A17%3A%22_identity-backend%22%3Bi%3A1%3Bs%3A46%3A%22%5B1%2C%22SbSY36BLw3V2lU-GB7ZAzCVJKDFx82IJ%22%2C2592000%5D%22%3B%7D'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_REFERER' => 'http://admin.xkkb.com/product/index?stype=20'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_HOST' => 'admin.xkkb.com'
+    'REDIRECT_STATUS' => '200'
+    'SERVER_NAME' => 'admin.xkkb.com'
+    'SERVER_PORT' => '80'
+    'SERVER_ADDR' => '192.168.1.44'
+    'REMOTE_PORT' => '51643'
+    'REMOTE_ADDR' => '192.168.1.102'
+    'SERVER_SOFTWARE' => 'nginx/1.10.3'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REQUEST_SCHEME' => 'http'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'DOCUMENT_ROOT' => '/var/www/xkkb_admin'
+    'DOCUMENT_URI' => '/admin.php'
+    'REQUEST_URI' => '/product/index?stype=20'
+    'SCRIPT_NAME' => '/admin.php'
+    'CONTENT_LENGTH' => ''
+    'CONTENT_TYPE' => ''
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'stype=20'
+    'SCRIPT_FILENAME' => '/var/www/xkkb_admin/admin.php'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/admin.php'
+    'REQUEST_TIME_FLOAT' => 1502203420.2503
+    'REQUEST_TIME' => 1502203420
+]
+2017-08-08 22:43:54 [192.168.1.102][1][-][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 192.168.1.102
+    in /var/www/xkkb_admin/statics/themes/admin/views/layouts/main.php:178
+    in /var/www/xkkb_admin/backend/controllers/ProductController.php:23
+2017-08-08 22:43:54 [192.168.1.102][1][-][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 192.168.1.102
+2017-08-08 22:43:54 [192.168.1.102][1][-][info][application] $_GET = [
+    'stype' => '0'
+]
+
+$_COOKIE = [
+    'advanced-frontend' => 'achgqposj5il3u5f4eutcquch7'
+    '_csrf-frontend' => 'f261737737e2df6bf756e6d74ca88d247a113076fad82f8bff39f2053100de07a:2:{i:0;s:14:\"_csrf-frontend\";i:1;s:32:\"ö	.õÌHÁ@dìë£™<o¸oY	
+ªÐIò§b®¤¸\";}'
+    '_csrf-backend' => '36381f5ae96bc39fbf7739a0aeddcba29158bd8688092ae71e7defb18b40d2d6a:2:{i:0;s:13:\"_csrf-backend\";i:1;s:32:\"…†q;Õ!àÂ,ïZ¼¿i}K+l\\¾Ó\\˜Hë«\";}'
+    'PHPSESSID' => 'f2srbgljitd8qakvm92jm8eoh0'
+    '_identity-backend' => '4ff4ad264e3c9d7fe4c230e3570c87c1cae912a0bed12123b80c0c13222b491ca:2:{i:0;s:17:\"_identity-backend\";i:1;s:46:\"[1,\"SbSY36BLw3V2lU-GB7ZAzCVJKDFx82IJ\",2592000]\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__id' => 1
+]
+
+$_SERVER = [
+    'USER' => 'nginx'
+    'HOME' => '/var/lib/nginx'
+    'HTTP_COOKIE' => 'advanced-frontend=achgqposj5il3u5f4eutcquch7; _csrf-frontend=f261737737e2df6bf756e6d74ca88d247a113076fad82f8bff39f2053100de07a%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%22%1E%F6%07%09.%F5%CCH%C1%40%10d%EC%EB%A3%99%3Co%B8oY%09%0A%AA%D0I%F2%A7b%AE%A4%B8%22%3B%7D; _csrf-backend=36381f5ae96bc39fbf7739a0aeddcba29158bd8688092ae71e7defb18b40d2d6a%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_csrf-backend%22%3Bi%3A1%3Bs%3A32%3A%22%01%85%86q%3B%D5%21%E0%C2%2C%EFZ%BC%BFi%7DK%2Bl%5C%17%BE%0D%D3%5C%98H%EB%0E%AB%19%8F%22%3B%7D; PHPSESSID=f2srbgljitd8qakvm92jm8eoh0; _identity-backend=4ff4ad264e3c9d7fe4c230e3570c87c1cae912a0bed12123b80c0c13222b491ca%3A2%3A%7Bi%3A0%3Bs%3A17%3A%22_identity-backend%22%3Bi%3A1%3Bs%3A46%3A%22%5B1%2C%22SbSY36BLw3V2lU-GB7ZAzCVJKDFx82IJ%22%2C2592000%5D%22%3B%7D'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_REFERER' => 'http://admin.xkkb.com/product/index?stype=20'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_HOST' => 'admin.xkkb.com'
+    'REDIRECT_STATUS' => '200'
+    'SERVER_NAME' => 'admin.xkkb.com'
+    'SERVER_PORT' => '80'
+    'SERVER_ADDR' => '192.168.1.44'
+    'REMOTE_PORT' => '51643'
+    'REMOTE_ADDR' => '192.168.1.102'
+    'SERVER_SOFTWARE' => 'nginx/1.10.3'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REQUEST_SCHEME' => 'http'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'DOCUMENT_ROOT' => '/var/www/xkkb_admin'
+    'DOCUMENT_URI' => '/admin.php'
+    'REQUEST_URI' => '/product/index?stype=0'
+    'SCRIPT_NAME' => '/admin.php'
+    'CONTENT_LENGTH' => ''
+    'CONTENT_TYPE' => ''
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'stype=0'
+    'SCRIPT_FILENAME' => '/var/www/xkkb_admin/admin.php'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/admin.php'
+    'REQUEST_TIME_FLOAT' => 1502203434.5124
+    'REQUEST_TIME' => 1502203434
+]
+2017-08-08 22:46:26 [192.168.1.102][1][-][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 192.168.1.102
+    in /var/www/xkkb_admin/statics/themes/admin/views/layouts/main.php:178
+    in /var/www/xkkb_admin/backend/controllers/ProductController.php:33
+2017-08-08 22:46:26 [192.168.1.102][1][-][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 192.168.1.102
+2017-08-08 22:46:26 [192.168.1.102][1][-][info][application] $_COOKIE = [
+    'advanced-frontend' => 'achgqposj5il3u5f4eutcquch7'
+    '_csrf-frontend' => 'f261737737e2df6bf756e6d74ca88d247a113076fad82f8bff39f2053100de07a:2:{i:0;s:14:\"_csrf-frontend\";i:1;s:32:\"ö	.õÌHÁ@dìë£™<o¸oY	
+ªÐIò§b®¤¸\";}'
+    '_csrf-backend' => '36381f5ae96bc39fbf7739a0aeddcba29158bd8688092ae71e7defb18b40d2d6a:2:{i:0;s:13:\"_csrf-backend\";i:1;s:32:\"…†q;Õ!àÂ,ïZ¼¿i}K+l\\¾Ó\\˜Hë«\";}'
+    'PHPSESSID' => 'f2srbgljitd8qakvm92jm8eoh0'
+    '_identity-backend' => '4ff4ad264e3c9d7fe4c230e3570c87c1cae912a0bed12123b80c0c13222b491ca:2:{i:0;s:17:\"_identity-backend\";i:1;s:46:\"[1,\"SbSY36BLw3V2lU-GB7ZAzCVJKDFx82IJ\",2592000]\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__id' => 1
+]
+
+$_SERVER = [
+    'USER' => 'nginx'
+    'HOME' => '/var/lib/nginx'
+    'HTTP_COOKIE' => 'advanced-frontend=achgqposj5il3u5f4eutcquch7; _csrf-frontend=f261737737e2df6bf756e6d74ca88d247a113076fad82f8bff39f2053100de07a%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%22%1E%F6%07%09.%F5%CCH%C1%40%10d%EC%EB%A3%99%3Co%B8oY%09%0A%AA%D0I%F2%A7b%AE%A4%B8%22%3B%7D; _csrf-backend=36381f5ae96bc39fbf7739a0aeddcba29158bd8688092ae71e7defb18b40d2d6a%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_csrf-backend%22%3Bi%3A1%3Bs%3A32%3A%22%01%85%86q%3B%D5%21%E0%C2%2C%EFZ%BC%BFi%7DK%2Bl%5C%17%BE%0D%D3%5C%98H%EB%0E%AB%19%8F%22%3B%7D; PHPSESSID=f2srbgljitd8qakvm92jm8eoh0; _identity-backend=4ff4ad264e3c9d7fe4c230e3570c87c1cae912a0bed12123b80c0c13222b491ca%3A2%3A%7Bi%3A0%3Bs%3A17%3A%22_identity-backend%22%3Bi%3A1%3Bs%3A46%3A%22%5B1%2C%22SbSY36BLw3V2lU-GB7ZAzCVJKDFx82IJ%22%2C2592000%5D%22%3B%7D'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_REFERER' => 'http://admin.xkkb.com/product/index?stype=0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_HOST' => 'admin.xkkb.com'
+    'REDIRECT_STATUS' => '200'
+    'SERVER_NAME' => 'admin.xkkb.com'
+    'SERVER_PORT' => '80'
+    'SERVER_ADDR' => '192.168.1.44'
+    'REMOTE_PORT' => '52174'
+    'REMOTE_ADDR' => '192.168.1.102'
+    'SERVER_SOFTWARE' => 'nginx/1.10.3'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REQUEST_SCHEME' => 'http'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'DOCUMENT_ROOT' => '/var/www/xkkb_admin'
+    'DOCUMENT_URI' => '/admin.php'
+    'REQUEST_URI' => '/product/sn'
+    'SCRIPT_NAME' => '/admin.php'
+    'CONTENT_LENGTH' => ''
+    'CONTENT_TYPE' => ''
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'SCRIPT_FILENAME' => '/var/www/xkkb_admin/admin.php'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/admin.php'
+    'REQUEST_TIME_FLOAT' => 1502203586.5861
+    'REQUEST_TIME' => 1502203586
+]
+2017-08-08 22:46:31 [192.168.1.102][1][-][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 192.168.1.102
+    in /var/www/xkkb_admin/statics/themes/admin/views/layouts/main.php:178
+    in /var/www/xkkb_admin/backend/controllers/BannerController.php:15
+2017-08-08 22:46:31 [192.168.1.102][1][-][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 192.168.1.102
+2017-08-08 22:46:31 [192.168.1.102][1][-][info][application] $_COOKIE = [
+    'advanced-frontend' => 'achgqposj5il3u5f4eutcquch7'
+    '_csrf-frontend' => 'f261737737e2df6bf756e6d74ca88d247a113076fad82f8bff39f2053100de07a:2:{i:0;s:14:\"_csrf-frontend\";i:1;s:32:\"ö	.õÌHÁ@dìë£™<o¸oY	
+ªÐIò§b®¤¸\";}'
+    '_csrf-backend' => '36381f5ae96bc39fbf7739a0aeddcba29158bd8688092ae71e7defb18b40d2d6a:2:{i:0;s:13:\"_csrf-backend\";i:1;s:32:\"…†q;Õ!àÂ,ïZ¼¿i}K+l\\¾Ó\\˜Hë«\";}'
+    'PHPSESSID' => 'f2srbgljitd8qakvm92jm8eoh0'
+    '_identity-backend' => '4ff4ad264e3c9d7fe4c230e3570c87c1cae912a0bed12123b80c0c13222b491ca:2:{i:0;s:17:\"_identity-backend\";i:1;s:46:\"[1,\"SbSY36BLw3V2lU-GB7ZAzCVJKDFx82IJ\",2592000]\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__id' => 1
+]
+
+$_SERVER = [
+    'USER' => 'nginx'
+    'HOME' => '/var/lib/nginx'
+    'HTTP_COOKIE' => 'advanced-frontend=achgqposj5il3u5f4eutcquch7; _csrf-frontend=f261737737e2df6bf756e6d74ca88d247a113076fad82f8bff39f2053100de07a%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%22%1E%F6%07%09.%F5%CCH%C1%40%10d%EC%EB%A3%99%3Co%B8oY%09%0A%AA%D0I%F2%A7b%AE%A4%B8%22%3B%7D; _csrf-backend=36381f5ae96bc39fbf7739a0aeddcba29158bd8688092ae71e7defb18b40d2d6a%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_csrf-backend%22%3Bi%3A1%3Bs%3A32%3A%22%01%85%86q%3B%D5%21%E0%C2%2C%EFZ%BC%BFi%7DK%2Bl%5C%17%BE%0D%D3%5C%98H%EB%0E%AB%19%8F%22%3B%7D; PHPSESSID=f2srbgljitd8qakvm92jm8eoh0; _identity-backend=4ff4ad264e3c9d7fe4c230e3570c87c1cae912a0bed12123b80c0c13222b491ca%3A2%3A%7Bi%3A0%3Bs%3A17%3A%22_identity-backend%22%3Bi%3A1%3Bs%3A46%3A%22%5B1%2C%22SbSY36BLw3V2lU-GB7ZAzCVJKDFx82IJ%22%2C2592000%5D%22%3B%7D'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_REFERER' => 'http://admin.xkkb.com/product/sn'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_HOST' => 'admin.xkkb.com'
+    'REDIRECT_STATUS' => '200'
+    'SERVER_NAME' => 'admin.xkkb.com'
+    'SERVER_PORT' => '80'
+    'SERVER_ADDR' => '192.168.1.44'
+    'REMOTE_PORT' => '52174'
+    'REMOTE_ADDR' => '192.168.1.102'
+    'SERVER_SOFTWARE' => 'nginx/1.10.3'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REQUEST_SCHEME' => 'http'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'DOCUMENT_ROOT' => '/var/www/xkkb_admin'
+    'DOCUMENT_URI' => '/admin.php'
+    'REQUEST_URI' => '/banner/index'
+    'SCRIPT_NAME' => '/admin.php'
+    'CONTENT_LENGTH' => ''
+    'CONTENT_TYPE' => ''
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'SCRIPT_FILENAME' => '/var/www/xkkb_admin/admin.php'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/admin.php'
+    'REQUEST_TIME_FLOAT' => 1502203591.1973
+    'REQUEST_TIME' => 1502203591
+]
+2017-08-08 22:46:34 [192.168.1.102][1][-][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 192.168.1.102
+    in /var/www/xkkb_admin/statics/themes/admin/views/layouts/main.php:178
+    in /var/www/xkkb_admin/backend/controllers/CategoryController.php:17
+2017-08-08 22:46:34 [192.168.1.102][1][-][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 192.168.1.102
+2017-08-08 22:46:34 [192.168.1.102][1][-][info][application] $_COOKIE = [
+    'advanced-frontend' => 'achgqposj5il3u5f4eutcquch7'
+    '_csrf-frontend' => 'f261737737e2df6bf756e6d74ca88d247a113076fad82f8bff39f2053100de07a:2:{i:0;s:14:\"_csrf-frontend\";i:1;s:32:\"ö	.õÌHÁ@dìë£™<o¸oY	
+ªÐIò§b®¤¸\";}'
+    '_csrf-backend' => '36381f5ae96bc39fbf7739a0aeddcba29158bd8688092ae71e7defb18b40d2d6a:2:{i:0;s:13:\"_csrf-backend\";i:1;s:32:\"…†q;Õ!àÂ,ïZ¼¿i}K+l\\¾Ó\\˜Hë«\";}'
+    'PHPSESSID' => 'f2srbgljitd8qakvm92jm8eoh0'
+    '_identity-backend' => '4ff4ad264e3c9d7fe4c230e3570c87c1cae912a0bed12123b80c0c13222b491ca:2:{i:0;s:17:\"_identity-backend\";i:1;s:46:\"[1,\"SbSY36BLw3V2lU-GB7ZAzCVJKDFx82IJ\",2592000]\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__id' => 1
+]
+
+$_SERVER = [
+    'USER' => 'nginx'
+    'HOME' => '/var/lib/nginx'
+    'HTTP_COOKIE' => 'advanced-frontend=achgqposj5il3u5f4eutcquch7; _csrf-frontend=f261737737e2df6bf756e6d74ca88d247a113076fad82f8bff39f2053100de07a%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%22%1E%F6%07%09.%F5%CCH%C1%40%10d%EC%EB%A3%99%3Co%B8oY%09%0A%AA%D0I%F2%A7b%AE%A4%B8%22%3B%7D; _csrf-backend=36381f5ae96bc39fbf7739a0aeddcba29158bd8688092ae71e7defb18b40d2d6a%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_csrf-backend%22%3Bi%3A1%3Bs%3A32%3A%22%01%85%86q%3B%D5%21%E0%C2%2C%EFZ%BC%BFi%7DK%2Bl%5C%17%BE%0D%D3%5C%98H%EB%0E%AB%19%8F%22%3B%7D; PHPSESSID=f2srbgljitd8qakvm92jm8eoh0; _identity-backend=4ff4ad264e3c9d7fe4c230e3570c87c1cae912a0bed12123b80c0c13222b491ca%3A2%3A%7Bi%3A0%3Bs%3A17%3A%22_identity-backend%22%3Bi%3A1%3Bs%3A46%3A%22%5B1%2C%22SbSY36BLw3V2lU-GB7ZAzCVJKDFx82IJ%22%2C2592000%5D%22%3B%7D'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_REFERER' => 'http://admin.xkkb.com/banner/index'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_HOST' => 'admin.xkkb.com'
+    'REDIRECT_STATUS' => '200'
+    'SERVER_NAME' => 'admin.xkkb.com'
+    'SERVER_PORT' => '80'
+    'SERVER_ADDR' => '192.168.1.44'
+    'REMOTE_PORT' => '52174'
+    'REMOTE_ADDR' => '192.168.1.102'
+    'SERVER_SOFTWARE' => 'nginx/1.10.3'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REQUEST_SCHEME' => 'http'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'DOCUMENT_ROOT' => '/var/www/xkkb_admin'
+    'DOCUMENT_URI' => '/admin.php'
+    'REQUEST_URI' => '/category/index'
+    'SCRIPT_NAME' => '/admin.php'
+    'CONTENT_LENGTH' => ''
+    'CONTENT_TYPE' => ''
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'SCRIPT_FILENAME' => '/var/www/xkkb_admin/admin.php'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/admin.php'
+    'REQUEST_TIME_FLOAT' => 1502203594.4155
+    'REQUEST_TIME' => 1502203594
+]
+2017-08-08 22:46:53 [192.168.1.102][1][-][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 192.168.1.102
+    in /var/www/xkkb_admin/statics/themes/admin/views/layouts/main.php:178
+    in /var/www/xkkb_admin/backend/controllers/CategoryController.php:17
+2017-08-08 22:46:53 [192.168.1.102][1][-][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 192.168.1.102
+2017-08-08 22:46:53 [192.168.1.102][1][-][info][application] $_COOKIE = [
+    'advanced-frontend' => 'achgqposj5il3u5f4eutcquch7'
+    '_csrf-frontend' => 'f261737737e2df6bf756e6d74ca88d247a113076fad82f8bff39f2053100de07a:2:{i:0;s:14:\"_csrf-frontend\";i:1;s:32:\"ö	.õÌHÁ@dìë£™<o¸oY	
+ªÐIò§b®¤¸\";}'
+    '_csrf-backend' => '36381f5ae96bc39fbf7739a0aeddcba29158bd8688092ae71e7defb18b40d2d6a:2:{i:0;s:13:\"_csrf-backend\";i:1;s:32:\"…†q;Õ!àÂ,ïZ¼¿i}K+l\\¾Ó\\˜Hë«\";}'
+    'PHPSESSID' => 'f2srbgljitd8qakvm92jm8eoh0'
+    '_identity-backend' => '4ff4ad264e3c9d7fe4c230e3570c87c1cae912a0bed12123b80c0c13222b491ca:2:{i:0;s:17:\"_identity-backend\";i:1;s:46:\"[1,\"SbSY36BLw3V2lU-GB7ZAzCVJKDFx82IJ\",2592000]\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__id' => 1
+]
+
+$_SERVER = [
+    'USER' => 'nginx'
+    'HOME' => '/var/lib/nginx'
+    'HTTP_COOKIE' => 'advanced-frontend=achgqposj5il3u5f4eutcquch7; _csrf-frontend=f261737737e2df6bf756e6d74ca88d247a113076fad82f8bff39f2053100de07a%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%22%1E%F6%07%09.%F5%CCH%C1%40%10d%EC%EB%A3%99%3Co%B8oY%09%0A%AA%D0I%F2%A7b%AE%A4%B8%22%3B%7D; _csrf-backend=36381f5ae96bc39fbf7739a0aeddcba29158bd8688092ae71e7defb18b40d2d6a%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_csrf-backend%22%3Bi%3A1%3Bs%3A32%3A%22%01%85%86q%3B%D5%21%E0%C2%2C%EFZ%BC%BFi%7DK%2Bl%5C%17%BE%0D%D3%5C%98H%EB%0E%AB%19%8F%22%3B%7D; PHPSESSID=f2srbgljitd8qakvm92jm8eoh0; _identity-backend=4ff4ad264e3c9d7fe4c230e3570c87c1cae912a0bed12123b80c0c13222b491ca%3A2%3A%7Bi%3A0%3Bs%3A17%3A%22_identity-backend%22%3Bi%3A1%3Bs%3A46%3A%22%5B1%2C%22SbSY36BLw3V2lU-GB7ZAzCVJKDFx82IJ%22%2C2592000%5D%22%3B%7D'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_REFERER' => 'http://admin.xkkb.com/category/index'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_HOST' => 'admin.xkkb.com'
+    'REDIRECT_STATUS' => '200'
+    'SERVER_NAME' => 'admin.xkkb.com'
+    'SERVER_PORT' => '80'
+    'SERVER_ADDR' => '192.168.1.44'
+    'REMOTE_PORT' => '52174'
+    'REMOTE_ADDR' => '192.168.1.102'
+    'SERVER_SOFTWARE' => 'nginx/1.10.3'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REQUEST_SCHEME' => 'http'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'DOCUMENT_ROOT' => '/var/www/xkkb_admin'
+    'DOCUMENT_URI' => '/admin.php'
+    'REQUEST_URI' => '/category/index'
+    'SCRIPT_NAME' => '/admin.php'
+    'CONTENT_LENGTH' => ''
+    'CONTENT_TYPE' => ''
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'SCRIPT_FILENAME' => '/var/www/xkkb_admin/admin.php'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/admin.php'
+    'REQUEST_TIME_FLOAT' => 1502203613.6023
+    'REQUEST_TIME' => 1502203613
+]
+2017-08-08 22:47:07 [192.168.1.102][1][-][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 192.168.1.102
+    in /var/www/xkkb_admin/statics/themes/admin/views/layouts/main.php:178
+    in /var/www/xkkb_admin/backend/controllers/CategoryController.php:17
+2017-08-08 22:47:07 [192.168.1.102][1][-][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 192.168.1.102
+2017-08-08 22:47:07 [192.168.1.102][1][-][info][application] $_COOKIE = [
+    'advanced-frontend' => 'achgqposj5il3u5f4eutcquch7'
+    '_csrf-frontend' => 'f261737737e2df6bf756e6d74ca88d247a113076fad82f8bff39f2053100de07a:2:{i:0;s:14:\"_csrf-frontend\";i:1;s:32:\"ö	.õÌHÁ@dìë£™<o¸oY	
+ªÐIò§b®¤¸\";}'
+    '_csrf-backend' => '36381f5ae96bc39fbf7739a0aeddcba29158bd8688092ae71e7defb18b40d2d6a:2:{i:0;s:13:\"_csrf-backend\";i:1;s:32:\"…†q;Õ!àÂ,ïZ¼¿i}K+l\\¾Ó\\˜Hë«\";}'
+    'PHPSESSID' => 'f2srbgljitd8qakvm92jm8eoh0'
+    '_identity-backend' => '4ff4ad264e3c9d7fe4c230e3570c87c1cae912a0bed12123b80c0c13222b491ca:2:{i:0;s:17:\"_identity-backend\";i:1;s:46:\"[1,\"SbSY36BLw3V2lU-GB7ZAzCVJKDFx82IJ\",2592000]\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__id' => 1
+]
+
+$_SERVER = [
+    'USER' => 'nginx'
+    'HOME' => '/var/lib/nginx'
+    'HTTP_COOKIE' => 'advanced-frontend=achgqposj5il3u5f4eutcquch7; _csrf-frontend=f261737737e2df6bf756e6d74ca88d247a113076fad82f8bff39f2053100de07a%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%22%1E%F6%07%09.%F5%CCH%C1%40%10d%EC%EB%A3%99%3Co%B8oY%09%0A%AA%D0I%F2%A7b%AE%A4%B8%22%3B%7D; _csrf-backend=36381f5ae96bc39fbf7739a0aeddcba29158bd8688092ae71e7defb18b40d2d6a%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_csrf-backend%22%3Bi%3A1%3Bs%3A32%3A%22%01%85%86q%3B%D5%21%E0%C2%2C%EFZ%BC%BFi%7DK%2Bl%5C%17%BE%0D%D3%5C%98H%EB%0E%AB%19%8F%22%3B%7D; PHPSESSID=f2srbgljitd8qakvm92jm8eoh0; _identity-backend=4ff4ad264e3c9d7fe4c230e3570c87c1cae912a0bed12123b80c0c13222b491ca%3A2%3A%7Bi%3A0%3Bs%3A17%3A%22_identity-backend%22%3Bi%3A1%3Bs%3A46%3A%22%5B1%2C%22SbSY36BLw3V2lU-GB7ZAzCVJKDFx82IJ%22%2C2592000%5D%22%3B%7D'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_REFERER' => 'http://admin.xkkb.com/category/index'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_HOST' => 'admin.xkkb.com'
+    'REDIRECT_STATUS' => '200'
+    'SERVER_NAME' => 'admin.xkkb.com'
+    'SERVER_PORT' => '80'
+    'SERVER_ADDR' => '192.168.1.44'
+    'REMOTE_PORT' => '52174'
+    'REMOTE_ADDR' => '192.168.1.102'
+    'SERVER_SOFTWARE' => 'nginx/1.10.3'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REQUEST_SCHEME' => 'http'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'DOCUMENT_ROOT' => '/var/www/xkkb_admin'
+    'DOCUMENT_URI' => '/admin.php'
+    'REQUEST_URI' => '/category/index'
+    'SCRIPT_NAME' => '/admin.php'
+    'CONTENT_LENGTH' => ''
+    'CONTENT_TYPE' => ''
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'SCRIPT_FILENAME' => '/var/www/xkkb_admin/admin.php'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/admin.php'
+    'REQUEST_TIME_FLOAT' => 1502203627.5789
+    'REQUEST_TIME' => 1502203627
+]
+2017-08-08 22:47:12 [192.168.1.102][1][-][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 192.168.1.102
+    in /var/www/xkkb_admin/statics/themes/admin/views/layouts/main.php:178
+    in /var/www/xkkb_admin/backend/controllers/CategoryController.php:17
+2017-08-08 22:47:12 [192.168.1.102][1][-][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 192.168.1.102
+2017-08-08 22:47:12 [192.168.1.102][1][-][info][application] $_COOKIE = [
+    'advanced-frontend' => 'achgqposj5il3u5f4eutcquch7'
+    '_csrf-frontend' => 'f261737737e2df6bf756e6d74ca88d247a113076fad82f8bff39f2053100de07a:2:{i:0;s:14:\"_csrf-frontend\";i:1;s:32:\"ö	.õÌHÁ@dìë£™<o¸oY	
+ªÐIò§b®¤¸\";}'
+    '_csrf-backend' => '36381f5ae96bc39fbf7739a0aeddcba29158bd8688092ae71e7defb18b40d2d6a:2:{i:0;s:13:\"_csrf-backend\";i:1;s:32:\"…†q;Õ!àÂ,ïZ¼¿i}K+l\\¾Ó\\˜Hë«\";}'
+    'PHPSESSID' => 'f2srbgljitd8qakvm92jm8eoh0'
+    '_identity-backend' => '4ff4ad264e3c9d7fe4c230e3570c87c1cae912a0bed12123b80c0c13222b491ca:2:{i:0;s:17:\"_identity-backend\";i:1;s:46:\"[1,\"SbSY36BLw3V2lU-GB7ZAzCVJKDFx82IJ\",2592000]\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__id' => 1
+]
+
+$_SERVER = [
+    'USER' => 'nginx'
+    'HOME' => '/var/lib/nginx'
+    'HTTP_COOKIE' => 'advanced-frontend=achgqposj5il3u5f4eutcquch7; _csrf-frontend=f261737737e2df6bf756e6d74ca88d247a113076fad82f8bff39f2053100de07a%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%22%1E%F6%07%09.%F5%CCH%C1%40%10d%EC%EB%A3%99%3Co%B8oY%09%0A%AA%D0I%F2%A7b%AE%A4%B8%22%3B%7D; _csrf-backend=36381f5ae96bc39fbf7739a0aeddcba29158bd8688092ae71e7defb18b40d2d6a%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_csrf-backend%22%3Bi%3A1%3Bs%3A32%3A%22%01%85%86q%3B%D5%21%E0%C2%2C%EFZ%BC%BFi%7DK%2Bl%5C%17%BE%0D%D3%5C%98H%EB%0E%AB%19%8F%22%3B%7D; PHPSESSID=f2srbgljitd8qakvm92jm8eoh0; _identity-backend=4ff4ad264e3c9d7fe4c230e3570c87c1cae912a0bed12123b80c0c13222b491ca%3A2%3A%7Bi%3A0%3Bs%3A17%3A%22_identity-backend%22%3Bi%3A1%3Bs%3A46%3A%22%5B1%2C%22SbSY36BLw3V2lU-GB7ZAzCVJKDFx82IJ%22%2C2592000%5D%22%3B%7D'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_REFERER' => 'http://admin.xkkb.com/category/index'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_HOST' => 'admin.xkkb.com'
+    'REDIRECT_STATUS' => '200'
+    'SERVER_NAME' => 'admin.xkkb.com'
+    'SERVER_PORT' => '80'
+    'SERVER_ADDR' => '192.168.1.44'
+    'REMOTE_PORT' => '52174'
+    'REMOTE_ADDR' => '192.168.1.102'
+    'SERVER_SOFTWARE' => 'nginx/1.10.3'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REQUEST_SCHEME' => 'http'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'DOCUMENT_ROOT' => '/var/www/xkkb_admin'
+    'DOCUMENT_URI' => '/admin.php'
+    'REQUEST_URI' => '/category/index'
+    'SCRIPT_NAME' => '/admin.php'
+    'CONTENT_LENGTH' => ''
+    'CONTENT_TYPE' => ''
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'SCRIPT_FILENAME' => '/var/www/xkkb_admin/admin.php'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/admin.php'
+    'REQUEST_TIME_FLOAT' => 1502203632.7226
+    'REQUEST_TIME' => 1502203632
+]
+2017-08-08 22:47:23 [192.168.1.102][1][-][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 192.168.1.102
+    in /var/www/xkkb_admin/statics/themes/admin/views/layouts/main.php:178
+    in /var/www/xkkb_admin/backend/controllers/ProductController.php:23
+2017-08-08 22:47:23 [192.168.1.102][1][-][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 192.168.1.102
+2017-08-08 22:47:23 [192.168.1.102][1][-][info][application] $_COOKIE = [
+    'advanced-frontend' => 'achgqposj5il3u5f4eutcquch7'
+    '_csrf-frontend' => 'f261737737e2df6bf756e6d74ca88d247a113076fad82f8bff39f2053100de07a:2:{i:0;s:14:\"_csrf-frontend\";i:1;s:32:\"ö	.õÌHÁ@dìë£™<o¸oY	
+ªÐIò§b®¤¸\";}'
+    '_csrf-backend' => '36381f5ae96bc39fbf7739a0aeddcba29158bd8688092ae71e7defb18b40d2d6a:2:{i:0;s:13:\"_csrf-backend\";i:1;s:32:\"…†q;Õ!àÂ,ïZ¼¿i}K+l\\¾Ó\\˜Hë«\";}'
+    'PHPSESSID' => 'f2srbgljitd8qakvm92jm8eoh0'
+    '_identity-backend' => '4ff4ad264e3c9d7fe4c230e3570c87c1cae912a0bed12123b80c0c13222b491ca:2:{i:0;s:17:\"_identity-backend\";i:1;s:46:\"[1,\"SbSY36BLw3V2lU-GB7ZAzCVJKDFx82IJ\",2592000]\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__id' => 1
+]
+
+$_SERVER = [
+    'USER' => 'nginx'
+    'HOME' => '/var/lib/nginx'
+    'HTTP_COOKIE' => 'advanced-frontend=achgqposj5il3u5f4eutcquch7; _csrf-frontend=f261737737e2df6bf756e6d74ca88d247a113076fad82f8bff39f2053100de07a%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%22%1E%F6%07%09.%F5%CCH%C1%40%10d%EC%EB%A3%99%3Co%B8oY%09%0A%AA%D0I%F2%A7b%AE%A4%B8%22%3B%7D; _csrf-backend=36381f5ae96bc39fbf7739a0aeddcba29158bd8688092ae71e7defb18b40d2d6a%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_csrf-backend%22%3Bi%3A1%3Bs%3A32%3A%22%01%85%86q%3B%D5%21%E0%C2%2C%EFZ%BC%BFi%7DK%2Bl%5C%17%BE%0D%D3%5C%98H%EB%0E%AB%19%8F%22%3B%7D; PHPSESSID=f2srbgljitd8qakvm92jm8eoh0; _identity-backend=4ff4ad264e3c9d7fe4c230e3570c87c1cae912a0bed12123b80c0c13222b491ca%3A2%3A%7Bi%3A0%3Bs%3A17%3A%22_identity-backend%22%3Bi%3A1%3Bs%3A46%3A%22%5B1%2C%22SbSY36BLw3V2lU-GB7ZAzCVJKDFx82IJ%22%2C2592000%5D%22%3B%7D'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_REFERER' => 'http://admin.xkkb.com/category/index'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_HOST' => 'admin.xkkb.com'
+    'REDIRECT_STATUS' => '200'
+    'SERVER_NAME' => 'admin.xkkb.com'
+    'SERVER_PORT' => '80'
+    'SERVER_ADDR' => '192.168.1.44'
+    'REMOTE_PORT' => '52174'
+    'REMOTE_ADDR' => '192.168.1.102'
+    'SERVER_SOFTWARE' => 'nginx/1.10.3'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REQUEST_SCHEME' => 'http'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'DOCUMENT_ROOT' => '/var/www/xkkb_admin'
+    'DOCUMENT_URI' => '/admin.php'
+    'REQUEST_URI' => '/product/index'
+    'SCRIPT_NAME' => '/admin.php'
+    'CONTENT_LENGTH' => ''
+    'CONTENT_TYPE' => ''
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'SCRIPT_FILENAME' => '/var/www/xkkb_admin/admin.php'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/admin.php'
+    'REQUEST_TIME_FLOAT' => 1502203643.8334
+    'REQUEST_TIME' => 1502203643
+]
+2017-08-08 22:47:25 [192.168.1.102][1][-][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 192.168.1.102
+    in /var/www/xkkb_admin/statics/themes/admin/views/layouts/main.php:178
+    in /var/www/xkkb_admin/backend/controllers/ProductController.php:33
+2017-08-08 22:47:25 [192.168.1.102][1][-][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 192.168.1.102
+2017-08-08 22:47:24 [192.168.1.102][1][-][info][application] $_COOKIE = [
+    'advanced-frontend' => 'achgqposj5il3u5f4eutcquch7'
+    '_csrf-frontend' => 'f261737737e2df6bf756e6d74ca88d247a113076fad82f8bff39f2053100de07a:2:{i:0;s:14:\"_csrf-frontend\";i:1;s:32:\"ö	.õÌHÁ@dìë£™<o¸oY	
+ªÐIò§b®¤¸\";}'
+    '_csrf-backend' => '36381f5ae96bc39fbf7739a0aeddcba29158bd8688092ae71e7defb18b40d2d6a:2:{i:0;s:13:\"_csrf-backend\";i:1;s:32:\"…†q;Õ!àÂ,ïZ¼¿i}K+l\\¾Ó\\˜Hë«\";}'
+    'PHPSESSID' => 'f2srbgljitd8qakvm92jm8eoh0'
+    '_identity-backend' => '4ff4ad264e3c9d7fe4c230e3570c87c1cae912a0bed12123b80c0c13222b491ca:2:{i:0;s:17:\"_identity-backend\";i:1;s:46:\"[1,\"SbSY36BLw3V2lU-GB7ZAzCVJKDFx82IJ\",2592000]\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__id' => 1
+]
+
+$_SERVER = [
+    'USER' => 'nginx'
+    'HOME' => '/var/lib/nginx'
+    'HTTP_COOKIE' => 'advanced-frontend=achgqposj5il3u5f4eutcquch7; _csrf-frontend=f261737737e2df6bf756e6d74ca88d247a113076fad82f8bff39f2053100de07a%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%22%1E%F6%07%09.%F5%CCH%C1%40%10d%EC%EB%A3%99%3Co%B8oY%09%0A%AA%D0I%F2%A7b%AE%A4%B8%22%3B%7D; _csrf-backend=36381f5ae96bc39fbf7739a0aeddcba29158bd8688092ae71e7defb18b40d2d6a%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_csrf-backend%22%3Bi%3A1%3Bs%3A32%3A%22%01%85%86q%3B%D5%21%E0%C2%2C%EFZ%BC%BFi%7DK%2Bl%5C%17%BE%0D%D3%5C%98H%EB%0E%AB%19%8F%22%3B%7D; PHPSESSID=f2srbgljitd8qakvm92jm8eoh0; _identity-backend=4ff4ad264e3c9d7fe4c230e3570c87c1cae912a0bed12123b80c0c13222b491ca%3A2%3A%7Bi%3A0%3Bs%3A17%3A%22_identity-backend%22%3Bi%3A1%3Bs%3A46%3A%22%5B1%2C%22SbSY36BLw3V2lU-GB7ZAzCVJKDFx82IJ%22%2C2592000%5D%22%3B%7D'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_REFERER' => 'http://admin.xkkb.com/product/index'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_HOST' => 'admin.xkkb.com'
+    'REDIRECT_STATUS' => '200'
+    'SERVER_NAME' => 'admin.xkkb.com'
+    'SERVER_PORT' => '80'
+    'SERVER_ADDR' => '192.168.1.44'
+    'REMOTE_PORT' => '52275'
+    'REMOTE_ADDR' => '192.168.1.102'
+    'SERVER_SOFTWARE' => 'nginx/1.10.3'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REQUEST_SCHEME' => 'http'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'DOCUMENT_ROOT' => '/var/www/xkkb_admin'
+    'DOCUMENT_URI' => '/admin.php'
+    'REQUEST_URI' => '/product/sn'
+    'SCRIPT_NAME' => '/admin.php'
+    'CONTENT_LENGTH' => ''
+    'CONTENT_TYPE' => ''
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'SCRIPT_FILENAME' => '/var/www/xkkb_admin/admin.php'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/admin.php'
+    'REQUEST_TIME_FLOAT' => 1502203644.976
+    'REQUEST_TIME' => 1502203644
+]
+2017-08-08 22:48:28 [192.168.1.102][1][-][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 192.168.1.102
+    in /var/www/xkkb_admin/statics/themes/admin/views/layouts/main.php:178
+    in /var/www/xkkb_admin/backend/controllers/ProductController.php:33
+2017-08-08 22:48:28 [192.168.1.102][1][-][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 192.168.1.102
+2017-08-08 22:48:28 [192.168.1.102][1][-][info][application] $_COOKIE = [
+    'advanced-frontend' => 'achgqposj5il3u5f4eutcquch7'
+    '_csrf-frontend' => 'f261737737e2df6bf756e6d74ca88d247a113076fad82f8bff39f2053100de07a:2:{i:0;s:14:\"_csrf-frontend\";i:1;s:32:\"ö	.õÌHÁ@dìë£™<o¸oY	
+ªÐIò§b®¤¸\";}'
+    '_csrf-backend' => '36381f5ae96bc39fbf7739a0aeddcba29158bd8688092ae71e7defb18b40d2d6a:2:{i:0;s:13:\"_csrf-backend\";i:1;s:32:\"…†q;Õ!àÂ,ïZ¼¿i}K+l\\¾Ó\\˜Hë«\";}'
+    'PHPSESSID' => 'f2srbgljitd8qakvm92jm8eoh0'
+    '_identity-backend' => '4ff4ad264e3c9d7fe4c230e3570c87c1cae912a0bed12123b80c0c13222b491ca:2:{i:0;s:17:\"_identity-backend\";i:1;s:46:\"[1,\"SbSY36BLw3V2lU-GB7ZAzCVJKDFx82IJ\",2592000]\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__id' => 1
+]
+
+$_SERVER = [
+    'USER' => 'nginx'
+    'HOME' => '/var/lib/nginx'
+    'HTTP_COOKIE' => 'advanced-frontend=achgqposj5il3u5f4eutcquch7; _csrf-frontend=f261737737e2df6bf756e6d74ca88d247a113076fad82f8bff39f2053100de07a%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%22%1E%F6%07%09.%F5%CCH%C1%40%10d%EC%EB%A3%99%3Co%B8oY%09%0A%AA%D0I%F2%A7b%AE%A4%B8%22%3B%7D; _csrf-backend=36381f5ae96bc39fbf7739a0aeddcba29158bd8688092ae71e7defb18b40d2d6a%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_csrf-backend%22%3Bi%3A1%3Bs%3A32%3A%22%01%85%86q%3B%D5%21%E0%C2%2C%EFZ%BC%BFi%7DK%2Bl%5C%17%BE%0D%D3%5C%98H%EB%0E%AB%19%8F%22%3B%7D; PHPSESSID=f2srbgljitd8qakvm92jm8eoh0; _identity-backend=4ff4ad264e3c9d7fe4c230e3570c87c1cae912a0bed12123b80c0c13222b491ca%3A2%3A%7Bi%3A0%3Bs%3A17%3A%22_identity-backend%22%3Bi%3A1%3Bs%3A46%3A%22%5B1%2C%22SbSY36BLw3V2lU-GB7ZAzCVJKDFx82IJ%22%2C2592000%5D%22%3B%7D'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_REFERER' => 'http://admin.xkkb.com/product/sn'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_HOST' => 'admin.xkkb.com'
+    'REDIRECT_STATUS' => '200'
+    'SERVER_NAME' => 'admin.xkkb.com'
+    'SERVER_PORT' => '80'
+    'SERVER_ADDR' => '192.168.1.44'
+    'REMOTE_PORT' => '52382'
+    'REMOTE_ADDR' => '192.168.1.102'
+    'SERVER_SOFTWARE' => 'nginx/1.10.3'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REQUEST_SCHEME' => 'http'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'DOCUMENT_ROOT' => '/var/www/xkkb_admin'
+    'DOCUMENT_URI' => '/admin.php'
+    'REQUEST_URI' => '/product/sn'
+    'SCRIPT_NAME' => '/admin.php'
+    'CONTENT_LENGTH' => ''
+    'CONTENT_TYPE' => ''
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'SCRIPT_FILENAME' => '/var/www/xkkb_admin/admin.php'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/admin.php'
+    'REQUEST_TIME_FLOAT' => 1502203708.2523
+    'REQUEST_TIME' => 1502203708
+]
+2017-08-08 22:48:37 [192.168.1.102][1][-][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 192.168.1.102
+    in /var/www/xkkb_admin/statics/themes/admin/views/layouts/main.php:178
+    in /var/www/xkkb_admin/backend/controllers/ProductController.php:33
+2017-08-08 22:48:37 [192.168.1.102][1][-][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 192.168.1.102
+2017-08-08 22:48:37 [192.168.1.102][1][-][info][application] $_GET = [
+    'stype' => '22'
+]
+
+$_COOKIE = [
+    'advanced-frontend' => 'achgqposj5il3u5f4eutcquch7'
+    '_csrf-frontend' => 'f261737737e2df6bf756e6d74ca88d247a113076fad82f8bff39f2053100de07a:2:{i:0;s:14:\"_csrf-frontend\";i:1;s:32:\"ö	.õÌHÁ@dìë£™<o¸oY	
+ªÐIò§b®¤¸\";}'
+    '_csrf-backend' => '36381f5ae96bc39fbf7739a0aeddcba29158bd8688092ae71e7defb18b40d2d6a:2:{i:0;s:13:\"_csrf-backend\";i:1;s:32:\"…†q;Õ!àÂ,ïZ¼¿i}K+l\\¾Ó\\˜Hë«\";}'
+    'PHPSESSID' => 'f2srbgljitd8qakvm92jm8eoh0'
+    '_identity-backend' => '4ff4ad264e3c9d7fe4c230e3570c87c1cae912a0bed12123b80c0c13222b491ca:2:{i:0;s:17:\"_identity-backend\";i:1;s:46:\"[1,\"SbSY36BLw3V2lU-GB7ZAzCVJKDFx82IJ\",2592000]\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__id' => 1
+]
+
+$_SERVER = [
+    'USER' => 'nginx'
+    'HOME' => '/var/lib/nginx'
+    'HTTP_COOKIE' => 'advanced-frontend=achgqposj5il3u5f4eutcquch7; _csrf-frontend=f261737737e2df6bf756e6d74ca88d247a113076fad82f8bff39f2053100de07a%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%22%1E%F6%07%09.%F5%CCH%C1%40%10d%EC%EB%A3%99%3Co%B8oY%09%0A%AA%D0I%F2%A7b%AE%A4%B8%22%3B%7D; _csrf-backend=36381f5ae96bc39fbf7739a0aeddcba29158bd8688092ae71e7defb18b40d2d6a%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_csrf-backend%22%3Bi%3A1%3Bs%3A32%3A%22%01%85%86q%3B%D5%21%E0%C2%2C%EFZ%BC%BFi%7DK%2Bl%5C%17%BE%0D%D3%5C%98H%EB%0E%AB%19%8F%22%3B%7D; PHPSESSID=f2srbgljitd8qakvm92jm8eoh0; _identity-backend=4ff4ad264e3c9d7fe4c230e3570c87c1cae912a0bed12123b80c0c13222b491ca%3A2%3A%7Bi%3A0%3Bs%3A17%3A%22_identity-backend%22%3Bi%3A1%3Bs%3A46%3A%22%5B1%2C%22SbSY36BLw3V2lU-GB7ZAzCVJKDFx82IJ%22%2C2592000%5D%22%3B%7D'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_REFERER' => 'http://admin.xkkb.com/product/sn'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_HOST' => 'admin.xkkb.com'
+    'REDIRECT_STATUS' => '200'
+    'SERVER_NAME' => 'admin.xkkb.com'
+    'SERVER_PORT' => '80'
+    'SERVER_ADDR' => '192.168.1.44'
+    'REMOTE_PORT' => '52382'
+    'REMOTE_ADDR' => '192.168.1.102'
+    'SERVER_SOFTWARE' => 'nginx/1.10.3'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REQUEST_SCHEME' => 'http'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'DOCUMENT_ROOT' => '/var/www/xkkb_admin'
+    'DOCUMENT_URI' => '/admin.php'
+    'REQUEST_URI' => '/product/sn?stype=22'
+    'SCRIPT_NAME' => '/admin.php'
+    'CONTENT_LENGTH' => ''
+    'CONTENT_TYPE' => ''
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'stype=22'
+    'SCRIPT_FILENAME' => '/var/www/xkkb_admin/admin.php'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/admin.php'
+    'REQUEST_TIME_FLOAT' => 1502203717.2642
+    'REQUEST_TIME' => 1502203717
+]
+2017-08-08 22:49:10 [192.168.1.102][1][-][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 192.168.1.102
+    in /var/www/xkkb_admin/statics/themes/admin/views/layouts/main.php:178
+    in /var/www/xkkb_admin/backend/controllers/ProductController.php:33
+2017-08-08 22:49:10 [192.168.1.102][1][-][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 192.168.1.102
+2017-08-08 22:49:10 [192.168.1.102][1][-][info][application] $_GET = [
+    'stype' => '22'
+]
+
+$_COOKIE = [
+    'advanced-frontend' => 'achgqposj5il3u5f4eutcquch7'
+    '_csrf-frontend' => 'f261737737e2df6bf756e6d74ca88d247a113076fad82f8bff39f2053100de07a:2:{i:0;s:14:\"_csrf-frontend\";i:1;s:32:\"ö	.õÌHÁ@dìë£™<o¸oY	
+ªÐIò§b®¤¸\";}'
+    '_csrf-backend' => '36381f5ae96bc39fbf7739a0aeddcba29158bd8688092ae71e7defb18b40d2d6a:2:{i:0;s:13:\"_csrf-backend\";i:1;s:32:\"…†q;Õ!àÂ,ïZ¼¿i}K+l\\¾Ó\\˜Hë«\";}'
+    'PHPSESSID' => 'f2srbgljitd8qakvm92jm8eoh0'
+    '_identity-backend' => '4ff4ad264e3c9d7fe4c230e3570c87c1cae912a0bed12123b80c0c13222b491ca:2:{i:0;s:17:\"_identity-backend\";i:1;s:46:\"[1,\"SbSY36BLw3V2lU-GB7ZAzCVJKDFx82IJ\",2592000]\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__id' => 1
+]
+
+$_SERVER = [
+    'USER' => 'nginx'
+    'HOME' => '/var/lib/nginx'
+    'HTTP_COOKIE' => 'advanced-frontend=achgqposj5il3u5f4eutcquch7; _csrf-frontend=f261737737e2df6bf756e6d74ca88d247a113076fad82f8bff39f2053100de07a%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%22%1E%F6%07%09.%F5%CCH%C1%40%10d%EC%EB%A3%99%3Co%B8oY%09%0A%AA%D0I%F2%A7b%AE%A4%B8%22%3B%7D; _csrf-backend=36381f5ae96bc39fbf7739a0aeddcba29158bd8688092ae71e7defb18b40d2d6a%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_csrf-backend%22%3Bi%3A1%3Bs%3A32%3A%22%01%85%86q%3B%D5%21%E0%C2%2C%EFZ%BC%BFi%7DK%2Bl%5C%17%BE%0D%D3%5C%98H%EB%0E%AB%19%8F%22%3B%7D; PHPSESSID=f2srbgljitd8qakvm92jm8eoh0; _identity-backend=4ff4ad264e3c9d7fe4c230e3570c87c1cae912a0bed12123b80c0c13222b491ca%3A2%3A%7Bi%3A0%3Bs%3A17%3A%22_identity-backend%22%3Bi%3A1%3Bs%3A46%3A%22%5B1%2C%22SbSY36BLw3V2lU-GB7ZAzCVJKDFx82IJ%22%2C2592000%5D%22%3B%7D'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_REFERER' => 'http://admin.xkkb.com/product/sn?stype=22'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_HOST' => 'admin.xkkb.com'
+    'REDIRECT_STATUS' => '200'
+    'SERVER_NAME' => 'admin.xkkb.com'
+    'SERVER_PORT' => '80'
+    'SERVER_ADDR' => '192.168.1.44'
+    'REMOTE_PORT' => '52382'
+    'REMOTE_ADDR' => '192.168.1.102'
+    'SERVER_SOFTWARE' => 'nginx/1.10.3'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REQUEST_SCHEME' => 'http'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'DOCUMENT_ROOT' => '/var/www/xkkb_admin'
+    'DOCUMENT_URI' => '/admin.php'
+    'REQUEST_URI' => '/product/sn?stype=22'
+    'SCRIPT_NAME' => '/admin.php'
+    'CONTENT_LENGTH' => ''
+    'CONTENT_TYPE' => ''
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'stype=22'
+    'SCRIPT_FILENAME' => '/var/www/xkkb_admin/admin.php'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/admin.php'
+    'REQUEST_TIME_FLOAT' => 1502203750.4135
+    'REQUEST_TIME' => 1502203750
+]
+2017-08-08 22:49:39 [192.168.1.102][1][-][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 192.168.1.102
+    in /var/www/xkkb_admin/statics/themes/admin/views/layouts/main.php:178
+    in /var/www/xkkb_admin/backend/controllers/ProductController.php:33
+2017-08-08 22:49:39 [192.168.1.102][1][-][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 192.168.1.102
+2017-08-08 22:49:39 [192.168.1.102][1][-][info][application] $_GET = [
+    'stype' => '22'
+]
+
+$_COOKIE = [
+    'advanced-frontend' => 'achgqposj5il3u5f4eutcquch7'
+    '_csrf-frontend' => 'f261737737e2df6bf756e6d74ca88d247a113076fad82f8bff39f2053100de07a:2:{i:0;s:14:\"_csrf-frontend\";i:1;s:32:\"ö	.õÌHÁ@dìë£™<o¸oY	
+ªÐIò§b®¤¸\";}'
+    '_csrf-backend' => '36381f5ae96bc39fbf7739a0aeddcba29158bd8688092ae71e7defb18b40d2d6a:2:{i:0;s:13:\"_csrf-backend\";i:1;s:32:\"…†q;Õ!àÂ,ïZ¼¿i}K+l\\¾Ó\\˜Hë«\";}'
+    'PHPSESSID' => 'f2srbgljitd8qakvm92jm8eoh0'
+    '_identity-backend' => '4ff4ad264e3c9d7fe4c230e3570c87c1cae912a0bed12123b80c0c13222b491ca:2:{i:0;s:17:\"_identity-backend\";i:1;s:46:\"[1,\"SbSY36BLw3V2lU-GB7ZAzCVJKDFx82IJ\",2592000]\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__id' => 1
+]
+
+$_SERVER = [
+    'USER' => 'nginx'
+    'HOME' => '/var/lib/nginx'
+    'HTTP_COOKIE' => 'advanced-frontend=achgqposj5il3u5f4eutcquch7; _csrf-frontend=f261737737e2df6bf756e6d74ca88d247a113076fad82f8bff39f2053100de07a%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%22%1E%F6%07%09.%F5%CCH%C1%40%10d%EC%EB%A3%99%3Co%B8oY%09%0A%AA%D0I%F2%A7b%AE%A4%B8%22%3B%7D; _csrf-backend=36381f5ae96bc39fbf7739a0aeddcba29158bd8688092ae71e7defb18b40d2d6a%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_csrf-backend%22%3Bi%3A1%3Bs%3A32%3A%22%01%85%86q%3B%D5%21%E0%C2%2C%EFZ%BC%BFi%7DK%2Bl%5C%17%BE%0D%D3%5C%98H%EB%0E%AB%19%8F%22%3B%7D; PHPSESSID=f2srbgljitd8qakvm92jm8eoh0; _identity-backend=4ff4ad264e3c9d7fe4c230e3570c87c1cae912a0bed12123b80c0c13222b491ca%3A2%3A%7Bi%3A0%3Bs%3A17%3A%22_identity-backend%22%3Bi%3A1%3Bs%3A46%3A%22%5B1%2C%22SbSY36BLw3V2lU-GB7ZAzCVJKDFx82IJ%22%2C2592000%5D%22%3B%7D'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_REFERER' => 'http://admin.xkkb.com/product/sn?stype=22'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_HOST' => 'admin.xkkb.com'
+    'REDIRECT_STATUS' => '200'
+    'SERVER_NAME' => 'admin.xkkb.com'
+    'SERVER_PORT' => '80'
+    'SERVER_ADDR' => '192.168.1.44'
+    'REMOTE_PORT' => '52382'
+    'REMOTE_ADDR' => '192.168.1.102'
+    'SERVER_SOFTWARE' => 'nginx/1.10.3'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REQUEST_SCHEME' => 'http'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'DOCUMENT_ROOT' => '/var/www/xkkb_admin'
+    'DOCUMENT_URI' => '/admin.php'
+    'REQUEST_URI' => '/product/sn?stype=22'
+    'SCRIPT_NAME' => '/admin.php'
+    'CONTENT_LENGTH' => ''
+    'CONTENT_TYPE' => ''
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'stype=22'
+    'SCRIPT_FILENAME' => '/var/www/xkkb_admin/admin.php'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/admin.php'
+    'REQUEST_TIME_FLOAT' => 1502203779.4379
+    'REQUEST_TIME' => 1502203779
+]
+2017-08-08 22:49:45 [192.168.1.102][1][-][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 192.168.1.102
+    in /var/www/xkkb_admin/statics/themes/admin/views/layouts/main.php:178
+    in /var/www/xkkb_admin/backend/controllers/ProductController.php:33
+2017-08-08 22:49:45 [192.168.1.102][1][-][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 192.168.1.102
+2017-08-08 22:49:45 [192.168.1.102][1][-][info][application] $_GET = [
+    'stype' => '23'
+]
+
+$_COOKIE = [
+    'advanced-frontend' => 'achgqposj5il3u5f4eutcquch7'
+    '_csrf-frontend' => 'f261737737e2df6bf756e6d74ca88d247a113076fad82f8bff39f2053100de07a:2:{i:0;s:14:\"_csrf-frontend\";i:1;s:32:\"ö	.õÌHÁ@dìë£™<o¸oY	
+ªÐIò§b®¤¸\";}'
+    '_csrf-backend' => '36381f5ae96bc39fbf7739a0aeddcba29158bd8688092ae71e7defb18b40d2d6a:2:{i:0;s:13:\"_csrf-backend\";i:1;s:32:\"…†q;Õ!àÂ,ïZ¼¿i}K+l\\¾Ó\\˜Hë«\";}'
+    'PHPSESSID' => 'f2srbgljitd8qakvm92jm8eoh0'
+    '_identity-backend' => '4ff4ad264e3c9d7fe4c230e3570c87c1cae912a0bed12123b80c0c13222b491ca:2:{i:0;s:17:\"_identity-backend\";i:1;s:46:\"[1,\"SbSY36BLw3V2lU-GB7ZAzCVJKDFx82IJ\",2592000]\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__id' => 1
+]
+
+$_SERVER = [
+    'USER' => 'nginx'
+    'HOME' => '/var/lib/nginx'
+    'HTTP_COOKIE' => 'advanced-frontend=achgqposj5il3u5f4eutcquch7; _csrf-frontend=f261737737e2df6bf756e6d74ca88d247a113076fad82f8bff39f2053100de07a%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%22%1E%F6%07%09.%F5%CCH%C1%40%10d%EC%EB%A3%99%3Co%B8oY%09%0A%AA%D0I%F2%A7b%AE%A4%B8%22%3B%7D; _csrf-backend=36381f5ae96bc39fbf7739a0aeddcba29158bd8688092ae71e7defb18b40d2d6a%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_csrf-backend%22%3Bi%3A1%3Bs%3A32%3A%22%01%85%86q%3B%D5%21%E0%C2%2C%EFZ%BC%BFi%7DK%2Bl%5C%17%BE%0D%D3%5C%98H%EB%0E%AB%19%8F%22%3B%7D; PHPSESSID=f2srbgljitd8qakvm92jm8eoh0; _identity-backend=4ff4ad264e3c9d7fe4c230e3570c87c1cae912a0bed12123b80c0c13222b491ca%3A2%3A%7Bi%3A0%3Bs%3A17%3A%22_identity-backend%22%3Bi%3A1%3Bs%3A46%3A%22%5B1%2C%22SbSY36BLw3V2lU-GB7ZAzCVJKDFx82IJ%22%2C2592000%5D%22%3B%7D'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_REFERER' => 'http://admin.xkkb.com/product/sn?stype=22'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_HOST' => 'admin.xkkb.com'
+    'REDIRECT_STATUS' => '200'
+    'SERVER_NAME' => 'admin.xkkb.com'
+    'SERVER_PORT' => '80'
+    'SERVER_ADDR' => '192.168.1.44'
+    'REMOTE_PORT' => '52382'
+    'REMOTE_ADDR' => '192.168.1.102'
+    'SERVER_SOFTWARE' => 'nginx/1.10.3'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REQUEST_SCHEME' => 'http'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'DOCUMENT_ROOT' => '/var/www/xkkb_admin'
+    'DOCUMENT_URI' => '/admin.php'
+    'REQUEST_URI' => '/product/sn?stype=23'
+    'SCRIPT_NAME' => '/admin.php'
+    'CONTENT_LENGTH' => ''
+    'CONTENT_TYPE' => ''
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'stype=23'
+    'SCRIPT_FILENAME' => '/var/www/xkkb_admin/admin.php'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/admin.php'
+    'REQUEST_TIME_FLOAT' => 1502203785.0217
+    'REQUEST_TIME' => 1502203785
+]
+2017-08-08 22:50:11 [192.168.1.102][1][-][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 192.168.1.102
+    in /var/www/xkkb_admin/statics/themes/admin/views/layouts/main.php:178
+    in /var/www/xkkb_admin/backend/controllers/ProductController.php:33
+2017-08-08 22:50:11 [192.168.1.102][1][-][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 192.168.1.102
+2017-08-08 22:50:11 [192.168.1.102][1][-][info][application] $_GET = [
+    'stype' => '23'
+]
+
+$_COOKIE = [
+    'advanced-frontend' => 'achgqposj5il3u5f4eutcquch7'
+    '_csrf-frontend' => 'f261737737e2df6bf756e6d74ca88d247a113076fad82f8bff39f2053100de07a:2:{i:0;s:14:\"_csrf-frontend\";i:1;s:32:\"ö	.õÌHÁ@dìë£™<o¸oY	
+ªÐIò§b®¤¸\";}'
+    '_csrf-backend' => '36381f5ae96bc39fbf7739a0aeddcba29158bd8688092ae71e7defb18b40d2d6a:2:{i:0;s:13:\"_csrf-backend\";i:1;s:32:\"…†q;Õ!àÂ,ïZ¼¿i}K+l\\¾Ó\\˜Hë«\";}'
+    'PHPSESSID' => 'f2srbgljitd8qakvm92jm8eoh0'
+    '_identity-backend' => '4ff4ad264e3c9d7fe4c230e3570c87c1cae912a0bed12123b80c0c13222b491ca:2:{i:0;s:17:\"_identity-backend\";i:1;s:46:\"[1,\"SbSY36BLw3V2lU-GB7ZAzCVJKDFx82IJ\",2592000]\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__id' => 1
+]
+
+$_SERVER = [
+    'USER' => 'nginx'
+    'HOME' => '/var/lib/nginx'
+    'HTTP_COOKIE' => 'advanced-frontend=achgqposj5il3u5f4eutcquch7; _csrf-frontend=f261737737e2df6bf756e6d74ca88d247a113076fad82f8bff39f2053100de07a%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%22%1E%F6%07%09.%F5%CCH%C1%40%10d%EC%EB%A3%99%3Co%B8oY%09%0A%AA%D0I%F2%A7b%AE%A4%B8%22%3B%7D; _csrf-backend=36381f5ae96bc39fbf7739a0aeddcba29158bd8688092ae71e7defb18b40d2d6a%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_csrf-backend%22%3Bi%3A1%3Bs%3A32%3A%22%01%85%86q%3B%D5%21%E0%C2%2C%EFZ%BC%BFi%7DK%2Bl%5C%17%BE%0D%D3%5C%98H%EB%0E%AB%19%8F%22%3B%7D; PHPSESSID=f2srbgljitd8qakvm92jm8eoh0; _identity-backend=4ff4ad264e3c9d7fe4c230e3570c87c1cae912a0bed12123b80c0c13222b491ca%3A2%3A%7Bi%3A0%3Bs%3A17%3A%22_identity-backend%22%3Bi%3A1%3Bs%3A46%3A%22%5B1%2C%22SbSY36BLw3V2lU-GB7ZAzCVJKDFx82IJ%22%2C2592000%5D%22%3B%7D'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_REFERER' => 'http://admin.xkkb.com/product/sn?stype=23'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_HOST' => 'admin.xkkb.com'
+    'REDIRECT_STATUS' => '200'
+    'SERVER_NAME' => 'admin.xkkb.com'
+    'SERVER_PORT' => '80'
+    'SERVER_ADDR' => '192.168.1.44'
+    'REMOTE_PORT' => '52382'
+    'REMOTE_ADDR' => '192.168.1.102'
+    'SERVER_SOFTWARE' => 'nginx/1.10.3'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REQUEST_SCHEME' => 'http'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'DOCUMENT_ROOT' => '/var/www/xkkb_admin'
+    'DOCUMENT_URI' => '/admin.php'
+    'REQUEST_URI' => '/product/sn?stype=23'
+    'SCRIPT_NAME' => '/admin.php'
+    'CONTENT_LENGTH' => ''
+    'CONTENT_TYPE' => ''
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'stype=23'
+    'SCRIPT_FILENAME' => '/var/www/xkkb_admin/admin.php'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/admin.php'
+    'REQUEST_TIME_FLOAT' => 1502203811.2158
+    'REQUEST_TIME' => 1502203811
+]
+2017-08-08 22:51:00 [192.168.1.102][1][-][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 192.168.1.102
+    in /var/www/xkkb_admin/statics/themes/admin/views/layouts/main.php:178
+    in /var/www/xkkb_admin/backend/controllers/ProductController.php:33
+2017-08-08 22:51:00 [192.168.1.102][1][-][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 192.168.1.102
+2017-08-08 22:51:00 [192.168.1.102][1][-][info][application] $_GET = [
+    'stype' => '23'
+]
+
+$_COOKIE = [
+    'advanced-frontend' => 'achgqposj5il3u5f4eutcquch7'
+    '_csrf-frontend' => 'f261737737e2df6bf756e6d74ca88d247a113076fad82f8bff39f2053100de07a:2:{i:0;s:14:\"_csrf-frontend\";i:1;s:32:\"ö	.õÌHÁ@dìë£™<o¸oY	
+ªÐIò§b®¤¸\";}'
+    '_csrf-backend' => '36381f5ae96bc39fbf7739a0aeddcba29158bd8688092ae71e7defb18b40d2d6a:2:{i:0;s:13:\"_csrf-backend\";i:1;s:32:\"…†q;Õ!àÂ,ïZ¼¿i}K+l\\¾Ó\\˜Hë«\";}'
+    'PHPSESSID' => 'f2srbgljitd8qakvm92jm8eoh0'
+    '_identity-backend' => '4ff4ad264e3c9d7fe4c230e3570c87c1cae912a0bed12123b80c0c13222b491ca:2:{i:0;s:17:\"_identity-backend\";i:1;s:46:\"[1,\"SbSY36BLw3V2lU-GB7ZAzCVJKDFx82IJ\",2592000]\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__id' => 1
+]
+
+$_SERVER = [
+    'USER' => 'nginx'
+    'HOME' => '/var/lib/nginx'
+    'HTTP_COOKIE' => 'advanced-frontend=achgqposj5il3u5f4eutcquch7; _csrf-frontend=f261737737e2df6bf756e6d74ca88d247a113076fad82f8bff39f2053100de07a%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%22%1E%F6%07%09.%F5%CCH%C1%40%10d%EC%EB%A3%99%3Co%B8oY%09%0A%AA%D0I%F2%A7b%AE%A4%B8%22%3B%7D; _csrf-backend=36381f5ae96bc39fbf7739a0aeddcba29158bd8688092ae71e7defb18b40d2d6a%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_csrf-backend%22%3Bi%3A1%3Bs%3A32%3A%22%01%85%86q%3B%D5%21%E0%C2%2C%EFZ%BC%BFi%7DK%2Bl%5C%17%BE%0D%D3%5C%98H%EB%0E%AB%19%8F%22%3B%7D; PHPSESSID=f2srbgljitd8qakvm92jm8eoh0; _identity-backend=4ff4ad264e3c9d7fe4c230e3570c87c1cae912a0bed12123b80c0c13222b491ca%3A2%3A%7Bi%3A0%3Bs%3A17%3A%22_identity-backend%22%3Bi%3A1%3Bs%3A46%3A%22%5B1%2C%22SbSY36BLw3V2lU-GB7ZAzCVJKDFx82IJ%22%2C2592000%5D%22%3B%7D'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_REFERER' => 'http://admin.xkkb.com/product/sn?stype=23'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_HOST' => 'admin.xkkb.com'
+    'REDIRECT_STATUS' => '200'
+    'SERVER_NAME' => 'admin.xkkb.com'
+    'SERVER_PORT' => '80'
+    'SERVER_ADDR' => '192.168.1.44'
+    'REMOTE_PORT' => '52637'
+    'REMOTE_ADDR' => '192.168.1.102'
+    'SERVER_SOFTWARE' => 'nginx/1.10.3'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REQUEST_SCHEME' => 'http'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'DOCUMENT_ROOT' => '/var/www/xkkb_admin'
+    'DOCUMENT_URI' => '/admin.php'
+    'REQUEST_URI' => '/product/sn?stype=23'
+    'SCRIPT_NAME' => '/admin.php'
+    'CONTENT_LENGTH' => ''
+    'CONTENT_TYPE' => ''
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'stype=23'
+    'SCRIPT_FILENAME' => '/var/www/xkkb_admin/admin.php'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/admin.php'
+    'REQUEST_TIME_FLOAT' => 1502203860.0899
+    'REQUEST_TIME' => 1502203860
+]
+2017-08-08 22:51:04 [192.168.1.102][1][-][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 192.168.1.102
+    in /var/www/xkkb_admin/statics/themes/admin/views/layouts/main.php:178
+    in /var/www/xkkb_admin/backend/controllers/ProductController.php:33
+2017-08-08 22:51:04 [192.168.1.102][1][-][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 192.168.1.102
+2017-08-08 22:51:04 [192.168.1.102][1][-][info][application] $_GET = [
+    'stype' => '0'
+]
+
+$_COOKIE = [
+    'advanced-frontend' => 'achgqposj5il3u5f4eutcquch7'
+    '_csrf-frontend' => 'f261737737e2df6bf756e6d74ca88d247a113076fad82f8bff39f2053100de07a:2:{i:0;s:14:\"_csrf-frontend\";i:1;s:32:\"ö	.õÌHÁ@dìë£™<o¸oY	
+ªÐIò§b®¤¸\";}'
+    '_csrf-backend' => '36381f5ae96bc39fbf7739a0aeddcba29158bd8688092ae71e7defb18b40d2d6a:2:{i:0;s:13:\"_csrf-backend\";i:1;s:32:\"…†q;Õ!àÂ,ïZ¼¿i}K+l\\¾Ó\\˜Hë«\";}'
+    'PHPSESSID' => 'f2srbgljitd8qakvm92jm8eoh0'
+    '_identity-backend' => '4ff4ad264e3c9d7fe4c230e3570c87c1cae912a0bed12123b80c0c13222b491ca:2:{i:0;s:17:\"_identity-backend\";i:1;s:46:\"[1,\"SbSY36BLw3V2lU-GB7ZAzCVJKDFx82IJ\",2592000]\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__id' => 1
+]
+
+$_SERVER = [
+    'USER' => 'nginx'
+    'HOME' => '/var/lib/nginx'
+    'HTTP_COOKIE' => 'advanced-frontend=achgqposj5il3u5f4eutcquch7; _csrf-frontend=f261737737e2df6bf756e6d74ca88d247a113076fad82f8bff39f2053100de07a%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%22%1E%F6%07%09.%F5%CCH%C1%40%10d%EC%EB%A3%99%3Co%B8oY%09%0A%AA%D0I%F2%A7b%AE%A4%B8%22%3B%7D; _csrf-backend=36381f5ae96bc39fbf7739a0aeddcba29158bd8688092ae71e7defb18b40d2d6a%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_csrf-backend%22%3Bi%3A1%3Bs%3A32%3A%22%01%85%86q%3B%D5%21%E0%C2%2C%EFZ%BC%BFi%7DK%2Bl%5C%17%BE%0D%D3%5C%98H%EB%0E%AB%19%8F%22%3B%7D; PHPSESSID=f2srbgljitd8qakvm92jm8eoh0; _identity-backend=4ff4ad264e3c9d7fe4c230e3570c87c1cae912a0bed12123b80c0c13222b491ca%3A2%3A%7Bi%3A0%3Bs%3A17%3A%22_identity-backend%22%3Bi%3A1%3Bs%3A46%3A%22%5B1%2C%22SbSY36BLw3V2lU-GB7ZAzCVJKDFx82IJ%22%2C2592000%5D%22%3B%7D'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_REFERER' => 'http://admin.xkkb.com/product/sn?stype=23'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_HOST' => 'admin.xkkb.com'
+    'REDIRECT_STATUS' => '200'
+    'SERVER_NAME' => 'admin.xkkb.com'
+    'SERVER_PORT' => '80'
+    'SERVER_ADDR' => '192.168.1.44'
+    'REMOTE_PORT' => '52637'
+    'REMOTE_ADDR' => '192.168.1.102'
+    'SERVER_SOFTWARE' => 'nginx/1.10.3'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REQUEST_SCHEME' => 'http'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'DOCUMENT_ROOT' => '/var/www/xkkb_admin'
+    'DOCUMENT_URI' => '/admin.php'
+    'REQUEST_URI' => '/product/sn?stype=0'
+    'SCRIPT_NAME' => '/admin.php'
+    'CONTENT_LENGTH' => ''
+    'CONTENT_TYPE' => ''
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'stype=0'
+    'SCRIPT_FILENAME' => '/var/www/xkkb_admin/admin.php'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/admin.php'
+    'REQUEST_TIME_FLOAT' => 1502203864.1078
+    'REQUEST_TIME' => 1502203864
+]
+2017-08-08 22:51:12 [192.168.1.102][1][-][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 192.168.1.102
+    in /var/www/xkkb_admin/statics/themes/admin/views/layouts/main.php:178
+    in /var/www/xkkb_admin/backend/controllers/ProductController.php:33
+2017-08-08 22:51:12 [192.168.1.102][1][-][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 192.168.1.102
+2017-08-08 22:51:12 [192.168.1.102][1][-][info][application] $_GET = [
+    'stype' => '0'
+]
+
+$_COOKIE = [
+    'advanced-frontend' => 'achgqposj5il3u5f4eutcquch7'
+    '_csrf-frontend' => 'f261737737e2df6bf756e6d74ca88d247a113076fad82f8bff39f2053100de07a:2:{i:0;s:14:\"_csrf-frontend\";i:1;s:32:\"ö	.õÌHÁ@dìë£™<o¸oY	
+ªÐIò§b®¤¸\";}'
+    '_csrf-backend' => '36381f5ae96bc39fbf7739a0aeddcba29158bd8688092ae71e7defb18b40d2d6a:2:{i:0;s:13:\"_csrf-backend\";i:1;s:32:\"…†q;Õ!àÂ,ïZ¼¿i}K+l\\¾Ó\\˜Hë«\";}'
+    'PHPSESSID' => 'f2srbgljitd8qakvm92jm8eoh0'
+    '_identity-backend' => '4ff4ad264e3c9d7fe4c230e3570c87c1cae912a0bed12123b80c0c13222b491ca:2:{i:0;s:17:\"_identity-backend\";i:1;s:46:\"[1,\"SbSY36BLw3V2lU-GB7ZAzCVJKDFx82IJ\",2592000]\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__id' => 1
+]
+
+$_SERVER = [
+    'USER' => 'nginx'
+    'HOME' => '/var/lib/nginx'
+    'HTTP_COOKIE' => 'advanced-frontend=achgqposj5il3u5f4eutcquch7; _csrf-frontend=f261737737e2df6bf756e6d74ca88d247a113076fad82f8bff39f2053100de07a%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%22%1E%F6%07%09.%F5%CCH%C1%40%10d%EC%EB%A3%99%3Co%B8oY%09%0A%AA%D0I%F2%A7b%AE%A4%B8%22%3B%7D; _csrf-backend=36381f5ae96bc39fbf7739a0aeddcba29158bd8688092ae71e7defb18b40d2d6a%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_csrf-backend%22%3Bi%3A1%3Bs%3A32%3A%22%01%85%86q%3B%D5%21%E0%C2%2C%EFZ%BC%BFi%7DK%2Bl%5C%17%BE%0D%D3%5C%98H%EB%0E%AB%19%8F%22%3B%7D; PHPSESSID=f2srbgljitd8qakvm92jm8eoh0; _identity-backend=4ff4ad264e3c9d7fe4c230e3570c87c1cae912a0bed12123b80c0c13222b491ca%3A2%3A%7Bi%3A0%3Bs%3A17%3A%22_identity-backend%22%3Bi%3A1%3Bs%3A46%3A%22%5B1%2C%22SbSY36BLw3V2lU-GB7ZAzCVJKDFx82IJ%22%2C2592000%5D%22%3B%7D'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_REFERER' => 'http://admin.xkkb.com/product/sn?stype=23'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_HOST' => 'admin.xkkb.com'
+    'REDIRECT_STATUS' => '200'
+    'SERVER_NAME' => 'admin.xkkb.com'
+    'SERVER_PORT' => '80'
+    'SERVER_ADDR' => '192.168.1.44'
+    'REMOTE_PORT' => '52637'
+    'REMOTE_ADDR' => '192.168.1.102'
+    'SERVER_SOFTWARE' => 'nginx/1.10.3'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REQUEST_SCHEME' => 'http'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'DOCUMENT_ROOT' => '/var/www/xkkb_admin'
+    'DOCUMENT_URI' => '/admin.php'
+    'REQUEST_URI' => '/product/sn?stype=0'
+    'SCRIPT_NAME' => '/admin.php'
+    'CONTENT_LENGTH' => ''
+    'CONTENT_TYPE' => ''
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'stype=0'
+    'SCRIPT_FILENAME' => '/var/www/xkkb_admin/admin.php'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/admin.php'
+    'REQUEST_TIME_FLOAT' => 1502203872.602
+    'REQUEST_TIME' => 1502203872
+]
