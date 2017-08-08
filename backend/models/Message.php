@@ -10,7 +10,7 @@ class Message extends ActiveRecord {
 
     public static function tableName()
     {
-        return 'Message';
+        return 'message';
     }
 
     public function getMsgCount(){

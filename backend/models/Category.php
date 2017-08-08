@@ -94,4 +94,9 @@ class Category extends ActiveRecord {
         return Yii::$app->db->createCommand($sql)->queryAll();
     }
 
+    public function getSecondCategoryListById(int $id){
+        $sql = "SELECT * FROM `category` WHERE `pid`= {$id} AND `status` = 1 AND cate_level = 2";
+        return Yii::$app->db->createCommand($sql)->queryAll();
+    }
+
 }

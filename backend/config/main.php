@@ -58,6 +58,7 @@ return [
             'showScriptName' => false,  //是否显示url中的index.php
             // 'suffix' => '.html',    //后缀
             'rules' => [
+                '/product/index/<id:\d+>' => '/product/index',
             ],
         ],
     ],
