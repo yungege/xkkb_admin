@@ -4,12 +4,12 @@ use yii\bootstrap\Nav;
 echo Nav::widget([
     'items' => [
         [
-            'label' => '室内光缆系列',
+            'label' => '室外光缆系列',
             'url' => ['product/index'],
         ],
         [
-            'label' => '室外光缆系列',
-            'url' => ['product/sw'],
+            'label' => '室内光缆系列',
+            'url' => ['product/sn'],
         ],
         [
             'label' => '数据中心系列',
