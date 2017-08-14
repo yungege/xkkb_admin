@@ -25,6 +25,11 @@ AppAsset::addJs($this, '/statics/themes/admin/meau/add.js');
             </div>
 
             <div class="form-group">
+                <label class="control-label" for="en_meau">英文名称</label>
+                <input type="text" id="en_meau" class="form-control" name="en_meau" aria-required="true" aria-invalid="true" value="<?= Html::encode($meau['en_meau']) ?>">
+            </div>
+
+            <div class="form-group">
                 <label class="control-label" for="">链接URL</label>
                 <input type="text" id="url" class="form-control" name="url" aria-required="true" aria-invalid="false" value="<?= $meau['url'] ?>">
             </div>
@@ -35,7 +40,7 @@ AppAsset::addJs($this, '/statics/themes/admin/meau/add.js');
             </div>
 
             <div class="form-group">
-                <label class="control-label">下拉菜单配置<small style="color:#65CEA7;font-weight: normal!important;">（最多只能配置8个）</small></label>
+                <label class="control-label">下拉菜单配置<small style="color:#65CEA7;font-weight: normal!important;">（最多只能配置8个,图片 w100*h120）</small></label>
                 <table class="table table-bordered my-table">
                 <?php for ($i=1;$i<=8;$i++): ?>
                     <tr class="<?= $i>1 ? 'else-tr '.$i.'th-tr' : '' ?>" style="<?= $meau['show'][$i-1] ? 'display: table-row;' : ''; if($meau['show'][$i-2] && empty($meau['show'][$i-1])){echo 'display: table-row;';}?>" >
@@ -52,6 +57,12 @@ AppAsset::addJs($this, '/statics/themes/admin/meau/add.js');
                             <div class="form-group margin-top-30">
                                 <label class="control-label" for="pic-<?= $i ?>-title">标题</label>
                                 <input type="text" id="pic-<?= $i ?>-title" class="form-control" name="pic-<?= $i ?>[title]" aria-required="true" aria-invalid="false" value="<?= htmlspecialchars($meau['show'][$i-1]['title']) ?>">
+                            </div>
+                        </td>
+                        <td>
+                            <div class="form-group margin-top-30">
+                                <label class="control-label" for="pic-<?= $i ?>-en-title">英文标题</label>
+                                <input type="text" id="pic-<?= $i ?>-en-title" class="form-control" name="pic-<?= $i ?>[en_title]" aria-required="true" aria-invalid="false" value="<?= htmlspecialchars($meau['show'][$i-1]['en_title']) ?>">
                             </div>
                         </td>
                         <td style="position: relative;">

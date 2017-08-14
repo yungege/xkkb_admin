@@ -14,7 +14,7 @@ $this->params['breadcrumbs'][] = $this->title;
         <thead>
             <tr>
                 <th>菜单名称</th>
-                <th>浏览</th>
+                <th>英文菜单</th>
                 <th>排序</th>
                 <th>下拉菜单</th>
                 <th>当前状态</th>
@@ -24,10 +24,8 @@ $this->params['breadcrumbs'][] = $this->title;
         <tbody>
             <?php foreach ($meauList as $row) : ?>
             <tr>
-                <td><?= $row['meau'] ?></td>
-                <td>
-                    <a href="<?= $row['url'] ?>" class="" target="__blank">浏&nbsp;览</a>
-                </td>
+                <td><a href="<?= $row['url'] ?>"><?= $row['meau'] ?></a></td>
+                <td><a href="<?= $row['en_url'] ?>"><?= $row['en_meau'] ?></a></td>
                 <td><?= $row['sort'] ?></td>
                 <td>
                     <span class="label <?= empty($row['show']) ? 'label-danger' : 'label-success' ?>"><?= empty($row['show']) ? '无' : '有' ?></span>

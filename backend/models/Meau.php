@@ -70,6 +70,7 @@ class Meau extends ActiveRecord {
             'id'            => 'ID',
             'url'           => 'URL',
             'meau'          => '导航名称',
+            'en_meau'       => '导航名称',
             'show'          => '下拉菜单',
             'show_limit'    => '下拉菜单数量限制',
             'admin_id'      => '管理员',

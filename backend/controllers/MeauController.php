@@ -10,6 +10,14 @@ class MeauController extends BaseController {
 
     public function actionIndex(){
         $meauList = (new Meau)->getMeauList();
+        foreach ($meauList as &$mv) {
+            if(false === strpos($mv['url'], 'zh_cn')){
+                $mv['en_url'] = $mv['url'] . '/en';
+            }
+            else{
+                $mv['en_url'] = str_replace('zh_cn', 'en', $mv['url']);
+            }
+        }
 
         return $this->render('index', [
             'meauList' => (array)$meauList,
@@ -48,6 +56,8 @@ class MeauController extends BaseController {
         if(
             empty($post['meau']) || 
             mb_strlen($post['meau']) > 12 ||
+            empty($post['en_meau']) || 
+            mb_strlen($post['en_meau']) > 24 ||
             !preg_match($urlPreg, $post['url']) ||
             !is_numeric($post['sort']) ||
             $post['sort'] > 8 || 
@@ -58,7 +68,7 @@ class MeauController extends BaseController {
 
         if(empty($get['option']) || empty($get['id'])){
             $flag = 'add';
-            $hasOne = (Meau::find())->where(['meau' => addslashes($post['meau'])])->one();
+            $hasOne = (Meau::find())->where(['meau' => addslashes($post['meau']),'status'=>1])->one();
             if($hasOne !== null){
                 $this->error('已存在名称为【'.$post['meau'].'】的菜单.');
             }
@@ -86,6 +96,9 @@ class MeauController extends BaseController {
                 !empty($post[$picIndex]['title']) &&
                 mb_strlen($post[$picIndex]['title']) >= 1 &&
                 mb_strlen($post[$picIndex]['title']) <= 12 &&
+                !empty($post[$picIndex]['en_title']) &&
+                mb_strlen($post[$picIndex]['en_title']) >= 1 &&
+                mb_strlen($post[$picIndex]['en_title']) <= 24 &&
                 preg_match($urlPreg, $post[$picIndex]['link'])
             ){
                 $post[$picIndex]['url'] = $post[$picIndex]['url']; 
@@ -103,6 +116,7 @@ class MeauController extends BaseController {
 
         $model->url           = $post['url'];
         $model->meau          = htmlspecialchars($post['meau']);
+        $model->en_meau       = htmlspecialchars($post['en_meau']);
         $model->show          = !empty($selectMeau) ? serialize($selectMeau) : '';
         $model->admin_id      = Yii::$app->user->id;
         $model->sort          = (int)$post['sort'];

@@ -25,6 +25,11 @@ AppAsset::addJs($this, '/statics/themes/admin/meau/add.js');
             </div>
 
             <div class="form-group">
+                <label class="control-label" for="meau">英文名称</label>
+                <input type="text" id="en_meau" class="form-control" name="en_meau" aria-required="true" aria-invalid="true">
+            </div>
+
+            <div class="form-group">
                 <label class="control-label" for="">链接URL</label>
                 <input type="text" id="url" class="form-control" name="url" aria-required="true" aria-invalid="false">
             </div>
@@ -35,7 +40,7 @@ AppAsset::addJs($this, '/statics/themes/admin/meau/add.js');
             </div>
 
             <div class="form-group">
-                <label class="control-label">下拉菜单配置<small style="color:#65CEA7;font-weight: normal!important;">（最多只能配置8个）</small></label>
+                <label class="control-label">下拉菜单配置<small style="color:#65CEA7;font-weight: normal!important;">（最多只能配置8个,图片 w100*h120）</small></label>
                 <table class="table table-bordered my-table">
                     <?php
                         for ($i = 1;$i <= 8;$i++):
@@ -54,6 +59,12 @@ AppAsset::addJs($this, '/statics/themes/admin/meau/add.js');
                             <div class="form-group margin-top-30">
                                 <label class="control-label" for="pic-<?= $i ?>-title">标题</label>
                                 <input type="text" id="pic-<?= $i ?>-title" class="form-control" name="pic-<?= $i ?>[title]" aria-required="true" aria-invalid="false">
+                            </div>
+                        </td>
+                        <td>
+                            <div class="form-group margin-top-30">
+                                <label class="control-label" for="pic-<?= $i ?>-en-title">英文标题</label>
+                                <input type="text" id="pic-<?= $i ?>-en-title" class="form-control" name="pic-<?= $i ?>[en_title]" aria-required="true" aria-invalid="false">
                             </div>
                         </td>
                         <td style="position: relative;">

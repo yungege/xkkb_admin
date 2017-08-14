@@ -86,6 +86,7 @@ $(function(){
             var rep = null;
             me.subBtn.unbind().bind('click', function(){
                 var meau = $.trim($('#meau').val());
+                var enmeau = $.trim($('#en_meau').val());
                 var url = $.trim($('#url').val());
                 var sort = parseInt($.trim($('#sort').val()));
                 var option = $.trim($(this).attr('data-option'));
@@ -97,6 +98,14 @@ $(function(){
                 }
                 if(meau.length > 6){
                     alert('菜单名称不能超过6个字.')
+                    return false;
+                }
+                if(!enmeau){
+                    alert('请输入英文菜单名称.')
+                    return false;
+                }
+                if(enmeau.length > 24){
+                    alert('英文菜单名称不能超过24个字母.')
                     return false;
                 }
                 if(!url || !url.match(/(((^https?:(?:\/\/)?)(?:[-;:&=\+\$,\w]+@)?[A-Za-z0-9.-]+|(?:www.|[-;:&=\+\$,\w]+@)[A-Za-z0-9.-]+)((?:\/[\+~%\/.\w-_]*)?\??(?:[-\+=&;%@.\w_]*)#?(?:[\w]*))?)$/g))

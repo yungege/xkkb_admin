@@ -28,10 +28,10 @@ class Category extends ActiveRecord {
     public function rules()
     {
         return [
-            [['pid', 'cate_name', 'cate_icon','cate_hover_icon','cate_sort','status'], 'required', 'message'=> '数据填写有误！'],
+            [['pid', 'cate_name', 'en_cate_name','cate_icon','cate_hover_icon','cate_sort','status'], 'required', 'message'=> '数据填写有误！'],
             [['pid','cate_sort','status','ctime','cate_level'], 'integer'],
             ['cate_name', 'string', 'max'=>16],
-            [['cate_icon','cate_hover_icon'], 'string', 'max'=>255],
+            [['cate_icon','cate_hover_icon','en_cate_name'], 'string', 'max'=>255],
             [['cate_desc','admin_id'], 'safe'],
         ];
     }
@@ -39,10 +39,10 @@ class Category extends ActiveRecord {
     public function scenarios()
     {
         return [
-            'createFirstLeval' => ['cate_name','cate_icon','cate_hover_icon','cate_sort','type','admin_id'],
-            'createSecondLeval' => ['pid','cate_name','cate_level','type','admin_id'],
-            'updateFirstLeval' => ['cate_name','cate_icon','cate_hover_icon','cate_sort'],
-            'updateSecondLeval' => ['cate_name','cate_sort'],
+            'createFirstLeval' => ['cate_name','en_cate_name','cate_icon','cate_hover_icon','cate_sort','type','admin_id'],
+            'createSecondLeval' => ['pid','cate_name','en_cate_name','cate_level','type','admin_id'],
+            'updateFirstLeval' => ['cate_name','en_cate_name','cate_icon','cate_hover_icon','cate_sort'],
+            'updateSecondLeval' => ['cate_name','en_cate_name','cate_sort'],
             'delete' => ['status'],
         ];
     }
@@ -53,6 +53,7 @@ class Category extends ActiveRecord {
             'id'                => '',
             'pid'               => '',
             'cate_name'         => '',
+            'en_cate_name'      => '',
             'cate_icon'         => '',
             'cate_hover_icon'   => '',
             'cate_desc'         => '',
