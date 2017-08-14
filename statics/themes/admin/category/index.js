@@ -17,6 +17,7 @@ $(function(){
             this.areaDiv = $('.fix-div');
             this.subBtn = $('#sub');
             this.title = $('#cate_name');
+            this.entitle = $('#en_cate_name');
             this.pid = $('#pid');
             this.level = $('#level');
             this.removeBtn = $('.glyphicon-remove');
@@ -25,6 +26,7 @@ $(function(){
             this.editAreaDiv = $('.edit-fix-div');
             this.subBtnEdit = $('#edit_sub');
             this.titleEdit = $('#edit_cate_name');
+            this.enTitleEdit = $('#edit_en_cate_name');
             this.idEdit = $('#edit_id');
             this.levelEdit = $('#edit_level');
             this.sortEdit = $('#edit_cate_sort');
@@ -85,13 +87,15 @@ $(function(){
                 var id = $(this).data('id'),
                     level = $(this).data('level'),
                     sort = $(this).data('sort'),
-                    name = $(this).data('name');
+                    name = $(this).data('name'),
+                    enName = $(this).data('en-name');
 
                 me.editAreaDiv.fadeIn(200);
                 me.idEdit.val(id); 
                 me.levelEdit.val(level);
                 me.sortEdit.val(sort);
                 me.titleEdit.val(name);
+                me.enTitleEdit.val(enName);
                 me.sortEdit.attr('disabled', false);
 
                 if(level != 1){
@@ -107,10 +111,21 @@ $(function(){
             me.subBtn.unbind().bind('click', function(){
                 var title = $.trim(me.title.val()),
                     pid = parseInt($.trim(me.pid.val())),
-                    level = parseInt($.trim(me.level.val()));
+                    level = parseInt($.trim(me.level.val())),
+                    entitle = $.trim(me.entitle.val());
 
                 if(title.length > 16 || title < 2){
-                    alert('分类名称必须在4-16字之间.');
+                    alert('分类名称必须在2-16字之间.');
+                    return false;
+                }
+
+                if(!/\w{2,24}/.test(entitle)){
+                    alert('分类名称必须在2-24字母之间.');
+                    return false;
+                }
+
+                if(entitle.length > 24 || entitle < 2){
+                    alert('分类名称必须在2-24字母之间.');
                     return false;
                 }
 

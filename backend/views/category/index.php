@@ -17,13 +17,14 @@ function output_tr($l, $isRoot = true)
     echo "<td style='width: 30px'></td>";
     echo "<td style='width: 50px'>" . $l['id'] . "</td>";
     echo "<td style='width: 135px'>" . $l['pid'] . "</td>";
-    echo "<td style='width: 135px'>" . $l['cate_name'] . "</td>";
+    echo "<td style=''>" . $l['cate_name'] . "</td>";
+    echo "<td style=''>" . $l['en_cate_name'] . "</td>";
     echo "<td style='width: 85px'>" . $l['cate_level'] . "</td>";
     echo "<td style='width: 85px'>" . $l['cate_sort'] . "</td>";
 
     $addBtn = "<a data-pid=\"{$l['id']}\" data-level=\"{$l['cate_level']}\" class=\"cate-add btn btn-xs btn-success\" href=\"javascript:void(0)\"><span class='fa fa-plus'></span> 新增子类</a>&nbsp;";
     $delBtn = "<a data-id=\"{$l['id']}\" class=\"cate-del btn btn-xs btn-danger\" href=\"javascript:void(0)\"><span class='fa fa-times'></span> 删除</a>";
-    $editBtn = "<a data-id=\"{$l['id']}\" data-name=\"{$l['cate_name']}\" data-level=\"{$l['cate_level']}\" data-sort=\"{$l['cate_sort']}\" class=\"cate-edit btn btn-xs btn-primary\" href=\"javascript:void(0)\"><span class='fa fa-times'></span> 编辑</a>&nbsp;";
+    $editBtn = "<a data-id=\"{$l['id']}\" data-name=\"{$l['cate_name']}\" data-en-name=\"{$l['en_cate_name']}\" data-level=\"{$l['cate_level']}\" data-sort=\"{$l['cate_sort']}\" class=\"cate-edit btn btn-xs btn-primary\" href=\"javascript:void(0)\"><span class='fa fa-times'></span> 编辑</a>&nbsp;";
 
     $lastTd = $editBtn.$delBtn;
 
@@ -67,6 +68,7 @@ function recursive_output($l)
                     <th>ID</th>
                     <th>PID</th>
                     <th style="min-width: 200px;">分类名称</th>
+                    <th style="min-width: 200px;">英文名称</th>
                     <th>level</th>
                     <th>排序</th>
                     <th>操作</th>
@@ -102,11 +104,11 @@ function recursive_output($l)
     }
     .fix-div-inner,.edit-fix-div-inner{
         width: 400px;
-        height: 130px;
+        height: 210px;
         position: absolute;
         top: 50%;
         left: 50%;
-        margin-top: -65px;
+        margin-top: -100px;
         margin-left: -200px;
         background-color: white;
         padding: 10px;
@@ -114,8 +116,8 @@ function recursive_output($l)
         border-radius: 4px;
     }
     .edit-fix-div-inner{
-        height: 200px;
-        margin-top: -100px;
+        height: 280px;
+        margin-top: -140px;
     }
     .glyphicon-remove{
         position: absolute;
@@ -135,6 +137,11 @@ function recursive_output($l)
                 <input type="text" class="form-control" id="cate_name" name="cate_name">
             </div>
 
+            <div class="form-group">
+                <label for="en_cate_name">英文名称</label>
+                <input type="text" class="form-control" id="en_cate_name" name="en_cate_name">
+            </div>
+
             <input type="hidden" class="form-control" id="pid" name="pid">
             <input type="hidden" class="form-control" id="level" name="cate_level">
             
@@ -150,6 +157,11 @@ function recursive_output($l)
             <div class="form-group">
                 <label for="edit_cate_name">分类名称</label>
                 <input type="text" class="form-control" id="edit_cate_name" name="cate_name">
+            </div>
+
+            <div class="form-group">
+                <label for="edit_en_cate_name">英文名称</label>
+                <input type="text" class="form-control" id="edit_en_cate_name" name="en_cate_name">
             </div>
 
             <div class="form-group">
