@@ -28,19 +28,19 @@ class News extends ActiveRecord {
     public function rules()
     {
         return [
-            [['desc','title', 'content', 'cover','status','tags','category','admin_id'], 'required', 'message'=> '数据填写有误！'],
+            [['en_title','en_desc','en_content','desc','title','content','cover','status','tags','category','admin_id'], 'required', 'message'=> '数据填写有误！'],
             [['admin_id','status','ctime','category'], 'integer'],
             ['title', 'string', 'max'=>25],
-            [['cover','desc','tags'], 'string', 'max'=>255],
-            ['content', 'safe'],
+            [['cover','desc','tags','en_title'], 'string', 'max'=>255],
+            [['content','en_desc','en_content'], 'safe'],
         ];
     }
 
     public function scenarios()
     {
         return [
-            'create' => ['category','desc','title','content','cover','tags','admin_id'],
-            'update' => ['category','desc','title','content','cover','tags','admin_id','status'],
+            'create' => ['category','desc','title','content','cover','tags','admin_id','en_title','en_desc','en_content'],
+            'update' => ['category','desc','title','content','cover','tags','admin_id','status','en_title','en_desc','en_content'],
             'delete' => ['status'],
         ];
     }
@@ -58,6 +58,9 @@ class News extends ActiveRecord {
             'admin_id'  => '',
             'status'    => '',
             'ctime'     => '',
+            'en_title'  => '',
+            'en_desc'   => '',
+            'en_content' => '',
         ];
     }
 

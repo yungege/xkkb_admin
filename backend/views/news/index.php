@@ -17,7 +17,7 @@ $this->params['breadcrumbs'][] = $this->title;
                 <th>ID</th>
                 <th>封面</th>
                 <th>标题</th>
-                <th style="width: 500px;">摘要</th>
+                <th>英文标题</th>
                 <th>类型</th>
                 <th>标签</th>
                 <th>状态</th>
@@ -31,13 +31,13 @@ $this->params['breadcrumbs'][] = $this->title;
                 <td><?= $row['id'] ?></td>
                 <td><img src="<?= $row['cover'] ?>" height="100"></td>
                 <td><?= $row['title'] ?></td>
-                <td><?= $row['desc'] ?></td>
+                <td><?= $row['en_title'] ?></td>
                 <td>行业新闻</td>
                 <td><?= $row['tags'] ?></td>
                 <td><?= $row['status'] == 1 ? '<span class="label label-success">已发布</span>' : ($row['status'] == 2 ? '<span class="label label-warning">待发布</span>' : '<span class="label label-danger">unknow</span>') ?></td>
                 <td><?= date('Y-m-d H:i', $row['ctime']) ?></td>
                 <td data-csrf="<?php echo Yii::$app->request->csrfToken ?>">
-                    <a class="btn btn-info btn-xs" href="http://xkkb.com/zh_cn/news/<?= $row['id'] ?>?ca_f=<?= $row['category'] ?>" title="预览" aria-label="预览" data-pjax="0" target="__blank" style="margin-bottom: 5px;">
+                    <a class="btn btn-info btn-xs" href="http://www.xkkb.com.cn/zh_cn/news/<?= $row['id'] ?>?ca_f=<?= $row['category'] ?>" title="预览" aria-label="预览" data-pjax="0" target="__blank" style="margin-bottom: 5px;">
                         <span class="fa fa-play-circle-o"></span> 预览
                     </a>
                     <a class="btn btn-primary btn-xs" href="/news/edit?id=<?= $row['id'] ?>&ca_f=<?= $row['category'] ?>" title="更新" aria-label="更新" data-pjax="0" style="margin-bottom: 5px;">

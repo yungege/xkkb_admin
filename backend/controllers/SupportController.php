@@ -71,7 +71,10 @@ class SupportController extends BaseController {
             (mb_strlen($post['title']) > 30 || mb_strlen($post['title']) < 4) ||
             (mb_strlen($post['desc']) > 200 || mb_strlen($post['desc']) < 20) ||
             !preg_match($urlPreg, $post['pic-val']) || 
-            empty($post['editorValue'])
+            empty($post['content']) ||
+            empty($post['en_content']) ||
+            empty($post['en_desc']) ||
+            empty($post['en_title']) 
         ){
             $this->error();
         }
@@ -93,7 +96,6 @@ class SupportController extends BaseController {
             $model->scenario = 'create';
         }
 
-        $post['content']    = $post['editorValue'];
         $post['pic']        = $post['pic-val'];
         $post['category']   = 11;
 

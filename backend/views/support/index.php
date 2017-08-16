@@ -16,6 +16,7 @@ $this->params['breadcrumbs'][] = $this->title;
             <tr>
                 <th>ID</th>
                 <th>名称</th>
+                <th>英文名称</th>
                 <th>封面</th>
                 <th>发布时间</th>
                 <th style="width: 150px;">操作</th>
@@ -25,11 +26,12 @@ $this->params['breadcrumbs'][] = $this->title;
             <?php foreach ($supportList as $row) : ?>
             <tr>
                 <td><?= $row['id'] ?></td>
-                <td><?= $row['title'] ?></td>
+                <td><?= Html::encode($row['title']) ?></td>
+                <td><?= Html::encode($row['en_title']) ?></td>
                 <td><img src="<?= $row['pic'] ?>" width="300"></td>
                 <td><?= date('Y-m-d H:i', $row['ctime']) ?></td>
                 <td data-csrf="<?php echo Yii::$app->request->csrfToken ?>">
-                    <a class="btn btn-info btn-xs" href="http://xkkb.com/zh_cn/support/<?= $row['id'] ?>?ca_f=<?= $row['category'] ?>" title="预览" aria-label="预览" data-pjax="0" target="__blank" style="margin-bottom: 5px;">
+                    <a class="btn btn-info btn-xs" href="http://www.xkkb.com.cn/zh_cn/support/<?= $row['id'] ?>?ca_f=<?= $row['category'] ?>" title="预览" aria-label="预览" data-pjax="0" target="__blank" style="margin-bottom: 5px;">
                         <span class="fa fa-play-circle-o"></span> 预览
                     </a>
                     <a class="btn btn-primary btn-xs" href="/support/edit?id=<?= $row['id'] ?>&ca_f=<?= $row['category'] ?>" title="更新" aria-label="更新" data-pjax="0" style="margin-bottom: 5px;">

@@ -17,7 +17,7 @@ $this->params['breadcrumbs'][] = $this->title;
                 <th>ID</th>
                 <th>封面</th>
                 <th>标题</th>
-                <th style="width: 500px;">摘要</th>
+                <th>英文标题</th>
                 <th>类型</th>
                 <th>标签</th>
                 <th>状态</th>
@@ -30,7 +30,7 @@ $this->params['breadcrumbs'][] = $this->title;
                 <td><?= $row['id'] ?></td>
                 <td><img src="<?= $row['cover'] ?>" width="200"></td>
                 <td><?= $row['title'] ?></td>
-                <td><?= $row['desc'] ?></td>
+                <td><?= $row['en_title'] ?></td>
                 <td>行业新闻</td>
                 <td><?= $row['tags'] ?></td>
                 <td><?= $row['status'] == 1 ? '<span class="label label-success">已发布</span>' : ($row['status'] == 2 ? '<span class="label label-warning">待发布</span>' : '<span class="label label-danger">unknow</span>') ?></td>

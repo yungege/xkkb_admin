@@ -28,19 +28,19 @@ class Support extends ActiveRecord {
     public function rules()
     {
         return [
-            [['desc','title','category','pic','status','url'], 'required', 'message'=> '数据填写有误！'],
+            [['en_title','en_desc','en_content','desc','title','category','pic','status','url'], 'required', 'message'=> '数据填写有误！'],
             [['category','status','ctime'], 'integer'],
             ['title', 'string', 'max'=>25],
-            [['pic','url'], 'string', 'max'=>255],
-            [['desc','content'], 'safe'],
+            [['pic','url','en_title'], 'string', 'max'=>255],
+            [['desc','content','en_desc','en_content'], 'safe'],
         ];
     }
 
     public function scenarios()
     {
         return [
-            'create' => ['desc','content','title','category','pic'],
-            'update' => ['desc','content','title','category','pic'],
+            'create' => ['desc','content','title','category','pic','en_title','en_desc','en_content'],
+            'update' => ['desc','content','title','category','pic','en_title','en_desc','en_content'],
             'delete' => ['status'],
         ];
     }
@@ -57,6 +57,9 @@ class Support extends ActiveRecord {
             'url'       => '',
             'status'    => '',
             'ctime'     => '',
+            'en_title'  => '',
+            'en_desc'   => '',
+            'en_content'=> '',
         ];
     }
 
@@ -70,7 +73,7 @@ class Support extends ActiveRecord {
         $query = self::find();
 
         $query->where(['status' => 1])
-            ->select(['id','pic','title','ctime','url','category']);
+            ->select(['id','pic','title','en_title','ctime','url','category']);
         return $query->offset($offset)->limit($limit)->all();
     }
     

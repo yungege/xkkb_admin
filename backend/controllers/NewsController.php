@@ -108,7 +108,10 @@ class NewsController extends BaseController {
             (mb_strlen($post['title']) > 30 || mb_strlen($post['title']) < 6) ||
             (mb_strlen($post['desc']) > 200 || mb_strlen($post['desc']) < 20) ||
             !preg_match($urlPreg, $post['cover-val']) || 
-            empty($post['editorValue'])
+            empty($post['content']) ||
+            empty($post['en_content']) ||
+            empty($post['en_desc']) ||
+            empty($post['en_title']) 
         ){
             $this->error();
         }
@@ -131,7 +134,6 @@ class NewsController extends BaseController {
             $model->scenario = 'create';
         }
 
-        $post['content']    = $post['editorValue'];
         $post['cover']      = $post['cover-val'];
         $post['tags']       = self::$cate[$post['category']];
         $post['admin_id']   = Yii::$app->user->id;

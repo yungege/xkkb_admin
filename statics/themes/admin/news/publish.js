@@ -17,10 +17,14 @@ $(function(){
             this.coverBtn = $('#cover');
             this.coverTip = $('#pic-cover');
             this.form = $('form[name=news]');
+
+            this.en_title = $('#en_title');
+            this.en_desc = $('#en_desc');
         },
 
         initUe: function(){
             this.ue = UE.getEditor('editor');
+            this.en_ue = UE.getEditor('en_editor');
         },
 
         checkParams: function(){
@@ -29,7 +33,10 @@ $(function(){
             var category = $.trim(me.category.val()),
                 title = $.trim(me.title.val()),
                 desc = $.trim(me.desc.val()),
-                cover = $.trim(me.cover.val());
+                cover = $.trim(me.cover.val()),
+                en_title = $.trim(me.en_title.val()),
+                en_desc = $.trim(me.en_desc.val());
+
             if(category != 9 && category != 10){
                 alert('请选择分类');
                 return false;
@@ -42,6 +49,11 @@ $(function(){
 
             if(desc.length < 20 || desc.length > 200){
                 alert('摘要字数必须是20-200字');
+                return false;
+            }
+
+            if(!en_title || !en_desc){
+                alert('请输入英文信息');
                 return false;
             }
 
@@ -116,8 +128,9 @@ $(function(){
                     return false;
                 }
 
-                var news = me.ue.getContent();
-                if(!news){
+                var news = me.ue.getContent(),
+                    en_news = me.en_ue.getContent();
+                if(!news || !en_news){
                     alert('请输入新闻内容.');return false;
                 }
 
