@@ -30,7 +30,7 @@ $allMenus = Menu::getMenu();
 <div class="left-side sticky-left-side">
 
     <div class="logo">
-        <a href="index.html"><img src="/statics/themes/admin/images/logo.png" alt=""></a>
+        <a href="index.html" style="display: block;line-height: 40px;padding-top: 10px;">新科凯邦<br/>管理系统<!-- <img src="/statics/themes/admin/images/logo.png" alt=""> --></a>
     </div>
 
     <div class="logo-icon text-center">
@@ -135,7 +135,7 @@ $allMenus = Menu::getMenu();
     $menuItems = [];
     if (!\Yii::$app->user->isGuest) {
         $menuItems[] = '<li class="dropdown notification-menu">'
-            . '<a href="#" class="dropdown-toggle" data-toggle="dropdown"><img src="/statics/themes/admin/images/user-avatar.png" alt="" />'
+            . '<a href="#" class="dropdown-toggle" data-toggle="dropdown"><img src="/statics/themes/admin/images/logo.png" alt="" />'
             . Yii::$app->user->identity->username
             . '<span class="caret"></span></a>'
             . '<ul class="dropdown-menu dropdown-menu-usermenu pull-right" role="menu">'
