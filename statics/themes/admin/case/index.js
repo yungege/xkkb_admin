@@ -11,6 +11,7 @@ $(function(){
             this.subBtn = $('#sub');
             
             this.title = $('#title');
+            this.en_title = $('#en_title');
             this.cover = $('#cover-val');
             this.coverBtn = $('#cover');
             this.coverTip = $('#cover-tip');
@@ -19,16 +20,23 @@ $(function(){
 
         initUe: function(){
             this.ue = UE.getEditor('editor');
+            this.en_ue = UE.getEditor('en_editor');
         },
 
         checkParams: function(){
             var me =this;
 
             var title = $.trim(me.title.val()),
-                cover = $.trim(me.cover.val());
+                cover = $.trim(me.cover.val()),
+                en_title = $.trim(me.en_title.val());
 
             if(title.length < 4 || title.length > 30){
                 alert('标题字数必须是4-30字');
+                return false;
+            }
+
+            if(!en_title){
+                alert('请输入英文标题');
                 return false;
             }
 
@@ -103,8 +111,9 @@ $(function(){
                     return false;
                 }
 
-                var news = me.ue.getContent();
-                if(!news){
+                var news = me.ue.getContent(),
+                    en_news = me.en_ue.getContent();
+                if(!news || !en_news){
                     alert('请输入方案内容.');
                     return false;
                 }

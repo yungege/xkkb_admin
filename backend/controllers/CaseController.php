@@ -78,7 +78,9 @@ class CaseController extends BaseController {
         if(
             (mb_strlen($post['title']) > 30 || mb_strlen($post['title']) < 4) ||
             !preg_match($urlPreg, $post['cover-val']) || 
-            empty($post['editorValue'])
+            empty($post['content']) ||
+            empty($post['en_content']) ||
+            empty($post['en_title'])
         ){
             $this->error();
         }
@@ -101,7 +103,6 @@ class CaseController extends BaseController {
             $model->admin_id = Yii::$app->user->id;
         }
 
-        $post['content']    = $post['editorValue'];
         $post['cover']      = $post['cover-val'];
         $post['category']   = 16;
 

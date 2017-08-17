@@ -28,19 +28,19 @@ class Cases extends ActiveRecord {
     public function rules()
     {
         return [
-            [['title', 'content', 'cover','status'], 'required', 'message'=> '数据填写有误！'],
+            [['en_title', 'en_content', 'title', 'content', 'cover','status'], 'required', 'message'=> '数据填写有误！'],
             [['admin_id','status','ctime'], 'integer'],
             ['title', 'string', 'max'=>25],
-            ['cover', 'string', 'max'=>255],
-            ['content', 'safe'],
+            [['cover','en_title'], 'string', 'max'=>255],
+            [['content','en_content'], 'safe'],
         ];
     }
 
     public function scenarios()
     {
         return [
-            'create' => ['title','content','cover','category','admin_id'],
-            'update' => ['title','content','cover'],
+            'create' => ['title','content','cover','category','admin_id','en_title', 'en_content'],
+            'update' => ['title','content','cover','en_title', 'en_content'],
             'delete' => ['status'],
         ];
     }
@@ -56,6 +56,8 @@ class Cases extends ActiveRecord {
             'admin_id'  => '',
             'status'    => '',
             'ctime'     => '',
+            'en_title'  => '',
+            'en_content'=> '',
         ];
     }
 

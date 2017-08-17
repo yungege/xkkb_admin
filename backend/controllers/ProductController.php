@@ -84,14 +84,14 @@ class ProductController extends BaseController {
     }
 
     // 安防监控
-    public function actionJk(){
-        $fType = 8;
-        $res = [];
+    // public function actionJk(){
+    //     $fType = 8;
+    //     $res = [];
 
-        $this->getData($fType, $res);
+    //     $this->getData($fType, $res);
 
-        return $this->render('index', $res);
-    }
+    //     return $this->render('index', $res);
+    // }
 
     protected function getData($fType, &$res){
         $model = new Product;
@@ -122,6 +122,7 @@ class ProductController extends BaseController {
         $res = [
             'pages' => $pages,
             'proList' => (array)$proList,
+            'fctype' => (array)$cateFList,
             'ctype' => (array)$cateList, 
             'ftype' => $fType,
         ];
@@ -151,6 +152,7 @@ class ProductController extends BaseController {
     public function actionInsert(){
         $urlPreg = "/(((^https?:(?:\/\/)?)(?:[-;:&=\+\$,\w]+@)?[A-Za-z0-9.-]+|(?:www.|[-;:&=\+\$,\w]+@)[A-Za-z0-9.-]+)((?:\/[\+~%\/.\w-_]*)?\??(?:[-\+=&;%@.\w_]*)#?(?:[\w]*))?)$/";
         $post = Yii::$app->request->post();
+
         if(
             (empty($post['pro_first_type']) || !is_numeric($post['pro_first_type'])) ||
             (empty($post['pro_second_type']) || !is_numeric($post['pro_second_type']))
@@ -169,9 +171,14 @@ class ProductController extends BaseController {
             $this->error('名称长度必须在1-16位之间');
         }
 
+        $post['en_pro_name'] = trim($post['en_pro_name']);
+        if(!preg_match("/\w+/",$post['en_pro_name'])){
+            $this->error('请输入英文名称');
+        }
+
         $post['pro_model'] = trim($post['pro_model']);
-        if(empty($post['pro_model'])){
-            $this->error('请填写型号');
+        if(empty($post['pro_model']) || !preg_match("/\w{1,25}/", $post['pro_model'])){
+            $this->error('请填写型号,且只能为字母数字下划线');
         }
 
         $post['pro_fs_type'] = trim($post['pro_fs_type']);
@@ -179,31 +186,58 @@ class ProductController extends BaseController {
             $this->error('请填写敷设方式');
         }
 
+        $post['en_pro_fs_type'] = trim($post['en_pro_fs_type']);
+        if(!preg_match("/\w+/",$post['en_pro_fs_type'])){
+            $this->error('请填写英文敷设方式');
+        }
+
         if(!preg_match($urlPreg, $post['pro_cover_pic'])){
             $this->error('请上传封面图片(一)');
+        }
+
+        if(!preg_match($urlPreg, $post['en_pro_cover_pic'])){
+            $this->error('请上传英文封面图片(一)');
         }
 
         if(!preg_match($urlPreg, $post['pro_cover_pic_2'])){
             $this->error('请上传封面图片(二)');
         }
 
+        if(!preg_match($urlPreg, $post['en_pro_cover_pic_2'])){
+            $this->error('请上传英文封面图片(二)');
+        }
+
         if(!preg_match($urlPreg, $post['pro_tec_params'])){
             $this->error('请上传技术参数图片');
         }
 
-        if(empty($post['editorValue'])){
+        if(!preg_match($urlPreg, $post['en_pro_tec_params'])){
+            $this->error('请上传英文技术参数图片');
+        }
+
+        if(empty($post['pro_desc'])){
             $this->error('请填写产品描述');
+        }
+
+        if(empty($post['en_pro_desc'])){
+            $this->error('请填写英文产品描述');
         }
 
         $model = new Product;
 
         $model->pro_name = Html::encode($post['pro_name']);
-        $model->pro_desc = Html::encode($post['editorValue']);
+        $model->pro_desc = Html::encode($post['pro_desc']);
+        $model->en_pro_name = Html::encode($post['en_pro_name']);
+        $model->en_pro_desc = Html::encode($post['en_pro_desc']);
         $model->pro_tec_params = $post['pro_tec_params'];
         $model->pro_cover_pic = $post['pro_cover_pic'];
         $model->pro_cover_pic_2 = $post['pro_cover_pic_2'];
+        $model->en_pro_tec_params = $post['en_pro_tec_params'];
+        $model->en_pro_cover_pic = $post['en_pro_cover_pic'];
+        $model->en_pro_cover_pic_2 = $post['en_pro_cover_pic_2'];
         $model->pro_model = Html::encode($post['pro_model']);
         $model->pro_fs_type = Html::encode($post['pro_fs_type']);
+        $model->en_pro_fs_type = Html::encode($post['en_pro_fs_type']);
         $model->pro_first_type = $post['pro_first_type'];
         $model->pro_second_type = $post['pro_second_type'];
         $model->ctime = time();

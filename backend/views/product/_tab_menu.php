@@ -20,7 +20,7 @@ echo Nav::widget([
             'url' => ['product/rh'],
         ],
         [
-            'label' => '光纤跳线系列',
+            'label' => '跳线及配件',
             'url' => ['product/tx'],
         ],
         [
@@ -28,13 +28,13 @@ echo Nav::widget([
             'url' => ['product/cs'],
         ],
         [
-            'label' => '综合布线',
+            'label' => '网络布线',
             'url' => ['product/bx'],
         ],
-        [
-            'label' => '安防监控',
-            'url' => ['product/jk'],
-        ],
+        // [
+        //     'label' => '安防监控',
+        //     'url' => ['product/jk'],
+        // ],
     ],
     'options' => ['class' => 'nav-tabs'],
 ]);
