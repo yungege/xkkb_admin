@@ -69,9 +69,9 @@ AppAsset::addCss($this, '/statics/themes/admin/product/publish.css');
                         <a class="btn btn-info btn-xs" href="http://www.xkkb.com.cn/zh_cn/product/<?= $pval['id'] ?>?ca_f=<?= $pval['pro_first_type'] ?>&ca_s=<?= $pval['pro_second_type'] ?>" title="预览" aria-label="预览" data-pjax="0" target="__blank" style="margin-bottom: 5px;">
                         <span class="fa fa-play-circle-o"></span> 预览
                     </a>
-                    <!-- <a class="btn btn-primary btn-xs" href="/product/edit?id=<?= $pval['id'] ?>&ca_f=<?= $pval['pro_first_type'] ?>&ca_s=<?= $pval['pro_second_type'] ?>" title="更新" aria-label="更新" data-pjax="0" style="margin-bottom: 5px;">
+                    <a class="btn btn-primary btn-xs" href="/product/update?id=<?= $pval['id'] ?>&ca_f=<?= $pval['pro_first_type'] ?>&ca_s=<?= $pval['pro_second_type'] ?>" title="更新" aria-label="更新" data-pjax="0" style="margin-bottom: 5px;">
                         <span class="fa fa-edit"></span> 更新
-                    </a><br/> -->
+                    </a><br/>
                     <a data-id="<?= $pval['id'] ?>" class="btn btn-danger btn-xs" href="javascript:void(0)" title="删除" aria-label="删除" onclick="del(this)" style="margin-bottom: 5px;">
                         <span class="fa fa-times"></span> 删除
                     </a>

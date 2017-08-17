@@ -125,8 +125,14 @@ $(function(){
                 data = me.form.serialize();
                 // var action = me.subBtn.data('type');
                 // var id = me.subBtn.data('id');
-                
-                $.post('/product/insert', data, function(json){
+                var op = 'add',
+                    ty = $(this).attr('data-action'),
+                    id = $(this).attr('data-id');
+                if(ty && ty == 'update'){
+                    op = 'update';
+                }
+
+                $.post('/product/insert?type='+op+'&id='+id, data, function(json){
                     if(json.code == 200){
                         window.location.reload();
                     }

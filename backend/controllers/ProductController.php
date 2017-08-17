@@ -122,7 +122,6 @@ class ProductController extends BaseController {
         $res = [
             'pages' => $pages,
             'proList' => (array)$proList,
-            'fctype' => (array)$cateFList,
             'ctype' => (array)$cateList, 
             'ftype' => $fType,
         ];
@@ -152,6 +151,14 @@ class ProductController extends BaseController {
     public function actionInsert(){
         $urlPreg = "/(((^https?:(?:\/\/)?)(?:[-;:&=\+\$,\w]+@)?[A-Za-z0-9.-]+|(?:www.|[-;:&=\+\$,\w]+@)[A-Za-z0-9.-]+)((?:\/[\+~%\/.\w-_]*)?\??(?:[-\+=&;%@.\w_]*)#?(?:[\w]*))?)$/";
         $post = Yii::$app->request->post();
+        $optype = Yii::$app->request->get('type');
+        $id = Yii::$app->request->get('id');
+
+        if(isset($optype) && $optype == 'update'){
+            if(!isset($id) || !is_numeric($id)){
+                $this->error();
+            }
+        }
 
         if(
             (empty($post['pro_first_type']) || !is_numeric($post['pro_first_type'])) ||
@@ -223,7 +230,15 @@ class ProductController extends BaseController {
             $this->error('请填写英文产品描述');
         }
 
-        $model = new Product;
+        if($optype == 'update'){
+            $model = Product::findOne((int)$id);
+            if($model === null || $model->status == -9){
+                $this->error('该产品已被删除.');
+            }
+        }
+        else{
+            $model = new Product;
+        }
 
         $model->pro_name = Html::encode($post['pro_name']);
         $model->pro_desc = Html::encode($post['pro_desc']);
@@ -250,5 +265,42 @@ class ProductController extends BaseController {
         }
     }
 
+    public function actionUpdate(){
+        $res = [];
+        $fType = Yii::$app->request->get('ca_f');
+        $sType = Yii::$app->request->get('ca_s');
+        $id = Yii::$app->request->get('id');
 
+        if(
+            !is_numeric($fType) || $fType < 0 || 
+            !is_numeric($sType) || $sType < 0 ||
+            !is_numeric($id) || $id < 0
+        ){
+            throw new NotFoundHttpException('Page Not Found');
+        }
+
+        $model = Product::findOne($id);
+        if(
+            $model->status == -9 || 
+            $fType != $model->pro_first_type || 
+            $sType != $model->pro_second_type
+        ){
+            throw new NotFoundHttpException('Page Not Found');
+        }
+
+        $cateList = (new Category)->getSecondCategoryListById($fType);
+        if(!empty($cateList)){
+            $cateList = array_column((array)$cateList, null, 'id');
+        }
+
+        $res = [
+            'info' => $model->toArray(),
+            'ctype' => (array)$cateList, 
+            'ca_f' => $fType,
+            'ca_s' => $sType,
+            'id' => $id,
+        ];
+
+        return $this->render('update', $res);
+    }
 }
