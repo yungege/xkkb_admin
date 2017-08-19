@@ -18,9 +18,9 @@ class CategoryController extends BaseController {
         ]);
     }
 
-    // 【关于我们】分类
+    // 【应用案例】分类
     public function actionAboult(){
-        $meauList = (new Category)->getCategoryListByType(4);
+        $meauList = (new Category)->getCategoryListByType(5);
         $meauList = self::rootTree(array_column($meauList, null, 'id'));
 
         return $this->render('index', [
@@ -89,6 +89,7 @@ class CategoryController extends BaseController {
             (mb_strlen($post['cate_name']) < 2 || mb_strlen($post['cate_name']) > 16) ||
             (!preg_match("/\w{2,24}/", $post['en_cate_name'])) ||
             (!is_numeric($post['pid']) || $post['pid'] < 1) ||
+            (!is_numeric($post['type']) || $post['type'] < 1) ||
             (!is_numeric($post['cate_level']) || $post['cate_level'] != 1)
         ){
             $this->error();
@@ -101,7 +102,6 @@ class CategoryController extends BaseController {
 
         $post['cate_level'] = 2;
         $post['admin_id']   = Yii::$app->user->id;
-        $post['type']       = 1;
 
         $model = new Category;
         $model->scenario = 'createSecondLeval';
@@ -121,7 +121,8 @@ class CategoryController extends BaseController {
             (mb_strlen($post['cate_name']) < 2 || mb_strlen($post['cate_name']) > 16) ||
             (!preg_match("/\w{2,24}/", $post['en_cate_name'])) ||
             (!is_numeric($post['id']) || $post['id'] < 1) ||
-            (!is_numeric($post['cate_level']) || !in_array($post['cate_level'], [1,2]))
+            (!is_numeric($post['cate_level']) || !in_array($post['cate_level'], [1,2])) ||
+            (!is_numeric($post['type']) || $post['type'] < 1)
         ){
             $this->error();
         }

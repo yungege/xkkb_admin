@@ -8,7 +8,7 @@ echo Nav::widget([
             'url' => ['category/index'],
         ],
         [
-            'label' => '【关于我们】分类',
+            'label' => '【应用案例】分类',
             'url' => ['category/aboult'],
         ],
         [
@@ -19,10 +19,6 @@ echo Nav::widget([
             'label' => '【新闻中心】分类',
             'url' => ['category/news'],
         ],
-        // [
-        //     'label' => '新增导航',
-        //     'url' => ['meau/add'],
-        // ],
     ],
     'options' => ['class' => 'nav-tabs'],
 ]);

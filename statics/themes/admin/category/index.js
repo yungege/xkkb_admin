@@ -20,6 +20,7 @@ $(function(){
             this.entitle = $('#en_cate_name');
             this.pid = $('#pid');
             this.level = $('#level');
+            this.cate_type = $('#cate_type');
             this.removeBtn = $('.glyphicon-remove');
             this.form = $('form[name=cate]');
 
@@ -29,6 +30,7 @@ $(function(){
             this.enTitleEdit = $('#edit_en_cate_name');
             this.idEdit = $('#edit_id');
             this.levelEdit = $('#edit_level');
+            this.typeEdit = $('#edit_cate_type');
             this.sortEdit = $('#edit_cate_sort');
             this.formEdit = $('form[name=edit-cate]');
         },
@@ -41,12 +43,14 @@ $(function(){
                 me.title.val('');
                 me.pid.val('');
                 me.level.val('');
+                me.cate_type.val('');
 
                 me.editAreaDiv.fadeOut(200);
                 me.idEdit.val(''); 
                 me.levelEdit.val('');
                 me.sortEdit.val('');
                 me.titleEdit.val('');
+                me.typeEdit.val('');
             });
         },
 
@@ -74,18 +78,21 @@ $(function(){
 
             me.addBtn.unbind().bind('click', function(){
                 var pid = $(this).data('pid'),
-                    level = $(this).data('level');
+                    level = $(this).data('level'),
+                    ctype = $(this).data('type');
 
                 if(level != 1) return false;
 
                 me.areaDiv.fadeIn(200);
                 me.pid.val(pid);
                 me.level.val(level);
+                me.cate_type.val(ctype);
             });
 
             me.editBtn.unbind().bind('click', function(){
                 var id = $(this).data('id'),
                     level = $(this).data('level'),
+                    cate_type = $(this).data('type'),
                     sort = $(this).data('sort'),
                     name = $(this).data('name'),
                     enName = $(this).data('en-name');
@@ -96,6 +103,7 @@ $(function(){
                 me.sortEdit.val(sort);
                 me.titleEdit.val(name);
                 me.enTitleEdit.val(enName);
+                me.typeEdit.val(cate_type);
                 me.sortEdit.attr('disabled', false);
 
                 if(level != 1){
@@ -113,6 +121,7 @@ $(function(){
                     pid = parseInt($.trim(me.pid.val())),
                     level = parseInt($.trim(me.level.val())),
                     entitle = $.trim(me.entitle.val());
+                    ctype = parseInt($.trim(me.cate_type.val()));
 
                 if(title.length > 16 || title < 2){
                     alert('分类名称必须在2-16字之间.');
@@ -129,7 +138,7 @@ $(function(){
                     return false;
                 }
 
-                if(isNaN(pid) || level != 1){
+                if(isNaN(pid) || level != 1 || isNaN(ctype)){
                     alert('排序必须是非负整数.');
                     return false;
                 }
