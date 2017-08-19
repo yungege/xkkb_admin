@@ -24,11 +24,23 @@ $(function(){
             this.cover3Btn  = $('#pro_tec_params_val');
             this.cover3Tip  = $('#pro_tec_params_tip');
 
-            
+            //英文图片信息
+            this.en_cover1     = $('#en_pro_cover_pic');
+            this.en_cover1Btn  = $('#en_pro_cover_pic_val');
+            this.en_cover1Tip  = $('#en_pro_cover_pic_tip');
+
+            this.en_cover2     = $('#en_pro_cover_pic_2');
+            this.en_cover2Btn  = $('#en_pro_cover_pic_2_val');
+            this.en_cover2Tip  = $('#en_pro_cover_pic_2_tip');
+
+            this.en_cover3     = $('#en_pro_tec_params');
+            this.en_cover3Btn  = $('#en_pro_tec_params_val');
+            this.en_cover3Tip  = $('#en_pro_tec_params_tip');            
         },
 
         initUe: function(){
             this.ue = UE.getEditor('editor');
+            this.en_ue = UE.getEditor('en_editor');
         },
 
         postPic: function(obj, size){
@@ -99,6 +111,11 @@ $(function(){
             me.postPic('#pro_cover_pic', '600*190');
             me.postPic('#pro_cover_pic_2', '600*190');
             me.postPic('#pro_tec_params', '');
+
+            // 英文图片
+            me.postPic('#en_pro_cover_pic', '600*190');
+            me.postPic('#en_pro_cover_pic_2', '600*190');
+            me.postPic('#en_pro_tec_params', '');
         },
 
         publishPro: function(){
@@ -108,8 +125,14 @@ $(function(){
                 data = me.form.serialize();
                 // var action = me.subBtn.data('type');
                 // var id = me.subBtn.data('id');
-                
-                $.post('/product/insert', data, function(json){
+                var op = 'add',
+                    ty = $(this).attr('data-action'),
+                    id = $(this).attr('data-id');
+                if(ty && ty == 'update'){
+                    op = 'update';
+                }
+
+                $.post('/product/insert?type='+op+'&id='+id, data, function(json){
                     if(json.code == 200){
                         window.location.reload();
                     }

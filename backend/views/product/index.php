@@ -43,6 +43,7 @@ AppAsset::addCss($this, '/statics/themes/admin/product/publish.css');
                     <th>ID</th>
                     <th>封面</th>
                     <th>产品名称</th>
+                    <th>英文名称</th>
                     <th>产品型号</th>
                     <th>敷设方式</th>
                     <th>二级分类</th>
@@ -56,6 +57,7 @@ AppAsset::addCss($this, '/statics/themes/admin/product/publish.css');
                     <td><?= $pval['id'] ?></td>
                     <td><img src="<?= $pval['pro_cover_pic'] ?>" width="200"></td>
                     <td><?= $pval['pro_name'] ?></td>
+                    <td><?= $pval['en_pro_name'] ?></td>
                     <td><?= $pval['pro_model'] ?></td>
                     <td><?= $pval['pro_fs_type'] ?></td>
                     <td><?= $ctype[$pval['pro_second_type']]['cate_name'] ?></td>
@@ -64,10 +66,10 @@ AppAsset::addCss($this, '/statics/themes/admin/product/publish.css');
                         <?= date('H:i:s', $pval['ctime']) ?>
                     </td>
                     <td data-csrf="<?= Yii::$app->request->csrfToken ?>">
-                        <a class="btn btn-info btn-xs" href="http://xkkb.com/zh_cn/product/<?= $pval['id'] ?>?ca_f=<?= $pval['pro_first_type'] ?>" title="预览" aria-label="预览" data-pjax="0" target="__blank" style="margin-bottom: 5px;">
+                        <a class="btn btn-info btn-xs" href="http://www.xkkb.com.cn/zh_cn/product/<?= $pval['id'] ?>?ca_f=<?= $pval['pro_first_type'] ?>&ca_s=<?= $pval['pro_second_type'] ?>" title="预览" aria-label="预览" data-pjax="0" target="__blank" style="margin-bottom: 5px;">
                         <span class="fa fa-play-circle-o"></span> 预览
                     </a>
-                    <a class="btn btn-primary btn-xs" href="/product/edit?id=<?= $pval['id'] ?>&ca_f=<?= $pval['pro_first_type'] ?>&ca_s=<?= $pval['pro_second_type'] ?>" title="更新" aria-label="更新" data-pjax="0" style="margin-bottom: 5px;">
+                    <a class="btn btn-primary btn-xs" href="/product/update?id=<?= $pval['id'] ?>&ca_f=<?= $pval['pro_first_type'] ?>&ca_s=<?= $pval['pro_second_type'] ?>" title="更新" aria-label="更新" data-pjax="0" style="margin-bottom: 5px;">
                         <span class="fa fa-edit"></span> 更新
                     </a><br/>
                     <a data-id="<?= $pval['id'] ?>" class="btn btn-danger btn-xs" href="javascript:void(0)" title="删除" aria-label="删除" onclick="del(this)" style="margin-bottom: 5px;">
@@ -112,6 +114,11 @@ AppAsset::addCss($this, '/statics/themes/admin/product/publish.css');
             </div>
 
             <div class="form-group">
+                <label for="en_pro_name">英文名称</label>
+                <input type="text" class="form-control" id="en_pro_name" name="en_pro_name">
+            </div>
+
+            <div class="form-group">
                 <label for="pro_model">产品型号</label>
                 <input type="text" class="form-control" id="pro_model" name="pro_model">
             </div>
@@ -122,12 +129,27 @@ AppAsset::addCss($this, '/statics/themes/admin/product/publish.css');
             </div>
 
             <div class="form-group">
+                <label for="en_pro_fs_type">英文敷设</label>
+                <input type="text" class="form-control" id="en_pro_fs_type" name="en_pro_fs_type">
+            </div>
+
+            <div class="form-group">
                 <label for="pro_cover_pic_val">封面图片(一)</label>
                 <div class="">
                     <input style="padding-left: 0;" type="file" id="pro_cover_pic_val" name="pro_cover_pic_val" class="col-sm-4" value="">
                     <span class="col-sm-6" style="color: green;">尺寸：w600*h190</span>
                     <p class="help-block" id="pro_cover_pic_tip" style="color:green;padding-top:30px;text-align: left;"></p>
                     <input type="hidden" name="pro_cover_pic" id="pro_cover_pic" value="">
+                </div>
+            </div>
+
+            <div class="form-group">
+                <label for="en_pro_cover_pic_val">英文封面(一)</label>
+                <div class="">
+                    <input style="padding-left: 0;" type="file" id="en_pro_cover_pic_val" name="en_pro_cover_pic_val" class="col-sm-4" value="">
+                    <span class="col-sm-6" style="color: green;">尺寸：w600*h190</span>
+                    <p class="help-block" id="en_pro_cover_pic_tip" style="color:green;padding-top:30px;text-align: left;"></p>
+                    <input type="hidden" name="en_pro_cover_pic" id="en_pro_cover_pic" value="">
                 </div>
             </div>
 
@@ -142,6 +164,16 @@ AppAsset::addCss($this, '/statics/themes/admin/product/publish.css');
             </div>
 
             <div class="form-group" style="">
+                <label for="en_pro_cover_pic_2_val">英文封面(二)</label>
+                <div class="">
+                    <input style="padding-left: 0;" type="file" id="en_pro_cover_pic_2_val" name="en_pro_cover_pic_2_val" class="col-sm-4" value="">
+                    <span class="col-sm-6" style="color: green;">尺寸：w600*h190</span>
+                    <p class="help-block" id="en_pro_cover_pic_2_tip" style="color:green;padding-top:30px;text-align: left;"></p>
+                    <input type="hidden" name="en_pro_cover_pic_2" id="en_pro_cover_pic_2" value="">
+                </div>
+            </div>
+
+            <div class="form-group" style="">
                 <label for="pro_tec_params_val" class="">参数图片</label>
                 <div class="">
                     <input style="padding-left: 0;" type="file" id="pro_tec_params_val" name="pro_tec_params_val" class="col-sm-4" value="">
@@ -152,9 +184,26 @@ AppAsset::addCss($this, '/statics/themes/admin/product/publish.css');
             </div>
 
             <div class="form-group" style="">
+                <label for="en_pro_tec_params_val" class="">英文参数图片</label>
+                <div class="">
+                    <input style="padding-left: 0;" type="file" id="en_pro_tec_params_val" name="en_pro_tec_params_val" class="col-sm-4" value="">
+                    <span class="col-sm-6" style="color: green;">尺寸：最佳宽度1200px</span>
+                    <p class="help-block" id="en_pro_tec_params_tip" style="color:green;padding-top:30px;text-align: left;"></p>
+                    <input type="hidden" name="en_pro_tec_params" id="en_pro_tec_params" value="">
+                </div>
+            </div>
+
+            <div class="form-group" style="">
                 <label for="content">产品描述</label>
                 <div class="">
-                    <script id="editor" type="text/plain"></script>
+                    <script id="editor" name="pro_desc" type="text/plain"></script>
+                </div>
+            </div>
+
+            <div class="form-group" style="">
+                <label for="content">英文描述</label>
+                <div class="">
+                    <script id="en_editor" name="en_pro_desc" type="text/plain"></script>
                 </div>
             </div>
 

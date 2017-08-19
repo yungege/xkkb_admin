@@ -100,4 +100,9 @@ class Category extends ActiveRecord {
         return Yii::$app->db->createCommand($sql)->queryAll();
     }
 
+    public function getProductFirstCategoryList(){
+        $sql = "SELECT * FROM `category` WHERE `pid`= 0 AND `status` = 1 AND `type` = 1";
+        return Yii::$app->db->createCommand($sql)->queryAll();
+    }
+
 }
