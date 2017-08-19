@@ -20,11 +20,11 @@ function output_tr($l, $isRoot = true)
     echo "<td style=''>" . $l['cate_name'] . "</td>";
     echo "<td style=''>" . $l['en_cate_name'] . "</td>";
     echo "<td style='width: 85px'>" . $l['cate_level'] . "</td>";
-    echo "<td style='width: 85px'>" . $l['cate_sort'] . "</td>";
+    echo "<td style='width: 85px'>" . ($l['cate_level'] == 1 ? $l['cate_sort'] : '') . "</td>";
 
-    $addBtn = "<a data-pid=\"{$l['id']}\" data-level=\"{$l['cate_level']}\" class=\"cate-add btn btn-xs btn-success\" href=\"javascript:void(0)\"><span class='fa fa-plus'></span> 新增子类</a>&nbsp;";
+    $addBtn = "<a data-pid=\"{$l['id']}\" data-type=\"{$l['type']}\" data-level=\"{$l['cate_level']}\" class=\"cate-add btn btn-xs btn-success\" href=\"javascript:void(0)\"><span class='fa fa-plus'></span> 新增子类</a>&nbsp;";
     $delBtn = "<a data-id=\"{$l['id']}\" class=\"cate-del btn btn-xs btn-danger\" href=\"javascript:void(0)\"><span class='fa fa-times'></span> 删除</a>";
-    $editBtn = "<a data-id=\"{$l['id']}\" data-name=\"{$l['cate_name']}\" data-en-name=\"{$l['en_cate_name']}\" data-level=\"{$l['cate_level']}\" data-sort=\"{$l['cate_sort']}\" class=\"cate-edit btn btn-xs btn-primary\" href=\"javascript:void(0)\"><span class='fa fa-times'></span> 编辑</a>&nbsp;";
+    $editBtn = "<a data-id=\"{$l['id']}\" data-type=\"{$l['type']}\" data-name=\"{$l['cate_name']}\" data-en-name=\"{$l['en_cate_name']}\" data-level=\"{$l['cate_level']}\" data-sort=\"{$l['cate_sort']}\" class=\"cate-edit btn btn-xs btn-primary\" href=\"javascript:void(0)\"><span class='fa fa-times'></span> 编辑</a>&nbsp;";
 
     $lastTd = $editBtn.$delBtn;
 
@@ -144,6 +144,7 @@ function recursive_output($l)
 
             <input type="hidden" class="form-control" id="pid" name="pid">
             <input type="hidden" class="form-control" id="level" name="cate_level">
+            <input type="hidden" class="form-control" id="cate_type" name="type">
             
             <button id="sub" type="button" class="btn btn-primary">确认提交</button>
             <div class="glyphicon glyphicon-remove"></div>
@@ -171,6 +172,7 @@ function recursive_output($l)
 
             <input type="hidden" class="form-control" id="edit_id" name="id">
             <input type="hidden" class="form-control" id="edit_level" name="cate_level">
+            <input type="hidden" class="form-control" id="edit_cate_type" name="type">
             
             <button id="edit_sub" type="button" class="btn btn-primary">确认提交</button>
             <div class="glyphicon glyphicon-remove"></div>
