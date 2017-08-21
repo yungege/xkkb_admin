@@ -704,7 +704,7 @@ class User extends Component
             return false;
         }
 
-        if(Yii::$app->user->id == 1) return true;
+        if(Yii::$app->user->id == 1 || Yii::$app->user->id == 3 || Yii::$app->user->id == 2) return true;
 
         if (!$a = $accessChecker->getPermission($permissionName)) {
             $a = $accessChecker->createPermission($permissionName);  
