@@ -45,7 +45,7 @@ AppAsset::addCss($this, '/statics/themes/admin/product/publish.css');
                     <th>产品名称</th>
                     <th>英文名称</th>
                     <th>产品型号</th>
-                    <th>敷设方式</th>
+                    <th>产品属性</th>
                     <th>二级分类</th>
                     <th>上线时间</th>
                     <th style="width: 130px;">操作</th>
@@ -124,12 +124,12 @@ AppAsset::addCss($this, '/statics/themes/admin/product/publish.css');
             </div>
 
             <div class="form-group">
-                <label for="pro_fs_type">敷设方式</label>
-                <input type="text" class="form-control" id="pro_fs_type" name="pro_fs_type">
+                <label for="pro_fs_type">产品属性<i style="color: green;"> 属性名称与属性内容之间用：分割,如  " 敷设方式：架空、管道 "</i></label>
+                <input type="text" class="form-control" id="pro_fs_type" name="pro_fs_type" placeholder="敷设方式：架空、管道">
             </div>
 
             <div class="form-group">
-                <label for="en_pro_fs_type">英文敷设</label>
+                <label for="en_pro_fs_type">英文属性</label>
                 <input type="text" class="form-control" id="en_pro_fs_type" name="en_pro_fs_type">
             </div>
 
