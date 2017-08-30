@@ -35319,3 +35319,3100 @@ $_SERVER = [
     'REQUEST_TIME_FLOAT' => 1503121466.031
     'REQUEST_TIME' => 1503121466
 ]
+2017-08-19 13:47:34 [192.168.1.102][-][-][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 192.168.1.102
+    in /var/www/xkkb_admin/statics/themes/admin/views/index/login.php:47
+    in /var/www/xkkb_admin/backend/controllers/BaseController.php:77
+2017-08-19 13:47:34 [192.168.1.102][-][-][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 192.168.1.102
+2017-08-19 13:47:34 [192.168.1.102][-][-][info][application] $_COOKIE = [
+    '_csrf-backend' => 'f4c6c7ac24ae209f87189b047743aa199b073ce803ee623d1b0d288fdfe6da0ca:2:{i:0;s:13:\"_csrf-backend\";i:1;s:32:\"ëQ0h% zæ;Z&
+h¢,Id¤Ì‰ñ«¦Úk|\";}'
+    'PHPSESSID' => 'j8mro2k1mb6a0q3690pd9mokd6'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__returnUrl' => '/'
+]
+
+$_SERVER = [
+    'USER' => 'nginx'
+    'HOME' => '/var/lib/nginx'
+    'HTTP_COOKIE' => '_csrf-backend=f4c6c7ac24ae209f87189b047743aa199b073ce803ee623d1b0d288fdfe6da0ca%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_csrf-backend%22%3Bi%3A1%3Bs%3A32%3A%22%EBQ%110h%25+z%16%E6%3BZ%26%0Ah%08%1C%11%A2%2CId%A4%CC%89%F1%AB%19%A6%DAk%7C%22%3B%7D; PHPSESSID=j8mro2k1mb6a0q3690pd9mokd6'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_REFERER' => 'http://admin.xkkb.com.cn/img/ck'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_HOST' => 'admin.xkkb.com.cn'
+    'REDIRECT_STATUS' => '200'
+    'SERVER_NAME' => 'admin.xkkb.com.cn'
+    'SERVER_PORT' => '80'
+    'SERVER_ADDR' => '192.168.1.44'
+    'REMOTE_PORT' => '63193'
+    'REMOTE_ADDR' => '192.168.1.102'
+    'SERVER_SOFTWARE' => 'nginx/1.10.3'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REQUEST_SCHEME' => 'http'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'DOCUMENT_ROOT' => '/var/www/xkkb_admin'
+    'DOCUMENT_URI' => '/admin.php'
+    'REQUEST_URI' => '/index/login'
+    'SCRIPT_NAME' => '/admin.php'
+    'CONTENT_LENGTH' => ''
+    'CONTENT_TYPE' => ''
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'SCRIPT_FILENAME' => '/var/www/xkkb_admin/admin.php'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/admin.php'
+    'REQUEST_TIME_FLOAT' => 1503121654.2544
+    'REQUEST_TIME' => 1503121654
+]
+2017-08-19 13:50:06 [192.168.1.102][1][-][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 192.168.1.102
+2017-08-19 13:50:06 [192.168.1.102][1][-][info][application] $_POST = [
+    '_csrf-backend' => '5cQwRHys9Z_xaXun3TPzUk-xtqu1auSog0bn5n3kIPUOlSF0FInV5eePQP37OZtaU6AUh_wOQGQKt0z_2z5LiQ=='
+    'LoginForm' => [
+        'username' => '422909231@qq.com'
+        'password' => '19891007cy'
+        'rememberMe' => '1'
+    ]
+    'login-button' => ''
+]
+
+$_COOKIE = [
+    '_csrf-backend' => 'f4c6c7ac24ae209f87189b047743aa199b073ce803ee623d1b0d288fdfe6da0ca:2:{i:0;s:13:\"_csrf-backend\";i:1;s:32:\"ëQ0h% zæ;Z&
+h¢,Id¤Ì‰ñ«¦Úk|\";}'
+    'PHPSESSID' => 'j8mro2k1mb6a0q3690pd9mokd6'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__returnUrl' => '/'
+    '__id' => 1
+]
+
+$_SERVER = [
+    'USER' => 'nginx'
+    'HOME' => '/var/lib/nginx'
+    'HTTP_COOKIE' => '_csrf-backend=f4c6c7ac24ae209f87189b047743aa199b073ce803ee623d1b0d288fdfe6da0ca%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_csrf-backend%22%3Bi%3A1%3Bs%3A32%3A%22%EBQ%110h%25+z%16%E6%3BZ%26%0Ah%08%1C%11%A2%2CId%A4%CC%89%F1%AB%19%A6%DAk%7C%22%3B%7D; PHPSESSID=j8mro2k1mb6a0q3690pd9mokd6'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_REFERER' => 'http://admin.xkkb.com.cn/index/login'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8'
+    'HTTP_CONTENT_TYPE' => 'application/x-www-form-urlencoded'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_ORIGIN' => 'http://admin.xkkb.com.cn'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_CONTENT_LENGTH' => '254'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_HOST' => 'admin.xkkb.com.cn'
+    'REDIRECT_STATUS' => '200'
+    'SERVER_NAME' => 'admin.xkkb.com.cn'
+    'SERVER_PORT' => '80'
+    'SERVER_ADDR' => '192.168.1.44'
+    'REMOTE_PORT' => '63301'
+    'REMOTE_ADDR' => '192.168.1.102'
+    'SERVER_SOFTWARE' => 'nginx/1.10.3'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REQUEST_SCHEME' => 'http'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'DOCUMENT_ROOT' => '/var/www/xkkb_admin'
+    'DOCUMENT_URI' => '/admin.php'
+    'REQUEST_URI' => '/index/login'
+    'SCRIPT_NAME' => '/admin.php'
+    'CONTENT_LENGTH' => '254'
+    'CONTENT_TYPE' => 'application/x-www-form-urlencoded'
+    'REQUEST_METHOD' => 'POST'
+    'QUERY_STRING' => ''
+    'SCRIPT_FILENAME' => '/var/www/xkkb_admin/admin.php'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/admin.php'
+    'REQUEST_TIME_FLOAT' => 1503121806.0998
+    'REQUEST_TIME' => 1503121806
+]
+2017-08-19 13:50:14 [192.168.1.102][1][-][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 192.168.1.102
+    in /var/www/xkkb_admin/statics/themes/admin/views/layouts/main.php:178
+    in /var/www/xkkb_admin/backend/controllers/IndexController.php:9
+2017-08-19 13:50:14 [192.168.1.102][1][-][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 192.168.1.102
+2017-08-19 13:50:14 [192.168.1.102][1][-][info][application] $_COOKIE = [
+    '_csrf-backend' => 'f4c6c7ac24ae209f87189b047743aa199b073ce803ee623d1b0d288fdfe6da0ca:2:{i:0;s:13:\"_csrf-backend\";i:1;s:32:\"ëQ0h% zæ;Z&
+h¢,Id¤Ì‰ñ«¦Úk|\";}'
+    'PHPSESSID' => 'la1176f9costneqhfdcbi469g7'
+    '_identity-backend' => '4ff4ad264e3c9d7fe4c230e3570c87c1cae912a0bed12123b80c0c13222b491ca:2:{i:0;s:17:\"_identity-backend\";i:1;s:46:\"[1,\"SbSY36BLw3V2lU-GB7ZAzCVJKDFx82IJ\",2592000]\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__returnUrl' => '/'
+    '__id' => 1
+]
+
+$_SERVER = [
+    'USER' => 'nginx'
+    'HOME' => '/var/lib/nginx'
+    'HTTP_COOKIE' => '_csrf-backend=f4c6c7ac24ae209f87189b047743aa199b073ce803ee623d1b0d288fdfe6da0ca%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_csrf-backend%22%3Bi%3A1%3Bs%3A32%3A%22%EBQ%110h%25+z%16%E6%3BZ%26%0Ah%08%1C%11%A2%2CId%A4%CC%89%F1%AB%19%A6%DAk%7C%22%3B%7D; PHPSESSID=la1176f9costneqhfdcbi469g7; _identity-backend=4ff4ad264e3c9d7fe4c230e3570c87c1cae912a0bed12123b80c0c13222b491ca%3A2%3A%7Bi%3A0%3Bs%3A17%3A%22_identity-backend%22%3Bi%3A1%3Bs%3A46%3A%22%5B1%2C%22SbSY36BLw3V2lU-GB7ZAzCVJKDFx82IJ%22%2C2592000%5D%22%3B%7D'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_REFERER' => 'http://admin.xkkb.com.cn/index/login'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_HOST' => 'admin.xkkb.com.cn'
+    'REDIRECT_STATUS' => '200'
+    'SERVER_NAME' => 'admin.xkkb.com.cn'
+    'SERVER_PORT' => '80'
+    'SERVER_ADDR' => '192.168.1.44'
+    'REMOTE_PORT' => '63301'
+    'REMOTE_ADDR' => '192.168.1.102'
+    'SERVER_SOFTWARE' => 'nginx/1.10.3'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REQUEST_SCHEME' => 'http'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'DOCUMENT_ROOT' => '/var/www/xkkb_admin'
+    'DOCUMENT_URI' => '/admin.php'
+    'REQUEST_URI' => '/'
+    'SCRIPT_NAME' => '/admin.php'
+    'CONTENT_LENGTH' => ''
+    'CONTENT_TYPE' => ''
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'SCRIPT_FILENAME' => '/var/www/xkkb_admin/admin.php'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/admin.php'
+    'REQUEST_TIME_FLOAT' => 1503121814.0563
+    'REQUEST_TIME' => 1503121814
+]
+2017-08-19 13:50:17 [192.168.1.102][1][-][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 192.168.1.102
+    in /var/www/xkkb_admin/statics/themes/admin/views/layouts/main.php:178
+    in /var/www/xkkb_admin/backend/controllers/ConfigController.php:31
+2017-08-19 13:50:17 [192.168.1.102][1][-][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 192.168.1.102
+2017-08-19 13:50:16 [192.168.1.102][1][-][info][application] $_COOKIE = [
+    '_csrf-backend' => 'f4c6c7ac24ae209f87189b047743aa199b073ce803ee623d1b0d288fdfe6da0ca:2:{i:0;s:13:\"_csrf-backend\";i:1;s:32:\"ëQ0h% zæ;Z&
+h¢,Id¤Ì‰ñ«¦Úk|\";}'
+    'PHPSESSID' => 'la1176f9costneqhfdcbi469g7'
+    '_identity-backend' => '4ff4ad264e3c9d7fe4c230e3570c87c1cae912a0bed12123b80c0c13222b491ca:2:{i:0;s:17:\"_identity-backend\";i:1;s:46:\"[1,\"SbSY36BLw3V2lU-GB7ZAzCVJKDFx82IJ\",2592000]\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__returnUrl' => '/'
+    '__id' => 1
+]
+
+$_SERVER = [
+    'USER' => 'nginx'
+    'HOME' => '/var/lib/nginx'
+    'HTTP_COOKIE' => '_csrf-backend=f4c6c7ac24ae209f87189b047743aa199b073ce803ee623d1b0d288fdfe6da0ca%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_csrf-backend%22%3Bi%3A1%3Bs%3A32%3A%22%EBQ%110h%25+z%16%E6%3BZ%26%0Ah%08%1C%11%A2%2CId%A4%CC%89%F1%AB%19%A6%DAk%7C%22%3B%7D; PHPSESSID=la1176f9costneqhfdcbi469g7; _identity-backend=4ff4ad264e3c9d7fe4c230e3570c87c1cae912a0bed12123b80c0c13222b491ca%3A2%3A%7Bi%3A0%3Bs%3A17%3A%22_identity-backend%22%3Bi%3A1%3Bs%3A46%3A%22%5B1%2C%22SbSY36BLw3V2lU-GB7ZAzCVJKDFx82IJ%22%2C2592000%5D%22%3B%7D'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_REFERER' => 'http://admin.xkkb.com.cn/'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_HOST' => 'admin.xkkb.com.cn'
+    'REDIRECT_STATUS' => '200'
+    'SERVER_NAME' => 'admin.xkkb.com.cn'
+    'SERVER_PORT' => '80'
+    'SERVER_ADDR' => '192.168.1.44'
+    'REMOTE_PORT' => '63301'
+    'REMOTE_ADDR' => '192.168.1.102'
+    'SERVER_SOFTWARE' => 'nginx/1.10.3'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REQUEST_SCHEME' => 'http'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'DOCUMENT_ROOT' => '/var/www/xkkb_admin'
+    'DOCUMENT_URI' => '/admin.php'
+    'REQUEST_URI' => '/config/basic'
+    'SCRIPT_NAME' => '/admin.php'
+    'CONTENT_LENGTH' => ''
+    'CONTENT_TYPE' => ''
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'SCRIPT_FILENAME' => '/var/www/xkkb_admin/admin.php'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/admin.php'
+    'REQUEST_TIME_FLOAT' => 1503121816.8036
+    'REQUEST_TIME' => 1503121816
+]
+2017-08-19 13:51:36 [192.168.1.102][-][-][error][yii\base\UnknownPropertyException] yii\base\UnknownPropertyException: Getting unknown property: yii\web\User::auth in /var/www/xkkb_admin/vendor/yiisoft/yii2/base/Component.php:147
+Stack trace:
+#0 /var/www/xkkb_admin/vendor/yiisoft/yii2/web/User.php(706): yii\base\Component->__get('auth')
+#1 /var/www/xkkb_admin/backend/components/AccessControl.php(34): yii\web\User->can('config/basic')
+#2 /var/www/xkkb_admin/vendor/yiisoft/yii2/base/ActionFilter.php(75): backend\components\AccessControl->beforeAction(Object(yii\base\InlineAction))
+#3 [internal function]: yii\base\ActionFilter->beforeFilter(Object(yii\base\ActionEvent))
+#4 /var/www/xkkb_admin/vendor/yiisoft/yii2/base/Component.php(545): call_user_func(Array, Object(yii\base\ActionEvent))
+#5 /var/www/xkkb_admin/vendor/yiisoft/yii2/base/Controller.php(272): yii\base\Component->trigger('beforeAction', Object(yii\base\ActionEvent))
+#6 /var/www/xkkb_admin/vendor/yiisoft/yii2/web/Controller.php(164): yii\base\Controller->beforeAction(Object(yii\base\InlineAction))
+#7 /var/www/xkkb_admin/vendor/yiisoft/yii2/base/Controller.php(154): yii\web\Controller->beforeAction(Object(yii\base\InlineAction))
+#8 /var/www/xkkb_admin/vendor/yiisoft/yii2/base/Module.php(523): yii\base\Controller->runAction('basic', Array)
+#9 /var/www/xkkb_admin/vendor/yiisoft/yii2/web/Application.php(102): yii\base\Module->runAction('config/basic', Array)
+#10 /var/www/xkkb_admin/vendor/yiisoft/yii2/base/Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#11 /var/www/xkkb_admin/admin.php(42): yii\base\Application->run()
+#12 {main}
+2017-08-19 13:51:36 [192.168.1.102][-][-][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 192.168.1.102
+2017-08-19 13:51:36 [192.168.1.102][-][-][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 192.168.1.102
+2017-08-19 13:51:36 [192.168.1.102][-][-][info][application] $_COOKIE = [
+    '_csrf-backend' => 'f4c6c7ac24ae209f87189b047743aa199b073ce803ee623d1b0d288fdfe6da0ca:2:{i:0;s:13:\"_csrf-backend\";i:1;s:32:\"ëQ0h% zæ;Z&
+h¢,Id¤Ì‰ñ«¦Úk|\";}'
+    'PHPSESSID' => 'la1176f9costneqhfdcbi469g7'
+    '_identity-backend' => '4ff4ad264e3c9d7fe4c230e3570c87c1cae912a0bed12123b80c0c13222b491ca:2:{i:0;s:17:\"_identity-backend\";i:1;s:46:\"[1,\"SbSY36BLw3V2lU-GB7ZAzCVJKDFx82IJ\",2592000]\";}'
+]
+
+$_SERVER = [
+    'USER' => 'nginx'
+    'HOME' => '/var/lib/nginx'
+    'HTTP_COOKIE' => '_csrf-backend=f4c6c7ac24ae209f87189b047743aa199b073ce803ee623d1b0d288fdfe6da0ca%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_csrf-backend%22%3Bi%3A1%3Bs%3A32%3A%22%EBQ%110h%25+z%16%E6%3BZ%26%0Ah%08%1C%11%A2%2CId%A4%CC%89%F1%AB%19%A6%DAk%7C%22%3B%7D; PHPSESSID=la1176f9costneqhfdcbi469g7; _identity-backend=4ff4ad264e3c9d7fe4c230e3570c87c1cae912a0bed12123b80c0c13222b491ca%3A2%3A%7Bi%3A0%3Bs%3A17%3A%22_identity-backend%22%3Bi%3A1%3Bs%3A46%3A%22%5B1%2C%22SbSY36BLw3V2lU-GB7ZAzCVJKDFx82IJ%22%2C2592000%5D%22%3B%7D'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_REFERER' => 'http://admin.xkkb.com.cn/'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_HOST' => 'admin.xkkb.com.cn'
+    'REDIRECT_STATUS' => '200'
+    'SERVER_NAME' => 'admin.xkkb.com.cn'
+    'SERVER_PORT' => '80'
+    'SERVER_ADDR' => '192.168.1.44'
+    'REMOTE_PORT' => '63342'
+    'REMOTE_ADDR' => '192.168.1.102'
+    'SERVER_SOFTWARE' => 'nginx/1.10.3'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REQUEST_SCHEME' => 'http'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'DOCUMENT_ROOT' => '/var/www/xkkb_admin'
+    'DOCUMENT_URI' => '/admin.php'
+    'REQUEST_URI' => '/config/basic'
+    'SCRIPT_NAME' => '/admin.php'
+    'CONTENT_LENGTH' => ''
+    'CONTENT_TYPE' => ''
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'SCRIPT_FILENAME' => '/var/www/xkkb_admin/admin.php'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/admin.php'
+    'REQUEST_TIME_FLOAT' => 1503121896.0656
+    'REQUEST_TIME' => 1503121896
+]
+2017-08-19 13:51:51 [192.168.1.102][-][-][error][yii\base\UnknownPropertyException] yii\base\UnknownPropertyException: Getting unknown property: yii\web\User::auth_item in /var/www/xkkb_admin/vendor/yiisoft/yii2/base/Component.php:147
+Stack trace:
+#0 /var/www/xkkb_admin/vendor/yiisoft/yii2/web/User.php(706): yii\base\Component->__get('auth_item')
+#1 /var/www/xkkb_admin/backend/components/AccessControl.php(34): yii\web\User->can('config/basic')
+#2 /var/www/xkkb_admin/vendor/yiisoft/yii2/base/ActionFilter.php(75): backend\components\AccessControl->beforeAction(Object(yii\base\InlineAction))
+#3 [internal function]: yii\base\ActionFilter->beforeFilter(Object(yii\base\ActionEvent))
+#4 /var/www/xkkb_admin/vendor/yiisoft/yii2/base/Component.php(545): call_user_func(Array, Object(yii\base\ActionEvent))
+#5 /var/www/xkkb_admin/vendor/yiisoft/yii2/base/Controller.php(272): yii\base\Component->trigger('beforeAction', Object(yii\base\ActionEvent))
+#6 /var/www/xkkb_admin/vendor/yiisoft/yii2/web/Controller.php(164): yii\base\Controller->beforeAction(Object(yii\base\InlineAction))
+#7 /var/www/xkkb_admin/vendor/yiisoft/yii2/base/Controller.php(154): yii\web\Controller->beforeAction(Object(yii\base\InlineAction))
+#8 /var/www/xkkb_admin/vendor/yiisoft/yii2/base/Module.php(523): yii\base\Controller->runAction('basic', Array)
+#9 /var/www/xkkb_admin/vendor/yiisoft/yii2/web/Application.php(102): yii\base\Module->runAction('config/basic', Array)
+#10 /var/www/xkkb_admin/vendor/yiisoft/yii2/base/Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#11 /var/www/xkkb_admin/admin.php(42): yii\base\Application->run()
+#12 {main}
+2017-08-19 13:51:51 [192.168.1.102][-][-][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 192.168.1.102
+2017-08-19 13:51:51 [192.168.1.102][-][-][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 192.168.1.102
+2017-08-19 13:51:50 [192.168.1.102][-][-][info][application] $_COOKIE = [
+    '_csrf-backend' => 'f4c6c7ac24ae209f87189b047743aa199b073ce803ee623d1b0d288fdfe6da0ca:2:{i:0;s:13:\"_csrf-backend\";i:1;s:32:\"ëQ0h% zæ;Z&
+h¢,Id¤Ì‰ñ«¦Úk|\";}'
+    'PHPSESSID' => 'la1176f9costneqhfdcbi469g7'
+    '_identity-backend' => '4ff4ad264e3c9d7fe4c230e3570c87c1cae912a0bed12123b80c0c13222b491ca:2:{i:0;s:17:\"_identity-backend\";i:1;s:46:\"[1,\"SbSY36BLw3V2lU-GB7ZAzCVJKDFx82IJ\",2592000]\";}'
+]
+
+$_SERVER = [
+    'USER' => 'nginx'
+    'HOME' => '/var/lib/nginx'
+    'HTTP_COOKIE' => '_csrf-backend=f4c6c7ac24ae209f87189b047743aa199b073ce803ee623d1b0d288fdfe6da0ca%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_csrf-backend%22%3Bi%3A1%3Bs%3A32%3A%22%EBQ%110h%25+z%16%E6%3BZ%26%0Ah%08%1C%11%A2%2CId%A4%CC%89%F1%AB%19%A6%DAk%7C%22%3B%7D; PHPSESSID=la1176f9costneqhfdcbi469g7; _identity-backend=4ff4ad264e3c9d7fe4c230e3570c87c1cae912a0bed12123b80c0c13222b491ca%3A2%3A%7Bi%3A0%3Bs%3A17%3A%22_identity-backend%22%3Bi%3A1%3Bs%3A46%3A%22%5B1%2C%22SbSY36BLw3V2lU-GB7ZAzCVJKDFx82IJ%22%2C2592000%5D%22%3B%7D'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_REFERER' => 'http://admin.xkkb.com.cn/'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_HOST' => 'admin.xkkb.com.cn'
+    'REDIRECT_STATUS' => '200'
+    'SERVER_NAME' => 'admin.xkkb.com.cn'
+    'SERVER_PORT' => '80'
+    'SERVER_ADDR' => '192.168.1.44'
+    'REMOTE_PORT' => '63342'
+    'REMOTE_ADDR' => '192.168.1.102'
+    'SERVER_SOFTWARE' => 'nginx/1.10.3'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REQUEST_SCHEME' => 'http'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'DOCUMENT_ROOT' => '/var/www/xkkb_admin'
+    'DOCUMENT_URI' => '/admin.php'
+    'REQUEST_URI' => '/config/basic'
+    'SCRIPT_NAME' => '/admin.php'
+    'CONTENT_LENGTH' => ''
+    'CONTENT_TYPE' => ''
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'SCRIPT_FILENAME' => '/var/www/xkkb_admin/admin.php'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/admin.php'
+    'REQUEST_TIME_FLOAT' => 1503121910.9301
+    'REQUEST_TIME' => 1503121910
+]
+2017-08-19 13:51:58 [192.168.1.102][-][-][error][yii\base\UnknownPropertyException] yii\base\UnknownPropertyException: Getting unknown property: yii\web\User::username in /var/www/xkkb_admin/vendor/yiisoft/yii2/base/Component.php:147
+Stack trace:
+#0 /var/www/xkkb_admin/vendor/yiisoft/yii2/web/User.php(706): yii\base\Component->__get('username')
+#1 /var/www/xkkb_admin/backend/components/AccessControl.php(34): yii\web\User->can('config/basic')
+#2 /var/www/xkkb_admin/vendor/yiisoft/yii2/base/ActionFilter.php(75): backend\components\AccessControl->beforeAction(Object(yii\base\InlineAction))
+#3 [internal function]: yii\base\ActionFilter->beforeFilter(Object(yii\base\ActionEvent))
+#4 /var/www/xkkb_admin/vendor/yiisoft/yii2/base/Component.php(545): call_user_func(Array, Object(yii\base\ActionEvent))
+#5 /var/www/xkkb_admin/vendor/yiisoft/yii2/base/Controller.php(272): yii\base\Component->trigger('beforeAction', Object(yii\base\ActionEvent))
+#6 /var/www/xkkb_admin/vendor/yiisoft/yii2/web/Controller.php(164): yii\base\Controller->beforeAction(Object(yii\base\InlineAction))
+#7 /var/www/xkkb_admin/vendor/yiisoft/yii2/base/Controller.php(154): yii\web\Controller->beforeAction(Object(yii\base\InlineAction))
+#8 /var/www/xkkb_admin/vendor/yiisoft/yii2/base/Module.php(523): yii\base\Controller->runAction('basic', Array)
+#9 /var/www/xkkb_admin/vendor/yiisoft/yii2/web/Application.php(102): yii\base\Module->runAction('config/basic', Array)
+#10 /var/www/xkkb_admin/vendor/yiisoft/yii2/base/Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#11 /var/www/xkkb_admin/admin.php(42): yii\base\Application->run()
+#12 {main}
+2017-08-19 13:51:58 [192.168.1.102][-][-][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 192.168.1.102
+2017-08-19 13:51:58 [192.168.1.102][-][-][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 192.168.1.102
+2017-08-19 13:51:57 [192.168.1.102][-][-][info][application] $_COOKIE = [
+    '_csrf-backend' => 'f4c6c7ac24ae209f87189b047743aa199b073ce803ee623d1b0d288fdfe6da0ca:2:{i:0;s:13:\"_csrf-backend\";i:1;s:32:\"ëQ0h% zæ;Z&
+h¢,Id¤Ì‰ñ«¦Úk|\";}'
+    'PHPSESSID' => 'la1176f9costneqhfdcbi469g7'
+    '_identity-backend' => '4ff4ad264e3c9d7fe4c230e3570c87c1cae912a0bed12123b80c0c13222b491ca:2:{i:0;s:17:\"_identity-backend\";i:1;s:46:\"[1,\"SbSY36BLw3V2lU-GB7ZAzCVJKDFx82IJ\",2592000]\";}'
+]
+
+$_SERVER = [
+    'USER' => 'nginx'
+    'HOME' => '/var/lib/nginx'
+    'HTTP_COOKIE' => '_csrf-backend=f4c6c7ac24ae209f87189b047743aa199b073ce803ee623d1b0d288fdfe6da0ca%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_csrf-backend%22%3Bi%3A1%3Bs%3A32%3A%22%EBQ%110h%25+z%16%E6%3BZ%26%0Ah%08%1C%11%A2%2CId%A4%CC%89%F1%AB%19%A6%DAk%7C%22%3B%7D; PHPSESSID=la1176f9costneqhfdcbi469g7; _identity-backend=4ff4ad264e3c9d7fe4c230e3570c87c1cae912a0bed12123b80c0c13222b491ca%3A2%3A%7Bi%3A0%3Bs%3A17%3A%22_identity-backend%22%3Bi%3A1%3Bs%3A46%3A%22%5B1%2C%22SbSY36BLw3V2lU-GB7ZAzCVJKDFx82IJ%22%2C2592000%5D%22%3B%7D'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_REFERER' => 'http://admin.xkkb.com.cn/'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_HOST' => 'admin.xkkb.com.cn'
+    'REDIRECT_STATUS' => '200'
+    'SERVER_NAME' => 'admin.xkkb.com.cn'
+    'SERVER_PORT' => '80'
+    'SERVER_ADDR' => '192.168.1.44'
+    'REMOTE_PORT' => '63342'
+    'REMOTE_ADDR' => '192.168.1.102'
+    'SERVER_SOFTWARE' => 'nginx/1.10.3'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REQUEST_SCHEME' => 'http'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'DOCUMENT_ROOT' => '/var/www/xkkb_admin'
+    'DOCUMENT_URI' => '/admin.php'
+    'REQUEST_URI' => '/config/basic'
+    'SCRIPT_NAME' => '/admin.php'
+    'CONTENT_LENGTH' => ''
+    'CONTENT_TYPE' => ''
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'SCRIPT_FILENAME' => '/var/www/xkkb_admin/admin.php'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/admin.php'
+    'REQUEST_TIME_FLOAT' => 1503121917.9931
+    'REQUEST_TIME' => 1503121917
+]
+2017-08-19 13:52:42 [192.168.1.102][1][-][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 192.168.1.102
+    in /var/www/xkkb_admin/statics/themes/admin/views/layouts/main.php:178
+    in /var/www/xkkb_admin/backend/controllers/ConfigController.php:31
+2017-08-19 13:52:42 [192.168.1.102][1][-][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 192.168.1.102
+2017-08-19 13:52:41 [192.168.1.102][1][-][info][application] $_COOKIE = [
+    '_csrf-backend' => 'f4c6c7ac24ae209f87189b047743aa199b073ce803ee623d1b0d288fdfe6da0ca:2:{i:0;s:13:\"_csrf-backend\";i:1;s:32:\"ëQ0h% zæ;Z&
+h¢,Id¤Ì‰ñ«¦Úk|\";}'
+    'PHPSESSID' => 'la1176f9costneqhfdcbi469g7'
+    '_identity-backend' => '4ff4ad264e3c9d7fe4c230e3570c87c1cae912a0bed12123b80c0c13222b491ca:2:{i:0;s:17:\"_identity-backend\";i:1;s:46:\"[1,\"SbSY36BLw3V2lU-GB7ZAzCVJKDFx82IJ\",2592000]\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__returnUrl' => '/'
+    '__id' => 1
+]
+
+$_SERVER = [
+    'USER' => 'nginx'
+    'HOME' => '/var/lib/nginx'
+    'HTTP_COOKIE' => '_csrf-backend=f4c6c7ac24ae209f87189b047743aa199b073ce803ee623d1b0d288fdfe6da0ca%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_csrf-backend%22%3Bi%3A1%3Bs%3A32%3A%22%EBQ%110h%25+z%16%E6%3BZ%26%0Ah%08%1C%11%A2%2CId%A4%CC%89%F1%AB%19%A6%DAk%7C%22%3B%7D; PHPSESSID=la1176f9costneqhfdcbi469g7; _identity-backend=4ff4ad264e3c9d7fe4c230e3570c87c1cae912a0bed12123b80c0c13222b491ca%3A2%3A%7Bi%3A0%3Bs%3A17%3A%22_identity-backend%22%3Bi%3A1%3Bs%3A46%3A%22%5B1%2C%22SbSY36BLw3V2lU-GB7ZAzCVJKDFx82IJ%22%2C2592000%5D%22%3B%7D'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_REFERER' => 'http://admin.xkkb.com.cn/'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_HOST' => 'admin.xkkb.com.cn'
+    'REDIRECT_STATUS' => '200'
+    'SERVER_NAME' => 'admin.xkkb.com.cn'
+    'SERVER_PORT' => '80'
+    'SERVER_ADDR' => '192.168.1.44'
+    'REMOTE_PORT' => '63371'
+    'REMOTE_ADDR' => '192.168.1.102'
+    'SERVER_SOFTWARE' => 'nginx/1.10.3'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REQUEST_SCHEME' => 'http'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'DOCUMENT_ROOT' => '/var/www/xkkb_admin'
+    'DOCUMENT_URI' => '/admin.php'
+    'REQUEST_URI' => '/config/basic'
+    'SCRIPT_NAME' => '/admin.php'
+    'CONTENT_LENGTH' => ''
+    'CONTENT_TYPE' => ''
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'SCRIPT_FILENAME' => '/var/www/xkkb_admin/admin.php'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/admin.php'
+    'REQUEST_TIME_FLOAT' => 1503121961.7789
+    'REQUEST_TIME' => 1503121961
+]
+2017-08-19 14:02:07 [192.168.1.102][1][-][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 192.168.1.102
+    in /var/www/xkkb_admin/statics/themes/admin/views/layouts/main.php:178
+    in /var/www/xkkb_admin/backend/controllers/ConfigController.php:31
+2017-08-19 14:02:07 [192.168.1.102][1][-][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 192.168.1.102
+2017-08-19 14:02:07 [192.168.1.102][1][-][info][application] $_COOKIE = [
+    '_csrf-backend' => 'f4c6c7ac24ae209f87189b047743aa199b073ce803ee623d1b0d288fdfe6da0ca:2:{i:0;s:13:\"_csrf-backend\";i:1;s:32:\"ëQ0h% zæ;Z&
+h¢,Id¤Ì‰ñ«¦Úk|\";}'
+    'PHPSESSID' => 'la1176f9costneqhfdcbi469g7'
+    '_identity-backend' => '4ff4ad264e3c9d7fe4c230e3570c87c1cae912a0bed12123b80c0c13222b491ca:2:{i:0;s:17:\"_identity-backend\";i:1;s:46:\"[1,\"SbSY36BLw3V2lU-GB7ZAzCVJKDFx82IJ\",2592000]\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__returnUrl' => '/'
+    '__id' => 1
+]
+
+$_SERVER = [
+    'USER' => 'nginx'
+    'HOME' => '/var/lib/nginx'
+    'HTTP_COOKIE' => '_csrf-backend=f4c6c7ac24ae209f87189b047743aa199b073ce803ee623d1b0d288fdfe6da0ca%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_csrf-backend%22%3Bi%3A1%3Bs%3A32%3A%22%EBQ%110h%25+z%16%E6%3BZ%26%0Ah%08%1C%11%A2%2CId%A4%CC%89%F1%AB%19%A6%DAk%7C%22%3B%7D; PHPSESSID=la1176f9costneqhfdcbi469g7; _identity-backend=4ff4ad264e3c9d7fe4c230e3570c87c1cae912a0bed12123b80c0c13222b491ca%3A2%3A%7Bi%3A0%3Bs%3A17%3A%22_identity-backend%22%3Bi%3A1%3Bs%3A46%3A%22%5B1%2C%22SbSY36BLw3V2lU-GB7ZAzCVJKDFx82IJ%22%2C2592000%5D%22%3B%7D'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_REFERER' => 'http://admin.xkkb.com.cn/'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_HOST' => 'admin.xkkb.com.cn'
+    'REDIRECT_STATUS' => '200'
+    'SERVER_NAME' => 'admin.xkkb.com.cn'
+    'SERVER_PORT' => '80'
+    'SERVER_ADDR' => '192.168.1.44'
+    'REMOTE_PORT' => '63615'
+    'REMOTE_ADDR' => '192.168.1.102'
+    'SERVER_SOFTWARE' => 'nginx/1.10.3'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REQUEST_SCHEME' => 'http'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'DOCUMENT_ROOT' => '/var/www/xkkb_admin'
+    'DOCUMENT_URI' => '/admin.php'
+    'REQUEST_URI' => '/config/basic'
+    'SCRIPT_NAME' => '/admin.php'
+    'CONTENT_LENGTH' => ''
+    'CONTENT_TYPE' => ''
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'SCRIPT_FILENAME' => '/var/www/xkkb_admin/admin.php'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/admin.php'
+    'REQUEST_TIME_FLOAT' => 1503122527.1534
+    'REQUEST_TIME' => 1503122527
+]
+2017-08-19 14:02:48 [192.168.1.102][1][-][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 192.168.1.102
+    in /var/www/xkkb_admin/statics/themes/admin/views/layouts/main.php:178
+    in /var/www/xkkb_admin/backend/controllers/ImgController.php:25
+2017-08-19 14:02:48 [192.168.1.102][1][-][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 192.168.1.102
+2017-08-19 14:02:48 [192.168.1.102][1][-][info][application] $_COOKIE = [
+    '_csrf-backend' => 'f4c6c7ac24ae209f87189b047743aa199b073ce803ee623d1b0d288fdfe6da0ca:2:{i:0;s:13:\"_csrf-backend\";i:1;s:32:\"ëQ0h% zæ;Z&
+h¢,Id¤Ì‰ñ«¦Úk|\";}'
+    'PHPSESSID' => 'la1176f9costneqhfdcbi469g7'
+    '_identity-backend' => '4ff4ad264e3c9d7fe4c230e3570c87c1cae912a0bed12123b80c0c13222b491ca:2:{i:0;s:17:\"_identity-backend\";i:1;s:46:\"[1,\"SbSY36BLw3V2lU-GB7ZAzCVJKDFx82IJ\",2592000]\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__returnUrl' => '/'
+    '__id' => 1
+]
+
+$_SERVER = [
+    'USER' => 'nginx'
+    'HOME' => '/var/lib/nginx'
+    'HTTP_COOKIE' => '_csrf-backend=f4c6c7ac24ae209f87189b047743aa199b073ce803ee623d1b0d288fdfe6da0ca%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_csrf-backend%22%3Bi%3A1%3Bs%3A32%3A%22%EBQ%110h%25+z%16%E6%3BZ%26%0Ah%08%1C%11%A2%2CId%A4%CC%89%F1%AB%19%A6%DAk%7C%22%3B%7D; PHPSESSID=la1176f9costneqhfdcbi469g7; _identity-backend=4ff4ad264e3c9d7fe4c230e3570c87c1cae912a0bed12123b80c0c13222b491ca%3A2%3A%7Bi%3A0%3Bs%3A17%3A%22_identity-backend%22%3Bi%3A1%3Bs%3A46%3A%22%5B1%2C%22SbSY36BLw3V2lU-GB7ZAzCVJKDFx82IJ%22%2C2592000%5D%22%3B%7D'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_REFERER' => 'http://admin.xkkb.com.cn/config/basic'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_HOST' => 'admin.xkkb.com.cn'
+    'REDIRECT_STATUS' => '200'
+    'SERVER_NAME' => 'admin.xkkb.com.cn'
+    'SERVER_PORT' => '80'
+    'SERVER_ADDR' => '192.168.1.44'
+    'REMOTE_PORT' => '63640'
+    'REMOTE_ADDR' => '192.168.1.102'
+    'SERVER_SOFTWARE' => 'nginx/1.10.3'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REQUEST_SCHEME' => 'http'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'DOCUMENT_ROOT' => '/var/www/xkkb_admin'
+    'DOCUMENT_URI' => '/admin.php'
+    'REQUEST_URI' => '/img/index'
+    'SCRIPT_NAME' => '/admin.php'
+    'CONTENT_LENGTH' => ''
+    'CONTENT_TYPE' => ''
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'SCRIPT_FILENAME' => '/var/www/xkkb_admin/admin.php'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/admin.php'
+    'REQUEST_TIME_FLOAT' => 1503122568.2949
+    'REQUEST_TIME' => 1503122568
+]
+2017-08-30 20:13:47 [192.168.1.102][1][-][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 192.168.1.102
+    in /var/www/xkkb_admin/statics/themes/admin/views/layouts/main.php:178
+    in /var/www/xkkb_admin/backend/controllers/ImgController.php:25
+2017-08-30 20:13:47 [192.168.1.102][1][-][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 192.168.1.102
+2017-08-30 20:13:42 [192.168.1.102][1][-][info][application] $_COOKIE = [
+    '_csrf-backend' => 'f4c6c7ac24ae209f87189b047743aa199b073ce803ee623d1b0d288fdfe6da0ca:2:{i:0;s:13:\"_csrf-backend\";i:1;s:32:\"ëQ0h% zæ;Z&
+h¢,Id¤Ì‰ñ«¦Úk|\";}'
+    'PHPSESSID' => 'la1176f9costneqhfdcbi469g7'
+    '_identity-backend' => '4ff4ad264e3c9d7fe4c230e3570c87c1cae912a0bed12123b80c0c13222b491ca:2:{i:0;s:17:\"_identity-backend\";i:1;s:46:\"[1,\"SbSY36BLw3V2lU-GB7ZAzCVJKDFx82IJ\",2592000]\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__id' => 1
+]
+
+$_SERVER = [
+    'USER' => 'nginx'
+    'HOME' => '/var/lib/nginx'
+    'HTTP_COOKIE' => '_csrf-backend=f4c6c7ac24ae209f87189b047743aa199b073ce803ee623d1b0d288fdfe6da0ca%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_csrf-backend%22%3Bi%3A1%3Bs%3A32%3A%22%EBQ%110h%25+z%16%E6%3BZ%26%0Ah%08%1C%11%A2%2CId%A4%CC%89%F1%AB%19%A6%DAk%7C%22%3B%7D; PHPSESSID=la1176f9costneqhfdcbi469g7; _identity-backend=4ff4ad264e3c9d7fe4c230e3570c87c1cae912a0bed12123b80c0c13222b491ca%3A2%3A%7Bi%3A0%3Bs%3A17%3A%22_identity-backend%22%3Bi%3A1%3Bs%3A46%3A%22%5B1%2C%22SbSY36BLw3V2lU-GB7ZAzCVJKDFx82IJ%22%2C2592000%5D%22%3B%7D'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_HOST' => 'admin.xkkb.com.cn'
+    'REDIRECT_STATUS' => '200'
+    'SERVER_NAME' => 'admin.xkkb.com.cn'
+    'SERVER_PORT' => '80'
+    'SERVER_ADDR' => '192.168.1.44'
+    'REMOTE_PORT' => '55390'
+    'REMOTE_ADDR' => '192.168.1.102'
+    'SERVER_SOFTWARE' => 'nginx/1.10.3'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REQUEST_SCHEME' => 'http'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'DOCUMENT_ROOT' => '/var/www/xkkb_admin'
+    'DOCUMENT_URI' => '/admin.php'
+    'REQUEST_URI' => '/img/index'
+    'SCRIPT_NAME' => '/admin.php'
+    'CONTENT_LENGTH' => ''
+    'CONTENT_TYPE' => ''
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'SCRIPT_FILENAME' => '/var/www/xkkb_admin/admin.php'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/admin.php'
+    'REQUEST_TIME_FLOAT' => 1504095222.4202
+    'REQUEST_TIME' => 1504095222
+]
+2017-08-30 20:13:47 [192.168.1.102][1][2r5js81gs7eg6d8o609c6cqci0][error][yii\web\HttpException:404] yii\base\InvalidRouteException: Unable to resolve the request "statics/upload/2017_08_29/a0127859ce7ec0a55379cd0a5711c9a93117.jpg". in /var/www/xkkb_admin/vendor/yiisoft/yii2/base/Module.php:532
+Stack trace:
+#0 /var/www/xkkb_admin/vendor/yiisoft/yii2/web/Application.php(102): yii\base\Module->runAction('statics/upload/...', Array)
+#1 /var/www/xkkb_admin/vendor/yiisoft/yii2/base/Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 /var/www/xkkb_admin/admin.php(42): yii\base\Application->run()
+#3 {main}
+
+Next yii\web\NotFoundHttpException: é¡µé¢æœªæ‰¾åˆ°ã€‚ in /var/www/xkkb_admin/vendor/yiisoft/yii2/web/Application.php:114
+Stack trace:
+#0 /var/www/xkkb_admin/vendor/yiisoft/yii2/base/Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 /var/www/xkkb_admin/admin.php(42): yii\base\Application->run()
+#2 {main}
+2017-08-30 20:13:47 [192.168.1.102][1][2r5js81gs7eg6d8o609c6cqci0][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 192.168.1.102
+    in /var/www/xkkb_admin/statics/themes/admin/views/layouts/main.php:178
+2017-08-30 20:13:47 [192.168.1.102][1][2r5js81gs7eg6d8o609c6cqci0][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 192.168.1.102
+2017-08-30 20:13:47 [192.168.1.102][1][2r5js81gs7eg6d8o609c6cqci0][info][application] $_COOKIE = [
+    '_csrf-backend' => 'f4c6c7ac24ae209f87189b047743aa199b073ce803ee623d1b0d288fdfe6da0ca:2:{i:0;s:13:\"_csrf-backend\";i:1;s:32:\"ëQ0h% zæ;Z&
+h¢,Id¤Ì‰ñ«¦Úk|\";}'
+    'PHPSESSID' => 'la1176f9costneqhfdcbi469g7'
+    '_identity-backend' => '4ff4ad264e3c9d7fe4c230e3570c87c1cae912a0bed12123b80c0c13222b491ca:2:{i:0;s:17:\"_identity-backend\";i:1;s:46:\"[1,\"SbSY36BLw3V2lU-GB7ZAzCVJKDFx82IJ\",2592000]\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__id' => 1
+]
+
+$_SERVER = [
+    'USER' => 'nginx'
+    'HOME' => '/var/lib/nginx'
+    'HTTP_COOKIE' => '_csrf-backend=f4c6c7ac24ae209f87189b047743aa199b073ce803ee623d1b0d288fdfe6da0ca%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_csrf-backend%22%3Bi%3A1%3Bs%3A32%3A%22%EBQ%110h%25+z%16%E6%3BZ%26%0Ah%08%1C%11%A2%2CId%A4%CC%89%F1%AB%19%A6%DAk%7C%22%3B%7D; PHPSESSID=la1176f9costneqhfdcbi469g7; _identity-backend=4ff4ad264e3c9d7fe4c230e3570c87c1cae912a0bed12123b80c0c13222b491ca%3A2%3A%7Bi%3A0%3Bs%3A17%3A%22_identity-backend%22%3Bi%3A1%3Bs%3A46%3A%22%5B1%2C%22SbSY36BLw3V2lU-GB7ZAzCVJKDFx82IJ%22%2C2592000%5D%22%3B%7D'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_REFERER' => 'http://www.xkkb.com.cn/en/support'
+    'HTTP_ACCEPT' => 'image/webp,image/apng,image/*,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_HOST' => 'admin.xkkb.com.cn'
+    'REDIRECT_STATUS' => '200'
+    'SERVER_NAME' => 'admin.xkkb.com.cn'
+    'SERVER_PORT' => '80'
+    'SERVER_ADDR' => '192.168.1.44'
+    'REMOTE_PORT' => '55391'
+    'REMOTE_ADDR' => '192.168.1.102'
+    'SERVER_SOFTWARE' => 'nginx/1.10.3'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REQUEST_SCHEME' => 'http'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'DOCUMENT_ROOT' => '/var/www/xkkb_admin'
+    'DOCUMENT_URI' => '/admin.php'
+    'REQUEST_URI' => '/statics/upload/2017_08_29/a0127859ce7ec0a55379cd0a5711c9a93117.jpg'
+    'SCRIPT_NAME' => '/admin.php'
+    'CONTENT_LENGTH' => ''
+    'CONTENT_TYPE' => ''
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'SCRIPT_FILENAME' => '/var/www/xkkb_admin/admin.php'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/admin.php'
+    'REQUEST_TIME_FLOAT' => 1504095227.1812
+    'REQUEST_TIME' => 1504095227
+]
+2017-08-30 20:13:47 [192.168.1.102][1][7qbsr0i34u4pmkpklgab1q1cm7][error][yii\web\HttpException:404] yii\base\InvalidRouteException: Unable to resolve the request "statics/upload/2017_08_29/bd46ec19be69d7f26d0f03c5d3d5562b8351.jpg". in /var/www/xkkb_admin/vendor/yiisoft/yii2/base/Module.php:532
+Stack trace:
+#0 /var/www/xkkb_admin/vendor/yiisoft/yii2/web/Application.php(102): yii\base\Module->runAction('statics/upload/...', Array)
+#1 /var/www/xkkb_admin/vendor/yiisoft/yii2/base/Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 /var/www/xkkb_admin/admin.php(42): yii\base\Application->run()
+#3 {main}
+
+Next yii\web\NotFoundHttpException: é¡µé¢æœªæ‰¾åˆ°ã€‚ in /var/www/xkkb_admin/vendor/yiisoft/yii2/web/Application.php:114
+Stack trace:
+#0 /var/www/xkkb_admin/vendor/yiisoft/yii2/base/Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 /var/www/xkkb_admin/admin.php(42): yii\base\Application->run()
+#2 {main}
+2017-08-30 20:13:48 [192.168.1.102][1][7qbsr0i34u4pmkpklgab1q1cm7][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 192.168.1.102
+    in /var/www/xkkb_admin/statics/themes/admin/views/layouts/main.php:178
+2017-08-30 20:13:48 [192.168.1.102][1][7qbsr0i34u4pmkpklgab1q1cm7][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 192.168.1.102
+2017-08-30 20:13:47 [192.168.1.102][1][7qbsr0i34u4pmkpklgab1q1cm7][info][application] $_COOKIE = [
+    '_csrf-backend' => 'f4c6c7ac24ae209f87189b047743aa199b073ce803ee623d1b0d288fdfe6da0ca:2:{i:0;s:13:\"_csrf-backend\";i:1;s:32:\"ëQ0h% zæ;Z&
+h¢,Id¤Ì‰ñ«¦Úk|\";}'
+    'PHPSESSID' => 'la1176f9costneqhfdcbi469g7'
+    '_identity-backend' => '4ff4ad264e3c9d7fe4c230e3570c87c1cae912a0bed12123b80c0c13222b491ca:2:{i:0;s:17:\"_identity-backend\";i:1;s:46:\"[1,\"SbSY36BLw3V2lU-GB7ZAzCVJKDFx82IJ\",2592000]\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__id' => 1
+]
+
+$_SERVER = [
+    'USER' => 'nginx'
+    'HOME' => '/var/lib/nginx'
+    'HTTP_COOKIE' => '_csrf-backend=f4c6c7ac24ae209f87189b047743aa199b073ce803ee623d1b0d288fdfe6da0ca%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_csrf-backend%22%3Bi%3A1%3Bs%3A32%3A%22%EBQ%110h%25+z%16%E6%3BZ%26%0Ah%08%1C%11%A2%2CId%A4%CC%89%F1%AB%19%A6%DAk%7C%22%3B%7D; PHPSESSID=la1176f9costneqhfdcbi469g7; _identity-backend=4ff4ad264e3c9d7fe4c230e3570c87c1cae912a0bed12123b80c0c13222b491ca%3A2%3A%7Bi%3A0%3Bs%3A17%3A%22_identity-backend%22%3Bi%3A1%3Bs%3A46%3A%22%5B1%2C%22SbSY36BLw3V2lU-GB7ZAzCVJKDFx82IJ%22%2C2592000%5D%22%3B%7D'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_REFERER' => 'http://www.xkkb.com.cn/en/support'
+    'HTTP_ACCEPT' => 'image/webp,image/apng,image/*,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_HOST' => 'admin.xkkb.com.cn'
+    'REDIRECT_STATUS' => '200'
+    'SERVER_NAME' => 'admin.xkkb.com.cn'
+    'SERVER_PORT' => '80'
+    'SERVER_ADDR' => '192.168.1.44'
+    'REMOTE_PORT' => '55421'
+    'REMOTE_ADDR' => '192.168.1.102'
+    'SERVER_SOFTWARE' => 'nginx/1.10.3'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REQUEST_SCHEME' => 'http'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'DOCUMENT_ROOT' => '/var/www/xkkb_admin'
+    'DOCUMENT_URI' => '/admin.php'
+    'REQUEST_URI' => '/statics/upload/2017_08_29/bd46ec19be69d7f26d0f03c5d3d5562b8351.jpg'
+    'SCRIPT_NAME' => '/admin.php'
+    'CONTENT_LENGTH' => ''
+    'CONTENT_TYPE' => ''
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'SCRIPT_FILENAME' => '/var/www/xkkb_admin/admin.php'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/admin.php'
+    'REQUEST_TIME_FLOAT' => 1504095227.1837
+    'REQUEST_TIME' => 1504095227
+]
+2017-08-30 20:13:47 [192.168.1.102][1][9jvplli9qf7lonct2egec7c781][error][yii\web\HttpException:404] yii\base\InvalidRouteException: Unable to resolve the request "statics/upload/2017_08_29/88363fe6f66856d8030a433da6b3e3a89557.jpg". in /var/www/xkkb_admin/vendor/yiisoft/yii2/base/Module.php:532
+Stack trace:
+#0 /var/www/xkkb_admin/vendor/yiisoft/yii2/web/Application.php(102): yii\base\Module->runAction('statics/upload/...', Array)
+#1 /var/www/xkkb_admin/vendor/yiisoft/yii2/base/Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 /var/www/xkkb_admin/admin.php(42): yii\base\Application->run()
+#3 {main}
+
+Next yii\web\NotFoundHttpException: é¡µé¢æœªæ‰¾åˆ°ã€‚ in /var/www/xkkb_admin/vendor/yiisoft/yii2/web/Application.php:114
+Stack trace:
+#0 /var/www/xkkb_admin/vendor/yiisoft/yii2/base/Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 /var/www/xkkb_admin/admin.php(42): yii\base\Application->run()
+#2 {main}
+2017-08-30 20:13:48 [192.168.1.102][1][9jvplli9qf7lonct2egec7c781][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 192.168.1.102
+    in /var/www/xkkb_admin/statics/themes/admin/views/layouts/main.php:178
+2017-08-30 20:13:48 [192.168.1.102][1][9jvplli9qf7lonct2egec7c781][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 192.168.1.102
+2017-08-30 20:13:47 [192.168.1.102][1][9jvplli9qf7lonct2egec7c781][info][application] $_COOKIE = [
+    '_csrf-backend' => 'f4c6c7ac24ae209f87189b047743aa199b073ce803ee623d1b0d288fdfe6da0ca:2:{i:0;s:13:\"_csrf-backend\";i:1;s:32:\"ëQ0h% zæ;Z&
+h¢,Id¤Ì‰ñ«¦Úk|\";}'
+    'PHPSESSID' => 'la1176f9costneqhfdcbi469g7'
+    '_identity-backend' => '4ff4ad264e3c9d7fe4c230e3570c87c1cae912a0bed12123b80c0c13222b491ca:2:{i:0;s:17:\"_identity-backend\";i:1;s:46:\"[1,\"SbSY36BLw3V2lU-GB7ZAzCVJKDFx82IJ\",2592000]\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__id' => 1
+]
+
+$_SERVER = [
+    'USER' => 'nginx'
+    'HOME' => '/var/lib/nginx'
+    'HTTP_COOKIE' => '_csrf-backend=f4c6c7ac24ae209f87189b047743aa199b073ce803ee623d1b0d288fdfe6da0ca%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_csrf-backend%22%3Bi%3A1%3Bs%3A32%3A%22%EBQ%110h%25+z%16%E6%3BZ%26%0Ah%08%1C%11%A2%2CId%A4%CC%89%F1%AB%19%A6%DAk%7C%22%3B%7D; PHPSESSID=la1176f9costneqhfdcbi469g7; _identity-backend=4ff4ad264e3c9d7fe4c230e3570c87c1cae912a0bed12123b80c0c13222b491ca%3A2%3A%7Bi%3A0%3Bs%3A17%3A%22_identity-backend%22%3Bi%3A1%3Bs%3A46%3A%22%5B1%2C%22SbSY36BLw3V2lU-GB7ZAzCVJKDFx82IJ%22%2C2592000%5D%22%3B%7D'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_REFERER' => 'http://www.xkkb.com.cn/en/support'
+    'HTTP_ACCEPT' => 'image/webp,image/apng,image/*,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_HOST' => 'admin.xkkb.com.cn'
+    'REDIRECT_STATUS' => '200'
+    'SERVER_NAME' => 'admin.xkkb.com.cn'
+    'SERVER_PORT' => '80'
+    'SERVER_ADDR' => '192.168.1.44'
+    'REMOTE_PORT' => '55422'
+    'REMOTE_ADDR' => '192.168.1.102'
+    'SERVER_SOFTWARE' => 'nginx/1.10.3'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REQUEST_SCHEME' => 'http'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'DOCUMENT_ROOT' => '/var/www/xkkb_admin'
+    'DOCUMENT_URI' => '/admin.php'
+    'REQUEST_URI' => '/statics/upload/2017_08_29/88363fe6f66856d8030a433da6b3e3a89557.jpg'
+    'SCRIPT_NAME' => '/admin.php'
+    'CONTENT_LENGTH' => ''
+    'CONTENT_TYPE' => ''
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'SCRIPT_FILENAME' => '/var/www/xkkb_admin/admin.php'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/admin.php'
+    'REQUEST_TIME_FLOAT' => 1504095227.1946
+    'REQUEST_TIME' => 1504095227
+]
+2017-08-30 20:13:47 [192.168.1.102][1][lal37pu68aalnp3ua1k4qven22][error][yii\web\HttpException:404] yii\base\InvalidRouteException: Unable to resolve the request "statics/upload/2017_08_29/1f894b323732375dc89768ebd7019a8d306.jpg". in /var/www/xkkb_admin/vendor/yiisoft/yii2/base/Module.php:532
+Stack trace:
+#0 /var/www/xkkb_admin/vendor/yiisoft/yii2/web/Application.php(102): yii\base\Module->runAction('statics/upload/...', Array)
+#1 /var/www/xkkb_admin/vendor/yiisoft/yii2/base/Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 /var/www/xkkb_admin/admin.php(42): yii\base\Application->run()
+#3 {main}
+
+Next yii\web\NotFoundHttpException: é¡µé¢æœªæ‰¾åˆ°ã€‚ in /var/www/xkkb_admin/vendor/yiisoft/yii2/web/Application.php:114
+Stack trace:
+#0 /var/www/xkkb_admin/vendor/yiisoft/yii2/base/Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 /var/www/xkkb_admin/admin.php(42): yii\base\Application->run()
+#2 {main}
+2017-08-30 20:13:48 [192.168.1.102][1][lal37pu68aalnp3ua1k4qven22][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 192.168.1.102
+    in /var/www/xkkb_admin/statics/themes/admin/views/layouts/main.php:178
+2017-08-30 20:13:48 [192.168.1.102][1][lal37pu68aalnp3ua1k4qven22][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 192.168.1.102
+2017-08-30 20:13:47 [192.168.1.102][1][lal37pu68aalnp3ua1k4qven22][info][application] $_COOKIE = [
+    '_csrf-backend' => 'f4c6c7ac24ae209f87189b047743aa199b073ce803ee623d1b0d288fdfe6da0ca:2:{i:0;s:13:\"_csrf-backend\";i:1;s:32:\"ëQ0h% zæ;Z&
+h¢,Id¤Ì‰ñ«¦Úk|\";}'
+    'PHPSESSID' => 'la1176f9costneqhfdcbi469g7'
+    '_identity-backend' => '4ff4ad264e3c9d7fe4c230e3570c87c1cae912a0bed12123b80c0c13222b491ca:2:{i:0;s:17:\"_identity-backend\";i:1;s:46:\"[1,\"SbSY36BLw3V2lU-GB7ZAzCVJKDFx82IJ\",2592000]\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__id' => 1
+]
+
+$_SERVER = [
+    'USER' => 'nginx'
+    'HOME' => '/var/lib/nginx'
+    'HTTP_COOKIE' => '_csrf-backend=f4c6c7ac24ae209f87189b047743aa199b073ce803ee623d1b0d288fdfe6da0ca%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_csrf-backend%22%3Bi%3A1%3Bs%3A32%3A%22%EBQ%110h%25+z%16%E6%3BZ%26%0Ah%08%1C%11%A2%2CId%A4%CC%89%F1%AB%19%A6%DAk%7C%22%3B%7D; PHPSESSID=la1176f9costneqhfdcbi469g7; _identity-backend=4ff4ad264e3c9d7fe4c230e3570c87c1cae912a0bed12123b80c0c13222b491ca%3A2%3A%7Bi%3A0%3Bs%3A17%3A%22_identity-backend%22%3Bi%3A1%3Bs%3A46%3A%22%5B1%2C%22SbSY36BLw3V2lU-GB7ZAzCVJKDFx82IJ%22%2C2592000%5D%22%3B%7D'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_REFERER' => 'http://www.xkkb.com.cn/en/support'
+    'HTTP_ACCEPT' => 'image/webp,image/apng,image/*,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_HOST' => 'admin.xkkb.com.cn'
+    'REDIRECT_STATUS' => '200'
+    'SERVER_NAME' => 'admin.xkkb.com.cn'
+    'SERVER_PORT' => '80'
+    'SERVER_ADDR' => '192.168.1.44'
+    'REMOTE_PORT' => '55424'
+    'REMOTE_ADDR' => '192.168.1.102'
+    'SERVER_SOFTWARE' => 'nginx/1.10.3'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REQUEST_SCHEME' => 'http'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'DOCUMENT_ROOT' => '/var/www/xkkb_admin'
+    'DOCUMENT_URI' => '/admin.php'
+    'REQUEST_URI' => '/statics/upload/2017_08_29/1f894b323732375dc89768ebd7019a8d306.jpg'
+    'SCRIPT_NAME' => '/admin.php'
+    'CONTENT_LENGTH' => ''
+    'CONTENT_TYPE' => ''
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'SCRIPT_FILENAME' => '/var/www/xkkb_admin/admin.php'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/admin.php'
+    'REQUEST_TIME_FLOAT' => 1504095227.7943
+    'REQUEST_TIME' => 1504095227
+]
+2017-08-30 20:13:47 [192.168.1.102][1][vldbgfnqt1kdrg3jfodbe1qo91][error][yii\web\HttpException:404] yii\base\InvalidRouteException: Unable to resolve the request "statics/upload/2017_08_29/b526a277013afaca2534e869b5014c052368.jpg". in /var/www/xkkb_admin/vendor/yiisoft/yii2/base/Module.php:532
+Stack trace:
+#0 /var/www/xkkb_admin/vendor/yiisoft/yii2/web/Application.php(102): yii\base\Module->runAction('statics/upload/...', Array)
+#1 /var/www/xkkb_admin/vendor/yiisoft/yii2/base/Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 /var/www/xkkb_admin/admin.php(42): yii\base\Application->run()
+#3 {main}
+
+Next yii\web\NotFoundHttpException: é¡µé¢æœªæ‰¾åˆ°ã€‚ in /var/www/xkkb_admin/vendor/yiisoft/yii2/web/Application.php:114
+Stack trace:
+#0 /var/www/xkkb_admin/vendor/yiisoft/yii2/base/Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 /var/www/xkkb_admin/admin.php(42): yii\base\Application->run()
+#2 {main}
+2017-08-30 20:13:48 [192.168.1.102][1][vldbgfnqt1kdrg3jfodbe1qo91][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 192.168.1.102
+    in /var/www/xkkb_admin/statics/themes/admin/views/layouts/main.php:178
+2017-08-30 20:13:48 [192.168.1.102][1][vldbgfnqt1kdrg3jfodbe1qo91][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 192.168.1.102
+2017-08-30 20:13:47 [192.168.1.102][1][vldbgfnqt1kdrg3jfodbe1qo91][info][application] $_COOKIE = [
+    '_csrf-backend' => 'f4c6c7ac24ae209f87189b047743aa199b073ce803ee623d1b0d288fdfe6da0ca:2:{i:0;s:13:\"_csrf-backend\";i:1;s:32:\"ëQ0h% zæ;Z&
+h¢,Id¤Ì‰ñ«¦Úk|\";}'
+    'PHPSESSID' => 'la1176f9costneqhfdcbi469g7'
+    '_identity-backend' => '4ff4ad264e3c9d7fe4c230e3570c87c1cae912a0bed12123b80c0c13222b491ca:2:{i:0;s:17:\"_identity-backend\";i:1;s:46:\"[1,\"SbSY36BLw3V2lU-GB7ZAzCVJKDFx82IJ\",2592000]\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__id' => 1
+]
+
+$_SERVER = [
+    'USER' => 'nginx'
+    'HOME' => '/var/lib/nginx'
+    'HTTP_COOKIE' => '_csrf-backend=f4c6c7ac24ae209f87189b047743aa199b073ce803ee623d1b0d288fdfe6da0ca%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_csrf-backend%22%3Bi%3A1%3Bs%3A32%3A%22%EBQ%110h%25+z%16%E6%3BZ%26%0Ah%08%1C%11%A2%2CId%A4%CC%89%F1%AB%19%A6%DAk%7C%22%3B%7D; PHPSESSID=la1176f9costneqhfdcbi469g7; _identity-backend=4ff4ad264e3c9d7fe4c230e3570c87c1cae912a0bed12123b80c0c13222b491ca%3A2%3A%7Bi%3A0%3Bs%3A17%3A%22_identity-backend%22%3Bi%3A1%3Bs%3A46%3A%22%5B1%2C%22SbSY36BLw3V2lU-GB7ZAzCVJKDFx82IJ%22%2C2592000%5D%22%3B%7D'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_REFERER' => 'http://www.xkkb.com.cn/en/support'
+    'HTTP_ACCEPT' => 'image/webp,image/apng,image/*,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_HOST' => 'admin.xkkb.com.cn'
+    'REDIRECT_STATUS' => '200'
+    'SERVER_NAME' => 'admin.xkkb.com.cn'
+    'SERVER_PORT' => '80'
+    'SERVER_ADDR' => '192.168.1.44'
+    'REMOTE_PORT' => '55423'
+    'REMOTE_ADDR' => '192.168.1.102'
+    'SERVER_SOFTWARE' => 'nginx/1.10.3'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REQUEST_SCHEME' => 'http'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'DOCUMENT_ROOT' => '/var/www/xkkb_admin'
+    'DOCUMENT_URI' => '/admin.php'
+    'REQUEST_URI' => '/statics/upload/2017_08_29/b526a277013afaca2534e869b5014c052368.jpg'
+    'SCRIPT_NAME' => '/admin.php'
+    'CONTENT_LENGTH' => ''
+    'CONTENT_TYPE' => ''
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'SCRIPT_FILENAME' => '/var/www/xkkb_admin/admin.php'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/admin.php'
+    'REQUEST_TIME_FLOAT' => 1504095227.9626
+    'REQUEST_TIME' => 1504095227
+]
+2017-08-30 20:13:48 [192.168.1.102][1][m8aneqhs7qgk4rmss8mijaum82][error][yii\web\HttpException:404] yii\base\InvalidRouteException: Unable to resolve the request "statics/upload/2017_08_29/e660442f87bf65bcea7189f3ce3f99603752.jpg". in /var/www/xkkb_admin/vendor/yiisoft/yii2/base/Module.php:532
+Stack trace:
+#0 /var/www/xkkb_admin/vendor/yiisoft/yii2/web/Application.php(102): yii\base\Module->runAction('statics/upload/...', Array)
+#1 /var/www/xkkb_admin/vendor/yiisoft/yii2/base/Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 /var/www/xkkb_admin/admin.php(42): yii\base\Application->run()
+#3 {main}
+
+Next yii\web\NotFoundHttpException: é¡µé¢æœªæ‰¾åˆ°ã€‚ in /var/www/xkkb_admin/vendor/yiisoft/yii2/web/Application.php:114
+Stack trace:
+#0 /var/www/xkkb_admin/vendor/yiisoft/yii2/base/Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 /var/www/xkkb_admin/admin.php(42): yii\base\Application->run()
+#2 {main}
+2017-08-30 20:13:48 [192.168.1.102][1][m8aneqhs7qgk4rmss8mijaum82][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 192.168.1.102
+    in /var/www/xkkb_admin/statics/themes/admin/views/layouts/main.php:178
+2017-08-30 20:13:48 [192.168.1.102][1][m8aneqhs7qgk4rmss8mijaum82][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 192.168.1.102
+2017-08-30 20:13:48 [192.168.1.102][1][m8aneqhs7qgk4rmss8mijaum82][info][application] $_COOKIE = [
+    '_csrf-backend' => 'f4c6c7ac24ae209f87189b047743aa199b073ce803ee623d1b0d288fdfe6da0ca:2:{i:0;s:13:\"_csrf-backend\";i:1;s:32:\"ëQ0h% zæ;Z&
+h¢,Id¤Ì‰ñ«¦Úk|\";}'
+    'PHPSESSID' => 'la1176f9costneqhfdcbi469g7'
+    '_identity-backend' => '4ff4ad264e3c9d7fe4c230e3570c87c1cae912a0bed12123b80c0c13222b491ca:2:{i:0;s:17:\"_identity-backend\";i:1;s:46:\"[1,\"SbSY36BLw3V2lU-GB7ZAzCVJKDFx82IJ\",2592000]\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__id' => 1
+]
+
+$_SERVER = [
+    'USER' => 'nginx'
+    'HOME' => '/var/lib/nginx'
+    'HTTP_COOKIE' => '_csrf-backend=f4c6c7ac24ae209f87189b047743aa199b073ce803ee623d1b0d288fdfe6da0ca%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_csrf-backend%22%3Bi%3A1%3Bs%3A32%3A%22%EBQ%110h%25+z%16%E6%3BZ%26%0Ah%08%1C%11%A2%2CId%A4%CC%89%F1%AB%19%A6%DAk%7C%22%3B%7D; PHPSESSID=la1176f9costneqhfdcbi469g7; _identity-backend=4ff4ad264e3c9d7fe4c230e3570c87c1cae912a0bed12123b80c0c13222b491ca%3A2%3A%7Bi%3A0%3Bs%3A17%3A%22_identity-backend%22%3Bi%3A1%3Bs%3A46%3A%22%5B1%2C%22SbSY36BLw3V2lU-GB7ZAzCVJKDFx82IJ%22%2C2592000%5D%22%3B%7D'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_REFERER' => 'http://www.xkkb.com.cn/en/support'
+    'HTTP_ACCEPT' => 'image/webp,image/apng,image/*,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_HOST' => 'admin.xkkb.com.cn'
+    'REDIRECT_STATUS' => '200'
+    'SERVER_NAME' => 'admin.xkkb.com.cn'
+    'SERVER_PORT' => '80'
+    'SERVER_ADDR' => '192.168.1.44'
+    'REMOTE_PORT' => '55390'
+    'REMOTE_ADDR' => '192.168.1.102'
+    'SERVER_SOFTWARE' => 'nginx/1.10.3'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REQUEST_SCHEME' => 'http'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'DOCUMENT_ROOT' => '/var/www/xkkb_admin'
+    'DOCUMENT_URI' => '/admin.php'
+    'REQUEST_URI' => '/statics/upload/2017_08_29/e660442f87bf65bcea7189f3ce3f99603752.jpg'
+    'SCRIPT_NAME' => '/admin.php'
+    'CONTENT_LENGTH' => ''
+    'CONTENT_TYPE' => ''
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'SCRIPT_FILENAME' => '/var/www/xkkb_admin/admin.php'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/admin.php'
+    'REQUEST_TIME_FLOAT' => 1504095228.2235
+    'REQUEST_TIME' => 1504095228
+]
+2017-08-30 20:13:48 [192.168.1.102][1][2r5js81gs7eg6d8o609c6cqci0][error][yii\web\HttpException:404] yii\base\InvalidRouteException: Unable to resolve the request "statics/upload/2017_08_29/9d399d0ca66ec3cfdf1edf65be8e7fa07456.jpg". in /var/www/xkkb_admin/vendor/yiisoft/yii2/base/Module.php:532
+Stack trace:
+#0 /var/www/xkkb_admin/vendor/yiisoft/yii2/web/Application.php(102): yii\base\Module->runAction('statics/upload/...', Array)
+#1 /var/www/xkkb_admin/vendor/yiisoft/yii2/base/Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 /var/www/xkkb_admin/admin.php(42): yii\base\Application->run()
+#3 {main}
+
+Next yii\web\NotFoundHttpException: é¡µé¢æœªæ‰¾åˆ°ã€‚ in /var/www/xkkb_admin/vendor/yiisoft/yii2/web/Application.php:114
+Stack trace:
+#0 /var/www/xkkb_admin/vendor/yiisoft/yii2/base/Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 /var/www/xkkb_admin/admin.php(42): yii\base\Application->run()
+#2 {main}
+2017-08-30 20:13:48 [192.168.1.102][1][2r5js81gs7eg6d8o609c6cqci0][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 192.168.1.102
+    in /var/www/xkkb_admin/statics/themes/admin/views/layouts/main.php:178
+2017-08-30 20:13:48 [192.168.1.102][1][2r5js81gs7eg6d8o609c6cqci0][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 192.168.1.102
+2017-08-30 20:13:48 [192.168.1.102][1][2r5js81gs7eg6d8o609c6cqci0][info][application] $_COOKIE = [
+    '_csrf-backend' => 'f4c6c7ac24ae209f87189b047743aa199b073ce803ee623d1b0d288fdfe6da0ca:2:{i:0;s:13:\"_csrf-backend\";i:1;s:32:\"ëQ0h% zæ;Z&
+h¢,Id¤Ì‰ñ«¦Úk|\";}'
+    'PHPSESSID' => '2r5js81gs7eg6d8o609c6cqci0'
+    '_identity-backend' => '4ff4ad264e3c9d7fe4c230e3570c87c1cae912a0bed12123b80c0c13222b491ca:2:{i:0;s:17:\"_identity-backend\";i:1;s:46:\"[1,\"SbSY36BLw3V2lU-GB7ZAzCVJKDFx82IJ\",2592000]\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__id' => 1
+]
+
+$_SERVER = [
+    'USER' => 'nginx'
+    'HOME' => '/var/lib/nginx'
+    'HTTP_COOKIE' => '_csrf-backend=f4c6c7ac24ae209f87189b047743aa199b073ce803ee623d1b0d288fdfe6da0ca%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_csrf-backend%22%3Bi%3A1%3Bs%3A32%3A%22%EBQ%110h%25+z%16%E6%3BZ%26%0Ah%08%1C%11%A2%2CId%A4%CC%89%F1%AB%19%A6%DAk%7C%22%3B%7D; PHPSESSID=2r5js81gs7eg6d8o609c6cqci0; _identity-backend=4ff4ad264e3c9d7fe4c230e3570c87c1cae912a0bed12123b80c0c13222b491ca%3A2%3A%7Bi%3A0%3Bs%3A17%3A%22_identity-backend%22%3Bi%3A1%3Bs%3A46%3A%22%5B1%2C%22SbSY36BLw3V2lU-GB7ZAzCVJKDFx82IJ%22%2C2592000%5D%22%3B%7D'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_REFERER' => 'http://www.xkkb.com.cn/en/support'
+    'HTTP_ACCEPT' => 'image/webp,image/apng,image/*,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_HOST' => 'admin.xkkb.com.cn'
+    'REDIRECT_STATUS' => '200'
+    'SERVER_NAME' => 'admin.xkkb.com.cn'
+    'SERVER_PORT' => '80'
+    'SERVER_ADDR' => '192.168.1.44'
+    'REMOTE_PORT' => '55391'
+    'REMOTE_ADDR' => '192.168.1.102'
+    'SERVER_SOFTWARE' => 'nginx/1.10.3'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REQUEST_SCHEME' => 'http'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'DOCUMENT_ROOT' => '/var/www/xkkb_admin'
+    'DOCUMENT_URI' => '/admin.php'
+    'REQUEST_URI' => '/statics/upload/2017_08_29/9d399d0ca66ec3cfdf1edf65be8e7fa07456.jpg'
+    'SCRIPT_NAME' => '/admin.php'
+    'CONTENT_LENGTH' => ''
+    'CONTENT_TYPE' => ''
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'SCRIPT_FILENAME' => '/var/www/xkkb_admin/admin.php'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/admin.php'
+    'REQUEST_TIME_FLOAT' => 1504095228.3621
+    'REQUEST_TIME' => 1504095228
+]
+2017-08-30 20:13:48 [192.168.1.102][1][9jvplli9qf7lonct2egec7c781][error][yii\web\HttpException:404] yii\base\InvalidRouteException: Unable to resolve the request "statics/upload/2017_08_29/0717849c1a47d6bc0f606137eb1a4e741549.jpg". in /var/www/xkkb_admin/vendor/yiisoft/yii2/base/Module.php:532
+Stack trace:
+#0 /var/www/xkkb_admin/vendor/yiisoft/yii2/web/Application.php(102): yii\base\Module->runAction('statics/upload/...', Array)
+#1 /var/www/xkkb_admin/vendor/yiisoft/yii2/base/Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 /var/www/xkkb_admin/admin.php(42): yii\base\Application->run()
+#3 {main}
+
+Next yii\web\NotFoundHttpException: é¡µé¢æœªæ‰¾åˆ°ã€‚ in /var/www/xkkb_admin/vendor/yiisoft/yii2/web/Application.php:114
+Stack trace:
+#0 /var/www/xkkb_admin/vendor/yiisoft/yii2/base/Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 /var/www/xkkb_admin/admin.php(42): yii\base\Application->run()
+#2 {main}
+2017-08-30 20:13:48 [192.168.1.102][1][9jvplli9qf7lonct2egec7c781][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 192.168.1.102
+    in /var/www/xkkb_admin/statics/themes/admin/views/layouts/main.php:178
+2017-08-30 20:13:48 [192.168.1.102][1][9jvplli9qf7lonct2egec7c781][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 192.168.1.102
+2017-08-30 20:13:48 [192.168.1.102][1][9jvplli9qf7lonct2egec7c781][info][application] $_COOKIE = [
+    '_csrf-backend' => 'f4c6c7ac24ae209f87189b047743aa199b073ce803ee623d1b0d288fdfe6da0ca:2:{i:0;s:13:\"_csrf-backend\";i:1;s:32:\"ëQ0h% zæ;Z&
+h¢,Id¤Ì‰ñ«¦Úk|\";}'
+    'PHPSESSID' => '9jvplli9qf7lonct2egec7c781'
+    '_identity-backend' => '4ff4ad264e3c9d7fe4c230e3570c87c1cae912a0bed12123b80c0c13222b491ca:2:{i:0;s:17:\"_identity-backend\";i:1;s:46:\"[1,\"SbSY36BLw3V2lU-GB7ZAzCVJKDFx82IJ\",2592000]\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__id' => 1
+]
+
+$_SERVER = [
+    'USER' => 'nginx'
+    'HOME' => '/var/lib/nginx'
+    'HTTP_COOKIE' => '_csrf-backend=f4c6c7ac24ae209f87189b047743aa199b073ce803ee623d1b0d288fdfe6da0ca%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_csrf-backend%22%3Bi%3A1%3Bs%3A32%3A%22%EBQ%110h%25+z%16%E6%3BZ%26%0Ah%08%1C%11%A2%2CId%A4%CC%89%F1%AB%19%A6%DAk%7C%22%3B%7D; PHPSESSID=9jvplli9qf7lonct2egec7c781; _identity-backend=4ff4ad264e3c9d7fe4c230e3570c87c1cae912a0bed12123b80c0c13222b491ca%3A2%3A%7Bi%3A0%3Bs%3A17%3A%22_identity-backend%22%3Bi%3A1%3Bs%3A46%3A%22%5B1%2C%22SbSY36BLw3V2lU-GB7ZAzCVJKDFx82IJ%22%2C2592000%5D%22%3B%7D'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_REFERER' => 'http://www.xkkb.com.cn/en/support'
+    'HTTP_ACCEPT' => 'image/webp,image/apng,image/*,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_HOST' => 'admin.xkkb.com.cn'
+    'REDIRECT_STATUS' => '200'
+    'SERVER_NAME' => 'admin.xkkb.com.cn'
+    'SERVER_PORT' => '80'
+    'SERVER_ADDR' => '192.168.1.44'
+    'REMOTE_PORT' => '55422'
+    'REMOTE_ADDR' => '192.168.1.102'
+    'SERVER_SOFTWARE' => 'nginx/1.10.3'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REQUEST_SCHEME' => 'http'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'DOCUMENT_ROOT' => '/var/www/xkkb_admin'
+    'DOCUMENT_URI' => '/admin.php'
+    'REQUEST_URI' => '/statics/upload/2017_08_29/0717849c1a47d6bc0f606137eb1a4e741549.jpg'
+    'SCRIPT_NAME' => '/admin.php'
+    'CONTENT_LENGTH' => ''
+    'CONTENT_TYPE' => ''
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'SCRIPT_FILENAME' => '/var/www/xkkb_admin/admin.php'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/admin.php'
+    'REQUEST_TIME_FLOAT' => 1504095228.5666
+    'REQUEST_TIME' => 1504095228
+]
+2017-08-30 20:15:07 [192.168.1.102][1][m8aneqhs7qgk4rmss8mijaum82][error][yii\web\HttpException:404] yii\base\InvalidRouteException: Unable to resolve the request "statics/upload/2017_08_29/a0127859ce7ec0a55379cd0a5711c9a93117.jpg". in /var/www/xkkb_admin/vendor/yiisoft/yii2/base/Module.php:532
+Stack trace:
+#0 /var/www/xkkb_admin/vendor/yiisoft/yii2/web/Application.php(102): yii\base\Module->runAction('statics/upload/...', Array)
+#1 /var/www/xkkb_admin/vendor/yiisoft/yii2/base/Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 /var/www/xkkb_admin/admin.php(42): yii\base\Application->run()
+#3 {main}
+
+Next yii\web\NotFoundHttpException: é¡µé¢æœªæ‰¾åˆ°ã€‚ in /var/www/xkkb_admin/vendor/yiisoft/yii2/web/Application.php:114
+Stack trace:
+#0 /var/www/xkkb_admin/vendor/yiisoft/yii2/base/Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 /var/www/xkkb_admin/admin.php(42): yii\base\Application->run()
+#2 {main}
+2017-08-30 20:15:08 [192.168.1.102][1][m8aneqhs7qgk4rmss8mijaum82][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 192.168.1.102
+    in /var/www/xkkb_admin/statics/themes/admin/views/layouts/main.php:178
+2017-08-30 20:15:08 [192.168.1.102][1][m8aneqhs7qgk4rmss8mijaum82][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 192.168.1.102
+2017-08-30 20:15:07 [192.168.1.102][1][m8aneqhs7qgk4rmss8mijaum82][info][application] $_COOKIE = [
+    '_csrf-backend' => 'f4c6c7ac24ae209f87189b047743aa199b073ce803ee623d1b0d288fdfe6da0ca:2:{i:0;s:13:\"_csrf-backend\";i:1;s:32:\"ëQ0h% zæ;Z&
+h¢,Id¤Ì‰ñ«¦Úk|\";}'
+    'PHPSESSID' => 'm8aneqhs7qgk4rmss8mijaum82'
+    '_identity-backend' => '4ff4ad264e3c9d7fe4c230e3570c87c1cae912a0bed12123b80c0c13222b491ca:2:{i:0;s:17:\"_identity-backend\";i:1;s:46:\"[1,\"SbSY36BLw3V2lU-GB7ZAzCVJKDFx82IJ\",2592000]\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__id' => 1
+]
+
+$_SERVER = [
+    'USER' => 'nginx'
+    'HOME' => '/var/lib/nginx'
+    'HTTP_COOKIE' => '_csrf-backend=f4c6c7ac24ae209f87189b047743aa199b073ce803ee623d1b0d288fdfe6da0ca%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_csrf-backend%22%3Bi%3A1%3Bs%3A32%3A%22%EBQ%110h%25+z%16%E6%3BZ%26%0Ah%08%1C%11%A2%2CId%A4%CC%89%F1%AB%19%A6%DAk%7C%22%3B%7D; PHPSESSID=m8aneqhs7qgk4rmss8mijaum82; _identity-backend=4ff4ad264e3c9d7fe4c230e3570c87c1cae912a0bed12123b80c0c13222b491ca%3A2%3A%7Bi%3A0%3Bs%3A17%3A%22_identity-backend%22%3Bi%3A1%3Bs%3A46%3A%22%5B1%2C%22SbSY36BLw3V2lU-GB7ZAzCVJKDFx82IJ%22%2C2592000%5D%22%3B%7D'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_REFERER' => 'http://admin.ttxs.com/'
+    'HTTP_ACCEPT' => 'image/webp,image/apng,image/*,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_HOST' => 'admin.xkkb.com.cn'
+    'REDIRECT_STATUS' => '200'
+    'SERVER_NAME' => 'admin.xkkb.com.cn'
+    'SERVER_PORT' => '80'
+    'SERVER_ADDR' => '192.168.1.44'
+    'REMOTE_PORT' => '55497'
+    'REMOTE_ADDR' => '192.168.1.102'
+    'SERVER_SOFTWARE' => 'nginx/1.10.3'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REQUEST_SCHEME' => 'http'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'DOCUMENT_ROOT' => '/var/www/xkkb_admin'
+    'DOCUMENT_URI' => '/admin.php'
+    'REQUEST_URI' => '/statics/upload/2017_08_29/a0127859ce7ec0a55379cd0a5711c9a93117.jpg'
+    'SCRIPT_NAME' => '/admin.php'
+    'CONTENT_LENGTH' => ''
+    'CONTENT_TYPE' => ''
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'SCRIPT_FILENAME' => '/var/www/xkkb_admin/admin.php'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/admin.php'
+    'REQUEST_TIME_FLOAT' => 1504095307.9511
+    'REQUEST_TIME' => 1504095307
+]
+2017-08-30 20:15:07 [192.168.1.102][1][m8aneqhs7qgk4rmss8mijaum82][error][yii\web\HttpException:404] yii\base\InvalidRouteException: Unable to resolve the request "statics/upload/2017_08_29/bd46ec19be69d7f26d0f03c5d3d5562b8351.jpg". in /var/www/xkkb_admin/vendor/yiisoft/yii2/base/Module.php:532
+Stack trace:
+#0 /var/www/xkkb_admin/vendor/yiisoft/yii2/web/Application.php(102): yii\base\Module->runAction('statics/upload/...', Array)
+#1 /var/www/xkkb_admin/vendor/yiisoft/yii2/base/Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 /var/www/xkkb_admin/admin.php(42): yii\base\Application->run()
+#3 {main}
+
+Next yii\web\NotFoundHttpException: é¡µé¢æœªæ‰¾åˆ°ã€‚ in /var/www/xkkb_admin/vendor/yiisoft/yii2/web/Application.php:114
+Stack trace:
+#0 /var/www/xkkb_admin/vendor/yiisoft/yii2/base/Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 /var/www/xkkb_admin/admin.php(42): yii\base\Application->run()
+#2 {main}
+2017-08-30 20:15:08 [192.168.1.102][1][m8aneqhs7qgk4rmss8mijaum82][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 192.168.1.102
+    in /var/www/xkkb_admin/statics/themes/admin/views/layouts/main.php:178
+2017-08-30 20:15:08 [192.168.1.102][1][m8aneqhs7qgk4rmss8mijaum82][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 192.168.1.102
+2017-08-30 20:15:07 [192.168.1.102][1][m8aneqhs7qgk4rmss8mijaum82][info][application] $_COOKIE = [
+    '_csrf-backend' => 'f4c6c7ac24ae209f87189b047743aa199b073ce803ee623d1b0d288fdfe6da0ca:2:{i:0;s:13:\"_csrf-backend\";i:1;s:32:\"ëQ0h% zæ;Z&
+h¢,Id¤Ì‰ñ«¦Úk|\";}'
+    'PHPSESSID' => 'm8aneqhs7qgk4rmss8mijaum82'
+    '_identity-backend' => '4ff4ad264e3c9d7fe4c230e3570c87c1cae912a0bed12123b80c0c13222b491ca:2:{i:0;s:17:\"_identity-backend\";i:1;s:46:\"[1,\"SbSY36BLw3V2lU-GB7ZAzCVJKDFx82IJ\",2592000]\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__id' => 1
+]
+
+$_SERVER = [
+    'USER' => 'nginx'
+    'HOME' => '/var/lib/nginx'
+    'HTTP_COOKIE' => '_csrf-backend=f4c6c7ac24ae209f87189b047743aa199b073ce803ee623d1b0d288fdfe6da0ca%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_csrf-backend%22%3Bi%3A1%3Bs%3A32%3A%22%EBQ%110h%25+z%16%E6%3BZ%26%0Ah%08%1C%11%A2%2CId%A4%CC%89%F1%AB%19%A6%DAk%7C%22%3B%7D; PHPSESSID=m8aneqhs7qgk4rmss8mijaum82; _identity-backend=4ff4ad264e3c9d7fe4c230e3570c87c1cae912a0bed12123b80c0c13222b491ca%3A2%3A%7Bi%3A0%3Bs%3A17%3A%22_identity-backend%22%3Bi%3A1%3Bs%3A46%3A%22%5B1%2C%22SbSY36BLw3V2lU-GB7ZAzCVJKDFx82IJ%22%2C2592000%5D%22%3B%7D'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_REFERER' => 'http://admin.ttxs.com/'
+    'HTTP_ACCEPT' => 'image/webp,image/apng,image/*,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_HOST' => 'admin.xkkb.com.cn'
+    'REDIRECT_STATUS' => '200'
+    'SERVER_NAME' => 'admin.xkkb.com.cn'
+    'SERVER_PORT' => '80'
+    'SERVER_ADDR' => '192.168.1.44'
+    'REMOTE_PORT' => '55498'
+    'REMOTE_ADDR' => '192.168.1.102'
+    'SERVER_SOFTWARE' => 'nginx/1.10.3'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REQUEST_SCHEME' => 'http'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'DOCUMENT_ROOT' => '/var/www/xkkb_admin'
+    'DOCUMENT_URI' => '/admin.php'
+    'REQUEST_URI' => '/statics/upload/2017_08_29/bd46ec19be69d7f26d0f03c5d3d5562b8351.jpg'
+    'SCRIPT_NAME' => '/admin.php'
+    'CONTENT_LENGTH' => ''
+    'CONTENT_TYPE' => ''
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'SCRIPT_FILENAME' => '/var/www/xkkb_admin/admin.php'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/admin.php'
+    'REQUEST_TIME_FLOAT' => 1504095307.9523
+    'REQUEST_TIME' => 1504095307
+]
+2017-08-30 20:15:07 [192.168.1.102][1][m8aneqhs7qgk4rmss8mijaum82][error][yii\web\HttpException:404] yii\base\InvalidRouteException: Unable to resolve the request "statics/upload/2017_08_29/88363fe6f66856d8030a433da6b3e3a89557.jpg". in /var/www/xkkb_admin/vendor/yiisoft/yii2/base/Module.php:532
+Stack trace:
+#0 /var/www/xkkb_admin/vendor/yiisoft/yii2/web/Application.php(102): yii\base\Module->runAction('statics/upload/...', Array)
+#1 /var/www/xkkb_admin/vendor/yiisoft/yii2/base/Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 /var/www/xkkb_admin/admin.php(42): yii\base\Application->run()
+#3 {main}
+
+Next yii\web\NotFoundHttpException: é¡µé¢æœªæ‰¾åˆ°ã€‚ in /var/www/xkkb_admin/vendor/yiisoft/yii2/web/Application.php:114
+Stack trace:
+#0 /var/www/xkkb_admin/vendor/yiisoft/yii2/base/Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 /var/www/xkkb_admin/admin.php(42): yii\base\Application->run()
+#2 {main}
+2017-08-30 20:15:08 [192.168.1.102][1][m8aneqhs7qgk4rmss8mijaum82][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 192.168.1.102
+    in /var/www/xkkb_admin/statics/themes/admin/views/layouts/main.php:178
+2017-08-30 20:15:08 [192.168.1.102][1][m8aneqhs7qgk4rmss8mijaum82][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 192.168.1.102
+2017-08-30 20:15:07 [192.168.1.102][1][m8aneqhs7qgk4rmss8mijaum82][info][application] $_COOKIE = [
+    '_csrf-backend' => 'f4c6c7ac24ae209f87189b047743aa199b073ce803ee623d1b0d288fdfe6da0ca:2:{i:0;s:13:\"_csrf-backend\";i:1;s:32:\"ëQ0h% zæ;Z&
+h¢,Id¤Ì‰ñ«¦Úk|\";}'
+    'PHPSESSID' => 'm8aneqhs7qgk4rmss8mijaum82'
+    '_identity-backend' => '4ff4ad264e3c9d7fe4c230e3570c87c1cae912a0bed12123b80c0c13222b491ca:2:{i:0;s:17:\"_identity-backend\";i:1;s:46:\"[1,\"SbSY36BLw3V2lU-GB7ZAzCVJKDFx82IJ\",2592000]\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__id' => 1
+]
+
+$_SERVER = [
+    'USER' => 'nginx'
+    'HOME' => '/var/lib/nginx'
+    'HTTP_COOKIE' => '_csrf-backend=f4c6c7ac24ae209f87189b047743aa199b073ce803ee623d1b0d288fdfe6da0ca%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_csrf-backend%22%3Bi%3A1%3Bs%3A32%3A%22%EBQ%110h%25+z%16%E6%3BZ%26%0Ah%08%1C%11%A2%2CId%A4%CC%89%F1%AB%19%A6%DAk%7C%22%3B%7D; PHPSESSID=m8aneqhs7qgk4rmss8mijaum82; _identity-backend=4ff4ad264e3c9d7fe4c230e3570c87c1cae912a0bed12123b80c0c13222b491ca%3A2%3A%7Bi%3A0%3Bs%3A17%3A%22_identity-backend%22%3Bi%3A1%3Bs%3A46%3A%22%5B1%2C%22SbSY36BLw3V2lU-GB7ZAzCVJKDFx82IJ%22%2C2592000%5D%22%3B%7D'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_REFERER' => 'http://admin.ttxs.com/'
+    'HTTP_ACCEPT' => 'image/webp,image/apng,image/*,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_HOST' => 'admin.xkkb.com.cn'
+    'REDIRECT_STATUS' => '200'
+    'SERVER_NAME' => 'admin.xkkb.com.cn'
+    'SERVER_PORT' => '80'
+    'SERVER_ADDR' => '192.168.1.44'
+    'REMOTE_PORT' => '55499'
+    'REMOTE_ADDR' => '192.168.1.102'
+    'SERVER_SOFTWARE' => 'nginx/1.10.3'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REQUEST_SCHEME' => 'http'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'DOCUMENT_ROOT' => '/var/www/xkkb_admin'
+    'DOCUMENT_URI' => '/admin.php'
+    'REQUEST_URI' => '/statics/upload/2017_08_29/88363fe6f66856d8030a433da6b3e3a89557.jpg'
+    'SCRIPT_NAME' => '/admin.php'
+    'CONTENT_LENGTH' => ''
+    'CONTENT_TYPE' => ''
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'SCRIPT_FILENAME' => '/var/www/xkkb_admin/admin.php'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/admin.php'
+    'REQUEST_TIME_FLOAT' => 1504095307.963
+    'REQUEST_TIME' => 1504095307
+]
+2017-08-30 20:15:08 [192.168.1.102][1][m8aneqhs7qgk4rmss8mijaum82][error][yii\web\HttpException:404] yii\base\InvalidRouteException: Unable to resolve the request "statics/upload/2017_08_29/1f894b323732375dc89768ebd7019a8d306.jpg". in /var/www/xkkb_admin/vendor/yiisoft/yii2/base/Module.php:532
+Stack trace:
+#0 /var/www/xkkb_admin/vendor/yiisoft/yii2/web/Application.php(102): yii\base\Module->runAction('statics/upload/...', Array)
+#1 /var/www/xkkb_admin/vendor/yiisoft/yii2/base/Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 /var/www/xkkb_admin/admin.php(42): yii\base\Application->run()
+#3 {main}
+
+Next yii\web\NotFoundHttpException: é¡µé¢æœªæ‰¾åˆ°ã€‚ in /var/www/xkkb_admin/vendor/yiisoft/yii2/web/Application.php:114
+Stack trace:
+#0 /var/www/xkkb_admin/vendor/yiisoft/yii2/base/Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 /var/www/xkkb_admin/admin.php(42): yii\base\Application->run()
+#2 {main}
+2017-08-30 20:15:08 [192.168.1.102][1][m8aneqhs7qgk4rmss8mijaum82][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 192.168.1.102
+    in /var/www/xkkb_admin/statics/themes/admin/views/layouts/main.php:178
+2017-08-30 20:15:08 [192.168.1.102][1][m8aneqhs7qgk4rmss8mijaum82][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 192.168.1.102
+2017-08-30 20:15:08 [192.168.1.102][1][m8aneqhs7qgk4rmss8mijaum82][info][application] $_COOKIE = [
+    '_csrf-backend' => 'f4c6c7ac24ae209f87189b047743aa199b073ce803ee623d1b0d288fdfe6da0ca:2:{i:0;s:13:\"_csrf-backend\";i:1;s:32:\"ëQ0h% zæ;Z&
+h¢,Id¤Ì‰ñ«¦Úk|\";}'
+    'PHPSESSID' => 'm8aneqhs7qgk4rmss8mijaum82'
+    '_identity-backend' => '4ff4ad264e3c9d7fe4c230e3570c87c1cae912a0bed12123b80c0c13222b491ca:2:{i:0;s:17:\"_identity-backend\";i:1;s:46:\"[1,\"SbSY36BLw3V2lU-GB7ZAzCVJKDFx82IJ\",2592000]\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__id' => 1
+]
+
+$_SERVER = [
+    'USER' => 'nginx'
+    'HOME' => '/var/lib/nginx'
+    'HTTP_COOKIE' => '_csrf-backend=f4c6c7ac24ae209f87189b047743aa199b073ce803ee623d1b0d288fdfe6da0ca%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_csrf-backend%22%3Bi%3A1%3Bs%3A32%3A%22%EBQ%110h%25+z%16%E6%3BZ%26%0Ah%08%1C%11%A2%2CId%A4%CC%89%F1%AB%19%A6%DAk%7C%22%3B%7D; PHPSESSID=m8aneqhs7qgk4rmss8mijaum82; _identity-backend=4ff4ad264e3c9d7fe4c230e3570c87c1cae912a0bed12123b80c0c13222b491ca%3A2%3A%7Bi%3A0%3Bs%3A17%3A%22_identity-backend%22%3Bi%3A1%3Bs%3A46%3A%22%5B1%2C%22SbSY36BLw3V2lU-GB7ZAzCVJKDFx82IJ%22%2C2592000%5D%22%3B%7D'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_REFERER' => 'http://admin.ttxs.com/'
+    'HTTP_ACCEPT' => 'image/webp,image/apng,image/*,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_HOST' => 'admin.xkkb.com.cn'
+    'REDIRECT_STATUS' => '200'
+    'SERVER_NAME' => 'admin.xkkb.com.cn'
+    'SERVER_PORT' => '80'
+    'SERVER_ADDR' => '192.168.1.44'
+    'REMOTE_PORT' => '55500'
+    'REMOTE_ADDR' => '192.168.1.102'
+    'SERVER_SOFTWARE' => 'nginx/1.10.3'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REQUEST_SCHEME' => 'http'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'DOCUMENT_ROOT' => '/var/www/xkkb_admin'
+    'DOCUMENT_URI' => '/admin.php'
+    'REQUEST_URI' => '/statics/upload/2017_08_29/1f894b323732375dc89768ebd7019a8d306.jpg'
+    'SCRIPT_NAME' => '/admin.php'
+    'CONTENT_LENGTH' => ''
+    'CONTENT_TYPE' => ''
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'SCRIPT_FILENAME' => '/var/www/xkkb_admin/admin.php'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/admin.php'
+    'REQUEST_TIME_FLOAT' => 1504095308.0932
+    'REQUEST_TIME' => 1504095308
+]
+2017-08-30 20:15:08 [192.168.1.102][1][m8aneqhs7qgk4rmss8mijaum82][error][yii\web\HttpException:404] yii\base\InvalidRouteException: Unable to resolve the request "statics/upload/2017_08_29/b526a277013afaca2534e869b5014c052368.jpg". in /var/www/xkkb_admin/vendor/yiisoft/yii2/base/Module.php:532
+Stack trace:
+#0 /var/www/xkkb_admin/vendor/yiisoft/yii2/web/Application.php(102): yii\base\Module->runAction('statics/upload/...', Array)
+#1 /var/www/xkkb_admin/vendor/yiisoft/yii2/base/Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 /var/www/xkkb_admin/admin.php(42): yii\base\Application->run()
+#3 {main}
+
+Next yii\web\NotFoundHttpException: é¡µé¢æœªæ‰¾åˆ°ã€‚ in /var/www/xkkb_admin/vendor/yiisoft/yii2/web/Application.php:114
+Stack trace:
+#0 /var/www/xkkb_admin/vendor/yiisoft/yii2/base/Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 /var/www/xkkb_admin/admin.php(42): yii\base\Application->run()
+#2 {main}
+2017-08-30 20:15:08 [192.168.1.102][1][m8aneqhs7qgk4rmss8mijaum82][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 192.168.1.102
+    in /var/www/xkkb_admin/statics/themes/admin/views/layouts/main.php:178
+2017-08-30 20:15:08 [192.168.1.102][1][m8aneqhs7qgk4rmss8mijaum82][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 192.168.1.102
+2017-08-30 20:15:08 [192.168.1.102][1][m8aneqhs7qgk4rmss8mijaum82][info][application] $_COOKIE = [
+    '_csrf-backend' => 'f4c6c7ac24ae209f87189b047743aa199b073ce803ee623d1b0d288fdfe6da0ca:2:{i:0;s:13:\"_csrf-backend\";i:1;s:32:\"ëQ0h% zæ;Z&
+h¢,Id¤Ì‰ñ«¦Úk|\";}'
+    'PHPSESSID' => 'm8aneqhs7qgk4rmss8mijaum82'
+    '_identity-backend' => '4ff4ad264e3c9d7fe4c230e3570c87c1cae912a0bed12123b80c0c13222b491ca:2:{i:0;s:17:\"_identity-backend\";i:1;s:46:\"[1,\"SbSY36BLw3V2lU-GB7ZAzCVJKDFx82IJ\",2592000]\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__id' => 1
+]
+
+$_SERVER = [
+    'USER' => 'nginx'
+    'HOME' => '/var/lib/nginx'
+    'HTTP_COOKIE' => '_csrf-backend=f4c6c7ac24ae209f87189b047743aa199b073ce803ee623d1b0d288fdfe6da0ca%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_csrf-backend%22%3Bi%3A1%3Bs%3A32%3A%22%EBQ%110h%25+z%16%E6%3BZ%26%0Ah%08%1C%11%A2%2CId%A4%CC%89%F1%AB%19%A6%DAk%7C%22%3B%7D; PHPSESSID=m8aneqhs7qgk4rmss8mijaum82; _identity-backend=4ff4ad264e3c9d7fe4c230e3570c87c1cae912a0bed12123b80c0c13222b491ca%3A2%3A%7Bi%3A0%3Bs%3A17%3A%22_identity-backend%22%3Bi%3A1%3Bs%3A46%3A%22%5B1%2C%22SbSY36BLw3V2lU-GB7ZAzCVJKDFx82IJ%22%2C2592000%5D%22%3B%7D'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_REFERER' => 'http://admin.ttxs.com/'
+    'HTTP_ACCEPT' => 'image/webp,image/apng,image/*,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_HOST' => 'admin.xkkb.com.cn'
+    'REDIRECT_STATUS' => '200'
+    'SERVER_NAME' => 'admin.xkkb.com.cn'
+    'SERVER_PORT' => '80'
+    'SERVER_ADDR' => '192.168.1.44'
+    'REMOTE_PORT' => '55501'
+    'REMOTE_ADDR' => '192.168.1.102'
+    'SERVER_SOFTWARE' => 'nginx/1.10.3'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REQUEST_SCHEME' => 'http'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'DOCUMENT_ROOT' => '/var/www/xkkb_admin'
+    'DOCUMENT_URI' => '/admin.php'
+    'REQUEST_URI' => '/statics/upload/2017_08_29/b526a277013afaca2534e869b5014c052368.jpg'
+    'SCRIPT_NAME' => '/admin.php'
+    'CONTENT_LENGTH' => ''
+    'CONTENT_TYPE' => ''
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'SCRIPT_FILENAME' => '/var/www/xkkb_admin/admin.php'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/admin.php'
+    'REQUEST_TIME_FLOAT' => 1504095308.5575
+    'REQUEST_TIME' => 1504095308
+]
+2017-08-30 20:15:08 [192.168.1.102][1][m8aneqhs7qgk4rmss8mijaum82][error][yii\web\HttpException:404] yii\base\InvalidRouteException: Unable to resolve the request "statics/upload/2017_08_29/e660442f87bf65bcea7189f3ce3f99603752.jpg". in /var/www/xkkb_admin/vendor/yiisoft/yii2/base/Module.php:532
+Stack trace:
+#0 /var/www/xkkb_admin/vendor/yiisoft/yii2/web/Application.php(102): yii\base\Module->runAction('statics/upload/...', Array)
+#1 /var/www/xkkb_admin/vendor/yiisoft/yii2/base/Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 /var/www/xkkb_admin/admin.php(42): yii\base\Application->run()
+#3 {main}
+
+Next yii\web\NotFoundHttpException: é¡µé¢æœªæ‰¾åˆ°ã€‚ in /var/www/xkkb_admin/vendor/yiisoft/yii2/web/Application.php:114
+Stack trace:
+#0 /var/www/xkkb_admin/vendor/yiisoft/yii2/base/Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 /var/www/xkkb_admin/admin.php(42): yii\base\Application->run()
+#2 {main}
+2017-08-30 20:15:08 [192.168.1.102][1][m8aneqhs7qgk4rmss8mijaum82][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 192.168.1.102
+    in /var/www/xkkb_admin/statics/themes/admin/views/layouts/main.php:178
+2017-08-30 20:15:08 [192.168.1.102][1][m8aneqhs7qgk4rmss8mijaum82][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 192.168.1.102
+2017-08-30 20:15:08 [192.168.1.102][1][m8aneqhs7qgk4rmss8mijaum82][info][application] $_COOKIE = [
+    '_csrf-backend' => 'f4c6c7ac24ae209f87189b047743aa199b073ce803ee623d1b0d288fdfe6da0ca:2:{i:0;s:13:\"_csrf-backend\";i:1;s:32:\"ëQ0h% zæ;Z&
+h¢,Id¤Ì‰ñ«¦Úk|\";}'
+    'PHPSESSID' => 'm8aneqhs7qgk4rmss8mijaum82'
+    '_identity-backend' => '4ff4ad264e3c9d7fe4c230e3570c87c1cae912a0bed12123b80c0c13222b491ca:2:{i:0;s:17:\"_identity-backend\";i:1;s:46:\"[1,\"SbSY36BLw3V2lU-GB7ZAzCVJKDFx82IJ\",2592000]\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__id' => 1
+]
+
+$_SERVER = [
+    'USER' => 'nginx'
+    'HOME' => '/var/lib/nginx'
+    'HTTP_COOKIE' => '_csrf-backend=f4c6c7ac24ae209f87189b047743aa199b073ce803ee623d1b0d288fdfe6da0ca%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_csrf-backend%22%3Bi%3A1%3Bs%3A32%3A%22%EBQ%110h%25+z%16%E6%3BZ%26%0Ah%08%1C%11%A2%2CId%A4%CC%89%F1%AB%19%A6%DAk%7C%22%3B%7D; PHPSESSID=m8aneqhs7qgk4rmss8mijaum82; _identity-backend=4ff4ad264e3c9d7fe4c230e3570c87c1cae912a0bed12123b80c0c13222b491ca%3A2%3A%7Bi%3A0%3Bs%3A17%3A%22_identity-backend%22%3Bi%3A1%3Bs%3A46%3A%22%5B1%2C%22SbSY36BLw3V2lU-GB7ZAzCVJKDFx82IJ%22%2C2592000%5D%22%3B%7D'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_REFERER' => 'http://admin.ttxs.com/'
+    'HTTP_ACCEPT' => 'image/webp,image/apng,image/*,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_HOST' => 'admin.xkkb.com.cn'
+    'REDIRECT_STATUS' => '200'
+    'SERVER_NAME' => 'admin.xkkb.com.cn'
+    'SERVER_PORT' => '80'
+    'SERVER_ADDR' => '192.168.1.44'
+    'REMOTE_PORT' => '55502'
+    'REMOTE_ADDR' => '192.168.1.102'
+    'SERVER_SOFTWARE' => 'nginx/1.10.3'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REQUEST_SCHEME' => 'http'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'DOCUMENT_ROOT' => '/var/www/xkkb_admin'
+    'DOCUMENT_URI' => '/admin.php'
+    'REQUEST_URI' => '/statics/upload/2017_08_29/e660442f87bf65bcea7189f3ce3f99603752.jpg'
+    'SCRIPT_NAME' => '/admin.php'
+    'CONTENT_LENGTH' => ''
+    'CONTENT_TYPE' => ''
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'SCRIPT_FILENAME' => '/var/www/xkkb_admin/admin.php'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/admin.php'
+    'REQUEST_TIME_FLOAT' => 1504095308.6629
+    'REQUEST_TIME' => 1504095308
+]
+2017-08-30 20:15:08 [192.168.1.102][1][m8aneqhs7qgk4rmss8mijaum82][error][yii\web\HttpException:404] yii\base\InvalidRouteException: Unable to resolve the request "statics/upload/2017_08_29/9d399d0ca66ec3cfdf1edf65be8e7fa07456.jpg". in /var/www/xkkb_admin/vendor/yiisoft/yii2/base/Module.php:532
+Stack trace:
+#0 /var/www/xkkb_admin/vendor/yiisoft/yii2/web/Application.php(102): yii\base\Module->runAction('statics/upload/...', Array)
+#1 /var/www/xkkb_admin/vendor/yiisoft/yii2/base/Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 /var/www/xkkb_admin/admin.php(42): yii\base\Application->run()
+#3 {main}
+
+Next yii\web\NotFoundHttpException: é¡µé¢æœªæ‰¾åˆ°ã€‚ in /var/www/xkkb_admin/vendor/yiisoft/yii2/web/Application.php:114
+Stack trace:
+#0 /var/www/xkkb_admin/vendor/yiisoft/yii2/base/Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 /var/www/xkkb_admin/admin.php(42): yii\base\Application->run()
+#2 {main}
+2017-08-30 20:15:08 [192.168.1.102][1][m8aneqhs7qgk4rmss8mijaum82][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 192.168.1.102
+    in /var/www/xkkb_admin/statics/themes/admin/views/layouts/main.php:178
+2017-08-30 20:15:08 [192.168.1.102][1][m8aneqhs7qgk4rmss8mijaum82][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 192.168.1.102
+2017-08-30 20:15:08 [192.168.1.102][1][m8aneqhs7qgk4rmss8mijaum82][info][application] $_COOKIE = [
+    '_csrf-backend' => 'f4c6c7ac24ae209f87189b047743aa199b073ce803ee623d1b0d288fdfe6da0ca:2:{i:0;s:13:\"_csrf-backend\";i:1;s:32:\"ëQ0h% zæ;Z&
+h¢,Id¤Ì‰ñ«¦Úk|\";}'
+    'PHPSESSID' => 'm8aneqhs7qgk4rmss8mijaum82'
+    '_identity-backend' => '4ff4ad264e3c9d7fe4c230e3570c87c1cae912a0bed12123b80c0c13222b491ca:2:{i:0;s:17:\"_identity-backend\";i:1;s:46:\"[1,\"SbSY36BLw3V2lU-GB7ZAzCVJKDFx82IJ\",2592000]\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__id' => 1
+]
+
+$_SERVER = [
+    'USER' => 'nginx'
+    'HOME' => '/var/lib/nginx'
+    'HTTP_COOKIE' => '_csrf-backend=f4c6c7ac24ae209f87189b047743aa199b073ce803ee623d1b0d288fdfe6da0ca%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_csrf-backend%22%3Bi%3A1%3Bs%3A32%3A%22%EBQ%110h%25+z%16%E6%3BZ%26%0Ah%08%1C%11%A2%2CId%A4%CC%89%F1%AB%19%A6%DAk%7C%22%3B%7D; PHPSESSID=m8aneqhs7qgk4rmss8mijaum82; _identity-backend=4ff4ad264e3c9d7fe4c230e3570c87c1cae912a0bed12123b80c0c13222b491ca%3A2%3A%7Bi%3A0%3Bs%3A17%3A%22_identity-backend%22%3Bi%3A1%3Bs%3A46%3A%22%5B1%2C%22SbSY36BLw3V2lU-GB7ZAzCVJKDFx82IJ%22%2C2592000%5D%22%3B%7D'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_REFERER' => 'http://admin.ttxs.com/'
+    'HTTP_ACCEPT' => 'image/webp,image/apng,image/*,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_HOST' => 'admin.xkkb.com.cn'
+    'REDIRECT_STATUS' => '200'
+    'SERVER_NAME' => 'admin.xkkb.com.cn'
+    'SERVER_PORT' => '80'
+    'SERVER_ADDR' => '192.168.1.44'
+    'REMOTE_PORT' => '55498'
+    'REMOTE_ADDR' => '192.168.1.102'
+    'SERVER_SOFTWARE' => 'nginx/1.10.3'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REQUEST_SCHEME' => 'http'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'DOCUMENT_ROOT' => '/var/www/xkkb_admin'
+    'DOCUMENT_URI' => '/admin.php'
+    'REQUEST_URI' => '/statics/upload/2017_08_29/9d399d0ca66ec3cfdf1edf65be8e7fa07456.jpg'
+    'SCRIPT_NAME' => '/admin.php'
+    'CONTENT_LENGTH' => ''
+    'CONTENT_TYPE' => ''
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'SCRIPT_FILENAME' => '/var/www/xkkb_admin/admin.php'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/admin.php'
+    'REQUEST_TIME_FLOAT' => 1504095308.7811
+    'REQUEST_TIME' => 1504095308
+]
+2017-08-30 20:15:08 [192.168.1.102][1][m8aneqhs7qgk4rmss8mijaum82][error][yii\web\HttpException:404] yii\base\InvalidRouteException: Unable to resolve the request "statics/upload/2017_08_29/0717849c1a47d6bc0f606137eb1a4e741549.jpg". in /var/www/xkkb_admin/vendor/yiisoft/yii2/base/Module.php:532
+Stack trace:
+#0 /var/www/xkkb_admin/vendor/yiisoft/yii2/web/Application.php(102): yii\base\Module->runAction('statics/upload/...', Array)
+#1 /var/www/xkkb_admin/vendor/yiisoft/yii2/base/Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 /var/www/xkkb_admin/admin.php(42): yii\base\Application->run()
+#3 {main}
+
+Next yii\web\NotFoundHttpException: é¡µé¢æœªæ‰¾åˆ°ã€‚ in /var/www/xkkb_admin/vendor/yiisoft/yii2/web/Application.php:114
+Stack trace:
+#0 /var/www/xkkb_admin/vendor/yiisoft/yii2/base/Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 /var/www/xkkb_admin/admin.php(42): yii\base\Application->run()
+#2 {main}
+2017-08-30 20:15:09 [192.168.1.102][1][m8aneqhs7qgk4rmss8mijaum82][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 192.168.1.102
+    in /var/www/xkkb_admin/statics/themes/admin/views/layouts/main.php:178
+2017-08-30 20:15:09 [192.168.1.102][1][m8aneqhs7qgk4rmss8mijaum82][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 192.168.1.102
+2017-08-30 20:15:08 [192.168.1.102][1][m8aneqhs7qgk4rmss8mijaum82][info][application] $_COOKIE = [
+    '_csrf-backend' => 'f4c6c7ac24ae209f87189b047743aa199b073ce803ee623d1b0d288fdfe6da0ca:2:{i:0;s:13:\"_csrf-backend\";i:1;s:32:\"ëQ0h% zæ;Z&
+h¢,Id¤Ì‰ñ«¦Úk|\";}'
+    'PHPSESSID' => 'm8aneqhs7qgk4rmss8mijaum82'
+    '_identity-backend' => '4ff4ad264e3c9d7fe4c230e3570c87c1cae912a0bed12123b80c0c13222b491ca:2:{i:0;s:17:\"_identity-backend\";i:1;s:46:\"[1,\"SbSY36BLw3V2lU-GB7ZAzCVJKDFx82IJ\",2592000]\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__id' => 1
+]
+
+$_SERVER = [
+    'USER' => 'nginx'
+    'HOME' => '/var/lib/nginx'
+    'HTTP_COOKIE' => '_csrf-backend=f4c6c7ac24ae209f87189b047743aa199b073ce803ee623d1b0d288fdfe6da0ca%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_csrf-backend%22%3Bi%3A1%3Bs%3A32%3A%22%EBQ%110h%25+z%16%E6%3BZ%26%0Ah%08%1C%11%A2%2CId%A4%CC%89%F1%AB%19%A6%DAk%7C%22%3B%7D; PHPSESSID=m8aneqhs7qgk4rmss8mijaum82; _identity-backend=4ff4ad264e3c9d7fe4c230e3570c87c1cae912a0bed12123b80c0c13222b491ca%3A2%3A%7Bi%3A0%3Bs%3A17%3A%22_identity-backend%22%3Bi%3A1%3Bs%3A46%3A%22%5B1%2C%22SbSY36BLw3V2lU-GB7ZAzCVJKDFx82IJ%22%2C2592000%5D%22%3B%7D'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_REFERER' => 'http://admin.ttxs.com/'
+    'HTTP_ACCEPT' => 'image/webp,image/apng,image/*,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_HOST' => 'admin.xkkb.com.cn'
+    'REDIRECT_STATUS' => '200'
+    'SERVER_NAME' => 'admin.xkkb.com.cn'
+    'SERVER_PORT' => '80'
+    'SERVER_ADDR' => '192.168.1.44'
+    'REMOTE_PORT' => '55497'
+    'REMOTE_ADDR' => '192.168.1.102'
+    'SERVER_SOFTWARE' => 'nginx/1.10.3'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REQUEST_SCHEME' => 'http'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'DOCUMENT_ROOT' => '/var/www/xkkb_admin'
+    'DOCUMENT_URI' => '/admin.php'
+    'REQUEST_URI' => '/statics/upload/2017_08_29/0717849c1a47d6bc0f606137eb1a4e741549.jpg'
+    'SCRIPT_NAME' => '/admin.php'
+    'CONTENT_LENGTH' => ''
+    'CONTENT_TYPE' => ''
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'SCRIPT_FILENAME' => '/var/www/xkkb_admin/admin.php'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/admin.php'
+    'REQUEST_TIME_FLOAT' => 1504095308.8353
+    'REQUEST_TIME' => 1504095308
+]
+2017-08-30 22:19:39 [192.168.1.102][1][9m3ge1cgvn5pgtplvb84n6e0m4][error][yii\web\HttpException:404] yii\base\InvalidRouteException: Unable to resolve the request "statics/upload/2017_08_29/bd46ec19be69d7f26d0f03c5d3d5562b8351.jpg". in /var/www/xkkb_admin/vendor/yiisoft/yii2/base/Module.php:532
+Stack trace:
+#0 /var/www/xkkb_admin/vendor/yiisoft/yii2/web/Application.php(102): yii\base\Module->runAction('statics/upload/...', Array)
+#1 /var/www/xkkb_admin/vendor/yiisoft/yii2/base/Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 /var/www/xkkb_admin/admin.php(42): yii\base\Application->run()
+#3 {main}
+
+Next yii\web\NotFoundHttpException: é¡µé¢æœªæ‰¾åˆ°ã€‚ in /var/www/xkkb_admin/vendor/yiisoft/yii2/web/Application.php:114
+Stack trace:
+#0 /var/www/xkkb_admin/vendor/yiisoft/yii2/base/Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 /var/www/xkkb_admin/admin.php(42): yii\base\Application->run()
+#2 {main}
+2017-08-30 22:19:39 [192.168.1.102][1][9m3ge1cgvn5pgtplvb84n6e0m4][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 192.168.1.102
+    in /var/www/xkkb_admin/statics/themes/admin/views/layouts/main.php:178
+2017-08-30 22:19:39 [192.168.1.102][1][9m3ge1cgvn5pgtplvb84n6e0m4][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 192.168.1.102
+2017-08-30 22:19:39 [192.168.1.102][1][9m3ge1cgvn5pgtplvb84n6e0m4][info][application] $_COOKIE = [
+    '_csrf-backend' => 'f4c6c7ac24ae209f87189b047743aa199b073ce803ee623d1b0d288fdfe6da0ca:2:{i:0;s:13:\"_csrf-backend\";i:1;s:32:\"ëQ0h% zæ;Z&
+h¢,Id¤Ì‰ñ«¦Úk|\";}'
+    'PHPSESSID' => 'm8aneqhs7qgk4rmss8mijaum82'
+    '_identity-backend' => '4ff4ad264e3c9d7fe4c230e3570c87c1cae912a0bed12123b80c0c13222b491ca:2:{i:0;s:17:\"_identity-backend\";i:1;s:46:\"[1,\"SbSY36BLw3V2lU-GB7ZAzCVJKDFx82IJ\",2592000]\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__id' => 1
+]
+
+$_SERVER = [
+    'USER' => 'nginx'
+    'HOME' => '/var/lib/nginx'
+    'HTTP_COOKIE' => '_csrf-backend=f4c6c7ac24ae209f87189b047743aa199b073ce803ee623d1b0d288fdfe6da0ca%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_csrf-backend%22%3Bi%3A1%3Bs%3A32%3A%22%EBQ%110h%25+z%16%E6%3BZ%26%0Ah%08%1C%11%A2%2CId%A4%CC%89%F1%AB%19%A6%DAk%7C%22%3B%7D; PHPSESSID=m8aneqhs7qgk4rmss8mijaum82; _identity-backend=4ff4ad264e3c9d7fe4c230e3570c87c1cae912a0bed12123b80c0c13222b491ca%3A2%3A%7Bi%3A0%3Bs%3A17%3A%22_identity-backend%22%3Bi%3A1%3Bs%3A46%3A%22%5B1%2C%22SbSY36BLw3V2lU-GB7ZAzCVJKDFx82IJ%22%2C2592000%5D%22%3B%7D'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_REFERER' => 'http://www.xkkb.com.cn/en/support'
+    'HTTP_ACCEPT' => 'image/webp,image/apng,image/*,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_HOST' => 'admin.xkkb.com.cn'
+    'REDIRECT_STATUS' => '200'
+    'SERVER_NAME' => 'admin.xkkb.com.cn'
+    'SERVER_PORT' => '80'
+    'SERVER_ADDR' => '192.168.1.44'
+    'REMOTE_PORT' => '57327'
+    'REMOTE_ADDR' => '192.168.1.102'
+    'SERVER_SOFTWARE' => 'nginx/1.10.3'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REQUEST_SCHEME' => 'http'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'DOCUMENT_ROOT' => '/var/www/xkkb_admin'
+    'DOCUMENT_URI' => '/admin.php'
+    'REQUEST_URI' => '/statics/upload/2017_08_29/bd46ec19be69d7f26d0f03c5d3d5562b8351.jpg'
+    'SCRIPT_NAME' => '/admin.php'
+    'CONTENT_LENGTH' => ''
+    'CONTENT_TYPE' => ''
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'SCRIPT_FILENAME' => '/var/www/xkkb_admin/admin.php'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/admin.php'
+    'REQUEST_TIME_FLOAT' => 1504102779.1141
+    'REQUEST_TIME' => 1504102779
+]
+2017-08-30 22:19:39 [192.168.1.102][1][tjdfic91g5qr309udnfhthht20][error][yii\web\HttpException:404] yii\base\InvalidRouteException: Unable to resolve the request "statics/upload/2017_08_29/a0127859ce7ec0a55379cd0a5711c9a93117.jpg". in /var/www/xkkb_admin/vendor/yiisoft/yii2/base/Module.php:532
+Stack trace:
+#0 /var/www/xkkb_admin/vendor/yiisoft/yii2/web/Application.php(102): yii\base\Module->runAction('statics/upload/...', Array)
+#1 /var/www/xkkb_admin/vendor/yiisoft/yii2/base/Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 /var/www/xkkb_admin/admin.php(42): yii\base\Application->run()
+#3 {main}
+
+Next yii\web\NotFoundHttpException: é¡µé¢æœªæ‰¾åˆ°ã€‚ in /var/www/xkkb_admin/vendor/yiisoft/yii2/web/Application.php:114
+Stack trace:
+#0 /var/www/xkkb_admin/vendor/yiisoft/yii2/base/Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 /var/www/xkkb_admin/admin.php(42): yii\base\Application->run()
+#2 {main}
+2017-08-30 22:19:39 [192.168.1.102][1][tjdfic91g5qr309udnfhthht20][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 192.168.1.102
+    in /var/www/xkkb_admin/statics/themes/admin/views/layouts/main.php:178
+2017-08-30 22:19:39 [192.168.1.102][1][tjdfic91g5qr309udnfhthht20][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 192.168.1.102
+2017-08-30 22:19:39 [192.168.1.102][1][tjdfic91g5qr309udnfhthht20][info][application] $_COOKIE = [
+    '_csrf-backend' => 'f4c6c7ac24ae209f87189b047743aa199b073ce803ee623d1b0d288fdfe6da0ca:2:{i:0;s:13:\"_csrf-backend\";i:1;s:32:\"ëQ0h% zæ;Z&
+h¢,Id¤Ì‰ñ«¦Úk|\";}'
+    'PHPSESSID' => 'm8aneqhs7qgk4rmss8mijaum82'
+    '_identity-backend' => '4ff4ad264e3c9d7fe4c230e3570c87c1cae912a0bed12123b80c0c13222b491ca:2:{i:0;s:17:\"_identity-backend\";i:1;s:46:\"[1,\"SbSY36BLw3V2lU-GB7ZAzCVJKDFx82IJ\",2592000]\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__id' => 1
+]
+
+$_SERVER = [
+    'USER' => 'nginx'
+    'HOME' => '/var/lib/nginx'
+    'HTTP_COOKIE' => '_csrf-backend=f4c6c7ac24ae209f87189b047743aa199b073ce803ee623d1b0d288fdfe6da0ca%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_csrf-backend%22%3Bi%3A1%3Bs%3A32%3A%22%EBQ%110h%25+z%16%E6%3BZ%26%0Ah%08%1C%11%A2%2CId%A4%CC%89%F1%AB%19%A6%DAk%7C%22%3B%7D; PHPSESSID=m8aneqhs7qgk4rmss8mijaum82; _identity-backend=4ff4ad264e3c9d7fe4c230e3570c87c1cae912a0bed12123b80c0c13222b491ca%3A2%3A%7Bi%3A0%3Bs%3A17%3A%22_identity-backend%22%3Bi%3A1%3Bs%3A46%3A%22%5B1%2C%22SbSY36BLw3V2lU-GB7ZAzCVJKDFx82IJ%22%2C2592000%5D%22%3B%7D'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_REFERER' => 'http://www.xkkb.com.cn/en/support'
+    'HTTP_ACCEPT' => 'image/webp,image/apng,image/*,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_HOST' => 'admin.xkkb.com.cn'
+    'REDIRECT_STATUS' => '200'
+    'SERVER_NAME' => 'admin.xkkb.com.cn'
+    'SERVER_PORT' => '80'
+    'SERVER_ADDR' => '192.168.1.44'
+    'REMOTE_PORT' => '57326'
+    'REMOTE_ADDR' => '192.168.1.102'
+    'SERVER_SOFTWARE' => 'nginx/1.10.3'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REQUEST_SCHEME' => 'http'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'DOCUMENT_ROOT' => '/var/www/xkkb_admin'
+    'DOCUMENT_URI' => '/admin.php'
+    'REQUEST_URI' => '/statics/upload/2017_08_29/a0127859ce7ec0a55379cd0a5711c9a93117.jpg'
+    'SCRIPT_NAME' => '/admin.php'
+    'CONTENT_LENGTH' => ''
+    'CONTENT_TYPE' => ''
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'SCRIPT_FILENAME' => '/var/www/xkkb_admin/admin.php'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/admin.php'
+    'REQUEST_TIME_FLOAT' => 1504102779.1051
+    'REQUEST_TIME' => 1504102779
+]
+2017-08-30 22:19:39 [192.168.1.102][1][25tpf25krlvvs69tokdij7t5h2][error][yii\web\HttpException:404] yii\base\InvalidRouteException: Unable to resolve the request "statics/upload/2017_08_29/88363fe6f66856d8030a433da6b3e3a89557.jpg". in /var/www/xkkb_admin/vendor/yiisoft/yii2/base/Module.php:532
+Stack trace:
+#0 /var/www/xkkb_admin/vendor/yiisoft/yii2/web/Application.php(102): yii\base\Module->runAction('statics/upload/...', Array)
+#1 /var/www/xkkb_admin/vendor/yiisoft/yii2/base/Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 /var/www/xkkb_admin/admin.php(42): yii\base\Application->run()
+#3 {main}
+
+Next yii\web\NotFoundHttpException: é¡µé¢æœªæ‰¾åˆ°ã€‚ in /var/www/xkkb_admin/vendor/yiisoft/yii2/web/Application.php:114
+Stack trace:
+#0 /var/www/xkkb_admin/vendor/yiisoft/yii2/base/Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 /var/www/xkkb_admin/admin.php(42): yii\base\Application->run()
+#2 {main}
+2017-08-30 22:19:39 [192.168.1.102][1][25tpf25krlvvs69tokdij7t5h2][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 192.168.1.102
+    in /var/www/xkkb_admin/statics/themes/admin/views/layouts/main.php:178
+2017-08-30 22:19:39 [192.168.1.102][1][25tpf25krlvvs69tokdij7t5h2][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 192.168.1.102
+2017-08-30 22:19:39 [192.168.1.102][1][25tpf25krlvvs69tokdij7t5h2][info][application] $_COOKIE = [
+    '_csrf-backend' => 'f4c6c7ac24ae209f87189b047743aa199b073ce803ee623d1b0d288fdfe6da0ca:2:{i:0;s:13:\"_csrf-backend\";i:1;s:32:\"ëQ0h% zæ;Z&
+h¢,Id¤Ì‰ñ«¦Úk|\";}'
+    'PHPSESSID' => 'm8aneqhs7qgk4rmss8mijaum82'
+    '_identity-backend' => '4ff4ad264e3c9d7fe4c230e3570c87c1cae912a0bed12123b80c0c13222b491ca:2:{i:0;s:17:\"_identity-backend\";i:1;s:46:\"[1,\"SbSY36BLw3V2lU-GB7ZAzCVJKDFx82IJ\",2592000]\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__id' => 1
+]
+
+$_SERVER = [
+    'USER' => 'nginx'
+    'HOME' => '/var/lib/nginx'
+    'HTTP_COOKIE' => '_csrf-backend=f4c6c7ac24ae209f87189b047743aa199b073ce803ee623d1b0d288fdfe6da0ca%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_csrf-backend%22%3Bi%3A1%3Bs%3A32%3A%22%EBQ%110h%25+z%16%E6%3BZ%26%0Ah%08%1C%11%A2%2CId%A4%CC%89%F1%AB%19%A6%DAk%7C%22%3B%7D; PHPSESSID=m8aneqhs7qgk4rmss8mijaum82; _identity-backend=4ff4ad264e3c9d7fe4c230e3570c87c1cae912a0bed12123b80c0c13222b491ca%3A2%3A%7Bi%3A0%3Bs%3A17%3A%22_identity-backend%22%3Bi%3A1%3Bs%3A46%3A%22%5B1%2C%22SbSY36BLw3V2lU-GB7ZAzCVJKDFx82IJ%22%2C2592000%5D%22%3B%7D'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_REFERER' => 'http://www.xkkb.com.cn/en/support'
+    'HTTP_ACCEPT' => 'image/webp,image/apng,image/*,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_HOST' => 'admin.xkkb.com.cn'
+    'REDIRECT_STATUS' => '200'
+    'SERVER_NAME' => 'admin.xkkb.com.cn'
+    'SERVER_PORT' => '80'
+    'SERVER_ADDR' => '192.168.1.44'
+    'REMOTE_PORT' => '57328'
+    'REMOTE_ADDR' => '192.168.1.102'
+    'SERVER_SOFTWARE' => 'nginx/1.10.3'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REQUEST_SCHEME' => 'http'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'DOCUMENT_ROOT' => '/var/www/xkkb_admin'
+    'DOCUMENT_URI' => '/admin.php'
+    'REQUEST_URI' => '/statics/upload/2017_08_29/88363fe6f66856d8030a433da6b3e3a89557.jpg'
+    'SCRIPT_NAME' => '/admin.php'
+    'CONTENT_LENGTH' => ''
+    'CONTENT_TYPE' => ''
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'SCRIPT_FILENAME' => '/var/www/xkkb_admin/admin.php'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/admin.php'
+    'REQUEST_TIME_FLOAT' => 1504102779.2181
+    'REQUEST_TIME' => 1504102779
+]
+2017-08-30 22:19:39 [192.168.1.102][1][k73u58ptnbmsaouk5o0nek07e5][error][yii\web\HttpException:404] yii\base\InvalidRouteException: Unable to resolve the request "statics/upload/2017_08_29/1f894b323732375dc89768ebd7019a8d306.jpg". in /var/www/xkkb_admin/vendor/yiisoft/yii2/base/Module.php:532
+Stack trace:
+#0 /var/www/xkkb_admin/vendor/yiisoft/yii2/web/Application.php(102): yii\base\Module->runAction('statics/upload/...', Array)
+#1 /var/www/xkkb_admin/vendor/yiisoft/yii2/base/Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 /var/www/xkkb_admin/admin.php(42): yii\base\Application->run()
+#3 {main}
+
+Next yii\web\NotFoundHttpException: é¡µé¢æœªæ‰¾åˆ°ã€‚ in /var/www/xkkb_admin/vendor/yiisoft/yii2/web/Application.php:114
+Stack trace:
+#0 /var/www/xkkb_admin/vendor/yiisoft/yii2/base/Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 /var/www/xkkb_admin/admin.php(42): yii\base\Application->run()
+#2 {main}
+2017-08-30 22:19:40 [192.168.1.102][1][k73u58ptnbmsaouk5o0nek07e5][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 192.168.1.102
+    in /var/www/xkkb_admin/statics/themes/admin/views/layouts/main.php:178
+2017-08-30 22:19:40 [192.168.1.102][1][k73u58ptnbmsaouk5o0nek07e5][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 192.168.1.102
+2017-08-30 22:19:39 [192.168.1.102][1][k73u58ptnbmsaouk5o0nek07e5][info][application] $_COOKIE = [
+    '_csrf-backend' => 'f4c6c7ac24ae209f87189b047743aa199b073ce803ee623d1b0d288fdfe6da0ca:2:{i:0;s:13:\"_csrf-backend\";i:1;s:32:\"ëQ0h% zæ;Z&
+h¢,Id¤Ì‰ñ«¦Úk|\";}'
+    'PHPSESSID' => 'm8aneqhs7qgk4rmss8mijaum82'
+    '_identity-backend' => '4ff4ad264e3c9d7fe4c230e3570c87c1cae912a0bed12123b80c0c13222b491ca:2:{i:0;s:17:\"_identity-backend\";i:1;s:46:\"[1,\"SbSY36BLw3V2lU-GB7ZAzCVJKDFx82IJ\",2592000]\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__id' => 1
+]
+
+$_SERVER = [
+    'USER' => 'nginx'
+    'HOME' => '/var/lib/nginx'
+    'HTTP_COOKIE' => '_csrf-backend=f4c6c7ac24ae209f87189b047743aa199b073ce803ee623d1b0d288fdfe6da0ca%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_csrf-backend%22%3Bi%3A1%3Bs%3A32%3A%22%EBQ%110h%25+z%16%E6%3BZ%26%0Ah%08%1C%11%A2%2CId%A4%CC%89%F1%AB%19%A6%DAk%7C%22%3B%7D; PHPSESSID=m8aneqhs7qgk4rmss8mijaum82; _identity-backend=4ff4ad264e3c9d7fe4c230e3570c87c1cae912a0bed12123b80c0c13222b491ca%3A2%3A%7Bi%3A0%3Bs%3A17%3A%22_identity-backend%22%3Bi%3A1%3Bs%3A46%3A%22%5B1%2C%22SbSY36BLw3V2lU-GB7ZAzCVJKDFx82IJ%22%2C2592000%5D%22%3B%7D'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_REFERER' => 'http://www.xkkb.com.cn/en/support'
+    'HTTP_ACCEPT' => 'image/webp,image/apng,image/*,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_HOST' => 'admin.xkkb.com.cn'
+    'REDIRECT_STATUS' => '200'
+    'SERVER_NAME' => 'admin.xkkb.com.cn'
+    'SERVER_PORT' => '80'
+    'SERVER_ADDR' => '192.168.1.44'
+    'REMOTE_PORT' => '57329'
+    'REMOTE_ADDR' => '192.168.1.102'
+    'SERVER_SOFTWARE' => 'nginx/1.10.3'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REQUEST_SCHEME' => 'http'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'DOCUMENT_ROOT' => '/var/www/xkkb_admin'
+    'DOCUMENT_URI' => '/admin.php'
+    'REQUEST_URI' => '/statics/upload/2017_08_29/1f894b323732375dc89768ebd7019a8d306.jpg'
+    'SCRIPT_NAME' => '/admin.php'
+    'CONTENT_LENGTH' => ''
+    'CONTENT_TYPE' => ''
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'SCRIPT_FILENAME' => '/var/www/xkkb_admin/admin.php'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/admin.php'
+    'REQUEST_TIME_FLOAT' => 1504102779.7693
+    'REQUEST_TIME' => 1504102779
+]
+2017-08-30 22:19:39 [192.168.1.102][1][m8aneqhs7qgk4rmss8mijaum82][error][yii\web\HttpException:404] yii\base\InvalidRouteException: Unable to resolve the request "statics/upload/2017_08_29/b526a277013afaca2534e869b5014c052368.jpg". in /var/www/xkkb_admin/vendor/yiisoft/yii2/base/Module.php:532
+Stack trace:
+#0 /var/www/xkkb_admin/vendor/yiisoft/yii2/web/Application.php(102): yii\base\Module->runAction('statics/upload/...', Array)
+#1 /var/www/xkkb_admin/vendor/yiisoft/yii2/base/Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 /var/www/xkkb_admin/admin.php(42): yii\base\Application->run()
+#3 {main}
+
+Next yii\web\NotFoundHttpException: é¡µé¢æœªæ‰¾åˆ°ã€‚ in /var/www/xkkb_admin/vendor/yiisoft/yii2/web/Application.php:114
+Stack trace:
+#0 /var/www/xkkb_admin/vendor/yiisoft/yii2/base/Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 /var/www/xkkb_admin/admin.php(42): yii\base\Application->run()
+#2 {main}
+2017-08-30 22:19:40 [192.168.1.102][1][m8aneqhs7qgk4rmss8mijaum82][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 192.168.1.102
+    in /var/www/xkkb_admin/statics/themes/admin/views/layouts/main.php:178
+2017-08-30 22:19:40 [192.168.1.102][1][m8aneqhs7qgk4rmss8mijaum82][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 192.168.1.102
+2017-08-30 22:19:39 [192.168.1.102][1][m8aneqhs7qgk4rmss8mijaum82][info][application] $_COOKIE = [
+    '_csrf-backend' => 'f4c6c7ac24ae209f87189b047743aa199b073ce803ee623d1b0d288fdfe6da0ca:2:{i:0;s:13:\"_csrf-backend\";i:1;s:32:\"ëQ0h% zæ;Z&
+h¢,Id¤Ì‰ñ«¦Úk|\";}'
+    'PHPSESSID' => 'm8aneqhs7qgk4rmss8mijaum82'
+    '_identity-backend' => '4ff4ad264e3c9d7fe4c230e3570c87c1cae912a0bed12123b80c0c13222b491ca:2:{i:0;s:17:\"_identity-backend\";i:1;s:46:\"[1,\"SbSY36BLw3V2lU-GB7ZAzCVJKDFx82IJ\",2592000]\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__id' => 1
+]
+
+$_SERVER = [
+    'USER' => 'nginx'
+    'HOME' => '/var/lib/nginx'
+    'HTTP_COOKIE' => '_csrf-backend=f4c6c7ac24ae209f87189b047743aa199b073ce803ee623d1b0d288fdfe6da0ca%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_csrf-backend%22%3Bi%3A1%3Bs%3A32%3A%22%EBQ%110h%25+z%16%E6%3BZ%26%0Ah%08%1C%11%A2%2CId%A4%CC%89%F1%AB%19%A6%DAk%7C%22%3B%7D; PHPSESSID=m8aneqhs7qgk4rmss8mijaum82; _identity-backend=4ff4ad264e3c9d7fe4c230e3570c87c1cae912a0bed12123b80c0c13222b491ca%3A2%3A%7Bi%3A0%3Bs%3A17%3A%22_identity-backend%22%3Bi%3A1%3Bs%3A46%3A%22%5B1%2C%22SbSY36BLw3V2lU-GB7ZAzCVJKDFx82IJ%22%2C2592000%5D%22%3B%7D'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_REFERER' => 'http://www.xkkb.com.cn/en/support'
+    'HTTP_ACCEPT' => 'image/webp,image/apng,image/*,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_HOST' => 'admin.xkkb.com.cn'
+    'REDIRECT_STATUS' => '200'
+    'SERVER_NAME' => 'admin.xkkb.com.cn'
+    'SERVER_PORT' => '80'
+    'SERVER_ADDR' => '192.168.1.44'
+    'REMOTE_PORT' => '57330'
+    'REMOTE_ADDR' => '192.168.1.102'
+    'SERVER_SOFTWARE' => 'nginx/1.10.3'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REQUEST_SCHEME' => 'http'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'DOCUMENT_ROOT' => '/var/www/xkkb_admin'
+    'DOCUMENT_URI' => '/admin.php'
+    'REQUEST_URI' => '/statics/upload/2017_08_29/b526a277013afaca2534e869b5014c052368.jpg'
+    'SCRIPT_NAME' => '/admin.php'
+    'CONTENT_LENGTH' => ''
+    'CONTENT_TYPE' => ''
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'SCRIPT_FILENAME' => '/var/www/xkkb_admin/admin.php'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/admin.php'
+    'REQUEST_TIME_FLOAT' => 1504102779.7928
+    'REQUEST_TIME' => 1504102779
+]
+2017-08-30 22:19:39 [192.168.1.102][1][hr6mjek7ul5m0ttnh3qaqdiva7][error][yii\web\HttpException:404] yii\base\InvalidRouteException: Unable to resolve the request "statics/upload/2017_08_29/e660442f87bf65bcea7189f3ce3f99603752.jpg". in /var/www/xkkb_admin/vendor/yiisoft/yii2/base/Module.php:532
+Stack trace:
+#0 /var/www/xkkb_admin/vendor/yiisoft/yii2/web/Application.php(102): yii\base\Module->runAction('statics/upload/...', Array)
+#1 /var/www/xkkb_admin/vendor/yiisoft/yii2/base/Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 /var/www/xkkb_admin/admin.php(42): yii\base\Application->run()
+#3 {main}
+
+Next yii\web\NotFoundHttpException: é¡µé¢æœªæ‰¾åˆ°ã€‚ in /var/www/xkkb_admin/vendor/yiisoft/yii2/web/Application.php:114
+Stack trace:
+#0 /var/www/xkkb_admin/vendor/yiisoft/yii2/base/Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 /var/www/xkkb_admin/admin.php(42): yii\base\Application->run()
+#2 {main}
+2017-08-30 22:19:40 [192.168.1.102][1][hr6mjek7ul5m0ttnh3qaqdiva7][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 192.168.1.102
+    in /var/www/xkkb_admin/statics/themes/admin/views/layouts/main.php:178
+2017-08-30 22:19:40 [192.168.1.102][1][hr6mjek7ul5m0ttnh3qaqdiva7][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 192.168.1.102
+2017-08-30 22:19:39 [192.168.1.102][1][hr6mjek7ul5m0ttnh3qaqdiva7][info][application] $_COOKIE = [
+    '_csrf-backend' => 'f4c6c7ac24ae209f87189b047743aa199b073ce803ee623d1b0d288fdfe6da0ca:2:{i:0;s:13:\"_csrf-backend\";i:1;s:32:\"ëQ0h% zæ;Z&
+h¢,Id¤Ì‰ñ«¦Úk|\";}'
+    'PHPSESSID' => 'm8aneqhs7qgk4rmss8mijaum82'
+    '_identity-backend' => '4ff4ad264e3c9d7fe4c230e3570c87c1cae912a0bed12123b80c0c13222b491ca:2:{i:0;s:17:\"_identity-backend\";i:1;s:46:\"[1,\"SbSY36BLw3V2lU-GB7ZAzCVJKDFx82IJ\",2592000]\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__id' => 1
+]
+
+$_SERVER = [
+    'USER' => 'nginx'
+    'HOME' => '/var/lib/nginx'
+    'HTTP_COOKIE' => '_csrf-backend=f4c6c7ac24ae209f87189b047743aa199b073ce803ee623d1b0d288fdfe6da0ca%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_csrf-backend%22%3Bi%3A1%3Bs%3A32%3A%22%EBQ%110h%25+z%16%E6%3BZ%26%0Ah%08%1C%11%A2%2CId%A4%CC%89%F1%AB%19%A6%DAk%7C%22%3B%7D; PHPSESSID=m8aneqhs7qgk4rmss8mijaum82; _identity-backend=4ff4ad264e3c9d7fe4c230e3570c87c1cae912a0bed12123b80c0c13222b491ca%3A2%3A%7Bi%3A0%3Bs%3A17%3A%22_identity-backend%22%3Bi%3A1%3Bs%3A46%3A%22%5B1%2C%22SbSY36BLw3V2lU-GB7ZAzCVJKDFx82IJ%22%2C2592000%5D%22%3B%7D'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_REFERER' => 'http://www.xkkb.com.cn/en/support'
+    'HTTP_ACCEPT' => 'image/webp,image/apng,image/*,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_HOST' => 'admin.xkkb.com.cn'
+    'REDIRECT_STATUS' => '200'
+    'SERVER_NAME' => 'admin.xkkb.com.cn'
+    'SERVER_PORT' => '80'
+    'SERVER_ADDR' => '192.168.1.44'
+    'REMOTE_PORT' => '57331'
+    'REMOTE_ADDR' => '192.168.1.102'
+    'SERVER_SOFTWARE' => 'nginx/1.10.3'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REQUEST_SCHEME' => 'http'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'DOCUMENT_ROOT' => '/var/www/xkkb_admin'
+    'DOCUMENT_URI' => '/admin.php'
+    'REQUEST_URI' => '/statics/upload/2017_08_29/e660442f87bf65bcea7189f3ce3f99603752.jpg'
+    'SCRIPT_NAME' => '/admin.php'
+    'CONTENT_LENGTH' => ''
+    'CONTENT_TYPE' => ''
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'SCRIPT_FILENAME' => '/var/www/xkkb_admin/admin.php'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/admin.php'
+    'REQUEST_TIME_FLOAT' => 1504102779.8741
+    'REQUEST_TIME' => 1504102779
+]
+2017-08-30 22:19:40 [192.168.1.102][1][9m3ge1cgvn5pgtplvb84n6e0m4][error][yii\web\HttpException:404] yii\base\InvalidRouteException: Unable to resolve the request "statics/upload/2017_08_29/9d399d0ca66ec3cfdf1edf65be8e7fa07456.jpg". in /var/www/xkkb_admin/vendor/yiisoft/yii2/base/Module.php:532
+Stack trace:
+#0 /var/www/xkkb_admin/vendor/yiisoft/yii2/web/Application.php(102): yii\base\Module->runAction('statics/upload/...', Array)
+#1 /var/www/xkkb_admin/vendor/yiisoft/yii2/base/Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 /var/www/xkkb_admin/admin.php(42): yii\base\Application->run()
+#3 {main}
+
+Next yii\web\NotFoundHttpException: é¡µé¢æœªæ‰¾åˆ°ã€‚ in /var/www/xkkb_admin/vendor/yiisoft/yii2/web/Application.php:114
+Stack trace:
+#0 /var/www/xkkb_admin/vendor/yiisoft/yii2/base/Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 /var/www/xkkb_admin/admin.php(42): yii\base\Application->run()
+#2 {main}
+2017-08-30 22:19:40 [192.168.1.102][1][9m3ge1cgvn5pgtplvb84n6e0m4][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 192.168.1.102
+    in /var/www/xkkb_admin/statics/themes/admin/views/layouts/main.php:178
+2017-08-30 22:19:40 [192.168.1.102][1][9m3ge1cgvn5pgtplvb84n6e0m4][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 192.168.1.102
+2017-08-30 22:19:40 [192.168.1.102][1][9m3ge1cgvn5pgtplvb84n6e0m4][info][application] $_COOKIE = [
+    '_csrf-backend' => 'f4c6c7ac24ae209f87189b047743aa199b073ce803ee623d1b0d288fdfe6da0ca:2:{i:0;s:13:\"_csrf-backend\";i:1;s:32:\"ëQ0h% zæ;Z&
+h¢,Id¤Ì‰ñ«¦Úk|\";}'
+    'PHPSESSID' => '9m3ge1cgvn5pgtplvb84n6e0m4'
+    '_identity-backend' => '4ff4ad264e3c9d7fe4c230e3570c87c1cae912a0bed12123b80c0c13222b491ca:2:{i:0;s:17:\"_identity-backend\";i:1;s:46:\"[1,\"SbSY36BLw3V2lU-GB7ZAzCVJKDFx82IJ\",2592000]\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__id' => 1
+]
+
+$_SERVER = [
+    'USER' => 'nginx'
+    'HOME' => '/var/lib/nginx'
+    'HTTP_COOKIE' => '_csrf-backend=f4c6c7ac24ae209f87189b047743aa199b073ce803ee623d1b0d288fdfe6da0ca%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_csrf-backend%22%3Bi%3A1%3Bs%3A32%3A%22%EBQ%110h%25+z%16%E6%3BZ%26%0Ah%08%1C%11%A2%2CId%A4%CC%89%F1%AB%19%A6%DAk%7C%22%3B%7D; PHPSESSID=9m3ge1cgvn5pgtplvb84n6e0m4; _identity-backend=4ff4ad264e3c9d7fe4c230e3570c87c1cae912a0bed12123b80c0c13222b491ca%3A2%3A%7Bi%3A0%3Bs%3A17%3A%22_identity-backend%22%3Bi%3A1%3Bs%3A46%3A%22%5B1%2C%22SbSY36BLw3V2lU-GB7ZAzCVJKDFx82IJ%22%2C2592000%5D%22%3B%7D'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_REFERER' => 'http://www.xkkb.com.cn/en/support'
+    'HTTP_ACCEPT' => 'image/webp,image/apng,image/*,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_HOST' => 'admin.xkkb.com.cn'
+    'REDIRECT_STATUS' => '200'
+    'SERVER_NAME' => 'admin.xkkb.com.cn'
+    'SERVER_PORT' => '80'
+    'SERVER_ADDR' => '192.168.1.44'
+    'REMOTE_PORT' => '57327'
+    'REMOTE_ADDR' => '192.168.1.102'
+    'SERVER_SOFTWARE' => 'nginx/1.10.3'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REQUEST_SCHEME' => 'http'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'DOCUMENT_ROOT' => '/var/www/xkkb_admin'
+    'DOCUMENT_URI' => '/admin.php'
+    'REQUEST_URI' => '/statics/upload/2017_08_29/9d399d0ca66ec3cfdf1edf65be8e7fa07456.jpg'
+    'SCRIPT_NAME' => '/admin.php'
+    'CONTENT_LENGTH' => ''
+    'CONTENT_TYPE' => ''
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'SCRIPT_FILENAME' => '/var/www/xkkb_admin/admin.php'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/admin.php'
+    'REQUEST_TIME_FLOAT' => 1504102780.1688
+    'REQUEST_TIME' => 1504102780
+]
+2017-08-30 22:19:40 [192.168.1.102][1][tjdfic91g5qr309udnfhthht20][error][yii\web\HttpException:404] yii\base\InvalidRouteException: Unable to resolve the request "statics/upload/2017_08_29/0717849c1a47d6bc0f606137eb1a4e741549.jpg". in /var/www/xkkb_admin/vendor/yiisoft/yii2/base/Module.php:532
+Stack trace:
+#0 /var/www/xkkb_admin/vendor/yiisoft/yii2/web/Application.php(102): yii\base\Module->runAction('statics/upload/...', Array)
+#1 /var/www/xkkb_admin/vendor/yiisoft/yii2/base/Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 /var/www/xkkb_admin/admin.php(42): yii\base\Application->run()
+#3 {main}
+
+Next yii\web\NotFoundHttpException: é¡µé¢æœªæ‰¾åˆ°ã€‚ in /var/www/xkkb_admin/vendor/yiisoft/yii2/web/Application.php:114
+Stack trace:
+#0 /var/www/xkkb_admin/vendor/yiisoft/yii2/base/Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 /var/www/xkkb_admin/admin.php(42): yii\base\Application->run()
+#2 {main}
+2017-08-30 22:19:40 [192.168.1.102][1][tjdfic91g5qr309udnfhthht20][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 192.168.1.102
+    in /var/www/xkkb_admin/statics/themes/admin/views/layouts/main.php:178
+2017-08-30 22:19:40 [192.168.1.102][1][tjdfic91g5qr309udnfhthht20][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 192.168.1.102
+2017-08-30 22:19:40 [192.168.1.102][1][tjdfic91g5qr309udnfhthht20][info][application] $_COOKIE = [
+    '_csrf-backend' => 'f4c6c7ac24ae209f87189b047743aa199b073ce803ee623d1b0d288fdfe6da0ca:2:{i:0;s:13:\"_csrf-backend\";i:1;s:32:\"ëQ0h% zæ;Z&
+h¢,Id¤Ì‰ñ«¦Úk|\";}'
+    'PHPSESSID' => 'tjdfic91g5qr309udnfhthht20'
+    '_identity-backend' => '4ff4ad264e3c9d7fe4c230e3570c87c1cae912a0bed12123b80c0c13222b491ca:2:{i:0;s:17:\"_identity-backend\";i:1;s:46:\"[1,\"SbSY36BLw3V2lU-GB7ZAzCVJKDFx82IJ\",2592000]\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__id' => 1
+]
+
+$_SERVER = [
+    'USER' => 'nginx'
+    'HOME' => '/var/lib/nginx'
+    'HTTP_COOKIE' => '_csrf-backend=f4c6c7ac24ae209f87189b047743aa199b073ce803ee623d1b0d288fdfe6da0ca%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_csrf-backend%22%3Bi%3A1%3Bs%3A32%3A%22%EBQ%110h%25+z%16%E6%3BZ%26%0Ah%08%1C%11%A2%2CId%A4%CC%89%F1%AB%19%A6%DAk%7C%22%3B%7D; PHPSESSID=tjdfic91g5qr309udnfhthht20; _identity-backend=4ff4ad264e3c9d7fe4c230e3570c87c1cae912a0bed12123b80c0c13222b491ca%3A2%3A%7Bi%3A0%3Bs%3A17%3A%22_identity-backend%22%3Bi%3A1%3Bs%3A46%3A%22%5B1%2C%22SbSY36BLw3V2lU-GB7ZAzCVJKDFx82IJ%22%2C2592000%5D%22%3B%7D'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_REFERER' => 'http://www.xkkb.com.cn/en/support'
+    'HTTP_ACCEPT' => 'image/webp,image/apng,image/*,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_HOST' => 'admin.xkkb.com.cn'
+    'REDIRECT_STATUS' => '200'
+    'SERVER_NAME' => 'admin.xkkb.com.cn'
+    'SERVER_PORT' => '80'
+    'SERVER_ADDR' => '192.168.1.44'
+    'REMOTE_PORT' => '57326'
+    'REMOTE_ADDR' => '192.168.1.102'
+    'SERVER_SOFTWARE' => 'nginx/1.10.3'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REQUEST_SCHEME' => 'http'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'DOCUMENT_ROOT' => '/var/www/xkkb_admin'
+    'DOCUMENT_URI' => '/admin.php'
+    'REQUEST_URI' => '/statics/upload/2017_08_29/0717849c1a47d6bc0f606137eb1a4e741549.jpg'
+    'SCRIPT_NAME' => '/admin.php'
+    'CONTENT_LENGTH' => ''
+    'CONTENT_TYPE' => ''
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'SCRIPT_FILENAME' => '/var/www/xkkb_admin/admin.php'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/admin.php'
+    'REQUEST_TIME_FLOAT' => 1504102780.3813
+    'REQUEST_TIME' => 1504102780
+]
+2017-08-30 22:19:40 [192.168.1.102][1][hr6mjek7ul5m0ttnh3qaqdiva7][error][yii\web\HttpException:404] yii\base\InvalidRouteException: Unable to resolve the request "statics/upload/2017_08_29/bd46ec19be69d7f26d0f03c5d3d5562b8351.jpg". in /var/www/xkkb_admin/vendor/yiisoft/yii2/base/Module.php:532
+Stack trace:
+#0 /var/www/xkkb_admin/vendor/yiisoft/yii2/web/Application.php(102): yii\base\Module->runAction('statics/upload/...', Array)
+#1 /var/www/xkkb_admin/vendor/yiisoft/yii2/base/Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 /var/www/xkkb_admin/admin.php(42): yii\base\Application->run()
+#3 {main}
+
+Next yii\web\NotFoundHttpException: é¡µé¢æœªæ‰¾åˆ°ã€‚ in /var/www/xkkb_admin/vendor/yiisoft/yii2/web/Application.php:114
+Stack trace:
+#0 /var/www/xkkb_admin/vendor/yiisoft/yii2/base/Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 /var/www/xkkb_admin/admin.php(42): yii\base\Application->run()
+#2 {main}
+2017-08-30 22:19:40 [192.168.1.102][1][hr6mjek7ul5m0ttnh3qaqdiva7][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 192.168.1.102
+    in /var/www/xkkb_admin/statics/themes/admin/views/layouts/main.php:178
+2017-08-30 22:19:40 [192.168.1.102][1][hr6mjek7ul5m0ttnh3qaqdiva7][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 192.168.1.102
+2017-08-30 22:19:40 [192.168.1.102][1][hr6mjek7ul5m0ttnh3qaqdiva7][info][application] $_COOKIE = [
+    '_csrf-backend' => 'f4c6c7ac24ae209f87189b047743aa199b073ce803ee623d1b0d288fdfe6da0ca:2:{i:0;s:13:\"_csrf-backend\";i:1;s:32:\"ëQ0h% zæ;Z&
+h¢,Id¤Ì‰ñ«¦Úk|\";}'
+    'PHPSESSID' => 'hr6mjek7ul5m0ttnh3qaqdiva7'
+    '_identity-backend' => '4ff4ad264e3c9d7fe4c230e3570c87c1cae912a0bed12123b80c0c13222b491ca:2:{i:0;s:17:\"_identity-backend\";i:1;s:46:\"[1,\"SbSY36BLw3V2lU-GB7ZAzCVJKDFx82IJ\",2592000]\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__id' => 1
+]
+
+$_SERVER = [
+    'USER' => 'nginx'
+    'HOME' => '/var/lib/nginx'
+    'HTTP_COOKIE' => '_csrf-backend=f4c6c7ac24ae209f87189b047743aa199b073ce803ee623d1b0d288fdfe6da0ca%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_csrf-backend%22%3Bi%3A1%3Bs%3A32%3A%22%EBQ%110h%25+z%16%E6%3BZ%26%0Ah%08%1C%11%A2%2CId%A4%CC%89%F1%AB%19%A6%DAk%7C%22%3B%7D; PHPSESSID=hr6mjek7ul5m0ttnh3qaqdiva7; _identity-backend=4ff4ad264e3c9d7fe4c230e3570c87c1cae912a0bed12123b80c0c13222b491ca%3A2%3A%7Bi%3A0%3Bs%3A17%3A%22_identity-backend%22%3Bi%3A1%3Bs%3A46%3A%22%5B1%2C%22SbSY36BLw3V2lU-GB7ZAzCVJKDFx82IJ%22%2C2592000%5D%22%3B%7D'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_REFERER' => 'http://www.xkkb.com.cn/en/contact'
+    'HTTP_ACCEPT' => 'image/webp,image/apng,image/*,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_HOST' => 'admin.xkkb.com.cn'
+    'REDIRECT_STATUS' => '200'
+    'SERVER_NAME' => 'admin.xkkb.com.cn'
+    'SERVER_PORT' => '80'
+    'SERVER_ADDR' => '192.168.1.44'
+    'REMOTE_PORT' => '57330'
+    'REMOTE_ADDR' => '192.168.1.102'
+    'SERVER_SOFTWARE' => 'nginx/1.10.3'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REQUEST_SCHEME' => 'http'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'DOCUMENT_ROOT' => '/var/www/xkkb_admin'
+    'DOCUMENT_URI' => '/admin.php'
+    'REQUEST_URI' => '/statics/upload/2017_08_29/bd46ec19be69d7f26d0f03c5d3d5562b8351.jpg'
+    'SCRIPT_NAME' => '/admin.php'
+    'CONTENT_LENGTH' => ''
+    'CONTENT_TYPE' => ''
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'SCRIPT_FILENAME' => '/var/www/xkkb_admin/admin.php'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/admin.php'
+    'REQUEST_TIME_FLOAT' => 1504102780.6069
+    'REQUEST_TIME' => 1504102780
+]
+2017-08-30 22:19:40 [192.168.1.102][1][hr6mjek7ul5m0ttnh3qaqdiva7][error][yii\web\HttpException:404] yii\base\InvalidRouteException: Unable to resolve the request "statics/upload/2017_08_29/a0127859ce7ec0a55379cd0a5711c9a93117.jpg". in /var/www/xkkb_admin/vendor/yiisoft/yii2/base/Module.php:532
+Stack trace:
+#0 /var/www/xkkb_admin/vendor/yiisoft/yii2/web/Application.php(102): yii\base\Module->runAction('statics/upload/...', Array)
+#1 /var/www/xkkb_admin/vendor/yiisoft/yii2/base/Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 /var/www/xkkb_admin/admin.php(42): yii\base\Application->run()
+#3 {main}
+
+Next yii\web\NotFoundHttpException: é¡µé¢æœªæ‰¾åˆ°ã€‚ in /var/www/xkkb_admin/vendor/yiisoft/yii2/web/Application.php:114
+Stack trace:
+#0 /var/www/xkkb_admin/vendor/yiisoft/yii2/base/Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 /var/www/xkkb_admin/admin.php(42): yii\base\Application->run()
+#2 {main}
+2017-08-30 22:19:40 [192.168.1.102][1][hr6mjek7ul5m0ttnh3qaqdiva7][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 192.168.1.102
+    in /var/www/xkkb_admin/statics/themes/admin/views/layouts/main.php:178
+2017-08-30 22:19:40 [192.168.1.102][1][hr6mjek7ul5m0ttnh3qaqdiva7][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 192.168.1.102
+2017-08-30 22:19:40 [192.168.1.102][1][hr6mjek7ul5m0ttnh3qaqdiva7][info][application] $_COOKIE = [
+    '_csrf-backend' => 'f4c6c7ac24ae209f87189b047743aa199b073ce803ee623d1b0d288fdfe6da0ca:2:{i:0;s:13:\"_csrf-backend\";i:1;s:32:\"ëQ0h% zæ;Z&
+h¢,Id¤Ì‰ñ«¦Úk|\";}'
+    'PHPSESSID' => 'hr6mjek7ul5m0ttnh3qaqdiva7'
+    '_identity-backend' => '4ff4ad264e3c9d7fe4c230e3570c87c1cae912a0bed12123b80c0c13222b491ca:2:{i:0;s:17:\"_identity-backend\";i:1;s:46:\"[1,\"SbSY36BLw3V2lU-GB7ZAzCVJKDFx82IJ\",2592000]\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__id' => 1
+]
+
+$_SERVER = [
+    'USER' => 'nginx'
+    'HOME' => '/var/lib/nginx'
+    'HTTP_COOKIE' => '_csrf-backend=f4c6c7ac24ae209f87189b047743aa199b073ce803ee623d1b0d288fdfe6da0ca%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_csrf-backend%22%3Bi%3A1%3Bs%3A32%3A%22%EBQ%110h%25+z%16%E6%3BZ%26%0Ah%08%1C%11%A2%2CId%A4%CC%89%F1%AB%19%A6%DAk%7C%22%3B%7D; PHPSESSID=hr6mjek7ul5m0ttnh3qaqdiva7; _identity-backend=4ff4ad264e3c9d7fe4c230e3570c87c1cae912a0bed12123b80c0c13222b491ca%3A2%3A%7Bi%3A0%3Bs%3A17%3A%22_identity-backend%22%3Bi%3A1%3Bs%3A46%3A%22%5B1%2C%22SbSY36BLw3V2lU-GB7ZAzCVJKDFx82IJ%22%2C2592000%5D%22%3B%7D'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_REFERER' => 'http://www.xkkb.com.cn/en/contact'
+    'HTTP_ACCEPT' => 'image/webp,image/apng,image/*,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_HOST' => 'admin.xkkb.com.cn'
+    'REDIRECT_STATUS' => '200'
+    'SERVER_NAME' => 'admin.xkkb.com.cn'
+    'SERVER_PORT' => '80'
+    'SERVER_ADDR' => '192.168.1.44'
+    'REMOTE_PORT' => '57331'
+    'REMOTE_ADDR' => '192.168.1.102'
+    'SERVER_SOFTWARE' => 'nginx/1.10.3'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REQUEST_SCHEME' => 'http'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'DOCUMENT_ROOT' => '/var/www/xkkb_admin'
+    'DOCUMENT_URI' => '/admin.php'
+    'REQUEST_URI' => '/statics/upload/2017_08_29/a0127859ce7ec0a55379cd0a5711c9a93117.jpg'
+    'SCRIPT_NAME' => '/admin.php'
+    'CONTENT_LENGTH' => ''
+    'CONTENT_TYPE' => ''
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'SCRIPT_FILENAME' => '/var/www/xkkb_admin/admin.php'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/admin.php'
+    'REQUEST_TIME_FLOAT' => 1504102780.6047
+    'REQUEST_TIME' => 1504102780
+]
+2017-08-30 22:19:40 [192.168.1.102][1][hr6mjek7ul5m0ttnh3qaqdiva7][error][yii\web\HttpException:404] yii\base\InvalidRouteException: Unable to resolve the request "statics/upload/2017_08_29/88363fe6f66856d8030a433da6b3e3a89557.jpg". in /var/www/xkkb_admin/vendor/yiisoft/yii2/base/Module.php:532
+Stack trace:
+#0 /var/www/xkkb_admin/vendor/yiisoft/yii2/web/Application.php(102): yii\base\Module->runAction('statics/upload/...', Array)
+#1 /var/www/xkkb_admin/vendor/yiisoft/yii2/base/Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 /var/www/xkkb_admin/admin.php(42): yii\base\Application->run()
+#3 {main}
+
+Next yii\web\NotFoundHttpException: é¡µé¢æœªæ‰¾åˆ°ã€‚ in /var/www/xkkb_admin/vendor/yiisoft/yii2/web/Application.php:114
+Stack trace:
+#0 /var/www/xkkb_admin/vendor/yiisoft/yii2/base/Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 /var/www/xkkb_admin/admin.php(42): yii\base\Application->run()
+#2 {main}
+2017-08-30 22:19:40 [192.168.1.102][1][hr6mjek7ul5m0ttnh3qaqdiva7][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 192.168.1.102
+    in /var/www/xkkb_admin/statics/themes/admin/views/layouts/main.php:178
+2017-08-30 22:19:40 [192.168.1.102][1][hr6mjek7ul5m0ttnh3qaqdiva7][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 192.168.1.102
+2017-08-30 22:19:40 [192.168.1.102][1][hr6mjek7ul5m0ttnh3qaqdiva7][info][application] $_COOKIE = [
+    '_csrf-backend' => 'f4c6c7ac24ae209f87189b047743aa199b073ce803ee623d1b0d288fdfe6da0ca:2:{i:0;s:13:\"_csrf-backend\";i:1;s:32:\"ëQ0h% zæ;Z&
+h¢,Id¤Ì‰ñ«¦Úk|\";}'
+    'PHPSESSID' => 'hr6mjek7ul5m0ttnh3qaqdiva7'
+    '_identity-backend' => '4ff4ad264e3c9d7fe4c230e3570c87c1cae912a0bed12123b80c0c13222b491ca:2:{i:0;s:17:\"_identity-backend\";i:1;s:46:\"[1,\"SbSY36BLw3V2lU-GB7ZAzCVJKDFx82IJ\",2592000]\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__id' => 1
+]
+
+$_SERVER = [
+    'USER' => 'nginx'
+    'HOME' => '/var/lib/nginx'
+    'HTTP_COOKIE' => '_csrf-backend=f4c6c7ac24ae209f87189b047743aa199b073ce803ee623d1b0d288fdfe6da0ca%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_csrf-backend%22%3Bi%3A1%3Bs%3A32%3A%22%EBQ%110h%25+z%16%E6%3BZ%26%0Ah%08%1C%11%A2%2CId%A4%CC%89%F1%AB%19%A6%DAk%7C%22%3B%7D; PHPSESSID=hr6mjek7ul5m0ttnh3qaqdiva7; _identity-backend=4ff4ad264e3c9d7fe4c230e3570c87c1cae912a0bed12123b80c0c13222b491ca%3A2%3A%7Bi%3A0%3Bs%3A17%3A%22_identity-backend%22%3Bi%3A1%3Bs%3A46%3A%22%5B1%2C%22SbSY36BLw3V2lU-GB7ZAzCVJKDFx82IJ%22%2C2592000%5D%22%3B%7D'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_REFERER' => 'http://www.xkkb.com.cn/en/contact'
+    'HTTP_ACCEPT' => 'image/webp,image/apng,image/*,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_HOST' => 'admin.xkkb.com.cn'
+    'REDIRECT_STATUS' => '200'
+    'SERVER_NAME' => 'admin.xkkb.com.cn'
+    'SERVER_PORT' => '80'
+    'SERVER_ADDR' => '192.168.1.44'
+    'REMOTE_PORT' => '57329'
+    'REMOTE_ADDR' => '192.168.1.102'
+    'SERVER_SOFTWARE' => 'nginx/1.10.3'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REQUEST_SCHEME' => 'http'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'DOCUMENT_ROOT' => '/var/www/xkkb_admin'
+    'DOCUMENT_URI' => '/admin.php'
+    'REQUEST_URI' => '/statics/upload/2017_08_29/88363fe6f66856d8030a433da6b3e3a89557.jpg'
+    'SCRIPT_NAME' => '/admin.php'
+    'CONTENT_LENGTH' => ''
+    'CONTENT_TYPE' => ''
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'SCRIPT_FILENAME' => '/var/www/xkkb_admin/admin.php'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/admin.php'
+    'REQUEST_TIME_FLOAT' => 1504102780.7162
+    'REQUEST_TIME' => 1504102780
+]
+2017-08-30 22:19:40 [192.168.1.102][1][hr6mjek7ul5m0ttnh3qaqdiva7][error][yii\web\HttpException:404] yii\base\InvalidRouteException: Unable to resolve the request "statics/upload/2017_08_29/1f894b323732375dc89768ebd7019a8d306.jpg". in /var/www/xkkb_admin/vendor/yiisoft/yii2/base/Module.php:532
+Stack trace:
+#0 /var/www/xkkb_admin/vendor/yiisoft/yii2/web/Application.php(102): yii\base\Module->runAction('statics/upload/...', Array)
+#1 /var/www/xkkb_admin/vendor/yiisoft/yii2/base/Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 /var/www/xkkb_admin/admin.php(42): yii\base\Application->run()
+#3 {main}
+
+Next yii\web\NotFoundHttpException: é¡µé¢æœªæ‰¾åˆ°ã€‚ in /var/www/xkkb_admin/vendor/yiisoft/yii2/web/Application.php:114
+Stack trace:
+#0 /var/www/xkkb_admin/vendor/yiisoft/yii2/base/Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 /var/www/xkkb_admin/admin.php(42): yii\base\Application->run()
+#2 {main}
+2017-08-30 22:19:41 [192.168.1.102][1][hr6mjek7ul5m0ttnh3qaqdiva7][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 192.168.1.102
+    in /var/www/xkkb_admin/statics/themes/admin/views/layouts/main.php:178
+2017-08-30 22:19:41 [192.168.1.102][1][hr6mjek7ul5m0ttnh3qaqdiva7][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 192.168.1.102
+2017-08-30 22:19:40 [192.168.1.102][1][hr6mjek7ul5m0ttnh3qaqdiva7][info][application] $_COOKIE = [
+    '_csrf-backend' => 'f4c6c7ac24ae209f87189b047743aa199b073ce803ee623d1b0d288fdfe6da0ca:2:{i:0;s:13:\"_csrf-backend\";i:1;s:32:\"ëQ0h% zæ;Z&
+h¢,Id¤Ì‰ñ«¦Úk|\";}'
+    'PHPSESSID' => 'hr6mjek7ul5m0ttnh3qaqdiva7'
+    '_identity-backend' => '4ff4ad264e3c9d7fe4c230e3570c87c1cae912a0bed12123b80c0c13222b491ca:2:{i:0;s:17:\"_identity-backend\";i:1;s:46:\"[1,\"SbSY36BLw3V2lU-GB7ZAzCVJKDFx82IJ\",2592000]\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__id' => 1
+]
+
+$_SERVER = [
+    'USER' => 'nginx'
+    'HOME' => '/var/lib/nginx'
+    'HTTP_COOKIE' => '_csrf-backend=f4c6c7ac24ae209f87189b047743aa199b073ce803ee623d1b0d288fdfe6da0ca%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_csrf-backend%22%3Bi%3A1%3Bs%3A32%3A%22%EBQ%110h%25+z%16%E6%3BZ%26%0Ah%08%1C%11%A2%2CId%A4%CC%89%F1%AB%19%A6%DAk%7C%22%3B%7D; PHPSESSID=hr6mjek7ul5m0ttnh3qaqdiva7; _identity-backend=4ff4ad264e3c9d7fe4c230e3570c87c1cae912a0bed12123b80c0c13222b491ca%3A2%3A%7Bi%3A0%3Bs%3A17%3A%22_identity-backend%22%3Bi%3A1%3Bs%3A46%3A%22%5B1%2C%22SbSY36BLw3V2lU-GB7ZAzCVJKDFx82IJ%22%2C2592000%5D%22%3B%7D'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_REFERER' => 'http://www.xkkb.com.cn/en/contact'
+    'HTTP_ACCEPT' => 'image/webp,image/apng,image/*,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_HOST' => 'admin.xkkb.com.cn'
+    'REDIRECT_STATUS' => '200'
+    'SERVER_NAME' => 'admin.xkkb.com.cn'
+    'SERVER_PORT' => '80'
+    'SERVER_ADDR' => '192.168.1.44'
+    'REMOTE_PORT' => '57328'
+    'REMOTE_ADDR' => '192.168.1.102'
+    'SERVER_SOFTWARE' => 'nginx/1.10.3'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REQUEST_SCHEME' => 'http'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'DOCUMENT_ROOT' => '/var/www/xkkb_admin'
+    'DOCUMENT_URI' => '/admin.php'
+    'REQUEST_URI' => '/statics/upload/2017_08_29/1f894b323732375dc89768ebd7019a8d306.jpg'
+    'SCRIPT_NAME' => '/admin.php'
+    'CONTENT_LENGTH' => ''
+    'CONTENT_TYPE' => ''
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'SCRIPT_FILENAME' => '/var/www/xkkb_admin/admin.php'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/admin.php'
+    'REQUEST_TIME_FLOAT' => 1504102780.8673
+    'REQUEST_TIME' => 1504102780
+]
+2017-08-30 22:19:41 [192.168.1.102][1][hr6mjek7ul5m0ttnh3qaqdiva7][error][yii\web\HttpException:404] yii\base\InvalidRouteException: Unable to resolve the request "statics/upload/2017_08_29/b526a277013afaca2534e869b5014c052368.jpg". in /var/www/xkkb_admin/vendor/yiisoft/yii2/base/Module.php:532
+Stack trace:
+#0 /var/www/xkkb_admin/vendor/yiisoft/yii2/web/Application.php(102): yii\base\Module->runAction('statics/upload/...', Array)
+#1 /var/www/xkkb_admin/vendor/yiisoft/yii2/base/Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 /var/www/xkkb_admin/admin.php(42): yii\base\Application->run()
+#3 {main}
+
+Next yii\web\NotFoundHttpException: é¡µé¢æœªæ‰¾åˆ°ã€‚ in /var/www/xkkb_admin/vendor/yiisoft/yii2/web/Application.php:114
+Stack trace:
+#0 /var/www/xkkb_admin/vendor/yiisoft/yii2/base/Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 /var/www/xkkb_admin/admin.php(42): yii\base\Application->run()
+#2 {main}
+2017-08-30 22:19:41 [192.168.1.102][1][hr6mjek7ul5m0ttnh3qaqdiva7][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 192.168.1.102
+    in /var/www/xkkb_admin/statics/themes/admin/views/layouts/main.php:178
+2017-08-30 22:19:41 [192.168.1.102][1][hr6mjek7ul5m0ttnh3qaqdiva7][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 192.168.1.102
+2017-08-30 22:19:41 [192.168.1.102][1][hr6mjek7ul5m0ttnh3qaqdiva7][info][application] $_COOKIE = [
+    '_csrf-backend' => 'f4c6c7ac24ae209f87189b047743aa199b073ce803ee623d1b0d288fdfe6da0ca:2:{i:0;s:13:\"_csrf-backend\";i:1;s:32:\"ëQ0h% zæ;Z&
+h¢,Id¤Ì‰ñ«¦Úk|\";}'
+    'PHPSESSID' => 'hr6mjek7ul5m0ttnh3qaqdiva7'
+    '_identity-backend' => '4ff4ad264e3c9d7fe4c230e3570c87c1cae912a0bed12123b80c0c13222b491ca:2:{i:0;s:17:\"_identity-backend\";i:1;s:46:\"[1,\"SbSY36BLw3V2lU-GB7ZAzCVJKDFx82IJ\",2592000]\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__id' => 1
+]
+
+$_SERVER = [
+    'USER' => 'nginx'
+    'HOME' => '/var/lib/nginx'
+    'HTTP_COOKIE' => '_csrf-backend=f4c6c7ac24ae209f87189b047743aa199b073ce803ee623d1b0d288fdfe6da0ca%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_csrf-backend%22%3Bi%3A1%3Bs%3A32%3A%22%EBQ%110h%25+z%16%E6%3BZ%26%0Ah%08%1C%11%A2%2CId%A4%CC%89%F1%AB%19%A6%DAk%7C%22%3B%7D; PHPSESSID=hr6mjek7ul5m0ttnh3qaqdiva7; _identity-backend=4ff4ad264e3c9d7fe4c230e3570c87c1cae912a0bed12123b80c0c13222b491ca%3A2%3A%7Bi%3A0%3Bs%3A17%3A%22_identity-backend%22%3Bi%3A1%3Bs%3A46%3A%22%5B1%2C%22SbSY36BLw3V2lU-GB7ZAzCVJKDFx82IJ%22%2C2592000%5D%22%3B%7D'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_REFERER' => 'http://www.xkkb.com.cn/en/contact'
+    'HTTP_ACCEPT' => 'image/webp,image/apng,image/*,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_HOST' => 'admin.xkkb.com.cn'
+    'REDIRECT_STATUS' => '200'
+    'SERVER_NAME' => 'admin.xkkb.com.cn'
+    'SERVER_PORT' => '80'
+    'SERVER_ADDR' => '192.168.1.44'
+    'REMOTE_PORT' => '57334'
+    'REMOTE_ADDR' => '192.168.1.102'
+    'SERVER_SOFTWARE' => 'nginx/1.10.3'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REQUEST_SCHEME' => 'http'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'DOCUMENT_ROOT' => '/var/www/xkkb_admin'
+    'DOCUMENT_URI' => '/admin.php'
+    'REQUEST_URI' => '/statics/upload/2017_08_29/b526a277013afaca2534e869b5014c052368.jpg'
+    'SCRIPT_NAME' => '/admin.php'
+    'CONTENT_LENGTH' => ''
+    'CONTENT_TYPE' => ''
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'SCRIPT_FILENAME' => '/var/www/xkkb_admin/admin.php'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/admin.php'
+    'REQUEST_TIME_FLOAT' => 1504102781.1134
+    'REQUEST_TIME' => 1504102781
+]
+2017-08-30 22:19:41 [192.168.1.102][1][hr6mjek7ul5m0ttnh3qaqdiva7][error][yii\web\HttpException:404] yii\base\InvalidRouteException: Unable to resolve the request "statics/upload/2017_08_29/e660442f87bf65bcea7189f3ce3f99603752.jpg". in /var/www/xkkb_admin/vendor/yiisoft/yii2/base/Module.php:532
+Stack trace:
+#0 /var/www/xkkb_admin/vendor/yiisoft/yii2/web/Application.php(102): yii\base\Module->runAction('statics/upload/...', Array)
+#1 /var/www/xkkb_admin/vendor/yiisoft/yii2/base/Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 /var/www/xkkb_admin/admin.php(42): yii\base\Application->run()
+#3 {main}
+
+Next yii\web\NotFoundHttpException: é¡µé¢æœªæ‰¾åˆ°ã€‚ in /var/www/xkkb_admin/vendor/yiisoft/yii2/web/Application.php:114
+Stack trace:
+#0 /var/www/xkkb_admin/vendor/yiisoft/yii2/base/Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 /var/www/xkkb_admin/admin.php(42): yii\base\Application->run()
+#2 {main}
+2017-08-30 22:19:41 [192.168.1.102][1][hr6mjek7ul5m0ttnh3qaqdiva7][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 192.168.1.102
+    in /var/www/xkkb_admin/statics/themes/admin/views/layouts/main.php:178
+2017-08-30 22:19:41 [192.168.1.102][1][hr6mjek7ul5m0ttnh3qaqdiva7][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 192.168.1.102
+2017-08-30 22:19:41 [192.168.1.102][1][hr6mjek7ul5m0ttnh3qaqdiva7][info][application] $_COOKIE = [
+    '_csrf-backend' => 'f4c6c7ac24ae209f87189b047743aa199b073ce803ee623d1b0d288fdfe6da0ca:2:{i:0;s:13:\"_csrf-backend\";i:1;s:32:\"ëQ0h% zæ;Z&
+h¢,Id¤Ì‰ñ«¦Úk|\";}'
+    'PHPSESSID' => 'hr6mjek7ul5m0ttnh3qaqdiva7'
+    '_identity-backend' => '4ff4ad264e3c9d7fe4c230e3570c87c1cae912a0bed12123b80c0c13222b491ca:2:{i:0;s:17:\"_identity-backend\";i:1;s:46:\"[1,\"SbSY36BLw3V2lU-GB7ZAzCVJKDFx82IJ\",2592000]\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__id' => 1
+]
+
+$_SERVER = [
+    'USER' => 'nginx'
+    'HOME' => '/var/lib/nginx'
+    'HTTP_COOKIE' => '_csrf-backend=f4c6c7ac24ae209f87189b047743aa199b073ce803ee623d1b0d288fdfe6da0ca%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_csrf-backend%22%3Bi%3A1%3Bs%3A32%3A%22%EBQ%110h%25+z%16%E6%3BZ%26%0Ah%08%1C%11%A2%2CId%A4%CC%89%F1%AB%19%A6%DAk%7C%22%3B%7D; PHPSESSID=hr6mjek7ul5m0ttnh3qaqdiva7; _identity-backend=4ff4ad264e3c9d7fe4c230e3570c87c1cae912a0bed12123b80c0c13222b491ca%3A2%3A%7Bi%3A0%3Bs%3A17%3A%22_identity-backend%22%3Bi%3A1%3Bs%3A46%3A%22%5B1%2C%22SbSY36BLw3V2lU-GB7ZAzCVJKDFx82IJ%22%2C2592000%5D%22%3B%7D'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_REFERER' => 'http://www.xkkb.com.cn/en/contact'
+    'HTTP_ACCEPT' => 'image/webp,image/apng,image/*,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_HOST' => 'admin.xkkb.com.cn'
+    'REDIRECT_STATUS' => '200'
+    'SERVER_NAME' => 'admin.xkkb.com.cn'
+    'SERVER_PORT' => '80'
+    'SERVER_ADDR' => '192.168.1.44'
+    'REMOTE_PORT' => '57335'
+    'REMOTE_ADDR' => '192.168.1.102'
+    'SERVER_SOFTWARE' => 'nginx/1.10.3'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REQUEST_SCHEME' => 'http'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'DOCUMENT_ROOT' => '/var/www/xkkb_admin'
+    'DOCUMENT_URI' => '/admin.php'
+    'REQUEST_URI' => '/statics/upload/2017_08_29/e660442f87bf65bcea7189f3ce3f99603752.jpg'
+    'SCRIPT_NAME' => '/admin.php'
+    'CONTENT_LENGTH' => ''
+    'CONTENT_TYPE' => ''
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'SCRIPT_FILENAME' => '/var/www/xkkb_admin/admin.php'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/admin.php'
+    'REQUEST_TIME_FLOAT' => 1504102781.1195
+    'REQUEST_TIME' => 1504102781
+]
+2017-08-30 22:19:41 [192.168.1.102][1][hr6mjek7ul5m0ttnh3qaqdiva7][error][yii\web\HttpException:404] yii\base\InvalidRouteException: Unable to resolve the request "statics/upload/2017_08_29/9d399d0ca66ec3cfdf1edf65be8e7fa07456.jpg". in /var/www/xkkb_admin/vendor/yiisoft/yii2/base/Module.php:532
+Stack trace:
+#0 /var/www/xkkb_admin/vendor/yiisoft/yii2/web/Application.php(102): yii\base\Module->runAction('statics/upload/...', Array)
+#1 /var/www/xkkb_admin/vendor/yiisoft/yii2/base/Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 /var/www/xkkb_admin/admin.php(42): yii\base\Application->run()
+#3 {main}
+
+Next yii\web\NotFoundHttpException: é¡µé¢æœªæ‰¾åˆ°ã€‚ in /var/www/xkkb_admin/vendor/yiisoft/yii2/web/Application.php:114
+Stack trace:
+#0 /var/www/xkkb_admin/vendor/yiisoft/yii2/base/Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 /var/www/xkkb_admin/admin.php(42): yii\base\Application->run()
+#2 {main}
+2017-08-30 22:19:41 [192.168.1.102][1][hr6mjek7ul5m0ttnh3qaqdiva7][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 192.168.1.102
+    in /var/www/xkkb_admin/statics/themes/admin/views/layouts/main.php:178
+2017-08-30 22:19:41 [192.168.1.102][1][hr6mjek7ul5m0ttnh3qaqdiva7][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 192.168.1.102
+2017-08-30 22:19:41 [192.168.1.102][1][hr6mjek7ul5m0ttnh3qaqdiva7][info][application] $_COOKIE = [
+    '_csrf-backend' => 'f4c6c7ac24ae209f87189b047743aa199b073ce803ee623d1b0d288fdfe6da0ca:2:{i:0;s:13:\"_csrf-backend\";i:1;s:32:\"ëQ0h% zæ;Z&
+h¢,Id¤Ì‰ñ«¦Úk|\";}'
+    'PHPSESSID' => 'hr6mjek7ul5m0ttnh3qaqdiva7'
+    '_identity-backend' => '4ff4ad264e3c9d7fe4c230e3570c87c1cae912a0bed12123b80c0c13222b491ca:2:{i:0;s:17:\"_identity-backend\";i:1;s:46:\"[1,\"SbSY36BLw3V2lU-GB7ZAzCVJKDFx82IJ\",2592000]\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__id' => 1
+]
+
+$_SERVER = [
+    'USER' => 'nginx'
+    'HOME' => '/var/lib/nginx'
+    'HTTP_COOKIE' => '_csrf-backend=f4c6c7ac24ae209f87189b047743aa199b073ce803ee623d1b0d288fdfe6da0ca%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_csrf-backend%22%3Bi%3A1%3Bs%3A32%3A%22%EBQ%110h%25+z%16%E6%3BZ%26%0Ah%08%1C%11%A2%2CId%A4%CC%89%F1%AB%19%A6%DAk%7C%22%3B%7D; PHPSESSID=hr6mjek7ul5m0ttnh3qaqdiva7; _identity-backend=4ff4ad264e3c9d7fe4c230e3570c87c1cae912a0bed12123b80c0c13222b491ca%3A2%3A%7Bi%3A0%3Bs%3A17%3A%22_identity-backend%22%3Bi%3A1%3Bs%3A46%3A%22%5B1%2C%22SbSY36BLw3V2lU-GB7ZAzCVJKDFx82IJ%22%2C2592000%5D%22%3B%7D'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_REFERER' => 'http://www.xkkb.com.cn/en/contact'
+    'HTTP_ACCEPT' => 'image/webp,image/apng,image/*,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_HOST' => 'admin.xkkb.com.cn'
+    'REDIRECT_STATUS' => '200'
+    'SERVER_NAME' => 'admin.xkkb.com.cn'
+    'SERVER_PORT' => '80'
+    'SERVER_ADDR' => '192.168.1.44'
+    'REMOTE_PORT' => '57330'
+    'REMOTE_ADDR' => '192.168.1.102'
+    'SERVER_SOFTWARE' => 'nginx/1.10.3'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REQUEST_SCHEME' => 'http'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'DOCUMENT_ROOT' => '/var/www/xkkb_admin'
+    'DOCUMENT_URI' => '/admin.php'
+    'REQUEST_URI' => '/statics/upload/2017_08_29/9d399d0ca66ec3cfdf1edf65be8e7fa07456.jpg'
+    'SCRIPT_NAME' => '/admin.php'
+    'CONTENT_LENGTH' => ''
+    'CONTENT_TYPE' => ''
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'SCRIPT_FILENAME' => '/var/www/xkkb_admin/admin.php'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/admin.php'
+    'REQUEST_TIME_FLOAT' => 1504102781.1708
+    'REQUEST_TIME' => 1504102781
+]
+2017-08-30 22:19:41 [192.168.1.102][1][hr6mjek7ul5m0ttnh3qaqdiva7][error][yii\web\HttpException:404] yii\base\InvalidRouteException: Unable to resolve the request "statics/upload/2017_08_29/0717849c1a47d6bc0f606137eb1a4e741549.jpg". in /var/www/xkkb_admin/vendor/yiisoft/yii2/base/Module.php:532
+Stack trace:
+#0 /var/www/xkkb_admin/vendor/yiisoft/yii2/web/Application.php(102): yii\base\Module->runAction('statics/upload/...', Array)
+#1 /var/www/xkkb_admin/vendor/yiisoft/yii2/base/Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 /var/www/xkkb_admin/admin.php(42): yii\base\Application->run()
+#3 {main}
+
+Next yii\web\NotFoundHttpException: é¡µé¢æœªæ‰¾åˆ°ã€‚ in /var/www/xkkb_admin/vendor/yiisoft/yii2/web/Application.php:114
+Stack trace:
+#0 /var/www/xkkb_admin/vendor/yiisoft/yii2/base/Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 /var/www/xkkb_admin/admin.php(42): yii\base\Application->run()
+#2 {main}
+2017-08-30 22:19:41 [192.168.1.102][1][hr6mjek7ul5m0ttnh3qaqdiva7][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 192.168.1.102
+    in /var/www/xkkb_admin/statics/themes/admin/views/layouts/main.php:178
+2017-08-30 22:19:41 [192.168.1.102][1][hr6mjek7ul5m0ttnh3qaqdiva7][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 192.168.1.102
+2017-08-30 22:19:41 [192.168.1.102][1][hr6mjek7ul5m0ttnh3qaqdiva7][info][application] $_COOKIE = [
+    '_csrf-backend' => 'f4c6c7ac24ae209f87189b047743aa199b073ce803ee623d1b0d288fdfe6da0ca:2:{i:0;s:13:\"_csrf-backend\";i:1;s:32:\"ëQ0h% zæ;Z&
+h¢,Id¤Ì‰ñ«¦Úk|\";}'
+    'PHPSESSID' => 'hr6mjek7ul5m0ttnh3qaqdiva7'
+    '_identity-backend' => '4ff4ad264e3c9d7fe4c230e3570c87c1cae912a0bed12123b80c0c13222b491ca:2:{i:0;s:17:\"_identity-backend\";i:1;s:46:\"[1,\"SbSY36BLw3V2lU-GB7ZAzCVJKDFx82IJ\",2592000]\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__id' => 1
+]
+
+$_SERVER = [
+    'USER' => 'nginx'
+    'HOME' => '/var/lib/nginx'
+    'HTTP_COOKIE' => '_csrf-backend=f4c6c7ac24ae209f87189b047743aa199b073ce803ee623d1b0d288fdfe6da0ca%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_csrf-backend%22%3Bi%3A1%3Bs%3A32%3A%22%EBQ%110h%25+z%16%E6%3BZ%26%0Ah%08%1C%11%A2%2CId%A4%CC%89%F1%AB%19%A6%DAk%7C%22%3B%7D; PHPSESSID=hr6mjek7ul5m0ttnh3qaqdiva7; _identity-backend=4ff4ad264e3c9d7fe4c230e3570c87c1cae912a0bed12123b80c0c13222b491ca%3A2%3A%7Bi%3A0%3Bs%3A17%3A%22_identity-backend%22%3Bi%3A1%3Bs%3A46%3A%22%5B1%2C%22SbSY36BLw3V2lU-GB7ZAzCVJKDFx82IJ%22%2C2592000%5D%22%3B%7D'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_REFERER' => 'http://www.xkkb.com.cn/en/contact'
+    'HTTP_ACCEPT' => 'image/webp,image/apng,image/*,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_HOST' => 'admin.xkkb.com.cn'
+    'REDIRECT_STATUS' => '200'
+    'SERVER_NAME' => 'admin.xkkb.com.cn'
+    'SERVER_PORT' => '80'
+    'SERVER_ADDR' => '192.168.1.44'
+    'REMOTE_PORT' => '57331'
+    'REMOTE_ADDR' => '192.168.1.102'
+    'SERVER_SOFTWARE' => 'nginx/1.10.3'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REQUEST_SCHEME' => 'http'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'DOCUMENT_ROOT' => '/var/www/xkkb_admin'
+    'DOCUMENT_URI' => '/admin.php'
+    'REQUEST_URI' => '/statics/upload/2017_08_29/0717849c1a47d6bc0f606137eb1a4e741549.jpg'
+    'SCRIPT_NAME' => '/admin.php'
+    'CONTENT_LENGTH' => ''
+    'CONTENT_TYPE' => ''
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'SCRIPT_FILENAME' => '/var/www/xkkb_admin/admin.php'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/admin.php'
+    'REQUEST_TIME_FLOAT' => 1504102781.2113
+    'REQUEST_TIME' => 1504102781
+]
+2017-08-30 22:19:42 [192.168.1.102][1][hr6mjek7ul5m0ttnh3qaqdiva7][error][yii\web\HttpException:404] yii\base\InvalidRouteException: Unable to resolve the request "statics/upload/2017_08_29/a0127859ce7ec0a55379cd0a5711c9a93117.jpg". in /var/www/xkkb_admin/vendor/yiisoft/yii2/base/Module.php:532
+Stack trace:
+#0 /var/www/xkkb_admin/vendor/yiisoft/yii2/web/Application.php(102): yii\base\Module->runAction('statics/upload/...', Array)
+#1 /var/www/xkkb_admin/vendor/yiisoft/yii2/base/Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 /var/www/xkkb_admin/admin.php(42): yii\base\Application->run()
+#3 {main}
+
+Next yii\web\NotFoundHttpException: é¡µé¢æœªæ‰¾åˆ°ã€‚ in /var/www/xkkb_admin/vendor/yiisoft/yii2/web/Application.php:114
+Stack trace:
+#0 /var/www/xkkb_admin/vendor/yiisoft/yii2/base/Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 /var/www/xkkb_admin/admin.php(42): yii\base\Application->run()
+#2 {main}
+2017-08-30 22:19:42 [192.168.1.102][1][hr6mjek7ul5m0ttnh3qaqdiva7][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 192.168.1.102
+    in /var/www/xkkb_admin/statics/themes/admin/views/layouts/main.php:178
+2017-08-30 22:19:42 [192.168.1.102][1][hr6mjek7ul5m0ttnh3qaqdiva7][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 192.168.1.102
+2017-08-30 22:19:42 [192.168.1.102][1][hr6mjek7ul5m0ttnh3qaqdiva7][info][application] $_COOKIE = [
+    '_csrf-backend' => 'f4c6c7ac24ae209f87189b047743aa199b073ce803ee623d1b0d288fdfe6da0ca:2:{i:0;s:13:\"_csrf-backend\";i:1;s:32:\"ëQ0h% zæ;Z&
+h¢,Id¤Ì‰ñ«¦Úk|\";}'
+    'PHPSESSID' => 'hr6mjek7ul5m0ttnh3qaqdiva7'
+    '_identity-backend' => '4ff4ad264e3c9d7fe4c230e3570c87c1cae912a0bed12123b80c0c13222b491ca:2:{i:0;s:17:\"_identity-backend\";i:1;s:46:\"[1,\"SbSY36BLw3V2lU-GB7ZAzCVJKDFx82IJ\",2592000]\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__id' => 1
+]
+
+$_SERVER = [
+    'USER' => 'nginx'
+    'HOME' => '/var/lib/nginx'
+    'HTTP_COOKIE' => '_csrf-backend=f4c6c7ac24ae209f87189b047743aa199b073ce803ee623d1b0d288fdfe6da0ca%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_csrf-backend%22%3Bi%3A1%3Bs%3A32%3A%22%EBQ%110h%25+z%16%E6%3BZ%26%0Ah%08%1C%11%A2%2CId%A4%CC%89%F1%AB%19%A6%DAk%7C%22%3B%7D; PHPSESSID=hr6mjek7ul5m0ttnh3qaqdiva7; _identity-backend=4ff4ad264e3c9d7fe4c230e3570c87c1cae912a0bed12123b80c0c13222b491ca%3A2%3A%7Bi%3A0%3Bs%3A17%3A%22_identity-backend%22%3Bi%3A1%3Bs%3A46%3A%22%5B1%2C%22SbSY36BLw3V2lU-GB7ZAzCVJKDFx82IJ%22%2C2592000%5D%22%3B%7D'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_REFERER' => 'http://www.xkkb.com.cn/zh_cn/contact'
+    'HTTP_ACCEPT' => 'image/webp,image/apng,image/*,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_HOST' => 'admin.xkkb.com.cn'
+    'REDIRECT_STATUS' => '200'
+    'SERVER_NAME' => 'admin.xkkb.com.cn'
+    'SERVER_PORT' => '80'
+    'SERVER_ADDR' => '192.168.1.44'
+    'REMOTE_PORT' => '57331'
+    'REMOTE_ADDR' => '192.168.1.102'
+    'SERVER_SOFTWARE' => 'nginx/1.10.3'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REQUEST_SCHEME' => 'http'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'DOCUMENT_ROOT' => '/var/www/xkkb_admin'
+    'DOCUMENT_URI' => '/admin.php'
+    'REQUEST_URI' => '/statics/upload/2017_08_29/a0127859ce7ec0a55379cd0a5711c9a93117.jpg'
+    'SCRIPT_NAME' => '/admin.php'
+    'CONTENT_LENGTH' => ''
+    'CONTENT_TYPE' => ''
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'SCRIPT_FILENAME' => '/var/www/xkkb_admin/admin.php'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/admin.php'
+    'REQUEST_TIME_FLOAT' => 1504102782.2985
+    'REQUEST_TIME' => 1504102782
+]
+2017-08-30 22:19:42 [192.168.1.102][1][hr6mjek7ul5m0ttnh3qaqdiva7][error][yii\web\HttpException:404] yii\base\InvalidRouteException: Unable to resolve the request "statics/upload/2017_08_29/bd46ec19be69d7f26d0f03c5d3d5562b8351.jpg". in /var/www/xkkb_admin/vendor/yiisoft/yii2/base/Module.php:532
+Stack trace:
+#0 /var/www/xkkb_admin/vendor/yiisoft/yii2/web/Application.php(102): yii\base\Module->runAction('statics/upload/...', Array)
+#1 /var/www/xkkb_admin/vendor/yiisoft/yii2/base/Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 /var/www/xkkb_admin/admin.php(42): yii\base\Application->run()
+#3 {main}
+
+Next yii\web\NotFoundHttpException: é¡µé¢æœªæ‰¾åˆ°ã€‚ in /var/www/xkkb_admin/vendor/yiisoft/yii2/web/Application.php:114
+Stack trace:
+#0 /var/www/xkkb_admin/vendor/yiisoft/yii2/base/Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 /var/www/xkkb_admin/admin.php(42): yii\base\Application->run()
+#2 {main}
+2017-08-30 22:19:42 [192.168.1.102][1][hr6mjek7ul5m0ttnh3qaqdiva7][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 192.168.1.102
+    in /var/www/xkkb_admin/statics/themes/admin/views/layouts/main.php:178
+2017-08-30 22:19:42 [192.168.1.102][1][hr6mjek7ul5m0ttnh3qaqdiva7][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 192.168.1.102
+2017-08-30 22:19:42 [192.168.1.102][1][hr6mjek7ul5m0ttnh3qaqdiva7][info][application] $_COOKIE = [
+    '_csrf-backend' => 'f4c6c7ac24ae209f87189b047743aa199b073ce803ee623d1b0d288fdfe6da0ca:2:{i:0;s:13:\"_csrf-backend\";i:1;s:32:\"ëQ0h% zæ;Z&
+h¢,Id¤Ì‰ñ«¦Úk|\";}'
+    'PHPSESSID' => 'hr6mjek7ul5m0ttnh3qaqdiva7'
+    '_identity-backend' => '4ff4ad264e3c9d7fe4c230e3570c87c1cae912a0bed12123b80c0c13222b491ca:2:{i:0;s:17:\"_identity-backend\";i:1;s:46:\"[1,\"SbSY36BLw3V2lU-GB7ZAzCVJKDFx82IJ\",2592000]\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__id' => 1
+]
+
+$_SERVER = [
+    'USER' => 'nginx'
+    'HOME' => '/var/lib/nginx'
+    'HTTP_COOKIE' => '_csrf-backend=f4c6c7ac24ae209f87189b047743aa199b073ce803ee623d1b0d288fdfe6da0ca%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_csrf-backend%22%3Bi%3A1%3Bs%3A32%3A%22%EBQ%110h%25+z%16%E6%3BZ%26%0Ah%08%1C%11%A2%2CId%A4%CC%89%F1%AB%19%A6%DAk%7C%22%3B%7D; PHPSESSID=hr6mjek7ul5m0ttnh3qaqdiva7; _identity-backend=4ff4ad264e3c9d7fe4c230e3570c87c1cae912a0bed12123b80c0c13222b491ca%3A2%3A%7Bi%3A0%3Bs%3A17%3A%22_identity-backend%22%3Bi%3A1%3Bs%3A46%3A%22%5B1%2C%22SbSY36BLw3V2lU-GB7ZAzCVJKDFx82IJ%22%2C2592000%5D%22%3B%7D'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_REFERER' => 'http://www.xkkb.com.cn/zh_cn/contact'
+    'HTTP_ACCEPT' => 'image/webp,image/apng,image/*,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_HOST' => 'admin.xkkb.com.cn'
+    'REDIRECT_STATUS' => '200'
+    'SERVER_NAME' => 'admin.xkkb.com.cn'
+    'SERVER_PORT' => '80'
+    'SERVER_ADDR' => '192.168.1.44'
+    'REMOTE_PORT' => '57330'
+    'REMOTE_ADDR' => '192.168.1.102'
+    'SERVER_SOFTWARE' => 'nginx/1.10.3'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REQUEST_SCHEME' => 'http'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'DOCUMENT_ROOT' => '/var/www/xkkb_admin'
+    'DOCUMENT_URI' => '/admin.php'
+    'REQUEST_URI' => '/statics/upload/2017_08_29/bd46ec19be69d7f26d0f03c5d3d5562b8351.jpg'
+    'SCRIPT_NAME' => '/admin.php'
+    'CONTENT_LENGTH' => ''
+    'CONTENT_TYPE' => ''
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'SCRIPT_FILENAME' => '/var/www/xkkb_admin/admin.php'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/admin.php'
+    'REQUEST_TIME_FLOAT' => 1504102782.3001
+    'REQUEST_TIME' => 1504102782
+]
+2017-08-30 22:19:42 [192.168.1.102][1][hr6mjek7ul5m0ttnh3qaqdiva7][error][yii\web\HttpException:404] yii\base\InvalidRouteException: Unable to resolve the request "statics/upload/2017_08_29/1f894b323732375dc89768ebd7019a8d306.jpg". in /var/www/xkkb_admin/vendor/yiisoft/yii2/base/Module.php:532
+Stack trace:
+#0 /var/www/xkkb_admin/vendor/yiisoft/yii2/web/Application.php(102): yii\base\Module->runAction('statics/upload/...', Array)
+#1 /var/www/xkkb_admin/vendor/yiisoft/yii2/base/Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 /var/www/xkkb_admin/admin.php(42): yii\base\Application->run()
+#3 {main}
+
+Next yii\web\NotFoundHttpException: é¡µé¢æœªæ‰¾åˆ°ã€‚ in /var/www/xkkb_admin/vendor/yiisoft/yii2/web/Application.php:114
+Stack trace:
+#0 /var/www/xkkb_admin/vendor/yiisoft/yii2/base/Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 /var/www/xkkb_admin/admin.php(42): yii\base\Application->run()
+#2 {main}
+2017-08-30 22:19:42 [192.168.1.102][1][hr6mjek7ul5m0ttnh3qaqdiva7][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 192.168.1.102
+    in /var/www/xkkb_admin/statics/themes/admin/views/layouts/main.php:178
+2017-08-30 22:19:42 [192.168.1.102][1][hr6mjek7ul5m0ttnh3qaqdiva7][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 192.168.1.102
+2017-08-30 22:19:42 [192.168.1.102][1][hr6mjek7ul5m0ttnh3qaqdiva7][info][application] $_COOKIE = [
+    '_csrf-backend' => 'f4c6c7ac24ae209f87189b047743aa199b073ce803ee623d1b0d288fdfe6da0ca:2:{i:0;s:13:\"_csrf-backend\";i:1;s:32:\"ëQ0h% zæ;Z&
+h¢,Id¤Ì‰ñ«¦Úk|\";}'
+    'PHPSESSID' => 'hr6mjek7ul5m0ttnh3qaqdiva7'
+    '_identity-backend' => '4ff4ad264e3c9d7fe4c230e3570c87c1cae912a0bed12123b80c0c13222b491ca:2:{i:0;s:17:\"_identity-backend\";i:1;s:46:\"[1,\"SbSY36BLw3V2lU-GB7ZAzCVJKDFx82IJ\",2592000]\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__id' => 1
+]
+
+$_SERVER = [
+    'USER' => 'nginx'
+    'HOME' => '/var/lib/nginx'
+    'HTTP_COOKIE' => '_csrf-backend=f4c6c7ac24ae209f87189b047743aa199b073ce803ee623d1b0d288fdfe6da0ca%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_csrf-backend%22%3Bi%3A1%3Bs%3A32%3A%22%EBQ%110h%25+z%16%E6%3BZ%26%0Ah%08%1C%11%A2%2CId%A4%CC%89%F1%AB%19%A6%DAk%7C%22%3B%7D; PHPSESSID=hr6mjek7ul5m0ttnh3qaqdiva7; _identity-backend=4ff4ad264e3c9d7fe4c230e3570c87c1cae912a0bed12123b80c0c13222b491ca%3A2%3A%7Bi%3A0%3Bs%3A17%3A%22_identity-backend%22%3Bi%3A1%3Bs%3A46%3A%22%5B1%2C%22SbSY36BLw3V2lU-GB7ZAzCVJKDFx82IJ%22%2C2592000%5D%22%3B%7D'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_REFERER' => 'http://www.xkkb.com.cn/zh_cn/contact'
+    'HTTP_ACCEPT' => 'image/webp,image/apng,image/*,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_HOST' => 'admin.xkkb.com.cn'
+    'REDIRECT_STATUS' => '200'
+    'SERVER_NAME' => 'admin.xkkb.com.cn'
+    'SERVER_PORT' => '80'
+    'SERVER_ADDR' => '192.168.1.44'
+    'REMOTE_PORT' => '57334'
+    'REMOTE_ADDR' => '192.168.1.102'
+    'SERVER_SOFTWARE' => 'nginx/1.10.3'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REQUEST_SCHEME' => 'http'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'DOCUMENT_ROOT' => '/var/www/xkkb_admin'
+    'DOCUMENT_URI' => '/admin.php'
+    'REQUEST_URI' => '/statics/upload/2017_08_29/1f894b323732375dc89768ebd7019a8d306.jpg'
+    'SCRIPT_NAME' => '/admin.php'
+    'CONTENT_LENGTH' => ''
+    'CONTENT_TYPE' => ''
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'SCRIPT_FILENAME' => '/var/www/xkkb_admin/admin.php'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/admin.php'
+    'REQUEST_TIME_FLOAT' => 1504102782.311
+    'REQUEST_TIME' => 1504102782
+]
+2017-08-30 22:19:42 [192.168.1.102][1][hr6mjek7ul5m0ttnh3qaqdiva7][error][yii\web\HttpException:404] yii\base\InvalidRouteException: Unable to resolve the request "statics/upload/2017_08_29/88363fe6f66856d8030a433da6b3e3a89557.jpg". in /var/www/xkkb_admin/vendor/yiisoft/yii2/base/Module.php:532
+Stack trace:
+#0 /var/www/xkkb_admin/vendor/yiisoft/yii2/web/Application.php(102): yii\base\Module->runAction('statics/upload/...', Array)
+#1 /var/www/xkkb_admin/vendor/yiisoft/yii2/base/Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 /var/www/xkkb_admin/admin.php(42): yii\base\Application->run()
+#3 {main}
+
+Next yii\web\NotFoundHttpException: é¡µé¢æœªæ‰¾åˆ°ã€‚ in /var/www/xkkb_admin/vendor/yiisoft/yii2/web/Application.php:114
+Stack trace:
+#0 /var/www/xkkb_admin/vendor/yiisoft/yii2/base/Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 /var/www/xkkb_admin/admin.php(42): yii\base\Application->run()
+#2 {main}
+2017-08-30 22:19:42 [192.168.1.102][1][hr6mjek7ul5m0ttnh3qaqdiva7][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 192.168.1.102
+    in /var/www/xkkb_admin/statics/themes/admin/views/layouts/main.php:178
+2017-08-30 22:19:42 [192.168.1.102][1][hr6mjek7ul5m0ttnh3qaqdiva7][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 192.168.1.102
+2017-08-30 22:19:42 [192.168.1.102][1][hr6mjek7ul5m0ttnh3qaqdiva7][info][application] $_COOKIE = [
+    '_csrf-backend' => 'f4c6c7ac24ae209f87189b047743aa199b073ce803ee623d1b0d288fdfe6da0ca:2:{i:0;s:13:\"_csrf-backend\";i:1;s:32:\"ëQ0h% zæ;Z&
+h¢,Id¤Ì‰ñ«¦Úk|\";}'
+    'PHPSESSID' => 'hr6mjek7ul5m0ttnh3qaqdiva7'
+    '_identity-backend' => '4ff4ad264e3c9d7fe4c230e3570c87c1cae912a0bed12123b80c0c13222b491ca:2:{i:0;s:17:\"_identity-backend\";i:1;s:46:\"[1,\"SbSY36BLw3V2lU-GB7ZAzCVJKDFx82IJ\",2592000]\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__id' => 1
+]
+
+$_SERVER = [
+    'USER' => 'nginx'
+    'HOME' => '/var/lib/nginx'
+    'HTTP_COOKIE' => '_csrf-backend=f4c6c7ac24ae209f87189b047743aa199b073ce803ee623d1b0d288fdfe6da0ca%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_csrf-backend%22%3Bi%3A1%3Bs%3A32%3A%22%EBQ%110h%25+z%16%E6%3BZ%26%0Ah%08%1C%11%A2%2CId%A4%CC%89%F1%AB%19%A6%DAk%7C%22%3B%7D; PHPSESSID=hr6mjek7ul5m0ttnh3qaqdiva7; _identity-backend=4ff4ad264e3c9d7fe4c230e3570c87c1cae912a0bed12123b80c0c13222b491ca%3A2%3A%7Bi%3A0%3Bs%3A17%3A%22_identity-backend%22%3Bi%3A1%3Bs%3A46%3A%22%5B1%2C%22SbSY36BLw3V2lU-GB7ZAzCVJKDFx82IJ%22%2C2592000%5D%22%3B%7D'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_REFERER' => 'http://www.xkkb.com.cn/zh_cn/contact'
+    'HTTP_ACCEPT' => 'image/webp,image/apng,image/*,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_HOST' => 'admin.xkkb.com.cn'
+    'REDIRECT_STATUS' => '200'
+    'SERVER_NAME' => 'admin.xkkb.com.cn'
+    'SERVER_PORT' => '80'
+    'SERVER_ADDR' => '192.168.1.44'
+    'REMOTE_PORT' => '57335'
+    'REMOTE_ADDR' => '192.168.1.102'
+    'SERVER_SOFTWARE' => 'nginx/1.10.3'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REQUEST_SCHEME' => 'http'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'DOCUMENT_ROOT' => '/var/www/xkkb_admin'
+    'DOCUMENT_URI' => '/admin.php'
+    'REQUEST_URI' => '/statics/upload/2017_08_29/88363fe6f66856d8030a433da6b3e3a89557.jpg'
+    'SCRIPT_NAME' => '/admin.php'
+    'CONTENT_LENGTH' => ''
+    'CONTENT_TYPE' => ''
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'SCRIPT_FILENAME' => '/var/www/xkkb_admin/admin.php'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/admin.php'
+    'REQUEST_TIME_FLOAT' => 1504102782.3102
+    'REQUEST_TIME' => 1504102782
+]
+2017-08-30 22:19:42 [192.168.1.102][1][hr6mjek7ul5m0ttnh3qaqdiva7][error][yii\web\HttpException:404] yii\base\InvalidRouteException: Unable to resolve the request "statics/upload/2017_08_29/b526a277013afaca2534e869b5014c052368.jpg". in /var/www/xkkb_admin/vendor/yiisoft/yii2/base/Module.php:532
+Stack trace:
+#0 /var/www/xkkb_admin/vendor/yiisoft/yii2/web/Application.php(102): yii\base\Module->runAction('statics/upload/...', Array)
+#1 /var/www/xkkb_admin/vendor/yiisoft/yii2/base/Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 /var/www/xkkb_admin/admin.php(42): yii\base\Application->run()
+#3 {main}
+
+Next yii\web\NotFoundHttpException: é¡µé¢æœªæ‰¾åˆ°ã€‚ in /var/www/xkkb_admin/vendor/yiisoft/yii2/web/Application.php:114
+Stack trace:
+#0 /var/www/xkkb_admin/vendor/yiisoft/yii2/base/Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 /var/www/xkkb_admin/admin.php(42): yii\base\Application->run()
+#2 {main}
+2017-08-30 22:19:43 [192.168.1.102][1][hr6mjek7ul5m0ttnh3qaqdiva7][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 192.168.1.102
+    in /var/www/xkkb_admin/statics/themes/admin/views/layouts/main.php:178
+2017-08-30 22:19:43 [192.168.1.102][1][hr6mjek7ul5m0ttnh3qaqdiva7][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 192.168.1.102
+2017-08-30 22:19:42 [192.168.1.102][1][hr6mjek7ul5m0ttnh3qaqdiva7][info][application] $_COOKIE = [
+    '_csrf-backend' => 'f4c6c7ac24ae209f87189b047743aa199b073ce803ee623d1b0d288fdfe6da0ca:2:{i:0;s:13:\"_csrf-backend\";i:1;s:32:\"ëQ0h% zæ;Z&
+h¢,Id¤Ì‰ñ«¦Úk|\";}'
+    'PHPSESSID' => 'hr6mjek7ul5m0ttnh3qaqdiva7'
+    '_identity-backend' => '4ff4ad264e3c9d7fe4c230e3570c87c1cae912a0bed12123b80c0c13222b491ca:2:{i:0;s:17:\"_identity-backend\";i:1;s:46:\"[1,\"SbSY36BLw3V2lU-GB7ZAzCVJKDFx82IJ\",2592000]\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__id' => 1
+]
+
+$_SERVER = [
+    'USER' => 'nginx'
+    'HOME' => '/var/lib/nginx'
+    'HTTP_COOKIE' => '_csrf-backend=f4c6c7ac24ae209f87189b047743aa199b073ce803ee623d1b0d288fdfe6da0ca%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_csrf-backend%22%3Bi%3A1%3Bs%3A32%3A%22%EBQ%110h%25+z%16%E6%3BZ%26%0Ah%08%1C%11%A2%2CId%A4%CC%89%F1%AB%19%A6%DAk%7C%22%3B%7D; PHPSESSID=hr6mjek7ul5m0ttnh3qaqdiva7; _identity-backend=4ff4ad264e3c9d7fe4c230e3570c87c1cae912a0bed12123b80c0c13222b491ca%3A2%3A%7Bi%3A0%3Bs%3A17%3A%22_identity-backend%22%3Bi%3A1%3Bs%3A46%3A%22%5B1%2C%22SbSY36BLw3V2lU-GB7ZAzCVJKDFx82IJ%22%2C2592000%5D%22%3B%7D'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_REFERER' => 'http://www.xkkb.com.cn/zh_cn/contact'
+    'HTTP_ACCEPT' => 'image/webp,image/apng,image/*,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_HOST' => 'admin.xkkb.com.cn'
+    'REDIRECT_STATUS' => '200'
+    'SERVER_NAME' => 'admin.xkkb.com.cn'
+    'SERVER_PORT' => '80'
+    'SERVER_ADDR' => '192.168.1.44'
+    'REMOTE_PORT' => '57328'
+    'REMOTE_ADDR' => '192.168.1.102'
+    'SERVER_SOFTWARE' => 'nginx/1.10.3'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REQUEST_SCHEME' => 'http'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'DOCUMENT_ROOT' => '/var/www/xkkb_admin'
+    'DOCUMENT_URI' => '/admin.php'
+    'REQUEST_URI' => '/statics/upload/2017_08_29/b526a277013afaca2534e869b5014c052368.jpg'
+    'SCRIPT_NAME' => '/admin.php'
+    'CONTENT_LENGTH' => ''
+    'CONTENT_TYPE' => ''
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'SCRIPT_FILENAME' => '/var/www/xkkb_admin/admin.php'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/admin.php'
+    'REQUEST_TIME_FLOAT' => 1504102782.789
+    'REQUEST_TIME' => 1504102782
+]
+2017-08-30 22:19:42 [192.168.1.102][1][hr6mjek7ul5m0ttnh3qaqdiva7][error][yii\web\HttpException:404] yii\base\InvalidRouteException: Unable to resolve the request "statics/upload/2017_08_29/9d399d0ca66ec3cfdf1edf65be8e7fa07456.jpg". in /var/www/xkkb_admin/vendor/yiisoft/yii2/base/Module.php:532
+Stack trace:
+#0 /var/www/xkkb_admin/vendor/yiisoft/yii2/web/Application.php(102): yii\base\Module->runAction('statics/upload/...', Array)
+#1 /var/www/xkkb_admin/vendor/yiisoft/yii2/base/Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 /var/www/xkkb_admin/admin.php(42): yii\base\Application->run()
+#3 {main}
+
+Next yii\web\NotFoundHttpException: é¡µé¢æœªæ‰¾åˆ°ã€‚ in /var/www/xkkb_admin/vendor/yiisoft/yii2/web/Application.php:114
+Stack trace:
+#0 /var/www/xkkb_admin/vendor/yiisoft/yii2/base/Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 /var/www/xkkb_admin/admin.php(42): yii\base\Application->run()
+#2 {main}
+2017-08-30 22:19:43 [192.168.1.102][1][hr6mjek7ul5m0ttnh3qaqdiva7][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 192.168.1.102
+    in /var/www/xkkb_admin/statics/themes/admin/views/layouts/main.php:178
+2017-08-30 22:19:43 [192.168.1.102][1][hr6mjek7ul5m0ttnh3qaqdiva7][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 192.168.1.102
+2017-08-30 22:19:42 [192.168.1.102][1][hr6mjek7ul5m0ttnh3qaqdiva7][info][application] $_COOKIE = [
+    '_csrf-backend' => 'f4c6c7ac24ae209f87189b047743aa199b073ce803ee623d1b0d288fdfe6da0ca:2:{i:0;s:13:\"_csrf-backend\";i:1;s:32:\"ëQ0h% zæ;Z&
+h¢,Id¤Ì‰ñ«¦Úk|\";}'
+    'PHPSESSID' => 'hr6mjek7ul5m0ttnh3qaqdiva7'
+    '_identity-backend' => '4ff4ad264e3c9d7fe4c230e3570c87c1cae912a0bed12123b80c0c13222b491ca:2:{i:0;s:17:\"_identity-backend\";i:1;s:46:\"[1,\"SbSY36BLw3V2lU-GB7ZAzCVJKDFx82IJ\",2592000]\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__id' => 1
+]
+
+$_SERVER = [
+    'USER' => 'nginx'
+    'HOME' => '/var/lib/nginx'
+    'HTTP_COOKIE' => '_csrf-backend=f4c6c7ac24ae209f87189b047743aa199b073ce803ee623d1b0d288fdfe6da0ca%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_csrf-backend%22%3Bi%3A1%3Bs%3A32%3A%22%EBQ%110h%25+z%16%E6%3BZ%26%0Ah%08%1C%11%A2%2CId%A4%CC%89%F1%AB%19%A6%DAk%7C%22%3B%7D; PHPSESSID=hr6mjek7ul5m0ttnh3qaqdiva7; _identity-backend=4ff4ad264e3c9d7fe4c230e3570c87c1cae912a0bed12123b80c0c13222b491ca%3A2%3A%7Bi%3A0%3Bs%3A17%3A%22_identity-backend%22%3Bi%3A1%3Bs%3A46%3A%22%5B1%2C%22SbSY36BLw3V2lU-GB7ZAzCVJKDFx82IJ%22%2C2592000%5D%22%3B%7D'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_REFERER' => 'http://www.xkkb.com.cn/zh_cn/contact'
+    'HTTP_ACCEPT' => 'image/webp,image/apng,image/*,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_HOST' => 'admin.xkkb.com.cn'
+    'REDIRECT_STATUS' => '200'
+    'SERVER_NAME' => 'admin.xkkb.com.cn'
+    'SERVER_PORT' => '80'
+    'SERVER_ADDR' => '192.168.1.44'
+    'REMOTE_PORT' => '57331'
+    'REMOTE_ADDR' => '192.168.1.102'
+    'SERVER_SOFTWARE' => 'nginx/1.10.3'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REQUEST_SCHEME' => 'http'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'DOCUMENT_ROOT' => '/var/www/xkkb_admin'
+    'DOCUMENT_URI' => '/admin.php'
+    'REQUEST_URI' => '/statics/upload/2017_08_29/9d399d0ca66ec3cfdf1edf65be8e7fa07456.jpg'
+    'SCRIPT_NAME' => '/admin.php'
+    'CONTENT_LENGTH' => ''
+    'CONTENT_TYPE' => ''
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'SCRIPT_FILENAME' => '/var/www/xkkb_admin/admin.php'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/admin.php'
+    'REQUEST_TIME_FLOAT' => 1504102782.8165
+    'REQUEST_TIME' => 1504102782
+]
+2017-08-30 22:19:42 [192.168.1.102][1][hr6mjek7ul5m0ttnh3qaqdiva7][error][yii\web\HttpException:404] yii\base\InvalidRouteException: Unable to resolve the request "statics/upload/2017_08_29/e660442f87bf65bcea7189f3ce3f99603752.jpg". in /var/www/xkkb_admin/vendor/yiisoft/yii2/base/Module.php:532
+Stack trace:
+#0 /var/www/xkkb_admin/vendor/yiisoft/yii2/web/Application.php(102): yii\base\Module->runAction('statics/upload/...', Array)
+#1 /var/www/xkkb_admin/vendor/yiisoft/yii2/base/Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 /var/www/xkkb_admin/admin.php(42): yii\base\Application->run()
+#3 {main}
+
+Next yii\web\NotFoundHttpException: é¡µé¢æœªæ‰¾åˆ°ã€‚ in /var/www/xkkb_admin/vendor/yiisoft/yii2/web/Application.php:114
+Stack trace:
+#0 /var/www/xkkb_admin/vendor/yiisoft/yii2/base/Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 /var/www/xkkb_admin/admin.php(42): yii\base\Application->run()
+#2 {main}
+2017-08-30 22:19:43 [192.168.1.102][1][hr6mjek7ul5m0ttnh3qaqdiva7][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 192.168.1.102
+    in /var/www/xkkb_admin/statics/themes/admin/views/layouts/main.php:178
+2017-08-30 22:19:43 [192.168.1.102][1][hr6mjek7ul5m0ttnh3qaqdiva7][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 192.168.1.102
+2017-08-30 22:19:42 [192.168.1.102][1][hr6mjek7ul5m0ttnh3qaqdiva7][info][application] $_COOKIE = [
+    '_csrf-backend' => 'f4c6c7ac24ae209f87189b047743aa199b073ce803ee623d1b0d288fdfe6da0ca:2:{i:0;s:13:\"_csrf-backend\";i:1;s:32:\"ëQ0h% zæ;Z&
+h¢,Id¤Ì‰ñ«¦Úk|\";}'
+    'PHPSESSID' => 'hr6mjek7ul5m0ttnh3qaqdiva7'
+    '_identity-backend' => '4ff4ad264e3c9d7fe4c230e3570c87c1cae912a0bed12123b80c0c13222b491ca:2:{i:0;s:17:\"_identity-backend\";i:1;s:46:\"[1,\"SbSY36BLw3V2lU-GB7ZAzCVJKDFx82IJ\",2592000]\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__id' => 1
+]
+
+$_SERVER = [
+    'USER' => 'nginx'
+    'HOME' => '/var/lib/nginx'
+    'HTTP_COOKIE' => '_csrf-backend=f4c6c7ac24ae209f87189b047743aa199b073ce803ee623d1b0d288fdfe6da0ca%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_csrf-backend%22%3Bi%3A1%3Bs%3A32%3A%22%EBQ%110h%25+z%16%E6%3BZ%26%0Ah%08%1C%11%A2%2CId%A4%CC%89%F1%AB%19%A6%DAk%7C%22%3B%7D; PHPSESSID=hr6mjek7ul5m0ttnh3qaqdiva7; _identity-backend=4ff4ad264e3c9d7fe4c230e3570c87c1cae912a0bed12123b80c0c13222b491ca%3A2%3A%7Bi%3A0%3Bs%3A17%3A%22_identity-backend%22%3Bi%3A1%3Bs%3A46%3A%22%5B1%2C%22SbSY36BLw3V2lU-GB7ZAzCVJKDFx82IJ%22%2C2592000%5D%22%3B%7D'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_REFERER' => 'http://www.xkkb.com.cn/zh_cn/contact'
+    'HTTP_ACCEPT' => 'image/webp,image/apng,image/*,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_HOST' => 'admin.xkkb.com.cn'
+    'REDIRECT_STATUS' => '200'
+    'SERVER_NAME' => 'admin.xkkb.com.cn'
+    'SERVER_PORT' => '80'
+    'SERVER_ADDR' => '192.168.1.44'
+    'REMOTE_PORT' => '57329'
+    'REMOTE_ADDR' => '192.168.1.102'
+    'SERVER_SOFTWARE' => 'nginx/1.10.3'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REQUEST_SCHEME' => 'http'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'DOCUMENT_ROOT' => '/var/www/xkkb_admin'
+    'DOCUMENT_URI' => '/admin.php'
+    'REQUEST_URI' => '/statics/upload/2017_08_29/e660442f87bf65bcea7189f3ce3f99603752.jpg'
+    'SCRIPT_NAME' => '/admin.php'
+    'CONTENT_LENGTH' => ''
+    'CONTENT_TYPE' => ''
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'SCRIPT_FILENAME' => '/var/www/xkkb_admin/admin.php'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/admin.php'
+    'REQUEST_TIME_FLOAT' => 1504102782.799
+    'REQUEST_TIME' => 1504102782
+]
+2017-08-30 22:19:42 [192.168.1.102][1][hr6mjek7ul5m0ttnh3qaqdiva7][error][yii\web\HttpException:404] yii\base\InvalidRouteException: Unable to resolve the request "statics/upload/2017_08_29/0717849c1a47d6bc0f606137eb1a4e741549.jpg". in /var/www/xkkb_admin/vendor/yiisoft/yii2/base/Module.php:532
+Stack trace:
+#0 /var/www/xkkb_admin/vendor/yiisoft/yii2/web/Application.php(102): yii\base\Module->runAction('statics/upload/...', Array)
+#1 /var/www/xkkb_admin/vendor/yiisoft/yii2/base/Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 /var/www/xkkb_admin/admin.php(42): yii\base\Application->run()
+#3 {main}
+
+Next yii\web\NotFoundHttpException: é¡µé¢æœªæ‰¾åˆ°ã€‚ in /var/www/xkkb_admin/vendor/yiisoft/yii2/web/Application.php:114
+Stack trace:
+#0 /var/www/xkkb_admin/vendor/yiisoft/yii2/base/Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 /var/www/xkkb_admin/admin.php(42): yii\base\Application->run()
+#2 {main}
+2017-08-30 22:19:43 [192.168.1.102][1][hr6mjek7ul5m0ttnh3qaqdiva7][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 192.168.1.102
+    in /var/www/xkkb_admin/statics/themes/admin/views/layouts/main.php:178
+2017-08-30 22:19:43 [192.168.1.102][1][hr6mjek7ul5m0ttnh3qaqdiva7][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 192.168.1.102
+2017-08-30 22:19:42 [192.168.1.102][1][hr6mjek7ul5m0ttnh3qaqdiva7][info][application] $_COOKIE = [
+    '_csrf-backend' => 'f4c6c7ac24ae209f87189b047743aa199b073ce803ee623d1b0d288fdfe6da0ca:2:{i:0;s:13:\"_csrf-backend\";i:1;s:32:\"ëQ0h% zæ;Z&
+h¢,Id¤Ì‰ñ«¦Úk|\";}'
+    'PHPSESSID' => 'hr6mjek7ul5m0ttnh3qaqdiva7'
+    '_identity-backend' => '4ff4ad264e3c9d7fe4c230e3570c87c1cae912a0bed12123b80c0c13222b491ca:2:{i:0;s:17:\"_identity-backend\";i:1;s:46:\"[1,\"SbSY36BLw3V2lU-GB7ZAzCVJKDFx82IJ\",2592000]\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__id' => 1
+]
+
+$_SERVER = [
+    'USER' => 'nginx'
+    'HOME' => '/var/lib/nginx'
+    'HTTP_COOKIE' => '_csrf-backend=f4c6c7ac24ae209f87189b047743aa199b073ce803ee623d1b0d288fdfe6da0ca%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_csrf-backend%22%3Bi%3A1%3Bs%3A32%3A%22%EBQ%110h%25+z%16%E6%3BZ%26%0Ah%08%1C%11%A2%2CId%A4%CC%89%F1%AB%19%A6%DAk%7C%22%3B%7D; PHPSESSID=hr6mjek7ul5m0ttnh3qaqdiva7; _identity-backend=4ff4ad264e3c9d7fe4c230e3570c87c1cae912a0bed12123b80c0c13222b491ca%3A2%3A%7Bi%3A0%3Bs%3A17%3A%22_identity-backend%22%3Bi%3A1%3Bs%3A46%3A%22%5B1%2C%22SbSY36BLw3V2lU-GB7ZAzCVJKDFx82IJ%22%2C2592000%5D%22%3B%7D'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_REFERER' => 'http://www.xkkb.com.cn/zh_cn/contact'
+    'HTTP_ACCEPT' => 'image/webp,image/apng,image/*,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_HOST' => 'admin.xkkb.com.cn'
+    'REDIRECT_STATUS' => '200'
+    'SERVER_NAME' => 'admin.xkkb.com.cn'
+    'SERVER_PORT' => '80'
+    'SERVER_ADDR' => '192.168.1.44'
+    'REMOTE_PORT' => '57335'
+    'REMOTE_ADDR' => '192.168.1.102'
+    'SERVER_SOFTWARE' => 'nginx/1.10.3'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REQUEST_SCHEME' => 'http'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'DOCUMENT_ROOT' => '/var/www/xkkb_admin'
+    'DOCUMENT_URI' => '/admin.php'
+    'REQUEST_URI' => '/statics/upload/2017_08_29/0717849c1a47d6bc0f606137eb1a4e741549.jpg'
+    'SCRIPT_NAME' => '/admin.php'
+    'CONTENT_LENGTH' => ''
+    'CONTENT_TYPE' => ''
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'SCRIPT_FILENAME' => '/var/www/xkkb_admin/admin.php'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/admin.php'
+    'REQUEST_TIME_FLOAT' => 1504102782.8169
+    'REQUEST_TIME' => 1504102782
+]
