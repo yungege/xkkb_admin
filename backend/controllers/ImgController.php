@@ -59,7 +59,7 @@ class ImgController extends BaseController {
         ];
     }
 
-   public function actionInsert(){
+    public function actionInsert(){
         $urlPreg = "/(((^https?:(?:\/\/)?)(?:[-;:&=\+\$,\w]+@)?[A-Za-z0-9.-]+|(?:www.|[-;:&=\+\$,\w]+@)[A-Za-z0-9.-]+)((?:\/[\+~%\/.\w-_]*)?\??(?:[-\+=&;%@.\w_]*)#?(?:[\w]*))?)$/";
         $post = Yii::$app->request->post();
 
@@ -82,7 +82,22 @@ class ImgController extends BaseController {
         }
 
         $this->out();
-   }
+    }
+
+    public function actionDelete(){
+        $id = (int)Yii::$app->request->post('id');
+        if(empty($id)) $this->error();
+
+        $model = AboultImg::findOne($id);
+        if($model === null) $this->error();
+
+        $model->status = -9;
+        if(false === ($model->save())){
+            $this->error();
+        }
+
+        $this->out();
+    }
     
 
 }
