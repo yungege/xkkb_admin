@@ -47,6 +47,7 @@ AppAsset::addCss($this, '/statics/themes/admin/product/publish.css');
                     <th>产品型号</th>
                     <th>产品属性</th>
                     <th>二级分类</th>
+                    <th>标签</th>
                     <th>上线时间</th>
                     <th style="width: 130px;">操作</th>
                 </tr>
@@ -61,6 +62,7 @@ AppAsset::addCss($this, '/statics/themes/admin/product/publish.css');
                     <td><?= $pval['pro_model'] ?></td>
                     <td><?= $pval['pro_fs_type'] ?></td>
                     <td><?= $ctype[$pval['pro_second_type']]['cate_name'] ?></td>
+                    <td><?= $pval['tag'] ?></td>
                     <td>
                         <?= date('Y-m-d', $pval['ctime']) ?><br/>
                         <?= date('H:i:s', $pval['ctime']) ?>
@@ -124,13 +126,23 @@ AppAsset::addCss($this, '/statics/themes/admin/product/publish.css');
             </div>
 
             <div class="form-group">
-                <label for="pro_fs_type">产品属性<i style="color: green;"> 属性名称与属性内容之间用：分割,如  " 敷设方式：架空、管道 "</i></label>
+                <label for="pro_fs_type">产品属性 <i style="color: green;"> 属性名称与属性内容之间用：分割,如  " 敷设方式：架空、管道 "</i></label>
                 <input type="text" class="form-control" id="pro_fs_type" name="pro_fs_type" placeholder="敷设方式：架空、管道">
             </div>
 
             <div class="form-group">
                 <label for="en_pro_fs_type">英文属性</label>
                 <input type="text" class="form-control" id="en_pro_fs_type" name="en_pro_fs_type">
+            </div>
+
+            <div class="form-group">
+                <label for="tag">标签 <i style="color: green;">(非必填，用于快捷导航)</i></label>
+                <input type="text" class="form-control" id="tag" name="tag">
+            </div>
+
+            <div class="form-group">
+                <label for="en_tag">英文标签 <i style="color: green;">(非必填，用于快捷导航)</i></label>
+                <input type="text" class="form-control" id="en_tag" name="en_tag">
             </div>
 
             <div class="form-group">
