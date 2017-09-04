@@ -198,6 +198,16 @@ class ProductController extends BaseController {
             $this->error('请填写英文敷设方式');
         }
 
+        $post['tag'] = trim($post['tag']);
+        if(!empty($post['tag']) && (mb_strlen($post['tag']) > 25 || mb_strlen($post['tag']) <= 0)){
+            $this->error('标签长度必须小于25个字');
+        }
+
+        $post['en_tag'] = trim($post['en_tag']);
+        if(!empty($post['en_tag']) && !preg_match("/\w+/",$post['en_tag'])){
+            $this->error('英文标签只能是数字和字母');
+        }
+
         if(!preg_match($urlPreg, $post['pro_cover_pic'])){
             $this->error('请上传封面图片(一)');
         }
@@ -256,6 +266,9 @@ class ProductController extends BaseController {
         $model->pro_first_type = $post['pro_first_type'];
         $model->pro_second_type = $post['pro_second_type'];
         $model->ctime = time();
+
+        $model->tag = $post['tag'];
+        $model->en_tag = $post['en_tag'];
 
         if(false === $model->save()){
             $this->error();

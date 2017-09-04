@@ -57,6 +57,16 @@ AppAsset::addCss($this, '/statics/themes/admin/product/publish.css');
             </div>
 
             <div class="form-group">
+                <label for="tag">标签 <i style="color: green;">(非必填，用于快捷导航)</i></label>
+                <input type="text" class="form-control" id="tag" name="tag" value="<?= $info['tag'] ?>">
+            </div>
+
+            <div class="form-group">
+                <label for="en_tag">英文标签 <i style="color: green;">(非必填，用于快捷导航)</i></label>
+                <input type="text" class="form-control" id="en_tag" name="en_tag" value="<?= $info['en_tag'] ?>">
+            </div>
+
+            <div class="form-group">
                 <label for="pro_cover_pic_val">封面图片(一)</label>
                 <div class="">
                     <input style="padding-left: 0;" type="file" id="pro_cover_pic_val" name="pro_cover_pic_val" class="col-sm-4" value="<?= $info['pro_cover_pic'] ?>">
