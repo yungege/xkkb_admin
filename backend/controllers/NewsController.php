@@ -105,7 +105,7 @@ class NewsController extends BaseController {
         $urlPreg = "/(((^https?:(?:\/\/)?)(?:[-;:&=\+\$,\w]+@)?[A-Za-z0-9.-]+|(?:www.|[-;:&=\+\$,\w]+@)[A-Za-z0-9.-]+)((?:\/[\+~%\/.\w-_]*)?\??(?:[-\+=&;%@.\w_]*)#?(?:[\w]*))?)$/";
         if(
             !isset(self::$cate[$post['category']]) ||
-            (mb_strlen($post['title']) > 30 || mb_strlen($post['title']) < 6) ||
+            (mb_strlen($post['title']) > 50 || mb_strlen($post['title']) < 6) ||
             (mb_strlen($post['desc']) > 200 || mb_strlen($post['desc']) < 20) ||
             !preg_match($urlPreg, $post['cover-val']) || 
             empty($post['content']) ||
