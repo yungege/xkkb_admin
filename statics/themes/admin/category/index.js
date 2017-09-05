@@ -128,13 +128,8 @@ $(function(){
                     return false;
                 }
 
-                if(!/\w{2,24}/.test(entitle)){
-                    alert('分类名称必须在2-24字母之间.');
-                    return false;
-                }
-
-                if(entitle.length > 24 || entitle < 2){
-                    alert('分类名称必须在2-24字母之间.');
+                if(!/\w{2,50}/.test(entitle)){
+                    alert('分类名称必须在2-50字母之间.');
                     return false;
                 }
 

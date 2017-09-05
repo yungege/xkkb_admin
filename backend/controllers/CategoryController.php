@@ -87,7 +87,7 @@ class CategoryController extends BaseController {
 
         if(
             (mb_strlen($post['cate_name']) < 2 || mb_strlen($post['cate_name']) > 16) ||
-            (!preg_match("/\w{2,24}/", $post['en_cate_name'])) ||
+            (!preg_match("/\w{2,50}/", $post['en_cate_name'])) ||
             (!is_numeric($post['pid']) || $post['pid'] < 1) ||
             (!is_numeric($post['type']) || $post['type'] < 1) ||
             (!is_numeric($post['cate_level']) || $post['cate_level'] != 1)
