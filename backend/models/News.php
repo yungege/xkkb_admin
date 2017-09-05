@@ -30,7 +30,7 @@ class News extends ActiveRecord {
         return [
             [['en_title','en_desc','en_content','desc','title','content','cover','status','tags','category','admin_id'], 'required', 'message'=> '数据填写有误！'],
             [['admin_id','status','ctime','category'], 'integer'],
-            ['title', 'string', 'max'=>25],
+            ['title', 'string', 'max'=>50],
             [['cover','desc','tags','en_title'], 'string', 'max'=>255],
             [['content','en_desc','en_content'], 'safe'],
         ];

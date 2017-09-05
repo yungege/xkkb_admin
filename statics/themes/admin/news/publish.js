@@ -42,8 +42,8 @@ $(function(){
                 return false;
             }
 
-            if(title.length < 6 || title.length > 30){
-                alert('标题字数必须是6-30字');
+            if(title.length < 6 || title.length > 50){
+                alert('标题字数必须是6-50字');
                 return false;
             }
 
