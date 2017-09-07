@@ -174,8 +174,8 @@ class ProductController extends BaseController {
         }
 
         $post['pro_name'] = trim($post['pro_name']);
-        if(mb_strlen($post['pro_name']) < 1 || mb_strlen($post['pro_name']) > 16){
-            $this->error('名称长度必须在1-16位之间');
+        if(mb_strlen($post['pro_name']) < 1 || mb_strlen($post['pro_name']) > 50){
+            $this->error('名称长度必须在1-50位之间');
         }
 
         $post['en_pro_name'] = trim($post['en_pro_name']);
